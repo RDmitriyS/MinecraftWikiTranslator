@@ -12,7 +12,49 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+import static main.Exceptions.*;
+
 public class Functions {
+
+    static String toUpperCase(String val, Lang lang) {
+        var temp = name_exceptions_lower.get(val);
+        if (temp != null) {
+            return temp;
+        }
+
+        final var sb = new StringBuilder(val);
+
+        if (lang == Lang.ru) {
+            for (var key : dash_exceptions) {
+                final int index = sb.indexOf(key);
+                if (index >= 0) {
+                    sb.setCharAt(sb.indexOf("-", index), '+');
+                }
+            }
+        }
+
+        for (int end = 0, begin = 0; end <= sb.length(); end++) {
+            if (end == sb.length() || sb.charAt(end) == '-') {
+                final var new_word = word_exceptions_lower.get(sb.substring(begin, end));
+                if (new_word != null) {
+                    sb.replace(begin, end, new_word);
+                } else if (lang == Lang.en || begin == 0) {
+                    sb.setCharAt(begin, Character.toUpperCase(sb.charAt(begin)));
+                }
+                begin = end + 1;
+            }
+        }
+
+        return sb.toString().replace('-', ' ').replace('+', '-');
+    }
+
+    static String toLowerCase(String val) {
+        return val.toLowerCase().replace(' ', '-');
+    }
+
+    static Map<String, String> to_lower_upper_map(final Set<String> set) {
+        return set.stream().collect(Collectors.toMap(Functions::toLowerCase, word -> word));
+    }
 
     static String readFile(String path) {
         byte[] encoded = null;
@@ -50,7 +92,11 @@ public class Functions {
         }
     }
 
-    static Map<String, String> to_lower_upper_map(final Set<String> set) {
-        return set.stream().collect(Collectors.toMap(Main::toLowerCase, word -> word));
+    static void mergeByLine(String path1, String path2) {
+        var reader1 = getScanner(path1);
+        var reader2 = getScanner(path2);
+        while (reader1.hasNextLine() && reader2.hasNextLine()) {
+            System.out.println((reader1.nextLine() + reader2.nextLine()));
+        }
     }
 }
