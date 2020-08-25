@@ -1,0 +1,8 @@
+.git/
+*.iml
+*.class
+output.txt
+logs/
+artifacts/
+production/
+out/
