@@ -1,5 +1,4 @@
 .git/
-*.iml
 *.class
 output.txt
 logs/
