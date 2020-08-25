@@ -1,0 +1,3648 @@
+
+[Cake Revision 1] = [Торт (версия 1)]
+[Black Tinted Glass Pane] = [Чёрная тонированная стеклянная панель]
+[Blue Tinted Glass Pane] = [Синяя тонированная стеклянная панель]
+[Brown Tinted Glass Pane] = [Коричневая тонированная стеклянная панель]
+[Cyan Tinted Glass Pane] = [Бирюзовая тонированная стеклянная панель]
+[Gray Tinted Glass Pane] = [Серая тонированная стеклянная панель]
+[Green Tinted Glass Pane] = [Зелёная тонированная стеклянная панель]
+[Light Blue Tinted Glass Pane] = [Голубая тонированная стеклянная панель][Светло-синяя тонированная стеклянная панель]
+[Light Gray Tinted Glass Pane] = [Светло-серая тонированная стеклянная панель][Серебряная тонированная стеклянная панель]
+[Lime Tinted Glass Pane] = [Лаймовая тонированная стеклянная панель]
+[Magenta Tinted Glass Pane] = [Пурпурная тонированная стеклянная панель][Сиреневая тонированная стеклянная панель]
+[Orange Tinted Glass Pane] = [Оранжевая тонированная стеклянная панель]
+[Pink Tinted Glass Pane] = [Розовая тонированная стеклянная панель]
+[Purple Tinted Glass Pane] = [Фиолетовая тонированная стеклянная панель]
+[Red Tinted Glass Pane] = [Красная тонированная стеклянная панель]
+[White Tinted Glass Pane] = [Белая тонированная стеклянная панель]
+[Yellow Tinted Glass Pane] = [Жёлтая тонированная стеклянная панель]
+[Lectern] = [Кафедра]
+[Loom Revision 1] = [Ткацкий станок (версия 1)]
+[Andesite Wall BE] = [Андезитовая стена BE]
+[Brick Wall BE] = [Кирпичная стена BE]
+[Diorite Wall BE] = [Диоритовая стена BE]
+[End Stone Brick Wall BE] = [Стена из каменного кирпича Края BE]
+[Granite Wall BE] = [Гранитная стена BE]
+[Mossy Stone Brick Wall BE] = [Стена из замшелого каменного кирпича BE]
+[Nether Brick Wall BE] = [Стена из адского кирпича BE]
+[Prismarine Wall BE] = [Призмариновая стена BE]
+[Diamond Horse Armor] = [Алмазная конская броня]
+[Red Nether Brick Wall BE] = [Стена из красного адского кирпича BE]
+[Red Sandstone Wall BE] = [Стена из красного песчаника BE]
+[Sandstone Wall BE] = [Стена из песчаника BE]
+[Stone Brick Wall BE] = [Стена из каменного кирпича BE]
+[Golden Horse Armor] = [Золотая конская броня]
+[Black Globe Banner] = [Флаг с чёрным глобусом]
+[Blue Globe Banner] = [Флаг с синим глобусом]
+[Brown Globe Banner] = [Флаг с коричневым глобусом]
+[Cyan Globe Banner] = [Флаг с бирюзовым глобусом]
+[Iron Horse Armor] = [Железная конская броня]
+[Gray Globe Banner] = [Флаг с серым глобусом]
+[Green Globe Banner] = [Флаг с зелёным глобусом]
+[Light Blue Globe Banner] = [Флаг со светло-синим глобусом]
+[Light Gray Globe Banner] = [Флаг со светло-серым глобусом]
+[Lime Globe Banner] = [Флаг с лаймовым глобусом]
+[Magenta Globe Banner] = [Флаг с сиреневым глобусом]
+[Orange Globe Banner] = [Флаг с оранжевым глобусом]
+[Pink Globe Banner] = [Флаг с розовым глобусом]
+[Purple Globe Banner] = [Флаг с фиолетовым глобусом]
+[Red Globe Banner] = [Флаг с красным глобусом]
+[White Globe Banner] = [Флаг с белым глобусом]
+[Yellow Globe Banner] = [Флаг с жёлтым глобусом]
+[Acacia Fence Gate BE] = [Акациевые ворота BE]
+[Birch Fence Gate BE] = [Берёзовые ворота BE]
+[Dark Oak Fence Gate BE] = [Ворота из тёмного дуба BE]
+[Jungle Fence Gate BE] = [Джунглевые ворота BE]
+[Oak Fence Gate BE] = [Дубовые ворота BE]
+[Spruce Fence Gate BE] = [Еловые ворота BE]
+[Chest BE] = [Сундук BE]
+[Trapped Chest BE] = [Сундук-ловушка BE]
+[Structure Void BE] = [Структурная пустота BE]
+[Honey Bottle] = [Бутылочка мёда]
+[Honeycomb] = [Пчелиные соты]
+[Beehive] = [Улей]
+[Bee Nest] = [Пчелиное гнездо]
+[Bee Spawn Egg Revision 1] = [Яйцо призывания пчелы (версия 1)]
+[Actinide] = [Актиноиды]
+[Alkali metal] = [Щелочные металлы]
+[Alkaline earth metal] = [Щёлочноземельные металлы]
+[Halogen] = [Галогены]
+[Lanthanide] = [Лантаноиды]
+[Metalloid] = [Полуметаллы]
+[Noble gas] = [Благородные газы]
+[Other non-metal] = [Другие неметаллы]
+[Post transition metal] = [Другие металлы]
+[Transition metal] = [Переходные металлы]
+[Light Block 0] = [Блок света][Блок света 0]
+[Light Block 1] = [Блок света 1]
+[Light Block 10] = [Блок света 10]
+[Light Block 11] = [Блок света 11]
+[Light Block 12] = [Блок света 12]
+[Light Block 13] = [Блок света 13]
+[Light Block 14] = [Блок света 14]
+[Light Block 15] = [Блок света 15]
+[Light Block 2] = [Блок света 2]
+[Light Block 3] = [Блок света 3]
+[Light Block 4] = [Блок света 4]
+[Light Block 5] = [Блок света 5]
+[Light Block 6] = [Блок света 6]
+[Light Block 7] = [Блок света 7]
+[Light Block 8] = [Блок света 8]
+[Light Block 9] = [Блок света 9]
+[Bucket of Mud][Mud Bucket] = [Ведро грязи][Ведро земли]
+[Horn] = [Рог]
+[Nether Sprouts] = [Адские ростки]
+[Crystallized Honey] = [Закристаллизовавшийся мёд]
+[Wax Block] = [Восковой блок]
+[Prismarine Wall] = [Призмариновая стена]
+[Honey Block BE][Honey Block Revision 1] = [Блок мёда (версия 1)][Блок мёда BE]
+[Honeycomb Block] = [Блок пчелиных сот]
+[Damaged Trident] = [Повреждённый трезубец]
+[Honey Block BE Revision 1] = [Блок мёда BE (версия 1)]
+[Honey Bottle BE] = [Бутылочка мёда BE]
+[Honeycomb BE] = [Пчелиные соты BE]
+[Bee Spawn Egg][Spawn Bee] = [Яйцо призывания пчелы]
+[Phantom Membrane Revision 1] = [Мембрана фантома (версия 1)]
+[Mycelium Revision 1] = [Мицелий (версия 1)]
+[Honey Block] = [Блок мёда]
+[Dragon Head BE Revision 1] = [Голова дракона BE (версия 1)]
+[Buttercup] = [Лютик]
+[Bricks] = [Кирпичи][Кирпичный блок]
+[Prismarine Brick Stairs] = [Ступени из призмаринового кирпича]
+[Jungle Leaves BE] = [Джунглевая листва BE]
+[Blue Ice BE] = [Синий лёд BE]
+[Potion of Levitation] = [Зелье левитации]
+[Splash Potion of Levitation] = [Взрывающееся зелье левитации]
+[Lingering Potion of Levitation] = [Оседающее зелье левитации]
+[Arrow 15w14a] = [Стрела 15w14a]
+[Diamond Heart] = [Алмазное сердце]
+[Gold Heart] = [Золотое сердце]
+[Iron Heart] = [Железное сердце]
+[Stone Heart] = [Каменное сердце]
+[Wood Heart] = [Деревянное сердце]
+[Buried Treasure Map BE][Treasure Map] = [Карта сокровищ BE]
+[Map BE] = [Карта BE]
+[Ocean Explorer Map BE] = [Карта к подводной крепости BE]
+[Woodland Explorer Map BE] = [Карта к лесному особняку BE]
+[Carrot Revision 2] = [Морковь (версия 2)]
+[Potato Revision 1] = [Картофель (версия 1)]
+[Potato Revision 2] = [Картофель (версия 2)]
+[Earth Ruby] = [Земляной рубин]
+[Locked Map] = [Заблокированная карта]
+[Block of Netherite] = [Блок незерита][Незеритовый блок]
+[Arrow of Water Breathing] = [Стрела водного дыхания][Стрела подводного дыхания]
+[Ancient Debris] = [Древние обломки][Древние обломки блок]
+[Netherite Ingot] = [Незеритовый слиток]
+[Netherite Scrap] = [Незеритовый скрап]
+[Netherite Axe] = [Незеритовый топор]
+[Netherite Hoe] = [Незеритовая мотыга]
+[Netherite Pickaxe] = [Незеритовая кирка]
+[Netherite Shovel] = [Незеритовая лопата]
+[Netherite Sword] = [Незеритовый меч]
+[Netherite Boots] = [Незеритовые ботинки]
+[Netherite Chestplate] = [Незеритовая кираса]
+[Netherite Helmet] = [Незеритовый шлем]
+[Netherite Leggings] = [Незеритовые поножи]
+[Crimson Planks] = [Багровые доски]
+[Warped Planks] = [Искажённые доски]
+[Basalt] = [Базальт]
+[Crimson Nylium] = [Багровый нилий][Нилий]
+[Crimson Stem] = [Багровая ножка]
+[Shroomlight] = [Грибосвет]
+[Soul Soil] = [Почва душ]
+[Warped Nylium] = [Искажённый нилий]
+[Warped Stem] = [Искажённая ножка]
+[Warped Wart Block] = [Искажённый блок адского нароста]
+[Soul Torch] = [Факел душ]
+[Soul Lantern] = [Фонарь душ]
+[Crimson Fungus] = [Багровый грибок]
+[Warped Fungus] = [Искажённый грибок]
+[Weeping Vines] = [Плакучие лианы]
+[Crimson Fence] = [Багровый забор]
+[Crimson Slab] = [Багровая плита]
+[Crimson Stairs] = [Багровые ступени]
+[Warped Fence] = [Искажённый забор]
+[Warped Slab] = [Искажённая плита]
+[Warped Stairs] = [Искажённые ступени]
+[Crimson Button] = [Багровая кнопка]
+[Crimson Door] = [Багровая дверь]
+[Crimson Pressure Plate] = [Багровая нажимная пластина]
+[Crimson Trapdoor] = [Багровый люк]
+[Warped Button] = [Искажённая кнопка]
+[Warped Door] = [Искажённая дверь]
+[Warped Pressure Plate] = [Искажённая нажимная пластина]
+[Warped Trapdoor] = [Искажённый люк]
+[Stripped Crimson Stem] = [Обтёсанная багровая ножка]
+[Stripped Warped Stem] = [Обтёсанная искажённая ножка]
+[Crimson Sign] = [Багровая табличка]
+[Warped Sign] = [Искажённая табличка]
+[Crimson Fence Gate] = [Багровые ворота]
+[Warped Fence Gate] = [Искажённые ворота]
+[Damaged Netherite Axe] = [Повреждённый незеритовый топор]
+[Damaged Netherite Boots] = [Повреждённые незеритовые ботинки]
+[Damaged Netherite Chestplate] = [Повреждённая незеритовая кираса]
+[Damaged Netherite Helmet] = [Повреждённый незеритовый шлем]
+[Damaged Netherite Hoe] = [Повреждённая незеритовая мотыга]
+[Damaged Netherite Leggings] = [Повреждённые незеритовые поножи]
+[Damaged Netherite Pickaxe] = [Повреждённая незеритовая кирка]
+[Damaged Netherite Shovel] = [Повреждённая незеритовая лопата]
+[Damaged Netherite Sword] = [Повреждённый незеритовый меч]
+[Crimson Roots] = [Багровые корни]
+[Nether Sprouts old] = [Адские ростки (старые)]
+[Warped Roots] = [Искажённые корни]
+[Piglin Spawn Egg] = [Яйцо призывания пиглина]
+[Hoglin Spawn Egg] = [Яйцо призывания хоглина]
+[Soul Fire Lantern Revision 1] =
+[Target] = [Мишень][Мишень блок]
+[Crying Obsidian] = [Плачущий обсидиан]
+[Crimson Hyphae] = [Багровые гифы]
+[Warped Hyphae] = [Искажённые гифы]
+[Stripped Crimson Hyphae] = [Обтёсанные багровые гифы]
+[Stripped Warped Hyphae] = [Обтёсанные искажённые гифы]
+[Nether Gold Ore] = [Золотая руда Нижнего мира][Золотая руда нижнего мира]
+[Twisting Vines] = [Извилистые лианы][Извилистые лианы растение]
+[Hoglin Spawn Egg BE] = [Яйцо призывания хоглина BE]
+[Piglin Spawn Egg BE] = [Яйцо призывания пиглина BE]
+[Polished Basalt] = [Полированный базальт]
+[Respawn Anchor] = [Якорь возрождения]
+[End Rod BE] = [Стержень Края BE]
+[Sea Lantern BE] = [Морской фонарь BE]
+[Glowstone BE] = [Светокамень BE][Светящийся камень BE]
+[Shroomlight BE] = [Грибосвет BE]
+[Beacon BE] = [Маяк BE]
+[Conduit BE] = [Морской проводник BE]
+[Enchanting Table BE] = [Стол зачаровывания BE]
+[Creeper Head BE] = [Голова крипера BE]
+[Dragon Head BE] = [Голова дракона BE]
+[Head BE] = [Голова BE]
+[Skeleton Skull BE] = [Череп BE][Череп скелета BE]
+[Wither Skeleton Skull BE] = [Череп визер-скелета BE][Череп скелета-иссушителя BE]
+[Zombie Head BE] = [Голова зомби BE]
+[Jack o'Lantern BE] = [Светильник Джека BE]
+[Lodestone] = [Магнетит]
+[Spawn Strider][Strider Spawn Egg] = [Яйцо призывания страйдера]
+[Warped Fungus on a Stick] = [Удочка с искажённым грибком]
+[Nether Gold Ore Revision 1] = [Золотая руда Нижнего мира (версия 1)]
+[Netherite Ingot BE] = [Незеритовый слиток BE]
+[Cast Fishing Rod] =
+[Ultramarine Cloth] = [Шерсть ультрамариновая]
+[Cyan Cloth] = [Шерсть бирюзовая]
+[Dark Gray Cloth] = [Шерсть тёмно-серая]
+[Green Cloth] = [Шерсть зелёная]
+[Capri Cloth] = [Шерсть капри]
+[Light Gray Cloth] = [Шерсть светло-серая]
+[Chartreuse Cloth] = [Шерсть шартрёз]
+[Magenta Cloth] = [Шерсть малиновая]
+[Orange Cloth] = [Шерсть оранжевая]
+[Rose Cloth] = [Шерсть розовая]
+[Violet Cloth] = [Шерсть фиолетовая]
+[Red Cloth] = [Шерсть красная]
+[Spring Green Cloth] = [Шерсть весенне зелёная]
+[Purple Cloth] = [Шерсть пурпурная]
+[White Cloth] = [Шерсть белая]
+[Yellow Cloth] = [Шерсть жёлтая]
+[Black Wood Planks] = [Чёрные доски]
+[Blue Wood Planks] = [Синие доски]
+[Brown Wood Planks] = [Коричневые доски]
+[Cyan Wood Planks] = [Бирюзовые доски]
+[Gray Wood Planks] = [Серые доски]
+[Green Wood Planks] = [Зелёные доски]
+[Light Blue Wood Planks] = [Голубые доски]
+[Light Gray Wood Planks] = [Светло-серые доски]
+[Lime Wood Planks] = [Лаймовые доски]
+[Magenta Wood Planks] = [Пурпурные доски]
+[Orange Wood Planks] = [Оранжевые доски]
+[Pink Wood Planks] = [Розовые доски]
+[Purple Wood Planks] = [Фиолетовые доски]
+[Red Wood Planks] = [Красные доски]
+[White Wood Planks] = [Белые доски]
+[Yellow Wood Planks] = [Жёлтые доски]
+[Blackstone] = [Чернокамень]
+[Enchanted Apple][Enchanted Golden Apple] = [Зачарованное золотое яблоко]
+[Piglin Brute Spawn Egg] = [Яйцо призывания жестокого пиглина]
+[A Very Fine Item] = [Очень хороший предмет]
+[Ant] = [Муравьиный блок]
+[Box of Infinite Books] = [Коробка бесконечных книг]
+[Footprint] = [След]
+[Nether Sprouts Revision 1] = [Адские ростки (версия 1)]
+[Spawn Zoglin][Zoglin Spawn Egg] = [Яйцо призывания зоглина]
+[Chiseled Nether Bricks] = [Резной адский кирпич][Резные адские кирпичи]
+[Chiseled Polished Blackstone] = [Резной полированный чернокамень]
+[Cracked Nether Bricks] = [Потрескавшиеся адские кирпичи][Потрескавшийся адский кирпич]
+[Cracked Polished Blackstone Bricks] = [Потрескавшиеся полированные чернокаменные кирпичи]
+[Gilded Blackstone] = [Позолоченный чернокамень]
+[Polished Blackstone] = [Полированный чернокамень]
+[Polished Blackstone Bricks] = [Полированные чернокаменные кирпичи]
+[Blackstone Slab] = [Чернокаменная плита]
+[Blackstone Stairs] = [Чернокаменные ступени]
+[Blackstone Wall] = [Чернокаменная стена]
+[Polished Blackstone Brick Slab] = [Плита из полированных чернокаменных кирпичей]
+[Polished Blackstone Brick Stairs] = [Ступени из полированных чернокаменных кирпичей]
+[Polished Blackstone Brick Wall] = [Стена из полированных чернокаменных кирпичей][Стена из чернокаменных полированных кирпичей]
+[Polished Blackstone Slab] = [Плита из полированного чернокамня][Полированная чернокаменная плита]
+[Polished Blackstone Stairs] = [Ступени из полированного чернокамня]
+[Polished Blackstone Wall] = [Стена из полированного чернокамня]
+[Polished Blackstone Button] = [Кнопка из полированного чернокамня]
+[Polished Blackstone Pressure Plate] = [Нажимная пластина из полированного чернокамня]
+[Soul Campfire] = [Костёр душ]
+[Quartz Bricks] = [Кварцевые кирпичи]
+[Music Disc Pigstep] = [Пластинка Pigstep]
+[Chain] = [Цепь]
+[Jigsaw][Jigsaw BE][Jigsaw Block][Jigsaw Block BE] = [Блок головоломки][Блок головоломки блок][Блок-пазл BE][Пазл BE]
+[Awkward Potion Revision 1] =
+[Mundane Potion Revision 1] =
+[Potion of Fire Resistance Revision 1] =
+[Potion of Harming Revision 1] =
+[Potion of Healing Revision 1] =
+[Potion of Invisibility Revision 1] =
+[Potion of Leaping Revision 1] =
+[Potion of Luck Revision 1] =
+[Potion of Night Vision Revision 1] =
+[Potion of Poison Revision 1] =
+[Potion of Regeneration Revision 1] =
+[Potion of Slow Falling Revision 1] =
+[Potion of Slowness Revision 1] =
+[Potion of Strength Revision 1] =
+[Potion of Swiftness Revision 1] =
+[Potion of the Turtle Master Revision 1] =
+[Potion of Water Breathing Revision 1] =
+[Thick Potion Revision 1] =
+[Uncraftable Potion Revision 1] =
+[Water Bottle Revision 1] =
+[Lingering Awkward Potion Revision 1] =
+[Lingering Mundane Potion Revision 1] =
+[Lingering Potion of Fire Resistance Revision 1] =
+[Lingering Potion of Harming Revision 1] =
+[Lingering Potion of Healing Revision 1] =
+[Lingering Potion of Invisibility Revision 1] =
+[Lingering Potion of Leaping Revision 1] =
+[Lingering Potion of Luck Revision 1] =
+[Lingering Potion of Night Vision Revision 1] =
+[Lingering Potion of Poison Revision 1] =
+[Lingering Potion of Regeneration Revision 1] =
+[Lingering Potion of Slow Falling Revision 1] =
+[Lingering Potion of Slowness Revision 1] =
+[Lingering Potion of Strength Revision 1] =
+[Lingering Potion of Swiftness Revision 1] =
+[Lingering Potion of the Turtle Master Revision 1] =
+[Lingering Potion of Water Breathing Revision 1] =
+[Lingering Thick Potion Revision 1] =
+[Lingering Uncraftable Potion Revision 1] =
+[Lingering Water Bottle Revision 1] =
+[Splash Awkward Potion Revision 1] =
+[Splash Mundane Potion Revision 1] =
+[Splash Potion of Fire Resistance Revision 1] =
+[Splash Potion of Harming Revision 1] =
+[Splash Potion of Healing Revision 1] =
+[Splash Potion of Invisibility Revision 1] =
+[Splash Potion of Leaping Revision 1] =
+[Splash Potion of Luck Revision 1] =
+[Splash Potion of Night Vision Revision 1] =
+[Splash Potion of Poison Revision 1] =
+[Splash Potion of Regeneration Revision 1] =
+[Splash Potion of Slow Falling Revision 1] =
+[Splash Potion of Slowness Revision 1] =
+[Splash Potion of Strength Revision 1] =
+[Splash Potion of Swiftness Revision 1] =
+[Splash Potion of the Turtle Master Revision 1] =
+[Splash Potion of Water Breathing Revision 1] =
+[Splash Thick Potion Revision 1] =
+[Splash Uncraftable Potion Revision 1] =
+[Splash Water Bottle Revision 1] =
+[End Gateway BE] = [Врата Края BE]
+[End Portal BE] =
+[Oak Sign Revision 1][Sign Revision 1] =
+[Nether Star] =
+[Missing Texture BE] =
+[tile.info_update.name] =
+[Hopper Revision 2] =
+[Black Piglin Banner][Black Snout Banner] = [Флаг с чёрным рылом]
+[Blue Piglin Banner][Blue Snout Banner] = [Флаг с синим рылом]
+[Brown Piglin Banner][Brown Snout Banner] = [Флаг с коричневым рылом]
+[Cyan Piglin Banner][Cyan Snout Banner] = [Флаг с бирюзовым рылом]
+[Gray Piglin Banner][Gray Snout Banner] = [Флаг с серым рылом]
+[Green Piglin Banner][Green Snout Banner] = [Флаг с зелёным рылом]
+[Light Blue Piglin Banner][Light Blue Snout Banner] = [Флаг со светло-синим рылом]
+[Light Gray Piglin Banner][Light Gray Snout Banner] = [Флаг со светло-серым рылом]
+[Lime Piglin Banner][Lime Snout Banner] = [Флаг с лаймовым рылом]
+[Magenta Piglin Banner][Magenta Snout Banner] = [Флаг с пурпурным рылом]
+[Orange Piglin Banner][Orange Snout Banner] = [Флаг с оранжевым рылом]
+[Pink Piglin Banner][Pink Snout Banner] = [Флаг с розовым рылом]
+[Purple Piglin Banner][Purple Snout Banner] = [Флаг с фиолетовым рылом]
+[Red Piglin Banner][Red Snout Banner] = [Флаг с красным рылом]
+[White Piglin Banner][White Snout Banner] = [Флаг с белым рылом]
+[Yellow Piglin Banner][Yellow Snout Banner] = [Флаг с жёлтым рылом]
+[Chest Revision 2] = [Сундук (версия 2)]
+[Stone Revision 2] =
+[Ominous Shield] =
+[Leather Horse Armor BE] =
+[Crimson Fence Gate BE] =
+[Lit Redstone Lamp Post-Flip] =
+[Redstone Lamp Post-Flip] =
+[Damaged Warped Fungus on a Stick] = [Повреждённая удочка с искажённым грибком]
+[Warped Fence Gate BE] =
+[Fancy Feather] =
+[Clock 01] =
+[Clock 02] =
+[Clock 03] =
+[Clock 04] =
+[Clock 05] =
+[Clock 06] =
+[Clock 07] =
+[Clock 08] =
+[Clock 09] =
+[Clock 10] =
+[Clock 11] =
+[Clock 12] =
+[Clock 13] =
+[Clock 14] =
+[Clock 15] =
+[Clock 16] =
+[Clock 17] =
+[Clock 18] =
+[Clock 19] =
+[Clock 20] =
+[Clock 21] =
+[Clock 22] =
+[Clock 23] =
+[Clock 24] =
+[Clock 25] =
+[Clock 26] =
+[Clock 27] =
+[Clock 28] =
+[Clock 29] =
+[Clock 30] =
+[Clock 31] =
+[Clock 32] =
+[Clock 33] =
+[Clock 34] =
+[Clock 35] =
+[Clock 36] =
+[Clock 37] =
+[Clock 38] =
+[Clock 39] =
+[Clock 40] =
+[Clock 41] =
+[Clock 42] =
+[Clock 43] =
+[Clock 44] =
+[Clock 45] =
+[Clock 46] =
+[Clock 47] =
+[Clock 48] =
+[Clock 49] =
+[Clock 50] =
+[Clock 51] =
+[Clock 52] =
+[Clock 53] =
+[Clock 54] =
+[Clock 55] =
+[Clock 56] =
+[Clock 57] =
+[Clock 58] =
+[Clock 59] =
+[Clock 60] =
+[Clock 61] =
+[Clock 62] =
+[Clock 63] =
+[Broken Anvil] = [Сломанная наковальня]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Blaze Powder] = [Огненный порошок]
+[Blaze Rod] = [Огненный жезл][Огненный стержень]
+
+
+
+[Glistering Melon] =
+
+
+
+[Nether Wart] = [Адский нарост][Нарост из Незера][Семена адского нароста]
+
+
+
+
+
+
+[Milk] =
+
+
+[Music Disc 13] = [Пластинка 13]
+
+[Music Disc Blocks] = [Пластинка blocks]
+[Music Disc Cat] = [Пластинка cat]
+[Music Disc Chirp] = [Пластинка chirp]
+[Music Disc Far] = [Пластинка far]
+
+
+[Music Disc Mall] = [Пластинка mall]
+[Music Disc Mellohi] = [Пластинка mellohi]
+
+[Music Disc Stal] = [Пластинка stal]
+[Music Disc Strad] = [Пластинка strad]
+[Music Disc Wait] = [Пластинка wait]
+[Music Disc Ward] = [Пластинка ward]
+
+[Cactus Green] = [Кактусовая зелень]
+
+
+[Dandelion Yellow] =
+
+
+
+
+
+
+
+
+
+
+[Rose Red] =
+[Black Banner] = [Чёрный флаг]
+[Black Carpet Revision 1] = [Чёрный ковёр (версия 1)]
+[Black Terracotta] = [Чёрная керамика][Чёрная обожжённая глина][Чёрная окрашенная глина|у]
+[Black Stained Glass] = [Чёрное окрашенное стекло][Чёрное стекло]
+[Black Stained Glass Pane] = [Закалённая чёрная окрашенная стеклянная панель][Чёрная окрашенная стеклянная панель][Чёрная стеклянная панель]
+[Black Wool Revision 2] = [Чёрная шерсть (версия 2)]
+[Blue Banner] = [Синий флаг]
+[Blue Carpet Revision 1] = [Синий ковёр (версия 1)]
+[Blue Terracotta] = [Синяя керамика][Синяя обожжённая глина][Синяя окрашенная глина]
+[Blue Stained Glass] = [Синее окрашенное стекло][Синее стекло]
+[Blue Stained Glass Pane] = [Закалённая синяя окрашенная стеклянная панель][Синяя окрашенная стеклянная панель][Синяя стеклянная панель]
+[Blue Wool Revision 2] = [Синяя шерсть (версия 2)]
+[Brown Banner] = [Коричневый флаг]
+[Brown Carpet Revision 1] = [Коричневый ковёр (версия 1)]
+[Brown Terracotta] = [Коричневая керамика][Коричневая обожжённая глина][Коричневая окрашенная глина]
+[Brown Stained Glass] = [Коричневое окрашенное стекло][Коричневое стекло]
+[Brown Stained Glass Pane] = [Закалённая коричневая окрашенная стеклянная панель][Коричневая окрашенная стеклянная панель][Коричневая стеклянная панель]
+[Brown Wool Revision 2] = [Коричневая шерсть (версия 2)]
+[Cyan Banner] = [Бирюзовый флаг]
+[Cyan Carpet Revision 1] = [Бирюзовый ковёр (версия 1)]
+[Cyan Terracotta] = [Бирюзовая керамика][Бирюзовая обожжённая глина][Бирюзовая окрашенная глина]
+[Cyan Stained Glass] = [Бирюзовое окрашенное стекло]
+[Cyan Stained Glass Pane] = [Бирюзовая окрашенная стеклянная панель][Бирюзовая стеклянная панель][Закалённая бирюзовая окрашенная стеклянная панель]
+[Cyan Wool Revision 2] = [Бирюзовая шерсть (версия 2)]
+[Gray Banner] = [Серый флаг]
+[Gray Carpet Revision 1] = [Серый ковёр (версия 1)]
+[Gray Terracotta] = [Серая керамика][Серая обожжённая глина][Серая окрашенная глина]
+[Gray Stained Glass] = [Серое окрашенное стекло][Серое стекло]
+[Gray Stained Glass Pane] = [Закалённая серая окрашенная стеклянная панель][Серая окрашенная стеклянная панель][Серая стеклянная панель]
+[Gray Wool Revision 2] = [Серая шерсть (версия 2)]
+[Green Banner] = [Зелёный флаг]
+[Green Carpet Revision 1] = [Зелёный ковёр (версия 1)]
+[Green Terracotta] = [Зелёная керамика][Зелёная обожжённая глина][Зелёная окрашенная глина]
+[Green Stained Glass] = [Зелёное окрашенное стекло][Зелёное стекло]
+[Green Stained Glass Pane] = [Закалённая зелёная окрашенная стеклянная панель][Зелёная окрашенная стеклянная панель][Зелёная стеклянная панель]
+[Green Wool Revision 2] = [Зелёная шерсть (версия 2)]
+[Light Blue Banner] = [Голубой флаг][Светло-синий флаг]
+[Light Blue Carpet Revision 1] = [Светло-синий ковёр (версия 1)]
+[Light Blue Terracotta] = [Голубая керамика][Светло-синяя керамика][Светло-синяя обожжённая глина][Светло-синяя окрашенная глина]
+[Light Blue Stained Glass] = [Голубое стекло][Светло-синее окрашенное стекло]
+[Light Blue Stained Glass Pane] = [Голубая стеклянная панель][Светло-синяя окрашенная стеклянная панель]
+[Light Blue Wool Revision 2] = [Светло-синяя шерсть (версия 2)]
+[Light Gray Banner] = [Светло-серый флаг]
+[Light Gray Carpet Revision 1] = [Светло-серый ковёр (версия 1)]
+[Light Gray Terracotta] = [Светло-серая керамика][Светло-серая обожжённая глина][Светло-серая окрашенная глина]
+[Light Gray Stained Glass] = [Светло-серое окрашенное стекло][Светло-серое стекло]
+[Light Gray Stained Glass Pane] = [Светло-серая окрашенная стеклянная панель][Светло-серая стеклянная панель]
+[Light Gray Wool Revision 2] = [Светло-серая шерсть (версия 2)]
+[Lime Banner] = [Лаймовый флаг]
+[Lime Carpet Revision 1] = [Лаймовый ковёр (версия 1)]
+[Lime Terracotta] = [Лаймовая керамика][Лаймовая обожжённая глина][Лаймовая окрашенная глина]
+[Lime Stained Glass] = [Лаймовое окрашенное стекло][Лаймовое стекло]
+[Lime Stained Glass Pane] = [Лаймовая окрашенная стеклянная панель][Лаймовая стеклянная панель]
+[Lime Wool Revision 2] = [Лаймовая шерсть (версия 2)]
+[Magenta Banner] = [Пурпурный флаг][Сиреневый флаг]
+[Magenta Carpet Revision 1] = [Сиреневый ковёр (версия 1)]
+[Magenta Terracotta] = [Пурпурная керамика][Сиреневая керамика][Сиреневая обожжённая глина][Сиреневая окрашенная глина]
+[Magenta Stained Glass] = [Пурпурное стекло][Сиреневое окрашенное стекло]
+[Magenta Stained Glass Pane] = [Пурпурная стеклянная панель][Сиреневая окрашенная стеклянная панель]
+[Magenta Wool Revision 2] = [Сиреневая шерсть (версия 2)]
+[Orange Banner] = [Оранжевый флаг]
+[Orange Carpet Revision 1] = [Оранжевый ковёр (версия 1)]
+[Orange Terracotta] = [Оранжевая керамика][Оранжевая обожжённая глина][Оранжевая окрашенная глина]
+[Orange Stained Glass] = [Оранжевое окрашенное стекло][Оранжевое стекло]
+[Orange Stained Glass Pane] = [Оранжевая окрашенная стеклянная панель][Оранжевая стеклянная панель]
+[Orange Wool Revision 2] = [Оранжевая шерсть (версия 2)]
+[Pink Banner] = [Розовый флаг]
+[Pink Carpet Revision 1] = [Розовый ковёр (версия 1)]
+[Pink Terracotta] = [Розовая керамика][Розовая обожжённая глина][Розовая окрашенная глина]
+[Pink Stained Glass] = [Розовое окрашенное стекло][Розовое стекло]
+[Pink Stained Glass Pane] = [Розовая окрашенная стеклянная панель][Розовая стеклянная панель]
+[Pink Wool Revision 2] = [Розовый шерсть (версия 2)]
+[Purple Banner] = [Фиолетовый флаг]
+[Purple Carpet Revision 1] = [Фиолетовый ковёр (версия 1)]
+[Purple Terracotta] = [Фиолетовая керамика][Фиолетовая обожжённая глина][Фиолетовая окрашенная глина]
+[Purple Stained Glass] = [Фиолетовое окрашенное стекло][Фиолетовое стекло]
+[Purple Stained Glass Pane] = [Фиолетовая окрашенная стеклянная панель][Фиолетовая стеклянная панель]
+[Purple Wool Revision 2] = [Фиолетовая шерсть (версия 2)]
+[Red Banner] = [Красный флаг]
+[Red Carpet Revision 1] =
+[Red Terracotta] = [Красная керамика][Красная обожжённая глина][Красная окрашенная глина]
+[Red Stained Glass] = [Красное окрашенное стекло][Красное стекло]
+[Red Stained Glass Pane] = [Красная окрашенная стеклянная панель][Красная стеклянная панель]
+[Red Wool Revision 2] =
+[Banner][White Banner] = [Белый флаг][Флаг]
+[White Carpet Revision 1] = [Белый ковёр (версия 1)]
+[White Terracotta] = [Белая керамика][Белая обожжённая глина][Белая окрашенная глина][Окрашенная обожжённая глина]
+[White Stained Glass] = [Белое окрашенное стекло][Белое стекло]
+[White Stained Glass Pane] = [Белая окрашенная стеклянная панель][Белая стеклянная панель]
+[White Wool Revision 2] = [Белая шерсть (версия 2)]
+[Yellow Banner] = [Жёлтый флаг]
+[Yellow Carpet Revision 1] = [Красный ковёр (версия 1)]
+[Yellow Terracotta] = [Жёлтая керамика][Жёлтая обожжённая глина][Жёлтая окрашенная глина]
+[Yellow Stained Glass] = [Жёлтое окрашенное стекло][Жёлтое стекло]
+[Yellow Stained Glass Pane] = [Жёлтая окрашенная стеклянная панель][Жёлтая стеклянная панель]
+[Yellow Wool Revision 2] = [Красная шерсть (версия 2)]
+
+
+
+
+[Black Firework Star] = [Чёрная звёздочка][Чёрная пиротехническая звезда]
+[Blue Firework Star] = [Синяя звёздочка][Синяя пиротехническая звезда]
+[Brown Firework Star] = [Коричневая звёздочка][Коричневая пиротехническая звезда]
+[Cyan Firework Star] = [Бирюзовая звёздочка][Бирюзовая пиротехническая звезда]
+
+[Firework Star] = [Звёздочка][Пиротехническая звезда]
+[Gray Firework Star] = [Серая звёздочка][Серая пиротехническая звезда]
+[Green Firework Star] = [Зелёная звёздочка][Зелёная пиротехническая звезда]
+[Light Blue Firework Star] = [Голубая звёздочка][Голубая пиротехническая звезда][Светло-синяя звёздочка][Светло-синяя пиротехническая звезда]
+[Light Gray Firework Star] = [Светло-серая звёздочка][Светло-серая пиротехническая звезда]
+[Lime Firework Star] = [Лаймовая звёздочка][Лаймовая пиротехническая звезда]
+[Magenta Firework Star] = [Сиреневая звёздочка][Сиреневая пиротехническая звезда]
+[Orange Firework Star] = [Оранжевая звёздочка][Оранжевая пиротехническая звезда]
+[Pink Firework Star] = [Розовая звёздочка][Розовая пиротехническая звезда]
+[Purple Firework Star] = [Фиолетовая звёздочка][Фиолетовая пиротехническая звезда]
+[Red Firework Star] = [Красная звёздочка][Красная пиротехническая звезда]
+[White Firework Star] = [Белая звёздочка][Белая пиротехническая звезда]
+[Yellow Firework Star] = [Жёлтая звёздочка][Жёлтая пиротехническая звезда]
+
+
+
+[Clownfish][Clownfish Revision 1] = [Рыба-клоун (версия 1)]
+
+[Cooked Fish][Cooked Fish Revision 1] = [Жареная рыба]
+
+
+
+[Cooked Salmon 3DS][Cooked Salmon Revision 1] = [Жареный лосось 13w36a]
+
+
+
+
+
+[Pufferfish 3DS][Pufferfish Revision 2] = [Иглобрюх 13w43a]
+
+
+
+ = [Курятина]
+[Raw Fish][Raw Fish Revision 1] = [Сырая рыба]
+
+
+
+[Raw Salmon 3DS][Raw Salmon Revision 1] = [Сырой лосось 13w36a]
+
+[Cooked Beef][Steak] = [Жареная говядина][Стейк]
+
+
+[Flowing Water][Water] = [Вода][Текущая вода]
+
+ = [Акациевая калитка]
+[Acacia Planks][Acacia Wood Planks] = [Акациевые доски]
+[Acacia Wood Slab] =
+[Acacia Wood Stairs] =
+
+ = [Берёзовая калитка]
+[Birch Planks][Birch Wood Planks] = [Берёзовые доски]
+[Birch Wood Slab] =
+[Birch Wood Stairs] =
+
+
+
+
+
+[Smooth Quartz][Smooth Quartz Block] = [Гладкий кварц]
+
+
+[Bricks Old] = [Кирпичи старые][Кирпичный блок старый]
+[Brick Slab Old] =
+[Chiseled Quartz Block] = [Резной кварцевый блок]
+
+
+
+
+
+
+
+
+[Dark Oak Planks][Dark Oak Wood Planks] = [Доски из тёмного дуба]
+[Dark Oak Wood Slab] = [Плита из тёмного дуба BE]
+[Dark Oak Wood Stairs] = [Ступени из тёмного дуба BE]
+[Double Smooth Stone Slab] = [Двойная гладкая каменная плита][Двойная каменная плита]
+
+[Farmland] = [Грядка][Пашня]
+
+
+
+
+ = [Сноп сена]
+
+
+
+
+[Jungle Planks][Jungle Wood Planks] = [Джунглевые доски][Доски из тропического дерева]
+[Jungle Wood Slab] = [Джунглевая плита BE]
+[Jungle Wood Stairs] = [Джунглевые ступени BE]
+
+
+
+
+[Oak Planks][Oak Wood Planks] = [Доски|у][Дубовые доски]
+[Oak Wood Slab][Petrified Oak Slab][Wooden Slab] = [Окаменевшая дубовая плита]
+[Oak Wood Stairs] = [Дубовые ступени BE]
+[Quartz Pillar] = [Кварцевый пилон]
+[Polished Andesite] = [Полированный андезит]
+[Polished Diorite] = [Полированный диорит]
+[Polished Granite] = [Полированный гранит]
+[Purpur Block] = [Пурпур][Пурпурный блок][Пурпуровый блок]
+[Purpur Pillar] = [Пурпурный пилон][Пурпуровый пилон]
+
+
+
+
+
+
+
+
+[Slime Block] = [Блок слизи]
+
+
+[Smooth Stone] = [Гладкий камень][Полированная двойная каменная плита]
+
+
+
+
+
+[Spruce Planks][Spruce Wood Planks] = [Еловые доски]
+[Spruce Wood Slab] =
+[Spruce Wood Stairs] =
+
+[Stone Brick Slab] = [Плита из каменного кирпича][Плита из каменных кирпичей]
+
+[Acacia Door] = [Акациевая дверь]
+
+[Birch Door] = [Берёзовая дверь]
+ = [Редстоуновый блок]
+[Dark Oak Door] = [Дверь из тёмного дуба]
+
+[Iron Door] = [Железная дверь]
+[Iron Trapdoor] = [Железный люк]
+[Jungle Door] = [Дверь из тропического дерева][Джунглевая дверь]
+
+[Oak Door] = [Дверь][Деревянная дверь][Дубовая дверь]
+
+ = [Блок 36][Расширение поршня]
+
+ = [Рельсы]
+
+
+
+
+[Spruce Door] = [Еловая дверь]
+
+
+
+[Oak Trapdoor] = [Деревянный люк][Дубовый люк][Люк]
+
+
+
+
+
+[Creeper Head][MHF Creeper] = [Голова крипера]
+[Dragon Head] = [Голова дракона]
+[Head][MHF Steve][Player Head] = [Голова]
+[Skeleton Skull] = [Череп][Череп скелета]
+[Wither Skeleton Skull] = [Череп визер-скелета][Череп скелета-иссушителя]
+[Zombie Head] = [Голова зомби]
+
+[Bedrock] = [Бедрок][Коренная порода]
+
+
+[Coarse Dirt] = [Каменистая земля]
+
+
+
+
+[Dirt] = [Земля]
+
+[Grass Block] = [Блок травы][Дёрн]
+
+
+[Frosted Ice] = [Подмороженный лёд]
+[Monster Spawner] = [Спаунер][Спаунер монстров]
+[Moss Stone] =
+
+
+
+
+
+
+
+
+
+
+
+
+[Top Snow] =
+[Infested Stone][Stone][Stone Monster Egg] = [Заражённый блок камень][Заражённый камень][Каменное яйцо монстра][Камень][Камень с монстрами]
+
+
+[Nether Brick Block] = [Блок адских кирпичей]
+
+
+
+[Nether Wart (block)] = [Адский нарост (блок)][Нарост из Незера (блок)]
+
+
+[End Portal] = [Блок портала Края][Блок портала Энда]
+[Portal] = [Блок портала Незера][Блок портала Нижнего мира]
+
+
+
+
+
+
+
+
+
+ = [Листва акации][Листья акации]
+
+ = [Акация][Древесина акации]
+
+ = [Голубой василёк]
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Shrub LCE] = [Сухая трава]
+
+
+
+
+
+
+
+
+
+
+[Melon Seeds] = [Семена арбуза]
+
+
+
+
+
+
+
+
+
+
+[Pumpkin Seeds] = [Семена тыквы]
+
+
+
+[Rose] = [Роза]
+
+[Seeds][Wheat Seeds] = [Семена][Семена пшеницы]
+[Scaffolding BE] = [Строительные леса Bedrock]
+
+
+
+
+
+
+
+
+
+
+[Cyan Flower] = [Бирюзовый цветок][Голубой цветок]
+[Glowing Obsidian] = [Пылающий обсидиан]
+[Nether Reactor Core Revision 1] =
+[Stonecutter BE] = [Камнерез-pocket]
+[Awkward Potion][Mundane Potion][Thick Potion][Water Bottle] = [Грубое зелье][Густое зелье][Заурядное зелье][Колба воды][Мутное зелье][Непримечательное зелье]
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Awkward Lingering Potion][Mundane Lingering Potion][Thick Lingering Potion] =
+
+ = [Зелье опыта]
+[Awkward Splash Potion][Mundane Splash Potion][Splash Mundane Potion][Splash Water Bottle][Thick Splash Potion] = [Взрывающаяся колба воды][Взрывающееся непримечательное зелье][Взрывное мутное зелье][Грубое взрывающееся зелье][Густое взрывающееся зелье][Густое взрывное зелье][Заурядное взрывное зелье][Непримечательное взрывающееся зелье]
+
+
+
+
+
+
+
+
+
+
+
+
+ = [Взрывающееся зелье слабости]
+
+
+
+
+
+[Charcoal Revision 1][Coal Revision 2] = [Древесный уголь (версия 1)][Уголь до Texture Update]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Redstone Revision 1] =
+
+[Debug Stick][Stick] = [Палка][Палка отладки]
+
+[Bat Spawn Egg][Spawn Bat] = [Яйцо призывания летучей мыши]
+[Blaze Spawn Egg][Spawn Blaze] = [Яйцо призывания всполоха][Яйцо призывания ифрита]
+[Cave Spider Spawn Egg][Spawn Cave Spider] = [Яйцо призывания пещерного паука]
+[Chicken Spawn Egg][Spawn Chicken] = [Яйцо призывания курицы]
+[Cow Spawn Egg][Spawn Cow] = [Яйцо призывания коровы]
+[Creeper Spawn Egg][Spawn Creeper] = [Яйцо призывания крипера]
+[Enderman Spawn Egg][Spawn Enderman] = [Яйцо призывания странника Края][Яйцо призывания эндермена]
+[Endermite Spawn Egg][Spawn Endermite] = [Яйцо призывания чешуйницы Края][Яйцо призывания эндермита]
+[Ghast Spawn Egg][Spawn Ghast] = [Яйцо призывания гаста]
+[Guardian Spawn Egg][Spawn Guardian] = [Яйцо призывания стража]
+[Donkey Spawn Egg Revision 1][Horse Spawn Egg][Mule Spawn Egg Revision 1][Spawn Horse] = [Яйцо призывания лошади]
+[Magma Cube Spawn Egg][Spawn Magma Cube] = [Яйцо призывания лавового куба][Яйцо призывания магмового куба]
+[Mooshroom Spawn Egg][Spawn Mooshroom] = [Яйцо призывания грибной коровы][Яйцо призывания муухомора][Яйцо призывания муухоморы]
+[Ocelot Spawn Egg][Spawn Ocelot] = [Яйцо призывания оцелота]
+[Pig Spawn Egg][Spawn Pig] = [Яйцо призывания свиньи]
+[Rabbit Spawn Egg][Spawn Rabbit] = [Яйцо призывания кролика]
+[Sheep Spawn Egg][Spawn Sheep] = [Яйцо призывания овцы]
+[Shulker Spawn Egg][Spawn Shulker] = [Яйцо призывания шалкера]
+[Silverfish Spawn Egg][Spawn Silverfish] = [Яйцо призывания чешуйницы]
+[Skeleton Spawn Egg][Spawn Skeleton] = [Яйцо призывания скелета]
+[Slime Spawn Egg][Spawn Slime] = [Яйцо призывания слизня]
+[Spawn Spider][Spider Spawn Egg] = [Яйцо призывания паука]
+[Spawn Squid][Squid Spawn Egg] = [Яйцо призывания спрута]
+[Spawn Villager][Villager Spawn Egg] = [Яйцо призывания деревенского жителя][Яйцо призывания крестьянина]
+[Spawn Witch][Witch Spawn Egg] = [Яйцо призывания ведьмы]
+[Spawn Wolf][Wolf Spawn Egg] = [Яйцо призывания волка]
+[Spawn Zombie][Zombie Spawn Egg] = [Яйцо призывания зомби]
+[Hoglin Spawn Egg Revision 1][Spawn Zombie Pigman][Zombie Pigman Spawn Egg][Zombified Piglin Spawn Egg] = [Яйцо призывания зомби-свиночеловека][Яйцо призывания зомбифицированного пиглина][Яйцо призывания свинозомби]
+
+
+
+[Clock] = [Часы]
+[Compass] = [Компас]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Buried Treasure Map Revision 1] = [Карта сокровищ (версия 1)]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Black Bed BE][Black Bed LCE] = [Кровать]
+ = [Зельеварка]
+
+
+[Chest] = [Сундук]
+[Impulse Command Block Revision 1] = [Командный блок]
+
+[Daylight Detector][Daylight Sensor] = [Датчик дневного света][Детектор дневного света]
+
+
+
+
+
+
+[Inverted Daylight Detector][Inverted Daylight Sensor] = [Инвертированный датчик дневного света][Инвертированный детектор дневного света]
+
+[Locked Chest] = [Запертый сундук]
+
+[Slightly Damaged Anvil] =
+
+
+
+[Very Damaged Anvil] =
+
+[Boat] = [Лодка]
+
+
+
+
+
+
+[Arrow of Splashing][Tipped Arrow] = [Обработанная стрела][Стрела разбрызгивания][Стрела с эффектом]
+[Arrow] = [Стрела]
+[Arrow of Fire Resistance] = [Стрела огнестойкости]
+[Arrow of Harming] = [Стрела вреда][Стрела урона]
+[Arrow of Healing] = [Стрела исцеления][Стрела лечения]
+[Arrow of Invisibility] = [Стрела невидимости]
+[Arrow of Leaping] = [Стрела прыгучести]
+[Arrow of Night Vision] = [Стрела ночного зрения]
+[Arrow of Poison] = [Стрела отравления]
+[Arrow of Regeneration] = [Стрела регенерации]
+[Arrow of Slowness] = [Стрела замедления]
+[Arrow of Strength] = [Стрела силы]
+[Arrow of Swiftness] = [Стрела скорости][Стрела стремительности]
+[Arrow of Weakness] = [Стрела слабости]
+[Bow] = [Лук]
+[Damaged Bow] = [Повреждённый лук]
+
+
+
+
+
+
+
+
+
+[Spectral Arrow Revision 1] = [Призрачная стрела (версия 1)][Спектральная стрела]
+
+
+[Black Tinted Glass] = [Чёрное тонированное стекло]
+[Block of Coal Revision 1] = [Угольный блок (13w18a)]
+[Blue Tinted Glass] = [Синее тонированное стекло]
+[Brown Tinted Glass] = [Коричневое тонированное стекло]
+[Cyan Tinted Glass] = [Бирюзовое тонированное стекло]
+[Gray Tinted Glass] = [Серое тонированное стекло]
+[Green Tinted Glass] = [Зелёное тонированное стекло]
+ = [Воронка (до 13w02a)][Загрузочная воронка (до 13w02a)]
+[Light Blue Tinted Glass] = [Голубое тонированное стекло][Светло-синее тонированное стекло]
+[Light Gray Tinted Glass] = [Светло-серое тонированное стекло]
+[Lime Tinted Glass] = [Лаймовое тонированное стекло]
+[Locked Chest 12w22a] = [Запертый сундук (12w22a)]
+[Locked Chest 13w18a][Missing Texture] = [Блок отсутствующей текстуры][Блок с отсутствующей текстурой][Запертый сундук (13w18b)]
+[Magenta Tinted Glass] = [Пурпурное тонированное стекло][Сиреневое тонированное стекло]
+[Obsidian Boat] = [Обсидиановая лодка]
+[Orange Tinted Glass] = [Оранжевое тонированное стекло]
+[Pink Tinted Glass] = [Розовое тонированное стекло]
+[Purple Tinted Glass] = [Фиолетовое тонированное стекло]
+[Red Tinted Glass] = [Красное тонированное стекло]
+[Ruby] = [Рубин]
+[White Tinted Glass] = [Белое тонированное стекло]
+[Yellow Tinted Glass] = [Жёлтое тонированное стекло]
+[Piston Head Model] = [Модель головки поршня]
+[Locked Chest 12w19a][Placeholder Texture] = [Запертый сундук (12w19a)][Фиолетовый блок ошибки]
+ = [Красный факел (отключённый)][Отключённый редстоуновый факел]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Grass Path] = [Травяная тропинка][Тропа][Тропинка]
+[Spawn Zombie Villager][Zombie Villager Spawn Egg] = [Яйцо призывания зомби-жителя][Яйцо призывания зомби-крестьянина]
+[Blaze Spawn Egg Revision 1] = [Яйцо призывания ифрита 11w49a]
+
+
+
+
+
+
+
+
+
+
+
+[Arrow of Luck] = [Стрела удачи]
+
+
+[Camera (old)] = [Камера (старая)]
+
+[Red Nether Bricks] = [Красные адские кирпичи][Красный адский кирпич][Красный незеритовый кирпич]
+
+[Cave Spider Spawn Egg Revision 1] = [Яйцо призывания пещерного паука 11w49a]
+[Cat Spawn Egg Revision 1] = [Яйцо призывания кошки до 1.14]
+[Donkey Spawn Egg][Spawn Donkey] = [Яйцо призывания осла]
+[Elder Guardian Spawn Egg][Spawn Elder Guardian] = [Яйцо призывания древнего стража]
+[Husk Spawn Egg][Spawn Husk] = [Яйцо призывания кадавра]
+[Mule Spawn Egg][Spawn Mule] = [Яйцо призывания мула]
+[Polar Bear Spawn Egg][Spawn Polar Bear] = [Яйцо призывания белого медведя]
+[Skeleton Horse Spawn Egg][Spawn Skeleton Horse] = [Яйцо призывания лошади-скелета]
+[Spawn Stray][Stray Spawn Egg] = [Яйцо призывания зимогора]
+[Spawn Wither Skeleton][Wither Skeleton Spawn Egg] = [Яйцо призывания визер-скелета][Яйцо призывания скелета-иссушителя]
+[Spawn Zombie Horse][Zombie Horse Spawn Egg] = [Яйцо призывания лошади-зомби]
+[Structure Block] = [Блок-конструктор][Структурный блок]
+ = [Пустой блок]
+[Leather Horse Armor] = [Кожаная конская броня]
+[Observer PE old][Observer pre-1.11-pre1] =
+[Chicken Spawn Egg Revision 1] = [Яйцо призывания курицы 11w49a]
+[Cow Spawn Egg Revision 1] = [Яйцо призывания коровы 11w49a]
+[Creeper Spawn Egg Revision 1] = [Яйцо призывания крипера 11w49a]
+[Enderman Spawn Egg Revision 1] = [Яйцо призывания странника Края 11w49a]
+[Ghast Spawn Egg Revision 1] = [Яйцо призывания гаста 11w49a]
+[Magma Cube Spawn Egg Revision 1] = [Яйцо призывания лавового куба 11w49a]
+[Mooshroom Spawn Egg Revision 1] = [Яйцо призывания грибной коровы 11w49a]
+[Pig Spawn Egg Revision 1] = [Яйцо призывания свиньи 11w49a]
+[Sheep Spawn Egg Revision 1] = [Яйцо призывания овцы 11w49a]
+[Silverfish Spawn Egg Revision 1] = [Яйцо призывания чешуйницы 11w49a]
+[Skeleton Spawn Egg Revision 1] = [Яйцо призывания скелета 11w49a]
+[Slime Spawn Egg Revision 1] = [Яйцо призывания слизня 11w49a]
+[Spider Spawn Egg Revision 1] = [Яйцо призывания паука 11w49a]
+[Squid Spawn Egg Revision 1] = [Яйцо призывания спрута 11w49a]
+[Villager Spawn Egg Revision 1] = [Яйцо призывания деревенского жителя 11w49a]
+[Wolf Spawn Egg Revision 1] = [Яйцо призывания волка 11w49a]
+[Zombie Spawn Egg Revision 1] = [Яйцо призывания зомби 11w49a]
+[Zombie Pigman Spawn Egg Revision 1] = [Яйцо призывания зомби-свиночеловека 11w49a]
+[Potion of Decay] = [Зелье разложения]
+[Uncraftable Potion] = [Несоздаваемое зелье]
+[Splash Potion of Decay] = [Взрывающееся зелье разложения]
+ = [Взрывающееся несоздаваемое зелье][Взрывное несоздаваемое зелье]
+[Lingering Potion of Decay] = [Оседающее зелье разложения]
+
+[Arrow of Decay] = [Стрела разложения]
+[Uncraftable Tipped Arrow] = [Несоздаваемая обработанная стрела][Несоздаваемая стрела]
+
+[Evoker Spawn Egg][Spawn Evoker] = [Яйцо призывания вызывателя][Яйцо призывания заклинателя]
+[Llama Spawn Egg][Spawn Llama] = [Яйцо призывания ламы]
+[Spawn Vex][Vex Spawn Egg] = [Яйцо призывания вредины][Яйцо призывания досаждателя]
+[Spawn Vindicator][Vindicator Spawn Egg] = [Яйцо призывания поборника]
+
+[Black Shulker Box Revision 1] = [Чёрный шалкеровый ящик (версия 1)]
+[Blue Shulker Box Revision 1] = [Синий шалкеровый ящик (версия 1)]
+[Brown Shulker Box Revision 1] = [Коричневый шалкеровый ящик (версия 1)]
+[Cyan Shulker Box Revision 1] = [Бирюзовый шалкеровый ящик (версия 1)]
+[Gray Shulker Box Revision 1] = [Серый шалкеровый ящик (версия 1)]
+[Green Shulker Box Revision 1] = [Зелёный шалкеровый ящик (версия 1)]
+[Light Blue Shulker Box Revision 1] = [Светло-синий шалкеровый ящик (версия 1)]
+[Light Gray Shulker Box Revision 1] = [Светло-серый шалкеровый ящик (версия 1)]
+[Lime Shulker Box Revision 1] = [Лаймовый шалкеровый ящик (версия 1)]
+[Magenta Shulker Box Revision 1] = [Сиреневый шалкеровый ящик (версия 1)]
+[Orange Shulker Box Revision 1] = [Оранжевый шалкеровый ящик (версия 1)]
+[Pink Shulker Box Revision 1] = [Розовый шалкеровый ящик (версия 1)]
+[Purple Shulker Box] = [Фиолетовый шалкеровый ящик]
+[Red Shulker Box Revision 1] = [Красный шалкеровый ящик (версия 1)]
+[White Shulker Box Revision 1] = [Белый шалкеровый ящик (версия 1)]
+[Yellow Shulker Box Revision 1] = [Жёлтый шалкеровый ящик (версия 1)]
+
+
+
+[Allow] = [Разрешить]
+[Deny] = [Запретить]
+
+[MHF Alex] = [MHF Alex]
+[MHF ArrowDown] = [MHF ArrowDown]
+[MHF ArrowLeft] = [MHF ArrowLeft]
+[MHF ArrowRight] = [MHF ArrowRight]
+[MHF ArrowUp] = [MHF ArrowUp]
+[MHF Blaze] = [MHF Blaze]
+[MHF Cactus] = [MHF Cactus]
+[MHF Cake] = [MHF Cake]
+[MHF CaveSpider] = [MHF CaveSpider]
+[MHF Chest] = [MHF Chest]
+[MHF Chicken] = [MHF Chicken]
+[MHF CoconutB] = [MHF CoconutB]
+[MHF CoconutG] = [MHF CoconutG]
+[MHF Cow] = [MHF Cow]
+[MHF Enderman] = [MHF Enderman]
+[MHF Exclamation] = [MHF Exclamation]
+[MHF Ghast] = [MHF Ghast]
+[MHF Golem] = [MHF Golem]
+[MHF Herobrine] = [MHF Herobrine]
+[MHF LavaSlime] = [MHF LavaSlime]
+[MHF Melon] = [MHF Melon]
+[MHF MushroomCow] = [MHF MushroomCow]
+[MHF OakLog] = [MHF OakLog]
+[MHF Ocelot] = [MHF Ocelot]
+[MHF Pig] = [MHF Pig]
+[MHF PigZombie] = [MHF PigZombie]
+[MHF Present1] = [MHF Present1]
+[MHF Present2] = [MHF Present2]
+[MHF Pumpkin] = [MHF Pumpkin]
+[MHF Question] = [MHF Question]
+[MHF Sheep] = [MHF Sheep]
+[MHF Slime] = [MHF Slime]
+[MHF Spider] = [MHF Spider]
+[MHF Squid] = [MHF Squid]
+[MHF TNT] = [MHF TNT]
+[MHF TNT2] = [MHF TNT2]
+[MHF Villager] = [MHF Villager]
+[Black Concrete] = [Чёрный бетон]
+[Black Concrete Powder] = [Чёрный цемент]
+[Black Glazed Terracotta] = [Чёрная глазурованная керамика]
+[Blue Concrete] = [Синий бетон]
+[Blue Concrete Powder] = [Синий цемент]
+[Blue Glazed Terracotta] = [Синяя глазурованная керамика]
+[Brown Concrete] = [Коричневый бетон]
+[Brown Concrete Powder] = [Коричневый цемент]
+[Brown Glazed Terracotta] = [Коричневая глазурованная керамика]
+[Cyan Concrete] = [Бирюзовый бетон]
+[Cyan Concrete Powder] = [Бирюзовый цемент]
+[Cyan Glazed Terracotta Revision 1] = [Бирюзовая глазурованная керамика (версия 1)]
+[Gray Concrete] = [Серый бетон]
+[Gray Concrete Powder] = [Серый цемент]
+[Gray Glazed Terracotta] = [Серая глазурованная керамика]
+[Green Concrete] = [Зелёный бетон]
+[Green Concrete Powder] = [Зелёный цемент]
+[Green Glazed Terracotta] = [Зелёная глазурованная керамика]
+[Light Blue Concrete] = [Светло-синий бетон]
+[Light Blue Concrete Powder] = [Светло-синий цемент]
+[Light Blue Glazed Terracotta] = [Светло-синяя глазурованная керамика]
+[Light Gray Concrete] = [Светло-серый бетон]
+[Light Gray Concrete Powder] = [Светло-серый цемент]
+[Light Gray Glazed Terracotta] = [Светло-серая глазурованная керамика]
+[Lime Concrete] = [Лаймовый бетон]
+[Lime Concrete Powder] = [Лаймовый цемент]
+[Lime Glazed Terracotta] = [Лаймовая глазурованная керамика]
+[Magenta Concrete] = [Сиреневый бетон]
+[Magenta Concrete Powder] = [Сиреневый цемент]
+[Magenta Glazed Terracotta Revision 1] = [Сиреневая глазурованная керамика (версия 1)]
+[Orange Concrete] = [Оранжевый бетон]
+[Orange Concrete Powder] = [Оранжевый цемент]
+[Orange Glazed Terracotta Revision 1] = [Оранжевая глазурованная керамика (версия 1)]
+[Pink Concrete] = [Розовый бетон]
+[Pink Concrete Powder] = [Розовый цемент]
+[Pink Glazed Terracotta] = [Розовая глазурованная керамика]
+[Purple Concrete] = [Фиолетовый бетон]
+[Purple Concrete Powder] = [Фиолетовый цемент]
+[Purple Glazed Terracotta] = [Фиолетовая глазурованная керамика]
+[Red Concrete] = [Красный бетон]
+[Red Concrete Powder] = [Красный цемент]
+[Red Glazed Terracotta] = [Красная глазурованная керамика]
+[White Concrete] = [Белый бетон]
+[White Concrete Powder] = [Белый цемент]
+[White Glazed Terracotta Revision 1] = [Белая глазурованная керамика (версия 1)]
+[Yellow Concrete] = [Жёлтый бетон]
+[Yellow Concrete Powder] = [Жёлтый цемент]
+[Yellow Glazed Terracotta] = [Жёлтая глазурованная керамика]
+[Black Wool] = [Чёрная шерсть]
+[Blue Wool] = [Синяя шерсть]
+[Brown Wool] = [Коричневая шерсть]
+[Cyan Wool] = [Бирюзовая шерсть]
+[Gray Wool] = [Серая шерсть]
+[Green Wool] = [Зелёная шерсть]
+[Light Blue Wool] = [Голубая шерсть][Светло-синяя шерсть]
+[Light Gray Wool] = [Светло-серая шерсть]
+[Lime Wool] = [Лаймовая шерсть]
+[Magenta Wool] = [Пурпурная шерсть][Сиреневая шерсть]
+[Orange Wool] = [Оранжевая шерсть]
+[Pink Wool] = [Розовая шерсть]
+[Purple Wool] = [Фиолетовая шерсть]
+[Red Wool] = [Красная шерсть]
+[White Wool] = [Белая шерсть]
+[Yellow Wool] = [Жёлтая шерсть]
+[Minecart with Command Block BE] = [Вагонетка с командным блоком BE]
+[Cyan Glazed Terracotta] = [Бирюзовая глазурованная керамика]
+[Magenta Glazed Terracotta] = [Сиреневая глазурованная керамика]
+[Orange Glazed Terracotta] = [Оранжевая глазурованная керамика]
+[White Glazed Terracotta] = [Белая глазурованная керамика]
+[Parrot Spawn Egg][Spawn Parrot] = [Яйцо призывания попугая]
+
+[Blue Bed BE][Blue Bed LCE] = [Синяя кровать BE][Синяя кровать LCE]
+[Brown Bed BE][Brown Bed LCE] = [Коричневая кровать BE][Коричневая кровать LCE]
+[Cyan Bed BE][Cyan Bed LCE] = [Бирюзовая кровать BE][Бирюзовая кровать LCE]
+[Gray Bed BE][Gray Bed LCE] = [Серая кровать BE][Серая кровать LCE]
+[Green Bed BE][Green Bed LCE] = [Зелёная кровать BE][Зелёная кровать LCE]
+[Light Blue Bed BE][Light Blue Bed LCE] = [Светло-синяя кровать BE][Светло-синяя кровать LCE]
+[Light Gray Bed BE][Light Gray Bed LCE] = [Светло-серая кровать BE][Светло-серая кровать LCE]
+[Lime Bed BE][Lime Bed LCE] = [Лаймовая кровать BE][Лаймовая кровать LCE]
+[Magenta Bed BE][Magenta Bed LCE] = [Сиреневая кровать BE][Сиреневая кровать LCE]
+[Orange Bed BE][Orange Bed LCE] = [Оранжевая кровать BE][Оранжевая кровать LCE]
+[Pink Bed BE][Pink Bed LCE] = [Розовая кровать BE][Розовая кровать LCE]
+[Purple Bed BE][Purple Bed LCE] = [Фиолетовая кровать BE][Фиолетовая кровать LCE]
+[Red Bed BE][Red Bed LCE][Red Bed Revision 1] = [Красная кровать BE][Красная кровать LCE]
+[White Bed BE][White Bed LCE] = [Белая кровать BE][Белая кровать LCE]
+[Yellow Bed BE][Yellow Bed LCE] = [Жёлтая кровать BE][Жёлтая кровать LCE]
+[End Gateway] = [Блок врат Края][Врата Края]
+[Arrow of Decay Revision 1] = [Стрела гниения (версия 1)]
+[Husk Spawn Egg Revision 1] = [Яйцо призывания кадавра PE pre-1.1.0.9]
+[Shulker Spawn Egg Revision 1] = [Яйцо призывания шалкера PE pre-1.1.0.9]
+[Silverfish Spawn Egg Revision 2] = [Яйцо призывания чешуйницы PE pre-1.1.0.9]
+[Stray Spawn Egg Revision 1] = [Яйцо призывания зимогора PE pre-1.1.0.9]
+ = [Голова крипера (версия 1)]
+ = [Череп скелета (версия 1)]
+ = [Голова (версия 1)]
+ = [Череп скелета-иссушителя (версия 1)]
+ = [Голова зомби (версия 1)]
+[Peony BE][Peony LCE] = [Пион BE][Пион LCE]
+[Rose Bush BE][Rose Bush LCE] = [Куст розы BE][Куст розы LCE]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Spawn NPC] = [Яйцо призывания неигрового персонажа]
+[Zombie Horse Spawn Egg Revision 1] = [Яйцо призывания лошади-зомби PE pre-1.1.0.9]
+[Board] = [Доска]
+[Border] = [Граница]
+[Portfolio] = [Портфолио]
+[Poster] = [Широкая доска]
+[Slate] = [Маленькая доска]
+[Initialized Nether Reactor Core Revision 1] = [Ядро запущенного реактора Нижнего мира (версия 1)]
+[Finished Nether Reactor Core Revision 1] = [Ядро отработанного реактора Нижнего мира (версия 1)]
+[Nether Reactor Core] = [Ядро реактора Нижнего мира][Ядро реактора нижнего мира]
+[Initialized Nether Reactor Core] = [Активированное ядро реактора нижнего мира][Ядро запущенного реактора Нижнего мира]
+[Finished Nether Reactor Core] = [Использованное ядро реактора нижнего мира][Ядро отработанного реактора Нижнего мира]
+[Bow BE] = [Лук BE]
+[Black Shulker Box] = [Чёрный шалкеровый ящик]
+[Blue Shulker Box] = [Синий шалкеровый ящик]
+[Brown Shulker Box] = [Коричневый шалкеровый ящик]
+[Cyan Shulker Box] = [Бирюзовый шалкеровый ящик]
+[Gray Shulker Box] = [Серый шалкеровый ящик]
+[Green Shulker Box] = [Зелёный шалкеровый ящик]
+[Light Blue Shulker Box] = [Голубой шалкеровый ящик][Светло-синий шалкеровый ящик]
+[Light Gray Shulker Box] = [Светло-серый шалкеровый ящик]
+[Lime Shulker Box] = [Лаймовый шалкеровый ящик]
+[Magenta Shulker Box] = [Пурпурный шалкеровый ящик][Сиреневый шалкеровый ящик]
+[Orange Shulker Box] = [Оранжевый шалкеровый ящик]
+[Pink Shulker Box] = [Розовый шалкеровый ящик]
+[Shulker Box] = [Шалкеровый ящик]
+[Red Shulker Box] = [Красный шалкеровый ящик]
+[White Shulker Box] = [Белый шалкеровый ящик]
+[Yellow Shulker Box] = [Жёлтый шалкеровый ящик]
+[Observer BE] = [Наблюдатель BE]
+[Oak Fence Gate Revision 1] = [Дубовые ворота (версия 1)]
+[Black Carpet] = [Чёрный ковёр]
+[Blue Carpet] = [Синий ковёр]
+[Brown Carpet] = [Коричневый ковёр]
+[Cyan Carpet] = [Бирюзовый ковёр]
+[Gray Carpet] = [Серый ковёр]
+[Green Carpet] = [Зелёный ковёр]
+[Light Blue Carpet] = [Голубой ковёр][Светло-синий ковёр]
+[Light Gray Carpet] = [Светло-серый ковёр]
+[Lime Carpet] = [Лаймовый ковёр]
+[Magenta Carpet] = [Пурпурный ковёр][Сиреневый ковёр]
+[Orange Carpet] = [Оранжевый ковёр]
+[Pink Carpet] = [Розовый ковёр]
+[Purple Carpet] = [Фиолетовый ковёр]
+[Red Carpet] = [Красный ковёр]
+[White Carpet] = [Белый ковёр]
+[Yellow Carpet] = [Жёлтый ковёр]
+[Ankle Monitor] = [Маячок]
+[Reality Vision] = [Очки виртуальной реальности]
+[Smarter Watch] = [Умные часы]
+[USB Charger][USB Charger Block] = [USB-блок]
+
+
+
+
+
+
+[Spruce Trapdoor] = [Еловый люк]
+[Birch Trapdoor] = [Берёзовый люк]
+[Jungle Trapdoor] = [Джунглевый люк][Люк из тропического дерева]
+[Acacia Trapdoor] = [Акациевый люк]
+[Dark Oak Trapdoor] = [Люк из тёмного дуба]
+
+
+
+
+
+
+
+
+
+
+
+[Prismarine Brick Stairs Old] = [Ступени из призмаринового кирпича старый][Ступеньки из призмариновых кирпичей][Ступеньки из призмариновых кирпичей старый]
+[Prismarine Stairs] = [Призмариновые ступени][Призмариновые ступеньки]
+
+[Prismarine Bricks Slab] = [Плита из призмаринового кирпича][Плита из призмариновых кирпичей]
+[Prismarine Slab] = [Призмариновая плита]
+[Turtle Egg Revision 1] = [Черепашье яйцо (версия 1)]
+[Dried Kelp Block] = [Блок сушёной ламинарии]
+[Stripped Acacia Log] = [Обтёсанная акациевая древесина]
+[Stripped Birch Log] = [Обтёсанная берёзовая древесина]
+[Stripped Dark Oak Log] = [Обтёсанная древесина тёмного дуба]
+[Stripped Jungle Log] = [Обтёсанная джунглевая древесина][Обтёсанная древесина тропического дерева]
+[Stripped Oak Log] = [Обтёсанная дубовая древесина]
+[Stripped Spruce Log] = [Обтёсанная еловая древесина]
+
+
+
+
+[Trident Revision 1] = [Трезубец 18w07a]
+[Turtle Helmet][Turtle Shell] = [Черепаший панцирь]
+[Dried Kelp] = [Сушёная ламинария]
+[Kelp] = [Ламинария]
+[Scute] = [Щиток]
+[Bucket of Tropical Fish BE][Tropical Fish Bucket Revision 1] = [Ведро с рыбой-клоуном]
+[Bucket of Cod] = [Ведро с треской]
+[Bucket of Pufferfish] = [Ведро с иглобрюхом]
+[Bucket of Salmon] = [Ведро с лососем]
+[Tropical Fish] = [Тропическая рыба]
+[Cooked Cod] = [Жареная треска]
+[Cooked Salmon] = [Жареный лосось]
+[Pufferfish] = [Иглобрюх]
+[Raw Cod] = [Сырая треска]
+[Raw Salmon] = [Сырой лосось]
+[Tube Coral Fan Revision 1] = [Веер синего коралла|у][Веер трубчатого коралла|у][Трубчатый веерный коралл]
+ = [Иглобрюх 13w36a]
+[Cod Spawn Egg][Spawn Cod] = [Яйцо призывания трески]
+[Pufferfish Spawn Egg][Spawn Pufferfish] = [Яйцо призывания иглобрюха]
+[Salmon Spawn Egg][Spawn Salmon] = [Яйцо призывания лосося]
+[Tube Coral Block Revision 1] = [Синий коралл 18w09a]
+[Dead Coral] = [Все мёртвые кораллы][Мёртвые кораллы][Мёртвый коралл 18w09a]
+[Brain Coral Block Revision 1] = [Розовый коралл 18w09a]
+[Bubble Coral Block Revision 1] = [Фиолетовый коралл 18w09a]
+[Fire Coral Block Revision 1] = [Красный коралл 18w09a]
+[Horn Coral Block Revision 1] = [Жёлтый коралл 18w09a]
+[Tube Coral Block] = [Синий коралл|у][Трубчатый коралловый блок]
+[Brain Coral Block] = [Мозговой коралловый блок][Розовый коралл|у]
+[Bubble Coral Block] = [Пузырчатый коралловый блок][Фиолетовый коралл|у]
+[Fire Coral Block] = [Красный коралл|у][Огненный коралловый блок]
+[Horn Coral Block] = [Жёлтый коралл|у][Роговый коралловый блок]
+[Tube Coral] = [Растение синего коралла|у][Трубчатый коралл]
+[Brain Coral] = [Мозговой коралл][Растение розового коралла|у]
+[Bubble Coral] = [Пузырчатый коралл][Растение фиолетового коралла|у]
+[Fire Coral] = [Огненный коралл][Растение красного коралла|у]
+[Horn Coral] = [Растение жёлтого коралла|у][Роговый коралл]
+[Trident] = [Трезубец]
+[Dead Tube Coral Block] = [Синий мёртвый коралл|у][Трубчатый мёртвый коралловый блок]
+[Dead Brain Coral Block] = [Мозговой мёртвый коралловый блок][Розовый мёртвый коралл|у]
+[Dead Bubble Coral Block] = [Пузырчатый мёртвый коралловый блок][Фиолетовый мёртвый коралл|у]
+[Dead Fire Coral Block] = [Красный мёртвый коралл][Огненный мёртвый коралловый блок]
+[Dead Horn Coral Block] = [Жёлтый мёртвый коралл|у][Роговый мёртвый коралловый блок]
+[Spawn Tropical Fish][Tropical Fish Spawn Egg] = [Яйцо призывания рыбы-клоуна][Яйцо призывания тропической рыбы]
+[Brain Coral Fan Revision 1] = [Веер мозгового коралла|у][Веер розового коралла|у][Мозговой веерный коралл]
+[Bubble Coral Fan Revision 1] = [Веер пузырчатого коралла|у][Веер фиолетового коралла|у][Пузырчатый веерный коралл]
+[Fire Coral Fan] = [Веер красного коралла|у][Веер огненного коралла|у][Огненный веерный коралл]
+[Horn Coral Fan Revision 1] = [Веер жёлтого коралла|у][Веер рогового коралла|у][Роговый веерный коралл]
+[Drowned Spawn Egg][Spawn Drowned] = [Яйцо призывания утопленника]
+[Phantom Spawn Egg Revision 1] = [Яйцо призывания фантома (версия 1)]
+[Spawn Turtle][Turtle Spawn Egg] = [Яйцо призывания черепахи]
+[Phantom Membrane] = [Мембрана фантома][Перепонка фантома]
+
+
+
+[Arrow of Slow Falling] = [Стрела медленного падения]
+[Blue Ice] = [Синий лёд]
+[Sea Pickle] = [Морской огурец]
+[Dead Brain Coral Fan Revision 1] = [Мёртвый веер мозгового коралла|у][Мёртвый веер розового коралла|у][Мёртвый мозговой веерный коралл]
+[Dead Bubble Coral Fan Revision 1] = [Мёртвый веер пузырчатого коралла|у][Мёртвый веер пурпурного коралла|у][Мёртвый пузырчатый веерный коралл]
+[Dead Fire Coral Fan Revision 1] = [Мёртвый веер красного коралла|у][Мёртвый веер огненного коралла|у][Мёртвый огненный веерный коралл]
+[Dead Horn Coral Fan Revision 1] = [Мёртвый веер жёлтого коралла|у][Мёртвый веер рогового коралла|у][Мёртвый роговый веерный коралл]
+[Dead Tube Coral Fan Revision 1] = [Мёртвый веер синего коралла|у][Мёртвый веер трубчатого коралла|у][Мёртвый трубчатый веерный коралл]
+[Heart of the Sea] = [Сердце моря]
+[Nautilus Shell] = [Раковина наутилуса]
+[Antidote] = [Противоядие]
+[Bleach] = [Отбеливатель]
+[Bleach (filled)] = [Отбеливатель (наполненный)]
+[Blue Sparkler] = [Синий бенгальский огонь]
+[Blue Sparkler (active)] = [Синий бенгальский огонь (горящий)]
+[Blue Torch] = [Синий факел]
+[Cyanoacrylate][Glue] = [Клей][Цианоакрилат]
+[Elixir] = [Эликсир]
+[Eye Drops] = [Глазные капли]
+[Garbage] = [Мусор]
+[Green Sparkler] = [Зелёный бенгальский огонь]
+[Green Sparkler (active)] = [Зелёный бенгальский огонь (горящий)]
+[Green Torch] = [Зелёный факел]
+[Ice Bomb] = [Ледяная бомба]
+[Orange Sparkler] = [Оранжевый бенгальский огонь]
+[Orange Sparkler (active)] = [Оранжевый бенгальский огонь (горящий)]
+[Purple Sparkler] = [Фиолетовый бенгальский огонь]
+[Purple Sparkler (active)] = [Фиолетовый бенгальский огонь (горящий)]
+[Purple Torch] = [Фиолетовый факел]
+[Red Sparkler] = [Красный бенгальский огонь]
+[Red Sparkler (active)] = [Красный бенгальский огонь (горящий)]
+[Red Torch] = [Красный факел (Education Edition)][Настенный цветной красный факел][Цветной красный факел]
+[Salt] = [Соль]
+[Super Fertilizer] = [Суперудобрение]
+[Tonic] = [Тоник]
+[Underwater Torch] = [Подводный факел]
+[???] = [Неизвестный химический элемент][Неизвестный элемент]
+[Actinium] = [Актиний]
+[Aluminium][Aluminum] = [Алюминий]
+[Americium] = [Америций]
+[Antimony][Stibium] = [Сурьма]
+[Argentum][Silver] = [Серебро]
+[Argon] = [Аргон]
+[Arsenic] = [Мышьяк]
+[Astatine] = [Астат]
+[Aurum][Gold] = [Золото]
+[Barium] = [Барий]
+[Berkelium] = [Берклий]
+[Beryllium] = [Бериллий]
+[Bismuth] = [Висмут]
+[Bohrium] = [Борий]
+[Boron] = [Бор]
+[Bromine] = [Бром]
+[Cadmium] = [Кадмий]
+[Calcium] = [Кальций]
+[Californium] = [Калифорний]
+[Carbon] = [Углерод]
+[Cerium] = [Церий]
+[Caesium][Cesium] = [Цезий]
+[Chlorine] = [Хлор]
+[Chromium] = [Хром]
+[Cobalt] = [Кобальт]
+[Copernicium] = [Коперниций]
+[Copper][Cuprum] = [Медь]
+[Curium] = [Кюрий]
+[Darmstadtium] = [Дармштадтий]
+[Dubnium] = [Дубний]
+[Dysprosium] = [Диспрозий]
+[Einsteinium] = [Эйнштейний]
+[Erbium] = [Эрбий]
+[Europium] = [Европий]
+[Fermium] = [Фермий]
+[Ferrum][Iron] = [Железо]
+[Flerovium] = [Флеровий]
+[Fluorine] = [Фтор]
+[Francium] = [Франций]
+[Gadolinium] = [Гадолиний]
+[Gallium] = [Галлий]
+[Germanium] = [Германий]
+[Hafnium] = [Гафний]
+[Hassium] = [Хассий]
+[Helium] = [Гелий]
+[Holmium] = [Гольмий]
+[Hydrargyrum][Mercury] = [Ртуть]
+[Hydrogen] = [Водород]
+[Indium] = [Индий]
+[Iodine] = [Иод]
+[Iridium] = [Иридий]
+[Kalium][Potassium] = [Калий]
+[Krypton] = [Криптон]
+[Lanthanum] = [Лантан]
+[Lawrencium] = [Лоуренсий]
+[Lead (element)][Plumbum] = [Свинец]
+[Lithium] = [Литий]
+[Livermorium] = [Ливерморий]
+[Lutetium] = [Лютеций]
+[Magnesium] = [Магний]
+[Manganese] = [Марганец]
+[Meitnerium] = [Мейтнерий]
+[Mendelevium] = [Менделевий]
+[Molybdenum] = [Молибден]
+[Moscovium] = [Московий]
+[Natrium][Sodium] = [Натрий]
+[Neodymium] = [Неодим]
+[Neon] = [Неон]
+[Neptunium] = [Нептуний]
+[Nickel] = [Никель]
+[Nihonium] = [Нихоний]
+[Niobium] = [Ниобий]
+[Nitrogen] = [Азот]
+[Nobelium] = [Нобелий]
+[Oganesson] = [Оганесон]
+[Osmium] = [Осмий]
+[Oxygen] = [Кислород]
+[Palladium] = [Палладий]
+[Phosphorus] = [Фосфор]
+[Platinum] = [Платина]
+[Plutonium] = [Плутоний]
+[Polonium] = [Полоний]
+[Praseodymium] = [Празеодим]
+[Promethium] = [Прометий]
+[Protactinium][Protoactinium] = [Протактиний]
+[Radium] = [Радий]
+[Radon] = [Радон]
+[Rhenium] = [Рений]
+[Rhodium] = [Родий]
+[Roentgenium] = [Рентгений]
+[Rubidium] = [Рубидий]
+[Ruthenium] = [Рутений]
+[Rutherfordium] = [Резерфордий]
+[Samarium] = [Самарий]
+[Scandium] = [Скандий]
+[Seaborgium] = [Сиборгий]
+[Selenium] = [Селен]
+[Silicon] = [Кремний]
+[Stannum][Tin] = [Олово]
+[Strontium] = [Стронций]
+[Sulfur] = [Сера]
+[Tantalum] = [Тантал]
+[Technetium] = [Технеций]
+[Tellurium] = [Теллур]
+[Tennessine] = [Теннессин]
+[Terbium] = [Тербий]
+[Thallium] = [Таллий]
+[Thorium] = [Торий]
+[Thulium] = [Тулий]
+[Titanium] = [Титан]
+[Tungsten][Wolfram] = [Вольфрам]
+[Uranium] = [Уран]
+[Vanadium] = [Ванадий]
+[Xenon] = [Ксенон]
+[Ytterbium] = [Иттербий]
+[Yttrium] = [Иттрий]
+[Zinc] = [Цинк]
+[Zirconium] = [Цирконий]
+[Ammonia][Beaker][Hydrogen Peroxide][Sodium Hypochlorite] = [Аммиак][Гипохлорит натрия][Мензурка][Пероксид водорода]
+[Benzene][Potassium Iodide][Yellow Beaker] = [Бензол][Жёлтая мензурка][Иодид калия]
+[Black Beaker][Crude Oil] = [Сырая нефть][Чёрная мензурка]
+[Blue Beaker][Water (compound)] = [Вода (вещество)][Синяя мензурка]
+[Brown Beaker] = [Коричневая мензурка]
+[Dark Gray Beaker] = [Тёмно-серая мензурка]
+[Green Beaker] = [Зелёная мензурка]
+[Indigo Beaker] = [Мензурка цвета индиго]
+[Latex][Sodium Fluoride][White Beaker] = [Белая мензурка][Каучук][Фторид натрия]
+[Light Gray Beaker] = [Светло-серая мензурка]
+[Orange Beaker] = [Оранжевая мензурка]
+[Purple Beaker] = [Фиолетовая мензурка]
+[Red Beaker] = [Красная мензурка]
+[Black Flask] = [Чёрная бутыль]
+[Blue Flask] = [Синяя бутыль]
+[Brown Flask] = [Коричневая бутыль]
+[Dark Gray Flask] = [Тёмно-серая бутыль]
+[Flask] = [Бутыль]
+[White Flask] = [Белая бутыль]
+[Green Flask] = [Зелёная бутыль]
+[Indigo Flask] = [Бутыль цвета индиго]
+[Light Gray Flask] = [Светло-серая бутыль]
+[Orange Flask] = [Оранжевая бутыль]
+[Purple Flask] = [Фиолетовая бутыль]
+[Red Flask] = [Красная бутыль]
+[Yellow Flask] = [Жёлтая бутыль]
+[Barium Sulfate][Boron Trioxide][Calcium Bromide][Calcium Chloride][Cerium Chloride][Lithium Hydride][Lye][Magnesium Oxide][Mercuric Chloride][Potassium Chloride][Soap][Sodium Acetate][Sodium Oxide][Sulfate][White Jar] = [Ацетат натрия][Белая банка][Бромид кальция][Гидрид лития][Мыло][Оксид бора][Оксид магния][Оксид натрия][Сульфат][Сульфат бария][Триоксид бора][Хлорид калия][Хлорид кальция][Хлорид ртути][Хлорид церия][Щёлок]
+[Black Jar][Iron Sulfide] = [Сульфид железа][Чёрная банка]
+[Blue Jar][Tungsten Chloride] = [Синяя банка][Хлорид вольфрама]
+[Aluminum Oxide][Brown Jar] = [Коричневая банка][Оксид алюминия]
+[Dark Gray Jar] = [Тёмно-серая банка]
+[Green Jar] = [Зелёная банка]
+[Indigo Jar] = [Банка цвета индиго]
+[Jar][Luminol][Polyethylene] = [Банка][Люминол][Полиэтилен]
+[Light Gray Jar][Sodium Hydride] = [Гидрид натрия][Светло-серая банка]
+[Magnesium Nitrate][Yellow Jar] = [Жёлтая банка][Нитрат магния]
+[Orange Jar] = [Оранжевая банка]
+[Purple Jar] = [Фиолетовая банка]
+[Red Jar] = [Красная банка]
+[Black Balloon] = [Чёрный воздушный шар]
+[Blue Balloon] = [Синий воздушный шар]
+[Brown Balloon] = [Коричневый воздушный шар]
+[Compound Creator] = [Создатель соединений]
+[Cyan Balloon] = [Бирюзовый воздушный шар]
+[Element Constructor] = [Конструктор элементов]
+[Gray Balloon] = [Серый воздушный шар]
+[Green Balloon] = [Зелёный воздушный шар]
+[Lab Table] = [Лабораторный стол]
+[Light Blue Balloon] = [Светло-синий воздушный шар]
+[Lime Balloon] = [Лаймовый воздушный шар]
+[Magenta Balloon] = [Сиреневый воздушный шар]
+[Material Reducer] = [Редуктор материала]
+[Orange Balloon] = [Оранжевый воздушный шар]
+[Pink Balloon] = [Розовый воздушный шар]
+[Purple Balloon] = [Фиолетовый воздушный шар]
+[Red Balloon] = [Красный воздушный шар]
+[Light Gray Balloon][Silver Balloon] = [Светло-серый воздушный шар][Серебристый воздушный шар]
+[Underwater TNT] = [Подводный ТНТ]
+[White Balloon] = [Белый воздушный шар]
+[Yellow Balloon] = [Жёлтый воздушный шар]
+[Camera] = [Камера]
+[Hardened Black Stained Glass] = [Закалённое чёрное окрашенное стекло][Укреплённое чёрное окрашенное стекло]
+[Hardened Blue Stained Glass] = [Закалённое синее окрашенное стекло][Укреплённое синее окрашенное стекло]
+[Hardened Brown Stained Glass] = [Закалённое коричневое окрашенное стекло][Укреплённое коричневое окрашенное стекло]
+[Hardened Cyan Stained Glass] = [Закалённое бирюзовое окрашенное стекло][Укреплённое бирюзовое окрашенное стекло]
+[Hardened Glass] = [Закалённое стекло][Укреплённое стекло]
+[Hardened Gray Stained Glass] = [Закалённое серое окрашенное стекло][Укреплённое серое окрашенное стекло]
+[Hardened Green Stained Glass] = [Закалённое зелёное окрашенное стекло][Укреплённое зелёное окрашенное стекло]
+[Hardened Light Blue Stained Glass] = [Закалённое светло-синее окрашенное стекло][Укреплённое светло-синее окрашенное стекло]
+[Hardened Light Gray Stained Glass] = [Закалённое светло-серое окрашенное стекло][Укреплённое светло-серое окрашенное стекло]
+[Hardened Lime Stained Glass] = [Закалённое лаймовое окрашенное стекло][Укреплённое лаймовое окрашенное стекло]
+[Hardened Magenta Stained Glass] = [Закалённое сиреневое окрашенное стекло][Укреплённое сиреневое окрашенное стекло]
+[Hardened Orange Stained Glass] = [Закалённое оранжевое окрашенное стекло][Укреплённое оранжевое окрашенное стекло]
+[Hardened Pink Stained Glass] = [Закалённое розовое окрашенное стекло][Укреплённое розовое окрашенное стекло]
+[Hardened Purple Stained Glass] = [Закалённое фиолетовое окрашенное стекло][Укреплённое фиолетовое окрашенное стекло]
+[Hardened Red Stained Glass] = [Закалённое красное окрашенное стекло][Укреплённое красное окрашенное стекло]
+[Hardened White Stained Glass] = [Закалённое белое окрашенное стекло][Укреплённое белое окрашенное стекло]
+[Hardened Yellow Stained Glass] = [Закалённое жёлтое окрашенное стекло][Укреплённое жёлтое окрашенное стекло]
+[Dolphin Spawn Egg][Spawn Dolphin] = [Призвать дельфина][Яйцо призывания дельфина]
+[Cod Spawn Egg Revision 1] = [Яйцо призывания трески (версия 1)]
+[Pufferfish Spawn Egg Revision 1] = [Яйцо призывания иглобрюха (версия 1)]
+[Salmon Spawn Egg Revision 1] = [Яйцо призывания лосося (версия 1)]
+[Tropical Fish Spawn Egg Revision 1] = [Яйцо призывания тропической рыбы (версия 1)]
+[Turtle Egg] = [Черепашье яйцо]
+[Horn Coral Block BE] = [Блок рогового коралла BE]
+[Phantom Spawn Egg][Spawn Phantom] = [Призвать фантома][Яйцо призывания фантома]
+[Heart of the Sea Revision 1] = [Сердце моря (версия 1)]
+[Kelp Revision 1] = [Ламинария (версия 1)]
+[Blue Glow Stick] = [Синий химический источник света]
+[Brown Glow Stick] = [Коричневый химический источник света]
+[Cyan Glow Stick] = [Бирюзовый химический источник света]
+[Gray Glow Stick] = [Светло-серый химический источник света][Серый химический источник света][Чёрный химический источник света]
+[Green Glow Stick] = [Зелёный химический источник света]
+[Hardened Black Stained Glass Pane] = [Укреплённая чёрная окрашенная стеклянная панель]
+[Hardened Blue Stained Glass Pane] = [Укреплённая синяя окрашенная стеклянная панель]
+[Hardened Brown Stained Glass Pane] = [Укреплённая коричневая окрашенная стеклянная панель]
+[Hardened Cyan Stained Glass Pane] = [Укреплённая бирюзовая окрашенная стеклянная панель]
+[Hardened Glass Pane] = [Укреплённая стеклянная панель]
+[Hardened Gray Stained Glass Pane] = [Укреплённая серая окрашенная стеклянная панель]
+[Hardened Green Stained Glass Pane] = [Укреплённая зелёная окрашенная стеклянная панель]
+[Hardened Light Blue Stained Glass Pane] = [Закалённая светло-синяя окрашенная стеклянная панель][Укреплённая светло-синяя окрашенная стеклянная панель]
+[Hardened Light Gray Stained Glass Pane] = [Закалённая светло-серая окрашенная стеклянная панель][Укреплённая светло-серая окрашенная стеклянная панель]
+[Hardened Lime Stained Glass Pane] = [Закалённая лаймовая окрашенная стеклянная панель][Укреплённая лаймовая окрашенная стеклянная панель]
+[Hardened Magenta Stained Glass Pane] = [Закалённая сиреневая окрашенная стеклянная панель][Укреплённая сиреневая окрашенная стеклянная панель]
+[Hardened Orange Stained Glass Pane] = [Закалённая оранжевая окрашенная стеклянная панель][Укреплённая оранжевая окрашенная стеклянная панель]
+[Hardened Pink Stained Glass Pane] = [Закалённая розовая окрашенная стеклянная панель][Укреплённая розовая окрашенная стеклянная панель]
+[Hardened Purple Stained Glass Pane] = [Закалённая фиолетовая окрашенная стеклянная панель][Укреплённая фиолетовая окрашенная стеклянная панель]
+[Hardened Red Stained Glass Pane] = [Закалённая красная окрашенная стеклянная панель][Укреплённая красная окрашенная стеклянная панель]
+[Hardened White Stained Glass Pane] = [Закалённая белая окрашенная стеклянная панель][Укреплённая белая окрашенная стеклянная панель]
+[Hardened Yellow Stained Glass Pane] = [Закалённая жёлтая окрашенная стеклянная панель][Укреплённая жёлтая окрашенная стеклянная панель]
+[Light Blue Glow Stick] = [Светло-синий химический источник света]
+[Lime Glow Stick] = [Лаймовый химический источник света]
+[Magenta Glow Stick] = [Сиреневый химический источник света]
+[Orange Glow Stick] = [Оранжевый химический источник света]
+[Pink Glow Stick] = [Розовый химический источник света]
+[Purple Glow Stick] = [Фиолетовый химический источник света]
+[Red Glow Stick] = [Красный химический источник света]
+[White Glow Stick] = [Белый химический источник света]
+[Yellow Glow Stick] = [Жёлтый химический источник света]
+[Black Stained Glass Pane BE] = [Чёрная окрашенная стеклянная панель BE]
+[Blue Stained Glass Pane BE] = [Синяя окрашенная стеклянная панель BE]
+[Brown Stained Glass Pane BE] = [Коричневая окрашенная стеклянная панель BE]
+[Cyan Stained Glass Pane BE] = [Бирюзовая окрашенная стеклянная панель BE]
+[Gray Stained Glass Pane BE] = [Серая окрашенная стеклянная панель BE]
+[Green Stained Glass Pane BE] = [Зелёная окрашенная стеклянная панель BE]
+[Light Blue Stained Glass Pane BE] = [Светло-синяя окрашенная стеклянная панель BE]
+[Light Gray Stained Glass Pane BE] = [Светло-серая окрашенная стеклянная панель BE]
+[Lime Stained Glass Pane BE] = [Лаймовая окрашенная стеклянная панель BE]
+[Magenta Stained Glass Pane BE] = [Сиреневая окрашенная стеклянная панель BE]
+[Orange Stained Glass Pane BE] = [Оранжевая окрашенная стеклянная панель BE]
+[Pink Stained Glass Pane BE] = [Розовая окрашенная стеклянная панель BE]
+[Purple Stained Glass Pane BE] = [Фиолетовая окрашенная стеклянная панель BE]
+[Red Stained Glass Pane BE] = [Красная окрашенная стеклянная панель BE]
+[White Stained Glass Pane BE] = [Белая окрашенная стеклянная панель BE]
+[Yellow Stained Glass Pane BE] = [Жёлтая окрашенная стеклянная панель BE]
+[Cobblestone Wall BE] = [Булыжниковая стена BE]
+[Glass Pane BE] = [Стеклянная панель BE]
+[Iron Bars BE] = [Железная решётка BE]
+[Mossy Cobblestone Wall BE] = [Замшелая булыжниковая стена BE]
+[Bucket of Tropical Fish] = [Ведро с тропической рыбой]
+[Seagrass] = [Водоросли][Морская трава]
+[Arrow of the Turtle Master] = [Стрела черепашьего мастера][Стрела черепашьей мощи]
+ = [Булыжниковые ступени (версия 1)]
+ = [Дубовые ступени (версия 1)]
+[Conduit] = [Морской проводник]
+[Apple Revision 1] = [Яблоко (версия 1)]
+[Bread Revision 1] = [Хлеб (версия 1)]
+ = [Жареная курятина (версия 1)]
+ = [Жареная свинина (версия 2)]
+ = [Сырая говядина (версия 1)]
+ = [Сырая курятина (версия 1)]
+ = [Сырая свинина (версия 1)]
+ = [Жареная говядина (версия 1)][Жареная свинина (версия 1)]
+[Banner Revision 1] = [Флаг (версия 1)]
+ = [Жареная курятина (версия 0)]
+ = [Жареная баранина (версия 1)]
+ = [Жареная крольчатина (версия 1)]
+ = [Перо (версия 1)]
+ = [Огниво (версия 1)]
+ = [Огниво (версия 2)]
+ = [Железный топор (версия 1)]
+ = [Железный топор (версия 2)]
+ = [Рамка (версия 0)]
+ = [Раковина наутилуса (версия 1)]
+ = [Звезда Нижнего мира (версия 1)]
+ = [Сырая баранина (версия 1)]
+ = [Сырая крольчатина (версия 1)]
+ = [Акациевая дверь (версия 1)]
+ = [Акациевая дверь (версия 2)]
+ = [Берёзовая дверь (версия 1)]
+ = [Берёзовая дверь (версия 2)]
+ = [Дверь из тёмного дуба (версия 1)]
+ = [Дверь из тёмного дуба (версия 2)]
+ = [Железная дверь (версия 1)]
+ = [Джунглевая дверь (версия 1)]
+ = [Джунглевая дверь (версия 2)]
+ = [Дубовая дверь (версия 1)]
+ = [Дубовая дверь (версия 2)]
+ = [Сосновая дверь (версия 1)]
+ = [Сосновая дверь (версия 2)]
+[Baked Potato Revision 1] = [Печёный картофель (версия 1)]
+ = [Морковь (версия 1)]
+ = [Уголь (версия 1)]
+ = [Какао-бобы (версия 1)]
+ = [Золотая морковь (версия 1)]
+ = [Золотая морковь (версия 2)]
+[Heavy Weighted Pressure Plate Revision 1] = [Тяжёлая утяжелённая нажимная пластина (версия 1)]
+[Leather Boots Revision 1] = [Кожаные ботинки (версия 1)]
+[Leather Boots Revision 2] = [Кожаные ботинки (версия 2)]
+[Leather Cap Revision 1] = [Кожаная шапка (версия 1)]
+[Leather Cap Revision 2] = [Кожаная шапка (версия 2)]
+[Leather Pants Revision 1] = [Кожаные штаны (версия 1)]
+[Leather Pants Revision 2] = [Кожаные штаны (версия 2)]
+[Leather Tunic Revision 1] = [Кожаная куртка (версия 1)]
+[Leather Tunic Revision 2] = [Кожаная куртка (версия 2)]
+[Light Weighted Pressure Plate Revision 1] = [Лёгкая утяжелённая нажимная пластина (версия 1)]
+ = [Вагонетка (версия 1)]
+[Oak Pressure Plate Revision 1] = [Дубовая нажимная пластина (версия 1)]
+[Bucket of Pufferfish BE] = [Ведро с иглобрюхом BE]
+[Quiver] = [Колчан][Колчан стрел]
+ = [Кроличья шкура (версия 1)]
+ = [Кроличья лапка (версия 1)]
+[Stone Pressure Plate Revision 1] = [Каменная нажимная пластина (версия 1)]
+[Torch Revision 1] = [Факел (версия 1)]
+
+
+
+
+ = [Пустая ячейка для огненного порошка в варочной стойке]
+
+[Stripped Oak Wood] = [Обтёсанное дубовое бревно]
+[Stripped Spruce Wood] = [Обтёсанное сосновое бревно]
+[Stripped Birch Wood] = [Обтёсанное берёзовое бревно]
+[Stripped Jungle Wood] = [Обтёсанное джунглевое бревно]
+[Stripped Acacia Wood] = [Обтёсанное акациевое бревно]
+[Stripped Dark Oak Wood] = [Обтёсанное тёмнодубовое бревно]
+ = [Требуется топор]
+ = [Пустая ячейка для зелья в варочной стойке]
+ = [Требуется ведро]
+ = [Пустая ячейка для ковра]
+ = [Пустая ячейка для лазурита в столе зачаровывания]
+ = [Пустая ячейка для конской брони]
+
+ = [Пустая ячейка для седла]
+ = [Требуется мотыга]
+ = [Требуется кирка]
+ = [Требуется лопата]
+ = [Требуется меч]
+[Etho Slab] = [Etho Slab][ТНТ плита]
+ = [Блок железной двери]
+[Lava Block] = [Блок лавы]
+ = [Блок дубовой двери]
+ = [Головка поршня]
+ = [Активированный компаратор]
+ = [Активированный повторитель]
+ = [Висящая табличка][Стоящая табличка]
+ = [Неактивный компаратор]
+ = [Неактивный повторитель]
+[Water Block] = [Блок воды]
+ = [Портал Края (версия 1)]
+[Flowing Lava][Lava] = [Лава][Лава поток][Текущая лава]
+[Flowing Lava BE][Lava BE] = [Лава BE][Текущая лава BE]
+ = [Блок кровати]
+[Brain Coral Fan] = [Веерный мозговой коралл]
+[Bubble Coral Fan] = [Веерный пузырчатый коралл]
+[Horn Coral Fan] = [Веерный роговый коралл]
+[Tube Coral Fan] = [Веерный трубчатый коралл]
+[Brain Coral Fan Revision 2] = [Веерный мозговой коралл (версия 2)]
+[Bubble Coral Fan Revision 2] = [Веерный пузырчатый коралл (версия 2)]
+[Adult Carrots] = [Выросшая морковь]
+[Fire Coral Fan Revision 1] = [Веерный огненный коралл (версия 1)]
+[Fire Coral Revision 1] = [Огненный коралл (версия 1)]
+[Horn Coral Fan Revision 2] = [Веерный роговый коралл (версия 2)]
+[Adult Potatoes] = [Выросший картофель]
+[Tube Coral Fan Revision 2] = [Веерный трубчатый коралл (версия 2)]
+[Adult Wheat Crops] = [Выросшая пшеница]
+[Beetroots] = [Свёкла (растение)]
+[Dead Brain Coral Fan] = [Мёртвый веерный мозговой коралл]
+[Dead Bubble Coral Fan] = [Мёртвый веерный пузырчатый коралл]
+[Dead Fire Coral Fan] = [Мёртвый веерный огненный коралл]
+[Dead Horn Coral Fan] = [Мёртвый веерный роговый коралл]
+[Dead Tube Coral Fan] = [Мёртвый веерный трубчатый коралл]
+[Invisible Bedrock] = [Невидимая коренная порода]
+ = [Блок варочной стойки]
+ = [Блок торта]
+ = [Картофель (растение)][Морковь (растение)]
+ = [Блок котла]
+ = [Какао-бобы (блок)]
+ = [Огонь]
+ = [Блок цветочного горшка]
+ = [Горящая печь]
+ = [Горящая лампа]
+ = [Стебель арбуза][Стебель тыквы]
+[Nether Portal] = [Портал Нижнего мира][Портал нижнего мира][Портал нижнего мира до texture update]
+[Cactus BE] = [Кактус PE]
+ = [Красный провод]
+ = [Блок тростника]
+ = [Растяжка]
+ = [Пшеница (растение)]
+[Compass Revision 1] = [Компас (версия 1)]
+[Clock Revision 1] = [Часы (версия 1)]
+[Adult Nether Warts] = [Выросший адский нарост]
+[Lit Redstone Ore] = [Горящая красная руда]
+[Studded Boots] = [Кожано-кольчужные ботинки]
+[Studded Chestplate] = [Кожано-кольчужная кираса][Кожано-кольчужная куртка]
+[Studded Helmet] = [Кожано-кольчужная шапка][Кожано-кольчужный шлем]
+[Studded Leggings] = [Кожано-кольчужные поножи]
+ = [Берёзовые доски до поворота]
+ = [Джуглевые доски до поворота]
+ = [Дубовые доски до поворота]
+ = [Еловые доски до поворота]
+ = [Коренная порода до поворота]
+ = [Берёзовое бревно до поворота]
+ = [Алмазный блок до поворота]
+ = [Золотой блок до поворота]
+ = [Блок железа до поворота]
+ = [Книжная полка до поворота]
+ = [Кирпичная плита до поворота]
+ = [Кирпичи до поворота]
+ = [Резные каменные кирпичи до поворота]
+ = [Глиняный блок до поворота]
+ = [Булыжниковая плита до поворота]
+ = [Земля до поворота]
+ = [Стекло до поворота]
+ = [Дёрн до поворота]
+ = [Гравий до поворота]
+ = [Светильник Джека до поворота]
+ = [Джунглевое бревно до поворота]
+ = [Лазуритовый блок до поворота]
+ = [Спаунер мобов до поворота]
+ = [Замшелый булыжник до поворота]
+ = [Замшелые каменные кирпичи до поворота]
+ = [Дубовое бревно до поворота]
+ = [Дубовая нажимная пластина до поворота]
+ = [Дубовая плита до поворота]
+ = [Обсидиан до поворота]
+ = [Песок до поворота]
+ = [Песчаник до поворота]
+ = [Песчаниковая плита до поворота]
+ = [Снег до поворота]
+ = [Сосновое бревно до поворота]
+ = [Плита из каменного кирпича до поворота]
+ = [Камень до поворота]
+ = [Каменная нажимная пластина до поворота]
+ = [Каменная плита до поворота]
+ = [Дубовый люк до поворота]
+ = [Булыжниковые ступени (версия 2)]
+ = [Дубовые ступени (версия 2)]
+ = [Угольная руда до поворота]
+ = [Верстак до поворота]
+ = [Алмазная руда до поворота]
+ = [Раздатчик до поворота]
+ = [Изумрудная руда до поворота]
+ = [Стол зачаровывания до поворота]
+ = [Печь до поворота]
+ = [Светокамень до поворота]
+ = [Золотая руда до поворота]
+ = [Железная руда до поворота]
+ = [Проигрыватель до поворота]
+ = [Лазуритовая руда до поворота]
+ = [Арбуз до поворота]
+ = [Адские кирпичи до поворота]
+ = [Адский камень до поворота]
+ = [Музыкальный блок до поворота]
+ = [Дубовые листья до поворота]
+ = [Красная руда до поворота]
+ = [Песок душ до поворота]
+ = [Губка до поворота]
+ = [ТНТ до поворота]
+[Birch Log Revision 1] = [Берёзовое бревно (версия 1)]
+[Dispenser Revision 1] = [Раздатчик (версия 1)]
+[Jungle Log Revision 1] = [Джунглевое бревно (версия 1)]
+[Lapis Lazuli Block Revision 1] = [Лазуритовый блок (версия 1)]
+[Ruby Ore] = [Рубиновая руда]
+[Sponge Revision 1] = [Губка (версия 1)]
+[Spruce Log Revision 1] = [Сосновое бревно (версия 1)]
+ = [Булыжниковые ступени (версия 3)]
+ = [Дубовые ступени (версия 3)]
+ = [Резной песчаник до поворота]
+ = [Берёзовая плита до поворота]
+ = [Гладкий песчаник до поворота]
+ = [Оригинальный мицелий]
+ = [Лёд до поворота]
+ = [Джунглевая плита до поворота]
+ = [Поршень до поворота]
+ = [Сосновая плита до поворота]
+ = [Липкий поршень до поворота]
+[Birch Stairs Left] = [Берёзовые ступени влево]
+[Brick Stairs Left] = [Кирпичные ступени влево]
+[Cobblestone Stairs Left] = [Булыжниковые ступени влево]
+[Jungle Stairs Left] = [Джунглевые ступени влево]
+[Nether Brick Stairs Left] = [Ступени из адского кирпича влево]
+[Oak Stairs Left] = [Дубовые ступени влево]
+[Sandstone Stairs Left] = [Песчаниковые ступени влево]
+[Spruce Stairs Left] = [Сосновые ступени влево]
+[Stone Brick Stairs Left] = [Ступени из каменного кирпича влево]
+ = [Коренная порода до освещения]
+ = [Берёзовое бревно до освещения]
+ = [Алмазный блок до освещения]
+ = [Золотой блок до освещения]
+ = [Железный блок до освещения]
+ = [Книжный шкаф до освещения]
+ = [Кирпичи до освещения]
+ = [Глиняный блок до освещения]
+ = [Угольная руда до освещения]
+ = [Булыжник до освещения]
+ = [Булыжниковая плита до освещения]
+ = [Верстак до освещения]
+ = [Алмазная руда до освещения]
+ = [Земля до освещения]
+ = [Раздатчик до освещения]
+ = [Печь до освещения]
+ = [Стекло до освещения]
+ = [Светокамень до освещения]
+ = [Золотая руда до освещения]
+ = [Гравий до освещения]
+ = [Железная руда до освещения]
+ = [Светильник Джека до освещения]
+ = [Проигрыватель до освещения]
+ = [Лазуритовый блок до освещения]
+ = [Лазуритовая руда до освещения]
+ = [Спаунер мобов до освещения]
+ = [Замшелый булыжник до освещения]
+ = [Адский камень до освещения]
+ = [Музыкальный блок до освещения]
+ = [Дубовая листва до освещения]
+ = [Дубовое бревно до освещения]
+ = [Дубовые доски до освещения]
+ = [Дубовая нажимная пластина до освещения]
+ = [Дубовая плита до освещения]
+ = [Обсидиан до освещения]
+ = [Красная руда до освещения]
+ = [Песок до освещения]
+ = [Песчаник до освещения]
+ = [Песчаниковая плита до освещения]
+ = [Снег до освещения]
+ = [Песок душ до освещения]
+ = [Губка до освещения]
+ = [Сосновое бревно до освещения]
+ = [Камень до освещения]
+ = [Каменная нажимная пластина до освещения]
+ = [Каменная плита до освещения]
+ = [ТНТ до освещения]
+[Grass Block Revision 1] = [Трава (версия 1)]
+ = [Коренная порода после освещения]
+ = [Берёзовое бревно после освещения]
+ = [Алмазный блок после освещения]
+ = [Золотой блок после освещения]
+ = [Железный блок после освещения]
+ = [Книжный шкаф после освещения]
+ = [Кирпичи после освещения]
+ = [Глиняный блок после освещения]
+ = [Угольная руда после освещения]
+ = [Булыжник после освещения]
+ = [Булыжниковая плита после освещения]
+ = [Верстак после освещения]
+ = [Алмазная руда после освещения]
+ = [Земля после освещения]
+ = [Раздатчик после освещения]
+ = [Печь после освещения]
+ = [Стекло после освещения]
+ = [Светокамень после освещения]
+ = [Золотая руда после освещения]
+ = [Гравий после освещения]
+ = [Железная руда после освещения]
+ = [Светильник Джека после освещения]
+ = [Проигрыватель после освещения]
+ = [Лазуритовый блок после освещения]
+ = [Лазуритовая руда после освещения]
+ = [Спаунер мобов после освещения]
+ = [Замшелый булыжник после освещения]
+ = [Адский камень после освещения]
+ = [Музыкальный блок после освещения]
+ = [Дубовое бревно после освещения]
+ = [Дубовые доски после освещения]
+ = [Дубовая нажимная пластина после освещения]
+ = [Дубовая плита после освещения]
+ = [Обсидиан после освещения]
+ = [Красная руда после освещения]
+ = [Песок после освещения]
+ = [Песчаник после освещения]
+ = [Песчаниковая плита после освещения]
+ = [Снег после освещения]
+ = [Песок душ после освещения]
+ = [Губка после освещения]
+ = [Сосновое бревно после освещения]
+ = [Камень после освещения]
+ = [Каменная нажимная пластина после освещения]
+ = [Каменная плита после освещения]
+ = [ТНТ после освещения]
+[Grass Block Revision 2] = [Трава (версия 2)]
+ = [Дубовые листья после освещения]
+[Blank Spawn Egg][Spawn Egg] = [Пустое яйцо призывания][Яйцо призывания]
+ = [Булыжник до поворота]
+[Air][Cave Air][Void Air] = [Воздух][Воздух в пустоте][Пещерный воздух][Пустотный воздух]
+[Bubble Column] = [Столб пузырей]
+
+
+[Dead Tube Coral] = [Мёртвый трубчатый коралл]
+[Dead Brain Coral] = [Мёртвый мозговой коралл]
+[Dead Bubble Coral] = [Мёртвый пузырчатый коралл]
+[Dead Fire Coral] = [Мёртвый огненный коралл]
+[Dead Horn Coral] = [Мёртвый роговый коралл]
+[Ender Chest BE] = [Сундук Края BE]
+[Bamboo] = [Бамбук]
+[Spawn Panda][Spawn Panda BE] = [Призвать панду][Призвать панду BE]
+[Black Dye] = [Чёрный краситель]
+[Blue Dye] = [Синий краситель]
+[Brown Dye] = [Коричневый краситель]
+[White Dye] = [Белый краситель]
+[Spawn Agent] = [Призвать агента][Яйцо призывания агента]
+[Spawn Cat][Spawn Cat BE] = [Призвать кошку][Призвать кошку BE]
+[Spawn Mask] = [Призвать маску]
+[Crossbow] = [Арбалет]
+[Arrow Loaded Crossbow] = [Арбалет со стрелой]
+[Damaged Arrow Loaded Crossbow] = [Повреждённый арбалет со стрелой]
+[Damaged Crossbow] = [Повреждённый арбалет]
+[Damaged Firework Loaded Crossbow] = [Повреждённый арбалет с ракетой][Повреждённый арбалет с фейерверком]
+[Firework Loaded Crossbow] = [Арбалет с ракетой][Арбалет с фейерверком]
+[Wither Rose] = [Роза иссушения]
+[Cornflower] = [Василёк]
+[Lily of the Valley] = [Ландыш]
+[Banner Pattern] = [Узор флага][Шаблон для флага]
+
+[Birch Sign] = [Берёзовая табличка]
+[Spruce Sign] = [Еловая табличка][Сосновая табличка]
+[Jungle Sign] = [Джунглевая табличка][Джунглиевая табличка][Табличка из тропического дерева]
+[Acacia Sign] = [Акациевая табличка]
+[Dark Oak Sign] = [Табличка из тёмного дуба]
+[Suspicious Stew] = [Подозрительный суп]
+
+
+[End Stone Brick Wall] = [Стена из каменного кирпича Края][Стена из кирпича Края]
+[Granite Wall] = [Гранитная стена]
+
+
+
+
+
+
+[Bell] = [Висящий колокол][Колокол]
+[Cat Spawn Egg] = [Яйцо призывания кошки]
+[Ravager Spawn Egg][Spawn Ravager] = [Призвать разорителя][Яйцо призывания разорителя][Яйцо призывания чудища разбойника]
+[Panda Spawn Egg] = [Яйцо призывания панды]
+[Pillager Spawn Egg][Spawn Pillager] = [Призвать разбойника][Яйцо призывания разбойника]
+[Scaffolding] = [Леса][Строительные леса]
+
+
+
+[End Stone Brick Slab] = [Плита из каменного кирпича Края][Плита из кирпича Края]
+[End Stone Brick Stairs] = [Ступени из каменного кирпича Края][Ступени из кирпича Края]
+[Granite Slab] = [Гранитная плита]
+[Granite Stairs] = [Гранитные ступени]
+
+
+
+
+
+
+
+
+[Polished Granite Slab] = [Плита из полированного гранита]
+[Polished Granite Stairs] = [Ступени из полированного гранита]
+
+
+[Lectern Revision 1] = [Кафедра (версия 1)]
+[Barrel] = [Бочка]
+
+
+
+
+
+
+[Blast Furnace] = [Доменная печь][Плавильная печь]
+[Cartography Table Revision 1] = [Стол картографа (версия 1)]
+[Fletching Table Revision 1] = [Стол лучника (версия 1)]
+[Grindstone Revision 1] = [Точило (версия 1)]
+[Loom] = [Ткацкий станок]
+[Smithing Table Revision 1] = [Кузнечный стол (версия 1)]
+[Smoker] = [Коптильня]
+[Stonecutter Revision 1] = [Резак (версия 1)]
+[Jigsaw Block Revision 1][Jigsaw Revision 1] =
+[Lantern] = [Фонарь]
+[Cartography Table] = [Стол картографа]
+[Fletching Table] = [Стол лучника]
+[Smithing Table] = [Кузнечный стол]
+ = [Камнерез][Резак]
+[Damaged Turtle Shell] = [Повреждённый черепаший панцирь]
+[Sweet Berries] = [Куст сладких ягод][Сладкие ягоды]
+[Jigsaw Block Revision 2][Jigsaw Revision 2] = [Блок-пазл][Пазл]
+[Campfire] = [Костёр]
+[Composter] = [Компостер]
+[Grindstone] = [Точило]
+[Spawn Trader Llama][Trader Llama Spawn Egg] = [Призвать ламу торговца][Яйцо призывания ламы торговца]
+[Spawn Wandering Trader][Wandering Trader Spawn Egg] = [Призвать бродячего торговца][Яйцо призывания бродячего торговца][Яйцо призывания странствующего торговца]
+[Fox Spawn Egg][Spawn Fox] = [Призвать лису][Яйцо призывания лисы]
+[Horse Saddle] = [Конское седло]
+[Cut Red Sandstone Slab] = [Плита из резного красного песчаника]
+[Cut Sandstone Slab] = [Плита из резного песчаника]
+[Ominous Banner] = [Зловещий флаг][Флаг разбойников]
+[Black Shield] = [Чёрный щит]
+[Blue Shield] = [Синий щит]
+[Broken Elytra] = [Сломанные надкрылья][Сломанные элитры]
+[Brown Shield] = [Коричневый щит]
+[Chainmail Boots] = [Кольчужные ботинки]
+[Chainmail Chestplate] = [Кольчуга][Кольчужная кираса]
+[Chainmail Helmet] = [Койф][Кольчужный шлем]
+[Chainmail Leggings] = [Кольчужные поножи]
+[Cyan Shield] = [Бирюзовый щит]
+[Damaged Chainmail Boots] = [Повреждённые кольчужные ботинки]
+[Damaged Chainmail Chestplate] = [Повреждённая кольчуга][Повреждённая кольчужная кираса]
+[Damaged Chainmail Helmet] = [Повреждённый койф][Повреждённый кольчужный шлем]
+[Damaged Chainmail Leggings] = [Повреждённые кольчужные поножи]
+[Damaged Diamond Boots] = [Повреждённые алмазные ботинки]
+[Damaged Diamond Chestplate] = [Повреждённая алмазная кираса][Повреждённый алмазный нагрудник]
+[Damaged Diamond Helmet] = [Повреждённый алмазный шлем]
+[Damaged Diamond Leggings] = [Повреждённые алмазные поножи]
+[Damaged Elytra] = [Повреждённые надкрылья][Повреждённые элитры]
+[Damaged Golden Boots] = [Повреждённые золотые ботинки]
+[Damaged Golden Chestplate] = [Повреждённая золотая кираса][Повреждённый золотой нагрудник]
+[Damaged Golden Helmet] = [Повреждённый золотой шлем]
+[Damaged Golden Leggings] = [Повреждённые золотые поножи]
+[Damaged Iron Boots] = [Повреждённые железные ботинки]
+[Damaged Iron Chestplate] = [Повреждённая железная кираса][Повреждённый железный нагрудник]
+[Damaged Iron Helmet] = [Повреждённый железный шлем]
+[Damaged Iron Leggings] = [Повреждённые железные поножи]
+[Damaged Leather Boots] = [Повреждённые кожаные ботинки]
+[Damaged Leather Cap] = [Повреждённый кожаный шлем]
+[Damaged Leather Pants] = [Повреждённые кожаные поножи][Повреждённые кожаные штаны]
+[Damaged Leather Tunic] = [Повреждённая кожаная кираса][Повреждённая кожаная куртка]
+[Damaged Shield] = [Повреждённый щит]
+[Diamond Boots] = [Алмазные ботинки]
+[Diamond Chestplate] = [Алмазная кираса][Алмазный нагрудник]
+[Diamond Helmet] = [Алмазный шлем]
+[Diamond Leggings] = [Алмазные поножи]
+[Elytra] = [Надкрылья][Элитры]
+[Golden Boots] = [Золотые ботинки]
+[Golden Chestplate] = [Золотая кираса][Золотой нагрудник]
+[Golden Helmet] = [Золотой шлем]
+[Golden Leggings] = [Золотые поножи]
+[Gray Shield] = [Серый щит]
+[Green Shield] = [Зелёный щит]
+[Iron Boots] = [Железные ботинки]
+[Iron Chestplate] = [Железная кираса][Железный нагрудник]
+[Iron Helmet] = [Железный шлем]
+[Iron Leggings] = [Железные поножи]
+[Leather Boots] = [Кожаные ботинки]
+[Leather Cap] = [Кожаный шлем]
+[Leather Pants] = [Кожаные поножи][Кожаные штаны]
+[Leather Tunic] = [Кожаная кираса][Кожаная куртка]
+[Light Blue Shield] = [Голубой щит][Светло-синий щит]
+[Light Gray Shield] = [Светло-серый щит]
+[Lime Shield] = [Лаймовый щит]
+[Magenta Shield] = [Пурпурный щит][Сиреневый щит]
+[Orange Shield] = [Оранжевый щит]
+[Pink Shield] = [Розовый щит]
+[Purple Shield] = [Фиолетовый щит]
+[Red Shield] = [Красный щит]
+[Shield] = [Щит]
+[White Shield] = [Белый щит]
+[Yellow Shield] = [Жёлтый щит]
+[Black Base Banner] = [Флаг с чёрным основанием]
+[Black Base Dexter Canton Banner] = [Флаг с чёрным нижне-правым крыжем]
+[Black Base Gradient Banner] = [Флаг с чёрным книзу градиентом]
+[Black Base Indented Banner] = [Флаг с чёрным зубчатым основанием]
+[Black Base Sinister Canton Banner] = [Флаг с чёрным нижне-левым крыжем]
+[Black Bend Banner] = [Флаг с чёрной перевязью]
+[Black Bend Sinister Banner] = [Флаг с чёрной левой перевязью]
+[Black Bordure Banner] =
+[Black Bordure Indented Banner] = [Берёзовая калитка BE]
+[Black Chevron Banner] = [Флаг с чёрным остриём]
+[Black Chief Banner] = [Флаг с чёрной главой]
+[Black Chief Dexter Canton Banner] = [Флаг с чёрным верхне-правым крыжем]
+[Black Chief Indented Banner] = [Флаг с чёрной зубчатой главой]
+[Black Chief Sinister Canton Banner] = [Флаг с чёрным верхне-левым крыжем]
+[Black Creeper Charge Banner] = [Флаг с чёрным крипером]
+[Black Cross Banner] = [Флаг с чёрным крестом]
+[Black Fess Banner] = [Флаг с чёрным поясом]
+[Black Field Masoned Banner] = [Флаг с чёрной муровкой]
+[Black Flower Charge Banner] = [Флаг с чёрным цветком]
+[Black Gradient Banner] = [Флаг с чёрным кверху градиентом]
+[Black Inverted Chevron Banner] = [Флаг с чёрным опрокинутым остриём]
+[Black Lozenge Banner] = [Флаг с чёрным ромбом]
+[Black Pale Banner] = [Флаг с чёрным столбом]
+[Black Pale Dexter Banner] = [Флаг с чёрным правосторонним столбом]
+[Black Pale Sinister Banner] = [Флаг с чёрным левосторонним столбом]
+[Black Paly Banner] = [Флаг с чёрными столбами]
+[Black Per Bend Banner] = [Флаг с чёрным скошением]
+[Black Per Bend Inverted Banner] = [Флаг с чёрным опрокинутым скошением]
+[Black Per Bend Sinister Banner] = [Флаг с чёрным левым скошением]
+[Black Per Bend Sinister Inverted Banner] = [Флаг с чёрным опрокинутым левым скошением]
+[Black Per Fess Banner] = [Флаг с чёрной верхней половиной]
+[Black Per Fess Inverted Banner] = [Флаг с чёрной нижней половиной]
+[Black Per Pale Banner] = [Флаг с чёрной правой половиной]
+[Black Per Pale Inverted Banner] = [Флаг с чёрной левой половиной]
+[Black Roundel Banner] = [Флаг с чёрным кругом]
+[Black Saltire Banner] = [Флаг с чёрным косым крестом]
+[Black Skull Charge Banner] = [Флаг с чёрным черепом]
+[Black Thing Banner] = [Флаг с чем-то чёрным]
+[Blue Base Banner] = [Флаг с синим основанием]
+[Blue Base Dexter Canton Banner] = [Флаг с синим нижне-правым крыжем]
+[Blue Base Gradient Banner] = [Флаг с синим книзу градиентом]
+[Blue Base Indented Banner] = [Флаг с синим зубчатым основанием]
+[Blue Base Sinister Canton Banner] = [Флаг с синим нижне-левым крыжем]
+[Blue Bend Banner] = [Флаг с синей перевязью]
+[Blue Bend Sinister Banner] = [Флаг с синей левосторонней перевязью]
+[Blue Bordure Banner] = [Флаг с синей каймой]
+[Blue Bordure Indented Banner] = [Флаг с синей зубчатой каймой]
+[Blue Chevron Banner] = [Флаг с синим остриём]
+[Blue Chief Banner] = [Флаг с синей главой]
+[Blue Chief Dexter Canton Banner] = [Флаг с синим верхне-правым крыжем]
+[Blue Chief Indented Banner] = [Флаг с синей зубчатой главой]
+[Blue Chief Sinister Canton Banner] = [Флаг с синим верхне-левым крыжем]
+[Blue Creeper Charge Banner] = [Флаг с синим крипером]
+[Blue Cross Banner] = [Флаг с синим крестом]
+[Blue Fess Banner] = [Флаг с синим поясом]
+[Blue Field Masoned Banner] = [Флаг с синей муровкой]
+[Blue Flower Charge Banner] = [Флаг с синим цветком]
+[Blue Gradient Banner] = [Флаг с синим кверху градиентом]
+[Blue Inverted Chevron Banner] = [Флаг с синим опрокинутым остриём]
+[Blue Lozenge Banner] = [Флаг с синим ромбом]
+[Blue Pale Banner] = [Флаг с синим столбом]
+[Blue Pale Dexter Banner] = [Флаг с синим правосторонним столбом]
+[Blue Pale Sinister Banner] = [Флаг с синим левосторонним столбом]
+[Blue Paly Banner] = [Флаг с синими столбами]
+[Blue Per Bend Banner] = [Флаг с синим скошением]
+[Blue Per Bend Inverted Banner] = [Флаг с синим опрокинутым скошением]
+[Blue Per Bend Sinister Banner] = [Флаг с синим скошением слева]
+[Blue Per Bend Sinister Inverted Banner] = [Флаг с синим опрокинутым скошением слева]
+[Blue Per Fess Banner] = [Флаг с синей верхней половиной]
+[Blue Per Fess Inverted Banner] = [Флаг с синей нижней половиной]
+[Blue Per Pale Banner] = [Флаг с синей правой половиной]
+[Blue Per Pale Inverted Banner] = [Флаг с синей левой половиной]
+[Blue Roundel Banner] = [Флаг с синим кругом]
+[Blue Saltire Banner] = [Флаг с синим косым крестом]
+[Blue Skull Charge Banner] = [Флаг с синим черепом]
+[Blue Thing Banner] = [Флаг с чем-то синим]
+[Brown Base Banner] = [Флаг с коричневым основанием]
+[Brown Base Dexter Canton Banner] = [Флаг с коричневым нижне-правым крыжем]
+[Brown Base Gradient Banner] = [Флаг с коричневым книзу градиентом]
+[Brown Base Indented Banner] = [Флаг с коричневым зубчатым основанием]
+[Brown Base Sinister Canton Banner] = [Флаг с коричневым нижне-левым крыжем]
+[Brown Bend Banner] = [Флаг с коричневой перевязью]
+[Brown Bend Sinister Banner] = [Флаг с коричневой левосторонней перевязью]
+[Brown Bordure Banner] = [Флаг с коричневой каймой]
+[Brown Bordure Indented Banner] = [Флаг с коричневой зубчатой каймой]
+[Brown Chevron Banner] = [Флаг с коричневым остриём]
+[Brown Chief Banner] = [Флаг с коричневой главой]
+[Brown Chief Dexter Canton Banner] = [Флаг с коричневым верхне-правым крыжем]
+[Brown Chief Indented Banner] = [Флаг с коричневой зубчатой главой]
+[Brown Chief Sinister Canton Banner] = [Флаг с коричневым верхне-левым крыжем]
+[Brown Creeper Charge Banner] = [Флаг с коричневым крипером]
+[Brown Cross Banner] = [Флаг с коричневым крестом]
+[Brown Fess Banner] = [Флаг с коричневым поясом]
+[Brown Field Masoned Banner] = [Флаг с коричневой муровкой]
+[Brown Flower Charge Banner] = [Флаг с коричневым цветком]
+[Brown Gradient Banner] = [Флаг с коричневым кверху градиентом]
+[Brown Inverted Chevron Banner] = [Флаг с коричневым опрокинутым остриём]
+[Brown Lozenge Banner] = [Флаг с коричневым ромбом]
+[Brown Pale Banner] = [Флаг с коричневым столбом]
+[Brown Pale Dexter Banner] = [Флаг с коричневым правосторонним столбом]
+[Brown Pale Sinister Banner] = [Флаг с коричневым левосторонним столбом]
+[Brown Paly Banner] = [Флаг с коричневыми столбами]
+[Brown Per Bend Banner] = [Флаг с коричневым скошением]
+[Brown Per Bend Inverted Banner] = [Флаг с коричневым опрокинутым скошением]
+[Brown Per Bend Sinister Banner] = [Флаг с коричневым скошением слева]
+[Brown Per Bend Sinister Inverted Banner] = [Флаг с коричневым опрокинутым скошением слева]
+[Brown Per Fess Banner] = [Флаг с коричневой верхней половиной]
+[Brown Per Fess Inverted Banner] = [Флаг с коричневой нижней половиной]
+[Brown Per Pale Banner] = [Флаг с коричневой правой половиной]
+[Brown Per Pale Inverted Banner] = [Флаг с коричневой левой половиной]
+[Brown Roundel Banner] = [Флаг с коричневым кругом]
+[Brown Saltire Banner] = [Флаг с коричневым косым крестом]
+[Brown Skull Charge Banner] = [Флаг с коричневым черепом]
+[Brown Thing Banner] = [Флаг с чем-то коричневым]
+[Cyan Base Banner] = [Флаг с бирюзовым основанием]
+[Cyan Base Dexter Canton Banner] = [Флаг с бирюзовым нижне-правым крыжем]
+[Cyan Base Gradient Banner] = [Флаг с бирюзовым книзу градиентом]
+[Cyan Base Indented Banner] = [Флаг с бирюзовым зубчатым основанием]
+[Cyan Base Sinister Canton Banner] = [Флаг с бирюзовым нижне-левым крыжем]
+[Cyan Bend Banner] = [Флаг с бирюзовой перевязью]
+[Cyan Bend Sinister Banner] = [Флаг с бирюзовой левосторонней перевязью]
+[Cyan Bordure Banner] = [Флаг с бирюзовой каймой]
+[Cyan Bordure Indented Banner] = [Флаг с бирюзовой зубчатой каймой]
+[Cyan Chevron Banner] = [Флаг с бирюзовым остриём]
+[Cyan Inverted Chevron Banner] = [Флаг с бирюзовым опрокинутым остриём]
+[Cyan Chief Banner] = [Флаг с бирюзовой главой]
+[Cyan Chief Dexter Canton Banner] = [Флаг с бирюзовым верхне-правым крыжем]
+[Cyan Chief Indented Banner] = [Флаг с бирюзовой зубчатой главой]
+[Cyan Chief Sinister Canton Banner] = [Флаг с бирюзовым верхне-левым крыжем]
+[Cyan Creeper Charge Banner] = [Флаг с бирюзовым крипером]
+[Cyan Cross Banner] = [Флаг с бирюзовым крестом]
+[Cyan Fess Banner] = [Флаг с бирюзовым поясом]
+[Cyan Field Masoned Banner] = [Флаг с бирюзовой муровкой]
+[Cyan Flower Charge Banner] = [Флаг с бирюзовым цветком]
+[Cyan Gradient Banner] = [Флаг с бирюзовым кверху градиентом]
+[Cyan Lozenge Banner] = [Флаг с бирюзовым ромбом]
+[Cyan Pale Banner] = [Флаг с бирюзовым столбом]
+[Cyan Pale Dexter Banner] = [Флаг с бирюзовым правосторонним столбом]
+[Cyan Pale Sinister Banner] = [Флаг с бирюзовым левосторонним столбом]
+[Cyan Paly Banner] = [Флаг с бирюзовыми столбами]
+[Cyan Per Bend Banner] = [Флаг с бирюзовым скошением]
+[Cyan Per Bend Inverted Banner] = [Флаг с бирюзовым опрокинутым скошением]
+[Cyan Per Bend Sinister Banner] = [Флаг с бирюзовым скошением слева]
+[Cyan Per Bend Sinister Inverted Banner] = [Флаг с бирюзовым опрокинутым скошением слева]
+[Cyan Per Fess Banner] = [Флаг с бирюзовой верхней половиной]
+[Cyan Per Fess Inverted Banner] = [Флаг с бирюзовой нижней половиной]
+[Cyan Per Pale Banner] = [Флаг с бирюзовой правой половиной]
+[Cyan Per Pale Inverted Banner] = [Флаг с бирюзовой левой половиной]
+[Cyan Roundel Banner] = [Флаг с бирюзовым кругом]
+[Cyan Saltire Banner] = [Флаг с бирюзовым косым крестом]
+[Cyan Skull Charge Banner] = [Флаг с бирюзовым черепом]
+[Cyan Thing Banner] = [Флаг с чем-то бирюзовым]
+[Gray Base Banner] = [Флаг с серым основанием]
+[Gray Base Dexter Canton Banner] = [Флаг с серым нижне-правым крыжем]
+[Gray Base Gradient Banner] = [Флаг с серым книзу градиентом]
+[Gray Base Indented Banner] = [Флаг с серым зубчатым основанием]
+[Gray Base Sinister Canton Banner] = [Флаг с серым нижне-левым крыжем]
+[Gray Bend Banner] = [Флаг с серой перевязью]
+[Gray Bend Sinister Banner] = [Флаг с серой левосторонней перевязью]
+[Gray Bordure Banner] = [Флаг с серой каймой]
+[Gray Bordure Indented Banner] = [Флаг с серой зубчатой каймой]
+[Gray Chevron Banner] = [Флаг с серым остриём]
+[Gray Chief Banner] = [Флаг с серой главой]
+[Gray Chief Dexter Canton Banner] = [Флаг с серым верхне-правым крыжем]
+[Gray Chief Indented Banner] = [Флаг с серой зубчатой главой]
+[Gray Chief Sinister Canton Banner] = [Флаг с серым верхне-левым крыжем]
+[Gray Creeper Charge Banner] = [Флаг с серым крипером]
+[Gray Cross Banner] = [Флаг с серым крестом]
+[Gray Fess Banner] = [Флаг с серым поясом]
+[Gray Field Masoned Banner] = [Флаг с серой муровкой]
+[Gray Flower Charge Banner] = [Флаг с серым цветком]
+[Gray Gradient Banner] = [Флаг с серым кверху градиентом]
+[Gray Inverted Chevron Banner] = [Флаг с серым опрокинутым остриём]
+[Gray Lozenge Banner] = [Флаг с серым ромбом]
+[Gray Pale Banner] = [Флаг с серым столбом]
+[Gray Pale Dexter Banner] = [Флаг с серым правосторонним столбом]
+[Gray Pale Sinister Banner] = [Флаг с серым левосторонним столбом]
+[Gray Paly Banner] = [Флаг с серыми столбами]
+[Gray Per Bend Banner] = [Флаг с серым скошением]
+[Gray Per Bend Inverted Banner] = [Флаг с серым опрокинутым скошением]
+[Gray Per Bend Sinister Banner] = [Флаг с серым скошением слева]
+[Gray Per Bend Sinister Inverted Banner] = [Флаг с серым опрокинутым скошением слева]
+[Gray Per Fess Banner] = [Флаг с серой верхней половиной]
+[Gray Per Fess Inverted Banner] = [Флаг с серой нижней половиной]
+[Gray Per Pale Banner] = [Флаг с серой правой половиной]
+[Gray Per Pale Inverted Banner] = [Флаг с серой левой половиной]
+[Gray Roundel Banner] = [Флаг с серым кругом]
+[Gray Saltire Banner] = [Флаг с серым косым крестом]
+[Gray Skull Charge Banner] = [Флаг с серым черепом]
+[Gray Thing Banner] = [Флаг с чем-то серым]
+[Green Base Banner] = [Флаг с зелёным основанием]
+[Green Base Dexter Canton Banner] = [Флаг с зелёным нижне-правым крыжем]
+[Green Base Gradient Banner] = [Флаг с зелёным книзу градиентом]
+[Green Base Indented Banner] = [Флаг с зелёным зубчатым основанием]
+[Green Base Sinister Canton Banner] = [Флаг с зелёным нижне-левым крыжем]
+[Green Bend Banner] = [Флаг с зелёной перевязью]
+[Green Bend Sinister Banner] = [Флаг с зелёной левосторонней перевязью]
+[Green Bordure Banner] = [Флаг с зелёной каймой]
+[Green Bordure Indented Banner] = [Флаг с зелёной зубчатой каймой]
+[Green Chevron Banner] = [Флаг с зелёным остриём]
+[Green Chief Banner] = [Флаг с зелёной главой]
+[Green Chief Dexter Canton Banner] = [Флаг с зелёным верхне-правым крыжем]
+[Green Chief Indented Banner] = [Флаг с зелёной зубчатой главой]
+[Green Chief Sinister Canton Banner] = [Флаг с зелёным верхне-левым крыжем]
+[Green Creeper Charge Banner] = [Флаг с зелёным крипером]
+[Green Cross Banner] = [Флаг с зелёным крестом]
+[Green Fess Banner] = [Флаг с зелёным поясом]
+[Green Field Masoned Banner] = [Флаг с зелёной муровкой]
+[Green Flower Charge Banner] = [Флаг с зелёным цветком]
+[Green Gradient Banner] = [Флаг с зелёным кверху градиентом]
+[Green Inverted Chevron Banner] = [Флаг с зелёным опрокинутым остриём]
+[Green Lozenge Banner] = [Флаг с зелёным ромбом]
+[Green Pale Banner] = [Флаг с зелёным столбом]
+[Green Pale Dexter Banner] = [Флаг с зелёным правосторонним столбом]
+[Green Pale Sinister Banner] = [Флаг с зелёным левосторонним столбом]
+[Green Paly Banner] = [Флаг с зелёными столбами]
+[Green Per Bend Banner] = [Флаг с зелёным скошением]
+[Green Per Bend Inverted Banner] = [Флаг с зелёным опрокинутым скошением]
+[Green Per Bend Sinister Banner] = [Флаг с зелёным скошением слева]
+[Green Per Bend Sinister Inverted Banner] = [Флаг с зелёным опрокинутым скошением слева]
+[Green Per Fess Banner] = [Флаг с зелёной верхней половиной]
+[Green Per Fess Inverted Banner] = [Флаг с зелёной нижней половиной]
+[Green Per Pale Banner] = [Флаг с зелёной правой половиной]
+[Green Per Pale Inverted Banner] = [Флаг с зелёной левой половиной]
+[Green Roundel Banner] = [Флаг с зелёным кругом]
+[Green Saltire Banner] = [Флаг с зелёным косым крестом]
+[Green Skull Charge Banner] = [Флаг с зелёным черепом]
+[Green Thing Banner] = [Флаг с чем-то зелёным]
+[Light Blue Base Banner] = [Флаг со светло-синим основанием]
+[Light Blue Base Dexter Canton Banner] = [Флаг со светло-синим нижне-правым крыжем]
+[Light Blue Base Gradient Banner] = [Флаг со светло-синим книзу градиентом]
+[Light Blue Base Indented Banner] = [Флаг со светло-синим зубчатым основанием]
+[Light Blue Base Sinister Canton Banner] = [Флаг со светло-синим нижне-левым крыжем]
+[Light Blue Bend Banner] = [Флаг со светло-синей перевязью]
+[Light Blue Bend Sinister Banner] = [Флаг со светло-синей левосторонней перевязью]
+[Light Blue Bordure Banner] = [Флаг со светло-синей каймой]
+[Light Blue Bordure Indented Banner] = [Флаг со светло-синей зубчатой каймой]
+[Light Blue Chevron Banner] = [Флаг со светло-синим остриём]
+[Light Blue Chief Banner] = [Флаг со светло-синей главой]
+[Light Blue Chief Dexter Canton Banner] = [Флаг со светло-синим верхне-правым крыжем]
+[Light Blue Chief Indented Banner] = [Флаг со светло-синей зубчатой главой]
+[Light Blue Chief Sinister Canton Banner] = [Флаг со светло-синим верхне-левым крыжем]
+[Light Blue Creeper Charge Banner] = [Флаг со светло-синим крипером]
+[Light Blue Cross Banner] = [Флаг со светло-синим крестом]
+[Light Blue Fess Banner] = [Флаг со светло-синим поясом]
+[Light Blue Field Masoned Banner] = [Флаг со светло-синей муровкой]
+[Light Blue Flower Charge Banner] = [Флаг со светло-синим цветком]
+[Light Blue Gradient Banner] = [Флаг со светло-синим кверху градиентом]
+[Light Blue Inverted Chevron Banner] = [Флаг со светло-синим опрокинутым остриём]
+[Light Blue Lozenge Banner] = [Флаг со светло-синим ромбом]
+[Light Blue Pale Banner] = [Флаг со светло-синим столбом]
+[Light Blue Pale Dexter Banner] = [Флаг со светло-синим правосторонним столбом]
+[Light Blue Pale Sinister Banner] = [Флаг со светло-синим левосторонним столбом]
+[Light Blue Paly Banner] = [Флаг со светло-синими столбами]
+[Light Blue Per Bend Banner] = [Флаг со светло-синим скошением]
+[Light Blue Per Bend Inverted Banner] = [Флаг со светло-синим опрокинутым скошением]
+[Light Blue Per Bend Sinister Banner] = [Флаг со светло-синим скошением слева]
+[Light Blue Per Bend Sinister Inverted Banner] = [Флаг со светло-синим опрокинутым скошением слева]
+[Light Blue Per Fess Banner] = [Флаг со светло-синей верхней половиной]
+[Light Blue Per Fess Inverted Banner] = [Флаг со светло-синей нижней половиной]
+[Light Blue Per Pale Banner] = [Флаг со светло-синей правой половиной]
+[Light Blue Per Pale Inverted Banner] = [Флаг со светло-синей левой половиной]
+[Light Blue Roundel Banner] = [Флаг со светло-синим кругом]
+[Light Blue Saltire Banner] = [Флаг со светло-синим косым крестом]
+[Light Blue Skull Charge Banner] = [Флаг со светло-синим черепом]
+[Light Blue Thing Banner] = [Флаг с чем-то светло-синим]
+[Light Gray Base Banner] = [Флаг со светло-серым основанием]
+[Light Gray Base Dexter Canton Banner] = [Флаг со светло-серым нижне-правым крыжем]
+[Light Gray Base Gradient Banner] = [Флаг со светло-серым книзу градиентом]
+[Light Gray Base Indented Banner] = [Флаг со светло-серым зубчатым основанием]
+[Light Gray Base Sinister Canton Banner] = [Флаг со светло-серым нижне-левым крыжем]
+[Light Gray Bend Banner] = [Флаг со светло-серой перевязью]
+[Light Gray Bend Sinister Banner] = [Флаг со светло-серой левосторонней перевязью]
+[Light Gray Bordure Banner] = [Флаг со светло-серой каймой]
+[Light Gray Bordure Indented Banner] = [Флаг со светло-серой зубчатой каймой]
+[Light Gray Chevron Banner] = [Флаг со светло-серым остриём]
+[Light Gray Chief Banner] = [Флаг со светло-серой главой]
+[Light Gray Chief Dexter Canton Banner] = [Флаг со светло-серым верхне-правым крыжем]
+[Light Gray Chief Indented Banner] = [Флаг со светло-серой зубчатой главой]
+[Light Gray Chief Sinister Canton Banner] = [Флаг со светло-серым верхне-левым крыжем]
+[Light Gray Creeper Charge Banner] = [Флаг со светло-серым крипером]
+[Light Gray Cross Banner] = [Флаг со светло-серым крестом]
+[Light Gray Fess Banner] = [Флаг со светло-серым поясом]
+[Light Gray Field Masoned Banner] = [Флаг со светло-серой муровкой]
+[Light Gray Flower Charge Banner] = [Флаг со светло-серым цветком]
+[Light Gray Gradient Banner] = [Флаг со светло-серым кверху градиентом]
+[Light Gray Inverted Chevron Banner] = [Флаг со светло-серым опрокинутым остриём]
+[Light Gray Lozenge Banner] = [Флаг со светло-серым ромбом]
+[Light Gray Pale Banner] = [Флаг со светло-серым столбом]
+[Light Gray Pale Dexter Banner] = [Флаг со светло-серым правосторонним столбом]
+[Light Gray Pale Sinister Banner] = [Флаг со светло-серым левосторонним столбом]
+[Light Gray Paly Banner] = [Флаг со светло-серыми столбами]
+[Light Gray Per Bend Banner] = [Флаг со светло-серым скошением]
+[Light Gray Per Bend Inverted Banner] = [Флаг со светло-серым опрокинутым скошением]
+[Light Gray Per Bend Sinister Banner] = [Флаг со светло-серым скошением слева]
+[Light Gray Per Bend Sinister Inverted Banner] = [Флаг со светло-серым опрокинутым скошением слева]
+[Light Gray Per Fess Banner] = [Флаг со светло-серой верхней половиной]
+[Light Gray Per Fess Inverted Banner] = [Флаг со светло-серой нижней половиной]
+[Light Gray Per Pale Banner] = [Флаг со светло-серой правой половиной]
+[Light Gray Per Pale Inverted Banner] = [Флаг со светло-серой левой половиной]
+[Light Gray Roundel Banner] = [Флаг со светло-серым кругом]
+[Light Gray Saltire Banner] = [Флаг со светло-серым косым крестом]
+[Light Gray Skull Charge Banner] = [Флаг со светло-серым черепом]
+[Light Gray Thing Banner] = [Флаг с чем-то светло-серым]
+[Lime Base Banner] = [Флаг с лаймовым основанием]
+[Lime Base Dexter Canton Banner] = [Флаг с лаймовым нижне-правым крыжем]
+[Lime Base Gradient Banner] = [Флаг с лаймовым книзу градиентом]
+[Lime Base Indented Banner] = [Флаг с лаймовым зубчатым основанием]
+[Lime Base Sinister Canton Banner] = [Флаг с лаймовым нижне-левым крыжем]
+[Lime Bend Banner] = [Флаг с лаймовой перевязью]
+[Lime Bend Sinister Banner] = [Флаг с лаймовой левосторонней перевязью]
+[Lime Bordure Banner] = [Флаг с лаймовой каймой]
+[Lime Bordure Indented Banner] = [Флаг с лаймовой зубчатой каймой]
+[Lime Chevron Banner] = [Флаг с лаймовым остриём]
+[Lime Chief Banner] = [Флаг с лаймовой главой]
+[Lime Chief Dexter Canton Banner] = [Флаг с лаймовым верхне-правым крыжем]
+[Lime Chief Indented Banner] = [Флаг с лаймовой зубчатой главой]
+[Lime Chief Sinister Canton Banner] = [Флаг с лаймовым верхне-левым крыжем]
+[Lime Creeper Charge Banner] = [Флаг с лаймовым крипером]
+[Lime Cross Banner] = [Флаг с лаймовым крестом]
+[Lime Fess Banner] = [Флаг с лаймовым поясом]
+[Lime Field Masoned Banner] = [Флаг с лаймовой муровкой]
+[Lime Flower Charge Banner] = [Флаг с лаймовым цветком]
+[Lime Gradient Banner] = [Флаг с лаймовым кверху градиентом]
+[Lime Inverted Chevron Banner] = [Флаг с лаймовым опрокинутым остриём]
+[Lime Lozenge Banner] = [Флаг с лаймовым ромбом]
+[Lime Pale Banner] = [Флаг с лаймовым столбом]
+[Lime Pale Dexter Banner] = [Флаг с лаймовым правосторонним столбом]
+[Lime Pale Sinister Banner] = [Флаг с лаймовым левосторонним столбом]
+[Lime Paly Banner] = [Флаг с лаймовыми столбами]
+[Lime Per Bend Banner] = [Флаг с лаймовым скошением]
+[Lime Per Bend Inverted Banner] = [Флаг с лаймовым опрокинутым скошением]
+[Lime Per Bend Sinister Banner] = [Флаг с лаймовым скошением слева]
+[Lime Per Bend Sinister Inverted Banner] = [Флаг с лаймовым опрокинутым скошением слева]
+[Lime Per Fess Banner] = [Флаг с лаймовой верхней половиной]
+[Lime Per Fess Inverted Banner] = [Флаг с лаймовой нижней половиной]
+[Lime Per Pale Banner] = [Флаг с лаймовой правой половиной]
+[Lime Per Pale Inverted Banner] = [Флаг с лаймовой левой половиной]
+[Lime Roundel Banner] = [Флаг с лаймовым кругом]
+[Lime Saltire Banner] = [Флаг с лаймовым косым крестом]
+[Lime Skull Charge Banner] = [Флаг с лаймовым черепом]
+[Lime Thing Banner] = [Флаг с чем-то лаймовым]
+[Magenta Base Banner] = [Флаг с сиреневым основанием]
+[Magenta Base Dexter Canton Banner] = [Флаг с сиреневым нижне-правым крыжем]
+[Magenta Base Gradient Banner] = [Флаг с сиреневым книзу градиентом]
+[Magenta Base Indented Banner] = [Флаг с сиреневым зубчатым основанием]
+[Magenta Base Sinister Canton Banner] = [Флаг с сиреневым нижне-левым крыжем]
+[Magenta Bend Banner] = [Флаг с сиреневой перевязью]
+[Magenta Bend Sinister Banner] = [Флаг с сиреневой левосторонней перевязью]
+[Magenta Bordure Banner] = [Флаг с сиреневой каймой]
+[Magenta Bordure Indented Banner] = [Флаг с сиреневой зубчатой каймой]
+[Magenta Chevron Banner] = [Флаг с сиреневым остриём]
+[Magenta Chief Banner] = [Флаг с сиреневой главой]
+[Magenta Chief Dexter Canton Banner] = [Флаг с сиреневым верхне-правым крыжем]
+[Magenta Chief Indented Banner] = [Флаг с сиреневой зубчатой главой]
+[Magenta Chief Sinister Canton Banner] = [Флаг с сиреневым верхне-левым крыжем]
+[Magenta Creeper Charge Banner] = [Флаг с сиреневым крипером]
+[Magenta Cross Banner] = [Флаг с сиреневым крестом]
+[Magenta Fess Banner] = [Флаг с сиреневым поясом]
+[Magenta Field Masoned Banner] = [Флаг с сиреневой муровкой]
+[Magenta Flower Charge Banner] = [Флаг с сиреневым цветком]
+[Magenta Gradient Banner] = [Флаг с сиреневым кверху градиентом]
+[Magenta Inverted Chevron Banner] = [Флаг с сиреневым опрокинутым остриём]
+[Magenta Lozenge Banner] = [Флаг с сиреневым ромбом]
+[Magenta Pale Banner] = [Флаг с сиреневым столбом]
+[Magenta Pale Dexter Banner] = [Флаг с сиреневым правосторонним столбом]
+[Magenta Pale Sinister Banner] = [Флаг с сиреневым левосторонним столбом]
+[Magenta Paly Banner] = [Флаг с сиреневыми столбами]
+[Magenta Per Bend Banner] = [Флаг с сиреневым скошением]
+[Magenta Per Bend Inverted Banner] = [Флаг с сиреневым опрокинутым скошением]
+[Magenta Per Bend Sinister Banner] = [Флаг с сиреневым скошением слева]
+[Magenta Per Bend Sinister Inverted Banner] = [Флаг с сиреневым опрокинутым скошением слева]
+[Magenta Per Fess Banner] = [Флаг с сиреневой верхней половиной]
+[Magenta Per Fess Inverted Banner] = [Флаг с сиреневой нижней половиной]
+[Magenta Per Pale Banner] = [Флаг с сиреневой правой половиной]
+[Magenta Per Pale Inverted Banner] = [Флаг с сиреневой левой половиной]
+[Magenta Roundel Banner] = [Флаг с сиреневым кругом]
+[Magenta Saltire Banner] = [Флаг с сиреневым косым крестом]
+[Magenta Skull Charge Banner] = [Флаг с сиреневым черепом]
+[Magenta Thing Banner] = [Флаг с чем-то сиреневым]
+[Orange Base Banner] = [Флаг с оранжевым основанием]
+[Orange Base Dexter Canton Banner] = [Флаг с оранжевым нижне-правым крыжем]
+[Orange Base Gradient Banner] = [Флаг с оранжевым книзу градиентом]
+[Orange Base Indented Banner] = [Флаг с оранжевым зубчатым основанием]
+[Orange Base Sinister Canton Banner] = [Флаг с оранжевым нижне-левым крыжем]
+[Orange Bend Banner] = [Флаг с оранжевой перевязью]
+[Orange Bend Sinister Banner] = [Флаг с оранжевой левосторонней перевязью]
+[Orange Bordure Banner] = [Флаг с оранжевой каймой]
+[Orange Bordure Indented Banner] = [Флаг с оранжевой зубчатой каймой]
+[Orange Chevron Banner] = [Флаг с оранжевым остриём]
+[Orange Chief Banner] = [Флаг с оранжевой главой]
+[Orange Chief Dexter Canton Banner] = [Флаг с оранжевым верхне-правым крыжем]
+[Orange Chief Indented Banner] = [Флаг с оранжевой зубчатой главой]
+[Orange Chief Sinister Canton Banner] = [Флаг с оранжевым верхне-левым крыжем]
+[Orange Creeper Charge Banner] = [Флаг с оранжевым крипером]
+[Orange Cross Banner] = [Флаг с оранжевым крестом]
+[Orange Fess Banner] = [Флаг с оранжевым поясом]
+[Orange Field Masoned Banner] = [Флаг с оранжевой муровкой]
+[Orange Flower Charge Banner] = [Флаг с оранжевым цветком]
+[Orange Gradient Banner] = [Флаг с оранжевым кверху градиентом]
+[Orange Inverted Chevron Banner] = [Флаг с оранжевым опрокинутым остриём]
+[Orange Lozenge Banner] = [Флаг с оранжевым ромбом]
+[Orange Pale Banner] = [Флаг с оранжевым столбом]
+[Orange Pale Dexter Banner] = [Флаг с оранжевым правосторонним столбом]
+[Orange Pale Sinister Banner] = [Флаг с оранжевым левосторонним столбом]
+[Orange Paly Banner] = [Флаг с оранжевыми столбами]
+[Orange Per Bend Banner] = [Флаг с оранжевым скошением]
+[Orange Per Bend Inverted Banner] = [Флаг с оранжевым опрокинутым скошением]
+[Orange Per Bend Sinister Banner] = [Флаг с оранжевым скошением слева]
+[Orange Per Bend Sinister Inverted Banner] = [Флаг с оранжевым опрокинутым скошением слева]
+[Orange Per Fess Banner] = [Флаг с оранжевой верхней половиной]
+[Orange Per Fess Inverted Banner] = [Флаг с оранжевой нижней половиной]
+[Orange Per Pale Banner] = [Флаг с оранжевой правой половиной]
+[Orange Per Pale Inverted Banner] = [Флаг с оранжевой левой половиной]
+[Orange Roundel Banner] = [Флаг с оранжевым кругом]
+[Orange Saltire Banner] = [Флаг с оранжевым косым крестом]
+[Orange Skull Charge Banner] = [Флаг с оранжевым черепом]
+[Orange Thing Banner] = [Флаг с чем-то оранжевым]
+[Pink Base Banner] = [Флаг с розовым основанием]
+[Pink Base Dexter Canton Banner] = [Флаг с розовым нижне-правым крыжем]
+[Pink Base Gradient Banner] = [Флаг с розовым книзу градиентом]
+[Pink Base Indented Banner] = [Флаг с розовым зубчатым основанием]
+[Pink Base Sinister Canton Banner] = [Флаг с розовым нижне-левым крыжем]
+[Pink Bend Banner] = [Флаг с розовой перевязью]
+[Pink Bend Sinister Banner] = [Флаг с розовой левосторонней перевязью]
+[Pink Bordure Banner] = [Флаг с розовой каймой]
+[Pink Bordure Indented Banner] = [Флаг с розовой зубчатой каймой]
+[Pink Chevron Banner] = [Флаг с розовым остриём]
+[Pink Chief Banner] = [Флаг с розовой главой]
+[Pink Chief Dexter Canton Banner] = [Флаг с розовым верхне-правым крыжем]
+[Pink Chief Indented Banner] = [Флаг с розовой зубчатой главой]
+[Pink Chief Sinister Canton Banner] = [Флаг с розовым верхне-левым крыжем]
+[Pink Creeper Charge Banner] = [Флаг с розовым крипером]
+[Pink Cross Banner] = [Флаг с розовым крестом]
+[Pink Fess Banner] = [Флаг с розовым поясом]
+[Pink Field Masoned Banner] = [Флаг с розовой муровкой]
+[Pink Flower Charge Banner] = [Флаг с розовым цветком]
+[Pink Gradient Banner] = [Флаг с розовым кверху градиентом]
+[Pink Inverted Chevron Banner] = [Флаг с розовым опрокинутым остриём]
+[Pink Lozenge Banner] = [Флаг с розовым ромбом]
+[Pink Pale Banner] = [Флаг с розовым столбом]
+[Pink Pale Dexter Banner] = [Флаг с розовым правосторонним столбом]
+[Pink Pale Sinister Banner] = [Флаг с розовым левосторонним столбом]
+[Pink Paly Banner] = [Флаг с розовыми столбами]
+[Pink Per Bend Banner] = [Флаг с розовым скошением]
+[Pink Per Bend Inverted Banner] = [Флаг с розовым опрокинутым скошением]
+[Pink Per Bend Sinister Banner] = [Флаг с розовым скошением слева]
+[Pink Per Bend Sinister Inverted Banner] = [Флаг с розовым опрокинутым скошением слева]
+[Pink Per Fess Banner] = [Флаг с розовой верхней половиной]
+[Pink Per Fess Inverted Banner] = [Флаг с розовой нижней половиной]
+[Pink Per Pale Banner] = [Флаг с розовой правой половиной]
+[Pink Per Pale Inverted Banner] = [Флаг с розовой левой половиной]
+[Pink Roundel Banner] = [Флаг с розовым кругом]
+[Pink Saltire Banner] = [Флаг с розовым косым крестом]
+[Pink Skull Charge Banner] = [Флаг с розовым черепом]
+[Pink Thing Banner] = [Флаг с чем-то розовым]
+[Purple Base Banner] = [Флаг с фиолетовым основанием]
+[Purple Base Dexter Canton Banner] = [Флаг с фиолетовым нижне-правым крыжем]
+[Purple Base Gradient Banner] = [Флаг с фиолетовым книзу градиентом]
+[Purple Base Indented Banner] = [Флаг с фиолетовым зубчатым основанием]
+[Purple Base Sinister Canton Banner] = [Флаг с фиолетовым нижне-левым крыжем]
+[Purple Bend Banner] = [Флаг с фиолетовой перевязью]
+[Purple Bend Sinister Banner] = [Флаг с фиолетовой левосторонней перевязью]
+[Purple Bordure Banner] = [Флаг с фиолетовой каймой]
+[Purple Bordure Indented Banner] = [Флаг с фиолетовой зубчатой каймой]
+[Purple Chevron Banner] = [Флаг с фиолетовым остриём]
+[Purple Chief Banner] = [Флаг с фиолетовой главой]
+[Purple Chief Dexter Canton Banner] = [Флаг с фиолетовым верхне-правым крыжем]
+[Purple Chief Indented Banner] = [Флаг с фиолетовой зубчатой главой]
+[Purple Chief Sinister Canton Banner] = [Флаг с фиолетовым верхне-левым крыжем]
+[Purple Creeper Charge Banner] = [Флаг с фиолетовым крипером]
+[Purple Cross Banner] = [Флаг с фиолетовым крестом]
+[Purple Fess Banner] = [Флаг с фиолетовым поясом]
+[Purple Field Masoned Banner] = [Флаг с фиолетовой муровкой]
+[Purple Flower Charge Banner] = [Флаг с фиолетовым цветком]
+[Purple Gradient Banner] = [Флаг с фиолетовым кверху градиентом]
+[Purple Inverted Chevron Banner] = [Флаг с фиолетовым опрокинутым остриём]
+[Purple Lozenge Banner] = [Флаг с фиолетовым ромбом]
+[Purple Pale Banner] = [Флаг с фиолетовым столбом]
+[Purple Pale Dexter Banner] = [Флаг с фиолетовым правосторонним столбом]
+[Purple Pale Sinister Banner] = [Флаг с фиолетовым левосторонним столбом]
+[Purple Paly Banner] = [Флаг с фиолетовыми столбами]
+[Purple Per Bend Banner] = [Флаг с фиолетовым скошением]
+[Purple Per Bend Inverted Banner] = [Флаг с фиолетовым опрокинутым скошением]
+[Purple Per Bend Sinister Banner] = [Флаг с фиолетовым скошением слева]
+[Purple Per Bend Sinister Inverted Banner] = [Флаг с фиолетовым опрокинутым скошением слева]
+[Purple Per Fess Banner] = [Флаг с фиолетовой верхней половиной]
+[Purple Per Fess Inverted Banner] = [Флаг с фиолетовой нижней половиной]
+[Purple Per Pale Banner] = [Флаг с фиолетовой правой половиной]
+[Purple Per Pale Inverted Banner] = [Флаг с фиолетовой левой половиной]
+[Purple Roundel Banner] = [Флаг с фиолетовым кругом]
+[Purple Saltire Banner] = [Флаг с фиолетовым косым крестом]
+[Purple Skull Charge Banner] = [Флаг с фиолетовым черепом]
+[Purple Thing Banner] = [Флаг с чем-то фиолетовым]
+[Red Base Banner] = [Флаг с красным основанием]
+[Red Base Dexter Canton Banner] = [Флаг с красным нижне-правым крыжем]
+[Red Base Gradient Banner] = [Флаг с красным книзу градиентом]
+[Red Base Indented Banner] = [Флаг с красным зубчатым основанием]
+[Red Base Sinister Canton Banner] = [Флаг с красным нижне-левым крыжем]
+[Red Bend Banner] = [Флаг с красной перевязью]
+[Red Bend Sinister Banner] = [Флаг с красной левосторонней перевязью]
+[Red Bordure Indented Banner] = [Флаг с красной зубчатой каймой]
+[Red Bordure Banner] = [Флаг с красной каймой]
+[Red Chevron Banner] = [Флаг с красным остриём]
+[Red Chief Banner] = [Флаг с красной главой]
+[Red Chief Dexter Canton Banner] = [Флаг с красным верхне-правым крыжем]
+[Red Chief Indented Banner] = [Флаг с красной зубчатой главой]
+[Red Chief Sinister Canton Banner] = [Флаг с красным верхне-левым крыжем]
+[Red Creeper Charge Banner] = [Флаг с красным крипером]
+[Red Cross Banner] = [Флаг с красным крестом]
+[Red Fess Banner] = [Флаг с красным поясом]
+[Red Field Masoned Banner] = [Флаг с красной муровкой]
+[Red Flower Charge Banner] = [Флаг с красным цветком]
+[Red Gradient Banner] = [Флаг с красным кверху градиентом]
+[Red Inverted Chevron Banner] = [Флаг с красным опрокинутым остриём]
+[Red Lozenge Banner] = [Флаг с красным ромбом]
+[Red Pale Banner] = [Флаг с красным столбом]
+[Red Pale Dexter Banner] = [Флаг с красным правосторонним столбом]
+[Red Pale Sinister Banner] = [Флаг с красным левосторонним столбом]
+[Red Paly Banner] = [Флаг с красными столбами]
+[Red Per Bend Banner] = [Флаг с красным скошением]
+[Red Per Bend Inverted Banner] = [Флаг с красным опрокинутым скошением]
+[Red Per Bend Sinister Banner] = [Флаг с красным скошением слева]
+[Red Per Bend Sinister Inverted Banner] = [Флаг с красным опрокинутым скошением слева]
+[Red Per Fess Banner] = [Флаг с красной верхней половиной]
+[Red Per Fess Inverted Banner] = [Флаг с красной нижней половиной]
+[Red Per Pale Banner] = [Флаг с красной правой половиной]
+[Red Per Pale Inverted Banner] = [Флаг с красной левой половиной]
+[Red Roundel Banner] = [Флаг с красным кругом]
+[Red Saltire Banner] = [Флаг с красным косым крестом]
+[Red Skull Charge Banner] = [Флаг с красным черепом]
+[Red Thing Banner] = [Флаг с чем-то красным]
+[White Base Banner] = [Флаг с белым основанием]
+[White Base Dexter Canton Banner] = [Флаг с белым нижне-правым крыжем]
+[White Base Gradient Banner] = [Флаг с белым книзу градиентом]
+[White Base Indented Banner] = [Флаг с белым зубчатым основанием]
+[White Base Sinister Canton Banner] = [Флаг с белым нижне-левым крыжем]
+[White Bend Banner] = [Флаг с белой перевязью]
+[White Bend Sinister Banner] = [Флаг с белой левосторонней перевязью]
+[White Bordure Banner] = [Флаг с белой каймой]
+[White Bordure Indented Banner] = [Флаг с белой зубчатой каймой]
+[White Chevron Banner] = [Флаг с белым остриём]
+[White Chief Banner] = [Флаг с белой главой]
+[White Chief Dexter Canton Banner] = [Флаг с белым верхне-правым крыжем]
+[White Chief Indented Banner] = [Флаг с белой зубчатой главой]
+[White Chief Sinister Canton Banner] = [Флаг с белым верхне-левым крыжем]
+[White Creeper Charge Banner] = [Флаг с белым крипером]
+[White Cross Banner] = [Флаг с белым крестом]
+[White Fess Banner] = [Флаг с белым поясом]
+[White Field Masoned Banner] = [Флаг с белой муровкой]
+[White Flower Charge Banner] = [Флаг с белым цветком]
+[White Gradient Banner] = [Флаг с белым кверху градиентом]
+[White Inverted Chevron Banner] = [Флаг с белым опрокинутым остриём]
+[White Lozenge Banner] = [Флаг с белым ромбом]
+[White Pale Banner] = [Флаг с белым столбом]
+[White Pale Dexter Banner] = [Флаг с белым правосторонним столбом]
+[White Pale Sinister Banner] = [Флаг с белым левосторонним столбом]
+[White Paly Banner] = [Флаг с белыми столбами]
+[White Per Bend Banner] = [Флаг с белым скошением]
+[White Per Bend Inverted Banner] = [Флаг с белым опрокинутым скошением]
+[White Per Bend Sinister Banner] = [Флаг с белым скошением слева]
+[White Per Bend Sinister Inverted Banner] = [Флаг с белым опрокинутым скошением слева]
+[White Per Fess Banner] = [Флаг с белой верхней половиной]
+[White Per Fess Inverted Banner] = [Флаг с белой нижней половиной]
+[White Per Pale Banner] = [Флаг с белой правой половиной]
+[White Per Pale Inverted Banner] = [Флаг с белой левой половиной]
+[White Roundel Banner] = [Флаг с белым кругом]
+[White Saltire Banner] = [Флаг с белым косым крестом]
+[White Skull Charge Banner] = [Флаг с белым черепом]
+[White Thing Banner] = [Флаг с чем-то белым]
+[Yellow Base Banner] = [Флаг с жёлтым основанием]
+[Yellow Base Dexter Canton Banner] = [Флаг с жёлтым нижне-правым крыжем]
+[Yellow Base Gradient Banner] = [Флаг с жёлтым книзу градиентом]
+[Yellow Base Indented Banner] = [Флаг с жёлтым зубчатым основанием]
+[Yellow Base Sinister Canton Banner] = [Флаг с жёлтым нижне-левым крыжем]
+[Yellow Bend Banner] = [Флаг с жёлтой перевязью]
+[Yellow Bend Sinister Banner] = [Флаг с жёлтой левосторонней перевязью]
+[Yellow Bordure Banner] = [Флаг с жёлтой каймой]
+[Yellow Bordure Indented Banner] = [Флаг с жёлтой зубчатой каймой]
+[Yellow Chevron Banner] = [Флаг с жёлтым остриём]
+[Yellow Chief Banner] = [Флаг с жёлтой главой]
+[Yellow Chief Dexter Canton Banner] = [Флаг с жёлтым верхне-правым крыжем]
+[Yellow Chief Indented Banner] = [Флаг с жёлтой зубчатой главой]
+[Yellow Chief Sinister Canton Banner] = [Флаг с жёлтым верхне-левым крыжем]
+[Yellow Creeper Charge Banner] = [Флаг с жёлтым крипером]
+[Yellow Cross Banner] = [Флаг с жёлтым крестом]
+[Yellow Fess Banner] = [Флаг с жёлтым поясом]
+[Yellow Field Masoned Banner] = [Флаг с жёлтой муровкой]
+[Yellow Flower Charge Banner] = [Флаг с жёлтым цветком]
+[Yellow Gradient Banner] = [Флаг с жёлтым кверху градиентом]
+[Yellow Inverted Chevron Banner] = [Флаг с жёлтым опрокинутым остриём]
+[Yellow Lozenge Banner] = [Флаг с жёлтым ромбом]
+[Yellow Pale Banner] = [Флаг с жёлтым столбом]
+[Yellow Pale Dexter Banner] = [Флаг с жёлтым правосторонним столбом]
+[Yellow Pale Sinister Banner] = [Флаг с жёлтым левосторонним столбом]
+[Yellow Paly Banner] = [Флаг с жёлтыми столбами]
+[Yellow Per Bend Banner] = [Флаг с жёлтым скошением]
+[Yellow Per Bend Inverted Banner] = [Флаг с жёлтым опрокинутым скошением]
+[Yellow Per Bend Sinister Banner] = [Флаг с жёлтым скошением слева]
+[Yellow Per Bend Sinister Inverted Banner] = [Флаг с жёлтым опрокинутым скошением слева]
+[Yellow Per Fess Banner] = [Флаг с жёлтой верхней половиной]
+[Yellow Per Fess Inverted Banner] = [Флаг с жёлтой нижней половиной]
+[Yellow Per Pale Banner] = [Флаг с жёлтой правой половиной]
+[Yellow Per Pale Inverted Banner] = [Флаг с жёлтой левой половиной]
+[Yellow Roundel Banner] = [Флаг с жёлтым кругом]
+[Yellow Saltire Banner] = [Флаг с жёлтым косым крестом]
+[Yellow Skull Charge Banner] = [Флаг с жёлтым черепом]
+[Yellow Thing Banner] = [Флаг с чем-то жёлтым]
+[Dragon's Breath] = [Драконье дыхание]
+[Fermented Spider Eye] = [Маринованный паучий глаз][Приготовленный паучий глаз]
+[Ghast Tear] = [Слеза гаста]
+[Glistering Melon Slice] = [Сверкающий арбуз][Сверкающий ломтик арбуза]
+[Golden Carrot] = [Золотая морковь]
+[Magma Cream] = [Лавовый крем][Сгусток магмы]
+[Rabbit's Foot] = [Кроличья лапка]
+[Spider Eye] = [Паучий глаз]
+[Bucket] = [Ведро]
+[Lava Bucket] = [Ведро лавы]
+[Milk Bucket] = [Ведро молока][Ведро с молоком][Молоко]
+[Water Bucket] = [Ведро воды]
+[Armor Stand] = [Стойка для брони]
+[Flower Pot] = [Цветочный горшок]
+[Item Frame] = [Рамка]
+[Music Disc 11] = [Пластинка 11]
+[Painting] = [Картина]
+[Bone Meal] = [Костная мука]
+[Cocoa Beans] = [Какао-бобы]
+[Cyan Dye] = [Бирюзовый краситель]
+[Gray Dye] = [Серый краситель]
+[Green Dye] = [Зелёный краситель]
+[Ink Sac] = [Чернильный мешок]
+[Lapis Lazuli] = [Лазурит][Ультрамарин|у]
+[Light Blue Dye] = [Светло-синий краситель]
+[Light Gray Dye] = [Светло-серый краситель]
+[Lime Dye] = [Лаймовый краситель]
+[Magenta Dye] = [Пурпурный краситель][Сиреневый краситель]
+[Orange Dye] = [Оранжевый краситель]
+[Pink Dye] = [Розовый краситель]
+[Purple Dye] = [Фиолетовый краситель]
+[Red Dye] = [Красный краситель][Цвет розы|у]
+[Yellow Dye] = [Жёлтый краситель][Жёлтый одуванчиковый]
+[Black Bed] = [Чёрная кровать]
+[Blue Bed] = [Синяя кровать]
+[Brown Bed] = [Коричневая кровать]
+[Cyan Bed] = [Бирюзовая кровать][Циановая кровать]
+[Gray Bed] = [Серая кровать]
+[Green Bed] = [Зелёная кровать]
+[Light Blue Bed] = [Светло-синяя кровать]
+[Light Gray Bed] = [Светло-серая кровать]
+[Lime Bed] = [Лаймовая кровать]
+[Magenta Bed] = [Сиреневая кровать]
+[Orange Bed] = [Оранжевая кровать]
+[Pink Bed] = [Розовая кровать]
+[Purple Bed] = [Фиолетовая кровать]
+[Red Bed] = [Красная кровать]
+[White Bed] = [Белая кровать]
+[Yellow Bed] = [Жёлтая кровать]
+[Dragon Egg] = [Яйцо дракона]
+[End Crystal] = [Кристалл Края][Кристалл Энда]
+[End Portal Frame] = [Портал Края][Портал в Энд][Рамка портала Края][Рамка портала Края пустая]
+[End Rod] = [Стержень Края][Стержень Энда]
+[End Stone] = [Камень Края][Эндерняк]
+[Firework Rocket] = [Ракета][Фейерверк]
+[Apple] = [Яблоко]
+[Baked Potato] = [Печёный картофель]
+[Beetroot Soup] = [Свекольный суп]
+[Beetroot] = [Свёкла]
+[Bread] = [Хлеб]
+[Carrot] = [Морковь]
+[Chorus Fruit] = [Плод коруса][Плод хоруса]
+[Cooked Chicken] = [Жареная курица][Жареная курятина]
+[Cooked Mutton] = [Жареная баранина]
+[Cooked Porkchop] = [Жареная свинина]
+[Cooked Rabbit] = [Жареная крольчатина]
+[Cookie] = [Печенье]
+[Egg] = [Яйцо]
+[Golden Apple] = [Золотое яблоко]
+[Melon Slice] = [Ломтик арбуза]
+[Mushroom Stew] = [Тушёные грибы]
+[Poisonous Potato] = [Ядовитый картофель]
+[Potato] = [Картофель]
+[Pumpkin Pie] = [Тыквенный пирог]
+[Rabbit Stew] = [Тушёный кролик]
+[Raw Beef] = [Сырая говядина]
+[Raw Chicken] = [Сырая курятина]
+[Raw Mutton] = [Сырая баранина]
+[Raw Porkchop] = [Сырая свинина]
+[Raw Rabbit] = [Сырая крольчатина]
+[Rotten Flesh] = [Гнилая плоть]
+[Sugar] = [Сахар]
+[Wheat] = [Пшеница]
+[Acacia Fence Gate] = [Акациевые ворота]
+[Acacia Fence] = [Акациевый забор]
+[Acacia Slab] = [Акациевая плита]
+[Acacia Stairs] = [Акациевые ступени][Акациевые ступеньки]
+[Acacia Wood] = [Акациевая кора]
+[Andesite Slab] = [Андезитовая плита]
+[Andesite Stairs] = [Андезитовые ступени]
+[Andesite Wall] = [Андезитовая стена]
+[Birch Fence Gate] = [Берёзовые ворота]
+[Birch Fence] = [Берёзовый забор]
+[Birch Slab] = [Берёзовая плита]
+[Birch Stairs] = [Берёзовые ступени][Берёзовые ступеньки]
+[Birch Wood] = [Берёзовая кора]
+[Block of Coal] = [Блок угля][Угольный блок]
+[Block of Diamond] = [Алмазный блок][Блок алмазов]
+[Block of Emerald] = [Блок изумрудов][Изумрудный блок]
+[Block of Gold] = [Блок золота][Золотой блок]
+[Block of Iron] = [Блок железа][Железный блок]
+[Block of Quartz] = [Кварцевый блок]
+[Bookshelf] = [Книжная полка][Книжный шкаф]
+[Brick Slab] = [Кирпичная плита]
+[Brick Stairs] = [Кирпичные ступени][Кирпичные ступеньки]
+[Brick Wall] = [Кирпичная стена]
+[Chiseled Red Sandstone] = [Декоративный красный песчаник]
+[Chiseled Sandstone] = [Декоративный песчаник]
+[Cobblestone Slab] = [Булыжная плита][Булыжниковая плита]
+[Cobblestone Stairs] = [Булыжниковые ступени][Булыжные ступеньки]
+[Cobblestone Wall] = [Булыжная ограда][Булыжниковая стена]
+[Cut Red Sandstone] = [Резной красный песчаник]
+[Cut Sandstone] = [Резной песчаник]
+[Dark Oak Fence Gate] = [Ворота из тёмного дуба][Калитка из тёмного дуба]
+[Dark Oak Fence] = [Забор из тёмного дуба]
+[Dark Oak Slab] = [Плита из тёмного дуба]
+[Dark Oak Stairs] = [Ступени из тёмного дуба][Ступеньки из тёмного дуба]
+[Dark Oak Wood] = [Кора тёмного дуба]
+[Dark Prismarine Slab] = [Плита из тёмного призмарина]
+[Dark Prismarine Stairs] = [Ступени из тёмного призмарина][Ступеньки из тёмного призмарина]
+[Diorite Slab] = [Диоритовая плита]
+[Diorite Stairs] = [Диоритовые ступени]
+[Diorite Wall] = [Диоритовая стена]
+[End Stone Bricks] = [Каменный кирпич Края][Кирпич Края][Эндерняковые кирпичи]
+[Glass Pane] = [Закалённая стеклянная панель][Стеклянная панель]
+[Glass] = [Стекло]
+[Hay Bale] = [Блок сена]
+[Iron Bars] = [Железная решётка][Железные прутья]
+[Jack o'Lantern] = [Светильник Джека]
+[Jungle Fence Gate] = [Джунглевые ворота][Калитка из тропического дерева]
+[Jungle Fence] = [Джунглевый забор][Забор из тропического дерева]
+[Jungle Slab] = [Джунглевая плита][Плита из тропического дерева]
+[Jungle Stairs] = [Джунглевые ступени][Ступени из тропического дерева][Ступеньки из тропического дерева]
+[Jungle Wood] = [Кора тропического дерева]
+[Ladder] = [Лестница]
+[Lapis Lazuli Block] = [Блок лазурита][Лазуритовый блок]
+[Mossy Cobblestone Slab] = [Плита из замшелого булыжника]
+[Mossy Cobblestone Stairs] = [Ступени из замшелого булыжника]
+[Mossy Cobblestone Wall] = [Замшелая булыжная ограда][Замшелая булыжниковая стена]
+[Mossy Stone Brick Slab] = [Плита из замшелого каменного кирпича]
+[Mossy Stone Brick Stairs] = [Ступени из замшелого каменного кирпича]
+[Mossy Stone Brick Wall] = [Стена из замшелого каменного кирпича]
+[Nether Brick Slab] = [Незеритовая плита][Плита из адского кирпича]
+[Nether Brick Wall] = [Стена из адского кирпича]
+[Nether Wart Block] = [Блок адского нароста][Блок нароста из Незера]
+[Oak Fence Gate] = [Ворота][Деревянные ворота][Дубовая калитка][Дубовые ворота][Калитка]
+[Oak Fence] = [Деревянный забор][Дубовый забор][Забор]
+[Oak Slab] = [Дубовая плита]
+[Oak Stairs] = [Дубовые ступени][Дубовые ступеньки]
+[Oak Wood] = [Дубовая кора]
+[Polished Andesite Slab] = [Плита из полированного андезита]
+[Polished Andesite Stairs] = [Ступени из полированного андезита]
+[Polished Diorite Slab] = [Плита из полированного диорита]
+[Polished Diorite Stairs] = [Ступени из полированного диорита]
+[Prismarine Brick Slab] = [Плита из призмаринового кирпича]
+[Purpur Slab] = [Пурпурная плита][Пурпуровая плита]
+[Purpur Stairs] = [Пурпурные ступени][Пурпуровые ступеньки]
+[Quartz Slab] = [Кварцевая плита]
+[Quartz Stairs] = [Кварцевые ступени]
+[Red Nether Brick Slab] = [Плита из красного адского кирпича]
+[Red Nether Brick Stairs] = [Ступени из красного адского кирпича]
+[Red Nether Brick Wall] = [Стена из красного адского кирпича]
+[Red Sandstone Slab] = [Плита из красного песчаника]
+[Red Sandstone Stairs] = [Ступени из красного песчаника][Ступеньки из красного песчаника]
+[Red Sandstone Wall] = [Стена из красного песчаника]
+[Sandstone Slab] = [Песчаниковая плита]
+[Sandstone Stairs] = [Песчаниковые ступени][Песчаниковые ступеньки]
+[Sandstone Wall] = [Песчаниковая стена][Стена из песчаника]
+[Smooth Quartz Slab] = [Гладкая кварцевая плита]
+[Smooth Quartz Stairs] = [Ступени из гладкого кварца]
+[Smooth Red Sandstone Slab] = [Плита из гладкого красного песчаника]
+[Smooth Red Sandstone Stairs] = [Ступени из гладкого красного песчаника]
+[Smooth Red Sandstone] = [Гладкий красный песчаник][Полированная двойная плита из красного песчаника]
+[Smooth Sandstone Slab] = [Плита из гладкого песчаника]
+[Smooth Sandstone Stairs] = [Ступени из гладкого песчаника]
+[Smooth Sandstone] = [Гладкий песчаник][Полированная двойная песчаниковая плита]
+[Smooth Stone Slab] = [Гладкая каменная плита]
+[Snow Block] = [Блок снега][Снег][Снег (блок)][Снежный блок]
+[Spruce Fence Gate] = [Еловая калитка][Еловые ворота]
+[Spruce Fence] = [Еловый забор]
+[Spruce Slab] = [Еловая плита]
+[Spruce Stairs] = [Еловые ступени][Еловые ступеньки]
+[Spruce Wood] = [Еловая кора]
+
+[Stone Brick Stairs] = [Ступени из каменного кирпича][Ступеньки из каменного кирпича]
+[Stone Brick Wall] = [Стена из каменного кирпича]
+[Stone Slab] = [Каменная плита]
+[Stone Stairs] = [Каменные ступени]
+[Acacia Button] = [Акациевая кнопка]
+[Acacia Pressure Plate] = [Акациевая нажимная пластина]
+[Activator Rail] = [Активирующие рельсы]
+[Birch Button] = [Берёзовая кнопка]
+[Birch Pressure Plate] = [Берёзовая нажимная пластина]
+[Block of Redstone] = [Блок красного камня]
+[Dark Oak Button] = [Кнопка из тёмного дуба]
+[Dark Oak Pressure Plate] = [Нажимная пластина из тёмного дуба]
+[Detector Rail] = [Нажимные рельсы][Рельсы с датчиком]
+[Heavy Weighted Pressure Plate] = [Большегрузная весовая пластина][Утяжелённая нажимная пластина (тяжёлая)][Утяжелённая нажимная пластина тяжёлая]
+[Jungle Button] = [Джунглевая кнопка][Кнопка из тропического дерева]
+[Jungle Pressure Plate] = [Джунглевая нажимная пластина][Нажимная пластина из тропического дерева]
+[Lever] = [Рычаг]
+[Light Weighted Pressure Plate] = [Весовая пластина][Утяжелённая нажимная пластина (лёгкая)][Утяжелённая нажимная пластина лёгкая]
+[Oak Button] = [Деревянная кнопка][Дубовая кнопка]
+[Oak Pressure Plate] = [Деревянная нажимная пластина][Дубовая нажимная пластина]
+[Piston] = [Поршень]
+[Powered Rail] = [Электрические рельсы][Энергорельсы]
+[Rail] = [Плита из гладкого камня]
+[Redstone Comparator] = [Компаратор][Редстоуновый компаратор]
+[Redstone Lamp] = [Выключенная лампа][Лампа][Редстоуновый фонарь]
+[Redstone Repeater] = [Красный повторитель][Повторитель][Редстоуновый повторитель]
+[Redstone Torch] = [Красный факел][Настенный красный факел][Редстоуновый факел]
+[Spruce Button] = [Еловая кнопка]
+[Spruce Pressure Plate] = [Еловая нажимная пластина]
+[Sticky Piston] = [Липкий поршень]
+[Stone Button] = [Каменная кнопка][Кнопка]
+[Stone Pressure Plate] = [Каменная нажимная пластина]
+[Tripwire Hook] = [Крюк][Натяжной датчик]
+[Andesite] = [Андезит]
+[Bone Block] = [Костный блок][Костяной блок]
+[Chiseled Stone Bricks][Chiseled Stone Bricks Monster Egg][Infested Chiseled Stone Bricks] = [Заражённый блок резной каменный кирпич][Заражённый резной каменный кирпич][Резной каменный кирпич][Резной каменный кирпич с монстрами][Резные каменные кирпичи][Яйцо монстра из резного каменного кирпича]
+[Clay][Clay (block)] = [Блок][Глиняный][Глиняный блок]
+[Cobblestone][Cobblestone Monster Egg][Infested Cobblestone] = [Булыжник][Булыжник с монстрами][Булыжниковое яйцо монстра][Заражённый блок булыжник][Заражённый булыжник]
+[Cobweb] = [Паутина]
+[Cracked Stone Bricks][Cracked Stone Bricks Monster Egg][Infested Cracked Stone Bricks] = [Заражённый блок потрескавшийся каменный кирпич][Заражённый потрескавшийся каменный кирпич][Потрескавшиеся каменные кирпичи][Потрескавшийся каменный кирпич][Потрескавшийся каменный кирпич с монстрами][Яйцо монстра из потрескавшегося каменного кирпича]
+[Dark Prismarine] = [Тёмный призмарин]
+[Diorite] = [Диорит]
+[Granite] = [Гранит]
+[Gravel] = [Гравий]
+[Ice] = [Лёд]
+[Mossy Cobblestone] = [Замшелый булыжник]
+[Infested Mossy Stone Bricks][Mossy Stone Bricks][Mossy Stone Bricks Monster Egg] = [Замшелые каменные кирпичи][Замшелый каменный кирпич][Замшелый каменный кирпич с монстрами][Заражённый блок замшелый каменный кирпич][Заражённый замшелый каменный кирпич][Яйцо монстра из замшелого каменного кирпича]
+[Mycelium] = [Мицелий]
+[Obsidian] = [Обсидиан]
+[Packed Ice] = [Плотный лёд]
+[Podzol] = [Подзол]
+[Prismarine Bricks] = [Призмариновый кирпич]
+[Red Sand] = [Красный песок]
+[Red Sandstone] = [Красный песчаник]
+[Sand] = [Песок]
+[Sandstone] = [Песчаник]
+[Snow] = [Слой снега][Снег (слой)]
+[Spawner] = [Рассадник монстров][Спаунер мобов]
+[Infested Stone Bricks][Stone Bricks][Stone Bricks Monster Egg] = [Заражённый блок каменный кирпич][Заражённый каменный кирпич][Каменные кирпичи][Каменный кирпич][Каменный кирпич с монстрами][Яйцо монстра каменного кирпича]
+[Terracotta] = [Обожжённая глина][Терракота]
+[Glowstone] = [Светокамень][Светящийся камень]
+[Nether Brick Fence] = [Забор из адского кирпича][Незеритовый забор]
+[Nether Brick Stairs] = [Незеритовые ступеньки][Ступени из адского кирпича]
+[Nether Bricks] = [Адский кирпич][Незеритовые кирпичи]
+[Nether Quartz Ore] = [Кварцевая руда Нижнего мира][Кварцевая руда нижнего мира][Незер-кварцевая руда]
+[Netherrack] = [Адский камень][Незерит]
+[Soul Sand] = [Песок душ]
+[Oak Sign] = [Дубовая табличка][Табличка]
+[Torch] = [Факел][Факел на стене]
+[Coal Ore] = [Каменный уголь][Угольная руда]
+[Diamond Ore] = [Алмазная руда]
+[Emerald Ore] = [Изумрудная руда]
+[Gold Ore] = [Золотая руда]
+[Iron Ore] = [Железная руда]
+[Lapis Lazuli Ore] = [Лазуритовая руда]
+[Redstone Ore] = [Красная руда][Редстоуновая руда]
+[Acacia Leaves] = [Акациевая листва]
+[Acacia Log] = [Акациевая древесина]
+[Acacia Sapling] = [Акациевый саженец][Саженец акации]
+[Allium] = [Лук (цветок)][Лук-батун]
+[Azure Bluet] = [Хаустония серая]
+[Beetroot Seeds] = [Семена свёклы]
+[Birch Leaves] = [Берёзовая листва][Берёзовые листья]
+[Birch Log] = [Берёза][Берёзовая древесина][Древесина берёзы]
+[Birch Sapling] = [Берёзовый саженец][Саженец берёзы]
+[Blue Orchid] = [Синяя орхидея]
+[Brown Mushroom Block] = [Блок огромного коричневого гриба][Огромный коричневый гриб]
+[Brown Mushroom] = [Гриб][Коричневый гриб]
+[Cactus] = [Кактус]
+[Carved Pumpkin] = [Вырезанная тыква]
+[Chorus Flower] = [Цветок коруса][Цветок хоруса]
+[Chorus Plant] = [Растение коруса][Хорус]
+[Dandelion] = [Одуванчик]
+[Dark Oak Leaves] = [Листва тёмного дуба]
+[Dark Oak Log] = [Древесина тёмного дуба][Тёмный дуб]
+[Dark Oak Sapling] = [Саженец тёмного дуба]
+[Dead Bush] = [Мёртвый куст][Сухой куст]
+[Fern] = [Папоротник]
+[Grass] = [Трава]
+[Jungle Leaves] = [Джунглевая листва][Листва тропического дерева][Листья тропического дерева]
+[Jungle Log] = [Джунглевая древесина][Джунглевая кора][Древесина тропического дерева][Тропическое дерево]
+[Jungle Sapling] = [Джунглевый саженец][Саженец тропического дерева]
+[Large Fern] = [Раскидистый папоротник]
+[Lilac] = [Сирень]
+[Lily Pad] = [Кувшинка]
+[Melon] = [Арбуз][Блок арбуза]
+[Mushroom Stem] = [Грибной блок][Ножка огромного гриба]
+[Oak Leaves] = [Дубовая листва][Дубовые листья][Листва][Листья]
+[Oak Log] = [Древесина][Древесина дуба][Дуб][Дубовая древесина][Дубовое бревно]
+[Oak Sapling] = [Дубовый саженец][Саженец][Саженец дуба]
+[Orange Tulip] = [Оранжевый тюльпан]
+[Oxeye Daisy] = [Невяник][Нивяник][Ромашка]
+[Peony] = [Пион]
+[Pink Tulip] = [Розовый тюльпан]
+[Poppy] = [Мак]
+[Pumpkin] = [Тыква]
+[Red Mushroom Block] = [Блок огромного красного гриба][Огромный красный гриб]
+[Red Mushroom] = [Красный гриб]
+[Red Tulip] = [Красный тюльпан]
+[Rose Bush] = [Розовый куст]
+[Spruce Leaves] = [Еловая листва][Листва ели][Хвоя]
+[Spruce Log] = [Древесина ели][Еловая древесина][Ель]
+[Spruce Sapling] = [Еловый саженец]
+[Sugar Cane] = [Сахарный тростник][Тростник]
+[Sunflower] = [Подсолнечник][Подсолнух]
+[Tall Grass] = [Высокая трава][Двойная высокая трава]
+[Vines] = [Лиана][Лианы][Лоза]
+[White Tulip] = [Белый тюльпан]
+[Potion of Fire Resistance] = [Зелье огнестойкости]
+[Potion of Harming] = [Зелье вреда][Зелье урона]
+[Potion of Healing] = [Зелье исцеления][Зелье лечения]
+[Potion of Invisibility] = [Зелье невидимости]
+[Potion of Leaping] = [Зелье прыгучести]
+[Potion of Luck] = [Зелье удачи]
+[Potion of Night Vision] = [Зелье ночного зрения]
+[Potion of Poison] = [Зелье отравления]
+[Potion of Regeneration] = [Зелье регенерации]
+[Potion of Slow Falling] = [Зелье медленного падения]
+[Potion of Slowness] = [Зелье замедления]
+[Potion of Strength] = [Зелье силы]
+[Potion of Swiftness] = [Зелье стремительности][Зелье ускорения]
+[Potion of the Turtle Master] = [Зелье черепашьей мощи]
+[Potion of Water Breathing] = [Зелье водного дыхания][Зелье подводного дыхания]
+[Potion of Weakness] = [Зелье слабости]
+[Bottle o' Enchanting] = [Пузырёк опыта]
+[Splash Potion of Water Breathing] = [Взрывающееся зелье подводного дыхания][Взрывное зелье водного дыхания]
+[Splash Potion of Fire Resistance] = [Взрывающееся зелье огнестойкости][Взрывное зелье огнестойкости]
+[Splash Potion of Harming] = [Взрывающееся зелье урона][Взрывное зелье вреда]
+[Splash Potion of Healing] = [Взрывающееся зелье лечения][Взрывное зелье исцеления]
+[Splash Potion of Invisibility] = [Взрывающееся зелье невидимости][Взрывное зелье невидимости]
+[Splash Potion of Leaping] = [Взрывающееся зелье прыгучести][Взрывное зелье прыгучести]
+[Splash Potion of Luck] = [Взрывающееся зелье удачи][Взрывное зелье удачи]
+[Splash Potion of Night Vision] = [Взрывающееся зелье ночного зрения][Взрывное зелье ночного зрения]
+[Splash Potion of Poison] = [Взрывающееся зелье отравления][Взрывное зелье отравления]
+[Splash Potion of Regeneration] = [Взрывающееся зелье регенерации][Взрывное зелье регенерации]
+[Splash Potion of Slow Falling] = [Взрывающееся зелье медленного падения]
+[Splash Potion of Slowness] = [Взрывающееся зелье замедления][Взрывное зелье замедления]
+[Splash Potion of Strength] = [Взрывающееся зелье силы][Взрывное зелье силы]
+[Splash Potion of Swiftness] = [Взрывающееся зелье ускорения][Взрывное зелье стремительности]
+[Splash Potion of the Turtle Master] = [Взрывное зелье черепашьей мощи]
+[Splash Potion of Weakness] = [Взрывное зелье слабости]
+[Uncraftable Splash Potion] =
+[Lingering Potion of Fire Resistance] = [Оседающее зелье огнестойкости][Туманное зелье огнестойкости]
+[Lingering Potion of Harming] = [Оседающее зелье урона][Туманное зелье урона]
+[Lingering Potion of Healing] = [Оседающее зелье лечения][Туманное зелье исцеления]
+[Lingering Potion of Invisibility] = [Оседающее зелье невидимости][Туманное зелье невидимости]
+[Lingering Potion of Leaping] = [Оседающее зелье прыгучести][Туманное зелье прыгучести]
+[Lingering Potion of Luck] = [Оседающее зелье удачи][Туманное зелье удачи]
+[Lingering Potion of Night Vision] = [Оседающее зелье ночного зрения][Туманное зелье ночного зрения]
+[Lingering Potion of Poison] = [Оседающее зелье отравления][Туманное зелье отравления]
+[Lingering Potion of Regeneration] = [Оседающее зелье регенерации][Туманное зелье регенерации]
+[Lingering Potion of Slow Falling] = [Оседающее зелье медленного падения]
+[Lingering Potion of Slowness] = [Оседающее зелье замедления][Туманное зелье замедления]
+[Lingering Potion of Strength] = [Оседающее зелье силы][Туманное зелье силы]
+[Lingering Potion of Swiftness] = [Оседающее зелье ускорения][Туманное зелье стремительности]
+[Lingering Potion of the Turtle Master] = [Оседающее зелье черепашьей мощи]
+[Lingering Potion of Water Breathing] = [Оседающее зелье подводного дыхания][Туманное зелье водного дыхания]
+[Lingering Potion of Weakness] = [Оседающее зелье слабости][Туманное зелье слабости]
+[Uncraftable Lingering Potion] = [Несоздаваемое туманное зелье][Оседающее несоздаваемое зелье]
+[Lingering Water Bottle] = [Грубое оседающее зелье][Густое оседающее зелье][Густое туманное зелье][Заурядное туманное зелье][Мутное туманное зелье][Непримечательное оседающее зелье][Оседающая колба воды][Туманное зелье]
+[Bone] = [Кость]
+[Book] = [Книга]
+[Brick] = [Кирпич]
+[Charcoal] = [Древесный уголь]
+[Clay (ball)][Clay Ball] = [Глина]
+[Coal] = [Уголь]
+[Diamond] = [Алмаз]
+[Emerald] = [Изумруд]
+[Ender Pearl] = [Жемчуг Края][Эндер-жемчуг]
+[Feather] = [Перо]
+[Flint] = [Кремень]
+[Glowstone Dust] = [Светокаменная пыль][Светопыль]
+[Gold Ingot] = [Золотой слиток]
+[Gold Nugget] = [Золотой самородок|у][Кусочек золота]
+[Gunpowder] = [Порох]
+[Iron Ingot] = [Железный слиток]
+[Iron Nugget] = [Железный самородок][Кусочек железа]
+[Leather] = [Кожа]
+[Nether Brick] = [Адский кирпич (предмет)][Незеритовый кирпич]
+[Nether Quartz] = [Кварц Нижнего мира][Незер-кварц]
+ = [Звезда Нижнего мира][Звезда из Незера]
+[Paper] = [Бумага]
+[Popped Chorus Fruit] = [Приготовленный плод коруса][Прожаренный плод хоруса]
+[Prismarine Crystals] = [Кристалл призмарина][Призмариновый кристалл]
+[Prismarine Shard] = [Осколок призмарина][Призмариновый осколок]
+[Rabbit Hide] = [Кроличья шкурка]
+[Redstone][Redstone Dust] = [Красная пыль][Красный камень][Редстоун]
+[Shulker Shell] = [Панцирь шалкера]
+[Slimeball] = [Сгусток слизи][Слизь]
+[String] = [Нить]
+[Book and Quill] = [Книга и перо][Книга с пером]
+[Bowl] = [Миска][Чашка|у]
+[Carrot on a Stick] = [Удочка с морковкой][Удочка с морковью]
+[Damaged Carrot on a Stick] = [Повреждённая удочка с морковью]
+[Damaged Diamond Axe] = [Повреждённый алмазный топор]
+[Damaged Diamond Hoe] = [Повреждённая алмазная мотыга]
+[Damaged Diamond Pickaxe] = [Повреждённая алмазная кирка]
+[Damaged Diamond Shovel] = [Повреждённая алмазная лопата]
+[Damaged Fishing Rod] = [Повреждённая удочка]
+[Damaged Flint and Steel] = [Повреждённое огниво]
+[Damaged Golden Axe] = [Повреждённый золотой топор]
+[Damaged Golden Hoe] = [Повреждённая золотая мотыга]
+[Damaged Golden Pickaxe] = [Повреждённая золотая кирка]
+[Damaged Golden Shovel] = [Повреждённая золотая лопата]
+[Damaged Iron Axe] = [Повреждённый железный топор]
+[Damaged Iron Hoe] = [Повреждённая железная мотыга]
+[Damaged Iron Pickaxe] = [Повреждённая железная кирка]
+[Damaged Iron Shovel] = [Повреждённая железная лопата]
+[Damaged Shears] = [Повреждённые ножницы]
+[Damaged Stone Axe] = [Повреждённый каменный топор]
+[Damaged Stone Hoe] = [Повреждённая каменная мотыга]
+[Damaged Stone Pickaxe] = [Повреждённая каменная кирка]
+[Damaged Stone Shovel] = [Повреждённая каменная лопата]
+[Damaged Wooden Axe] = [Повреждённый деревянный топор]
+[Damaged Wooden Hoe] = [Повреждённая деревянная мотыга]
+[Damaged Wooden Pickaxe] = [Повреждённая деревянная кирка]
+[Damaged Wooden Shovel] = [Повреждённая деревянная лопата]
+[Diamond Axe] = [Алмазный топор]
+[Diamond Hoe] = [Алмазная мотыга]
+[Diamond Pickaxe] = [Алмазная кирка]
+[Diamond Shovel] = [Алмазная лопата]
+[Empty Locator Map][Empty Map] = [Empty Locator Map][Пустая карта]
+[Enchanted Book] = [Зачарованная книга][Чародейская книга]
+[Eye of Ender] = [Око Края][Око Эндера]
+[Fire Charge] = [Огненный заряд][Огненный шар]
+[Fishing Rod] = [Удочка]
+[Flint and Steel] = [Огниво]
+[Glass Bottle] = [Колба][Пузырёк]
+[Golden Axe] = [Золотой топор]
+[Golden Hoe] = [Золотая мотыга]
+[Golden Pickaxe] = [Золотая кирка]
+[Golden Shovel] = [Золотая лопата]
+[Iron Axe] = [Железный топор]
+[Iron Hoe] = [Железная мотыга]
+[Iron Pickaxe] = [Железная кирка]
+[Iron Shovel] = [Железная лопата]
+[Lead] = [Поводок]
+[Buried Treasure Map][Map] = [Карта][Карта сокровищ]
+[Name Tag] = [Бирка]
+[Ocean Explorer Map] = [Карта к подводной крепости]
+[Saddle] = [Седло]
+[Shears] = [Ножницы]
+[Stone Axe] = [Каменный топор]
+[Stone Hoe] = [Каменная мотыга]
+[Stone Pickaxe] = [Каменная кирка]
+[Stone Shovel] = [Каменная лопата]
+[Wooden Axe] = [Деревянный топор]
+[Wooden Hoe] = [Деревянная мотыга]
+[Wooden Pickaxe] = [Деревянная кирка]
+[Wooden Shovel] = [Деревянная лопата]
+[Woodland Explorer Map] = [Карта к лесному особняку]
+[Written Book] = [Завершённая книга][Написанная книга]
+[Anvil] = [Наковальня]
+[Barrier] = [Барьер]
+[Beacon] = [Маяк]
+[Brewing Stand] = [Варочная стойка]
+[Cake] = [Торт]
+[Cauldron] = [Котёл]
+[Chipped Anvil] = [Немного повреждённая наковальня][Повреждённая наковальня]
+[Crafting Table] = [Верстак]
+[Damaged Anvil] = [Сильно повреждённая наковальня]
+[Dispenser] = [Раздатчик]
+[Dropper] = [Выбрасыватель]
+[Enchanting Table][Enchantment Table] = [Стол зачаровывания][Чародейский стол]
+[Ender Chest] = [Сундук Края][Эндер-сундук]
+[Furnace] = [Печка|у][Печь]
+[Hopper] = [Воронка][Загрузочная воронка]
+[Jukebox] = [Проигрыватель]
+[Knowledge Book] = [Книга знаний]
+[Note Block] = [Музыкальный блок][Нотный блок]
+[Observer] = [Наблюдатель]
+[Sponge] = [Губка]
+[Structure Void] = [Структурная пустота]
+[TNT] = [Динамит][ТНТ]
+[Trapped Chest] = [Сундук-ловушка]
+[Wet Sponge] = [Мокрая губка]
+[Acacia Boat] = [Акациевая лодка]
+[Birch Boat] = [Берёзовая лодка]
+[Dark Oak Boat] = [Лодка из тёмного дуба]
+[Jungle Boat] = [Джунглевая лодка][Лодка из тропического дерева]
+[Minecart] = [Вагонетка]
+[Minecart with Chest] = [Вагонетка с сундуком][Грузовая вагонетка]
+[Minecart with Command Block] = [Вагонетка с командным блоком]
+[Minecart with Furnace] = [Вагонетка с печкой|у][Вагонетка с печью][Самоходная вагонетка]
+[Minecart with Hopper] = [Вагонетка с воронкой][Загрузочная вагонетка]
+[Minecart with TNT] = [Вагонетка с ТНТ][Вагонетка с динамитом]
+[Oak Boat] = [Дубовая лодка]
+[Spruce Boat] = [Еловая лодка]
+[Damaged Diamond Sword] = [Повреждённый алмазный меч]
+[Damaged Golden Sword] = [Повреждённый золотой меч]
+[Damaged Iron Sword] = [Повреждённый железный меч]
+[Damaged Stone Sword] = [Повреждённый каменный меч]
+[Damaged Wooden Sword] = [Повреждённый деревянный меч]
+[Diamond Sword] = [Алмазный меч]
+[Golden Sword] = [Золотой меч]
+[Iron Sword] = [Железный меч]
+[Snowball] = [Снежок]
+[Spectral Arrow] = [Призрачная стрела]
+[Stone Sword] = [Каменный меч]
+[Totem of Undying] = [Тотем бессмертия]
+[Wooden Sword] = [Деревянный меч]
+[MHF Skeleton] =
+[MHF WSkeleton] =
+[MHF Zombie] =
+[Rainbow Bed] = [Радужная кровать]
+[Rainbow Carpet] = [Радужный ковёр]
+[Rainbow Wool] = [Радужная шерсть]
