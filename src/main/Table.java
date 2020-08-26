@@ -2,11 +2,15 @@ package main;
 
 import java.util.*;
 import java.util.function.Function;
+import java.util.stream.Collectors;
 
+import static java.lang.Character.isLetter;
+import static java.lang.Character.isAlphabetic;
 import static main.Functions.*;
 
 public class Table extends Node {
     private final List<Node> data;
+    private final TreeMap<Long, Word> hash_en;
 
     private final TableType type;
     private final int maxSize;
@@ -18,6 +22,8 @@ public class Table extends Node {
         for (int i = 0; i < maxSize; i++) {
             data.add(new Node());
         }
+
+        hash_en = new TreeMap<>();
     }
 
     private Node get(int index) {
@@ -47,7 +53,7 @@ public class Table extends Node {
             System.out.println("[" + word_ru.name + "] already exist");
         }
 
-        if (Main.ignored_words.stream().anyMatch((word_ru.name + " ")::contains)) {
+        if (Main.ignored_words.stream().anyMatch((" " + word_ru.name + " ")::contains)) {
             System.out.println("[" + word_ru.name + "] was ignored");
             return;
         }
@@ -74,10 +80,12 @@ public class Table extends Node {
                     .replace("\"]", "");
 
             final var pos_name = lang == Lang.ru ? "['поз'] = " : "pos = ";
+            requireTrue(line.contains(pos_name));
             final int pos_i = line.indexOf(pos_name) + pos_name.length();
             final int pos = Integer.parseInt(line.substring(pos_i, line.indexOf(',', pos_i)).trim()) - 1;
 
             final var sec_name = lang == Lang.ru ? "['раздел'] = " : "section = ";
+            requireTrue(line.contains(sec_name));
             final int sec_i = line.indexOf(sec_name) + sec_name.length();
             final int section = Integer.parseInt(line.substring(sec_i, line.indexOf(',', sec_i)).trim());
 
@@ -131,14 +139,16 @@ public class Table extends Node {
             final String line = dict.nextLine();
             final int delim = line.indexOf(" = ");
             if (delim < 0) {
+                get(i).en.clear();
+                get(i).ru.clear();
                 continue;
             }
 
             final var words_en = get(i).en;
             final var words_ru = get(i).ru;
 
-            int section = !words_en.isEmpty() ? words_en.firstEntry().getValue().section
-                    : !words_ru.isEmpty() ? words_ru.firstEntry().getValue().section : -1;
+            int section = !words_ru.isEmpty() ? words_ru.firstEntry().getValue().section
+                        : !words_en.isEmpty() ? words_en.firstEntry().getValue().section : -1;
 
             update_dict(transform.apply(line.substring(0, delim).trim()), Lang.en, i, section);
             update_dict(transform.apply(line.substring(delim + 2).trim()), Lang.ru, i, section);
@@ -164,11 +174,14 @@ public class Table extends Node {
         write(type + "/dictionary.txt", sb.toString().stripTrailing());
     }
 
-    void generateOutput(Comparator<Word> comp) {
+    void generateOutput(Comparator<Word> comp, boolean use_en_sections) {
         final TreeSet<Word> words = new TreeSet<>(comp);
 
-        for (Node node : data) {
-            words.addAll(node.ru.values());
+        if (use_en_sections) {
+            words.addAll(ru.values().stream().map(word ->
+                    new Word(word.name, word.pos, getFirstElse(get(word.pos).en.values(), word).section)).collect(Collectors.toSet()));
+        } else {
+            words.addAll(ru.values());
         }
 
         final StringBuilder sb = new StringBuilder(maxSize * 16);
@@ -180,6 +193,10 @@ public class Table extends Node {
         write("output.txt", sb.toString().stripTrailing());
     }
 
+    void generateOutput(Comparator<Word> comp) {
+        generateOutput(comp, false);
+    }
+
     // merge this_table with table by en words
     void mergeWith(final Table table) {
         for (var entry : table.en.entrySet()) {
@@ -189,7 +206,7 @@ public class Table extends Node {
                 for (var word_ru : table.get(new_word.pos).ru.entrySet()) {
                     final var name_ru = word_ru.getKey();
                     if (!ru.containsKey(name_ru)) {
-                        add_ru(new Word(name_ru, word_en.pos, word_en.section));
+                        add_ru(new Word(name_ru, word_en.pos, word_en.section, word_ru.getValue().outdated));
                     }
                 }
             }
@@ -200,11 +217,11 @@ public class Table extends Node {
         final Table table = new Table(type, maxSize);
 
         for (var word : en.values()) {
-            table.add_en(new Word(fun_en.apply(word.name), word.pos, word.section));
+            table.add_en(new Word(fun_en.apply(word.name), word.pos, word.section, word.outdated));
         }
 
         for (var word : ru.values()) {
-            table.add_ru(new Word(fun_ru.apply(word.name), word.pos, word.section));
+            table.add_ru(new Word(fun_ru.apply(word.name), word.pos, word.section, word.outdated));
         }
 
         return table;
@@ -236,31 +253,37 @@ public class Table extends Node {
         final var builder = new StringBuilder();
         final var h_str = new HashString(text);
 
-        for (int i = 0; i < text.length(); i++) {
-            boolean found = false;
+        next: for (int begin = 0; begin < text.length(); begin++) {
+            if (isAlphabetic(text.charAt(begin)) && (begin == 0 || !isLetter(text.charAt(begin - 1)))) {
+                for (int end = Math.min(text.length(), maxLen + begin); end > begin; end--) {
+                    if (end != text.length() && isLetter(text.charAt(end))) {
+                        continue;
+                    }
 
-            if (Character.isAlphabetic(text.charAt(i))) {
-                for (int j = Math.min(text.length(), maxLen + i); j > i; j--) {
                     for (final var table : tables) {
-                        final var word_en = table.hash_en.get(h_str.hash(i, j));
-                        if (word_en != null && word_en.name.equals(text.substring(i, j))) {
+                        final var word_en = table.hash_en.get(h_str.hash(begin, end));
+                        if (word_en != null && word_en.name.equals(text.substring(begin, end))) {
                             final var words_ru = table.translate_en_ru(word_en.name);
                             if (!words_ru.isEmpty()) {
                                 builder.append(words_ru.iterator().next());
-                                i = j - 1;
-                                found = true;
-                                break;
+                                begin = end - 1;
+                                continue next;
                             }
                         }
                     }
                 }
             }
 
-            if (!found) {
-                builder.append(text.charAt(i));
-            }
+            builder.append(text.charAt(begin));
         }
 
         return builder.toString();
+    }
+
+    void removeOutdatedWords() {
+        ru.entrySet().removeIf(entry -> entry.getValue().outdated);
+        for (var node : data) {
+            node.ru.entrySet().removeIf(entry -> entry.getValue().outdated);
+        }
     }
 }

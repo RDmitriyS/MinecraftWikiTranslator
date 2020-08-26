@@ -23,7 +23,6 @@
 [Crafting] = [Крафт]
 [Edition] = [Издание]
 [Issue list] = [Проблемы с объектом]
-[Stonecutting] = [Stonecutting]
 [breaking row][Breaking row] = [Таблица разрушаемости]
 
 [Any] = [Любой]
@@ -34,9 +33,6 @@
 [Planks] = [Доски]
 [Quartz Block] = [Кварцевый блок]
 [Wood Slab] = [Деревянная доска]
-
-[Pickaxe] = [Кирка]
-[Axe] = [Топор]
 
 [Double Wooden Slabs] = [Двойные деревянные плиты]
 [Wooden Slabs] = [Деревянные плиты]

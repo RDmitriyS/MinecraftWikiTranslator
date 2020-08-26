@@ -19,16 +19,16 @@ public class Word implements Comparable<Word> {
 
     @Override
     public int compareTo(final Word word) {
-        return name.compareTo(word.name);
+        return Functions.compareTo(name, word.name);
     }
 
     public int compareByName(final Word word) {
-        final int temp = name.compareTo(word.name);
+        final int temp = compareTo(word);
         return temp != 0 ? temp : Integer.compare(pos, word.pos);
     }
 
     public int compareByPos(final Word word) {
         final int temp = Integer.compare(pos, word.pos);
-        return temp != 0 ? temp : name.compareTo(word.name);
+        return temp != 0 ? temp : compareTo(word);
     }
 }

@@ -10,7 +10,7 @@ public class Exceptions {
     final static Set<String> word_exceptions = Set.of(
             "a", "the", "on", "and", "with", "o'", "of",
             "BE", "LCE", "PE", "CE", "Edition", "Bedrock", "Education",
-            "Края", "Энд", "Энда", "Эндера", "Нижнего мира", "Незера",
+            "Края", "Энд", "Энда", "Эндера", "Нижнего", "Незера",
             "ТНТ", "чем-то"
     );
 

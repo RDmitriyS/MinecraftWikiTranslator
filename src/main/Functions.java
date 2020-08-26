@@ -7,6 +7,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Collection;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
@@ -93,10 +94,28 @@ public class Functions {
     }
 
     static void mergeByLine(String path1, String path2) {
-        var reader1 = getScanner(path1);
-        var reader2 = getScanner(path2);
+        final var reader1 = getScanner(path1);
+        final var reader2 = getScanner(path2);
         while (reader1.hasNextLine() && reader2.hasNextLine()) {
-            System.out.println((reader1.nextLine() + reader2.nextLine()));
+            write("output.txt", (reader1.nextLine() + reader2.nextLine()));
         }
+    }
+
+    static void requireTrue(final boolean cond) {
+        if (!cond) {
+            throw new AssertionError();
+        }
+    }
+
+    static <T> T getFirstElse(Collection<T> col, T value) {
+        return col.isEmpty() ? value : col.iterator().next();
+    }
+
+    static <T> T getFirstIfNotNullElse(T first, T second) {
+        return first != null ? first : second;
+    }
+
+    static int compareTo(final String lhs, final String rhs) {
+        return lhs.replace('ё', 'е').compareTo(rhs.replace('ё', 'е'));
     }
 }

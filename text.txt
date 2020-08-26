@@ -1,47 +1,5 @@
 {{Block
 |image=
-Oak Slab.png;
-Spruce Slab.png;
-Birch Slab.png;
-Jungle Slab.png;
-Acacia Slab.png;
-Dark Oak Slab.png;
-Crimson Slab.png;
-Warped Slab.png;
-Oak Slab.png;<!--Petrified-->
-Stone Slab.png;
-Smooth Stone Slab.png;
-Cobblestone Slab.png;
-Mossy Cobblestone Slab.png;
-Stone Brick Slab.png;
-Mossy Stone Brick Slab.png;
-Andesite Slab.png;
-Polished Andesite Slab.png;
-Diorite Slab.png;
-Polished Diorite Slab.png;
-Granite Slab.png;
-Polished Granite Slab.png;
-Sandstone Slab.png;
-Cut Sandstone Slab.png;
-Smooth Sandstone Slab.png;
-Red Sandstone Slab.png;
-Cut Red Sandstone Slab.png;
-Smooth Red Sandstone Slab.png;
-Brick Slab.png;
-Prismarine Slab.gif;
-Prismarine Brick Slab.png;
-Dark Prismarine Slab.png;
-Nether Brick Slab.png;
-Red Nether Brick Slab.png;
-Quartz Slab.png;
-Smooth Quartz Slab.png;
-Purpur Slab.png;
-End Stone Brick Slab.png;
-Blackstone Slab.png;
-Blackstone Slab BE1.png;
-Polished Blackstone Slab.png;
-Polished Blackstone Brick Slab.png
-|image2=
 Oak Planks.png;
 Spruce Planks.png;
 Birch Planks.png;
@@ -49,1140 +7,343 @@ Jungle Planks.png;
 Acacia Planks.png;
 Dark Oak Planks.png;
 Crimson Planks.png;
-Warped Planks.png;
-Oak Planks.png;<!--Petrified-->
-Stone.png;
-Double Smooth Stone Slab.png;
-Cobblestone.png;
-Mossy Cobblestone.png;
-Stone Bricks.png;
-Mossy Stone Bricks.png;
-Andesite.png;
-Polished Andesite.png;
-Diorite.png;
-Polished Diorite.png;
-Granite.png;
-Polished Granite.png;
-Sandstone.png;
-Cut Sandstone.png;
-Smooth Sandstone.png;
-Red Sandstone.png;
-Cut Red Sandstone.png;
-Smooth Red Sandstone.png;
-Bricks.png;
-Prismarine.png;
-Prismarine Bricks.png;
-Dark Prismarine.png;
-Nether Bricks.png;
-Red Nether Bricks.png;
-Block of Quartz.png;
-Smooth Quartz.png;
-Purpur Block.png;
-End Stone Bricks.png;
-Blackstone.png;
-Double Blackstone Slab BE1.png;
-Polished Blackstone.png;
-Polished Blackstone Bricks.png
-|invimage=Oak Slab
-|invimage2=Spruce Slab
-|invimage3=Birch Slab
-|invimage4=Jungle Slab
-|invimage5=Acacia Slab
-|invimage6=Dark Oak Slab
-|invimage7=Crimson Slab
-|invimage8=Warped Slab
-|invimage9=Petrified Oak Slab
-|invimage10=Stone Slab
-|invimage11=Smooth Stone Slab
-|invimage12=Cobblestone Slab
-|invimage13=Mossy Cobblestone Slab
-|invimage14=Stone Brick Slab
-|invimage15=Mossy Stone Brick Slab
-|invimage16=Andesite Slab
-|invimage17=Polished Andesite Slab
-|invimage18=Diorite Slab
-|invimage19=Polished Diorite Slab
-|invimage20=Granite Slab
-|invimage21=Polished Granite Slab
-|invimage22=Sandstone Slab
-|invimage23=Cut Sandstone Slab
-|invimage24=Smooth Sandstone Slab
-|invimage25=Red Sandstone Slab
-|invimage26=Cut Red Sandstone Slab
-|invimage27=Smooth Red Sandstone Slab
-|invimage28=Brick Slab
-|invimage30=Prismarine Slab
-|invimage31=Prismarine Brick Slab
-|invimage32=Dark Prismarine Slab
-|invimage40=Nether Brick Slab
-|invimage41=Red Nether Brick Slab
-|invimage42=Quartz Slab
-|invimage43=Smooth Quartz Slab
-|invimage50=Purpur Slab
-|invimage51=End Stone Brick Slab
-|invimage52=Blackstone Slab
-|invimage53=Polished Blackstone Slab
-|invimage54=Polished Blackstone Brick Slab
-|transparent='''Double slab''': No<br>
-'''Single slab''': Partial <small>(blocks light)</small> {{only|java|short=1}}<br>Yes {{only|bedrock|short=1}}
+Warped Planks.png
+|invimage=Oak Planks
+|invimage2=Spruce Planks
+|invimage3=Birch Planks
+|invimage4=Jungle Planks
+|invimage5=Acacia Planks
+|invimage6=Dark Oak Planks
+|invimage7=Crimson Planks
+|invimage8=Warped Planks
+|transparent=No
 |light=No
 |tool=axe
-|tool2=wooden pickaxe
-|tntres=
-'''End Stone Brick''': {{Blast resistance values|end stone brick slab}}<br>
-'''Wooden''': {{Blast resistance values|wooden slab}}<br>
-'''All others''': {{Blast resistance values|stone slab}}
-|hardness=See {{slink||Breaking}}
-|renewable=
-'''Blackstone, Polished Blackstone, Polished Blackstone Bricks''': Yes{{only|Java}}
-'''Petrified Oak''': No<br>
-'''All others''': Yes
-|stackable=Yes (64), same type only
-|flammable='''Overworld wood''': Yes (5)<br>
-'''All others''': No
-|lavasusceptible='''Overworld wood''': Yes<br>
-'''All others''': No
+|renewable=Yes
+|stackable=Yes (64)
+|flammable='''Overworld Planks''': Yes (5)<br>'''Nether Planks''': No
+|lavasusceptible='''Overworld Planks''': Yes<br>'''Nether Planks''': No
 }}
 
-'''Slabs''', sometimes erroneously referred to as '''half-slabs''', are half-height versions of their respective [[blocks]].
+'''Planks'''{{fn|Known as '''Planks''' {{in|java}} and '''Wood Planks''' {{in|bedrock}}.}} are common [[block]]s used in [[crafting]] recipes and are also the first thing that a [[player]] can craft in [[survival mode]] and [[adventure mode]]. Two categories of planks can be differentiated: flammable '''Overworld Planks''' made from [[tree]] logs, and nonflammable '''Nether Planks''' made from [[huge fungus|fungi]] stems.
 
 == Obtaining ==
 
 === Breaking ===
 
-Stone-type slabs and smooth blocks require a pickaxe to mine. Wooden slabs can be mined with anything, but an axe is quickest.
-
-{{breaking row
-|textTrim=Slab
-|End Stone Brick Slab;Blackstone Slab,Polished Blackstone Slab,Polished Blackstone Brick Slab,Brick Slab,(Mossy) Cobblestone Slab,(Red) Nether Brick Slab,Petrified Oak Slab,Purpur Slab,(Smooth) Quartz Slab,(Cut/Smooth) Sandstone Slab,(Cut/Smooth) Red Sandstone Slab,(Smooth) Stone Slab,Stone Brick Slab;Andesite Slab,Polished Andesite Slab,(Polished) Diorite Slab,(Polished) Granite Slab,Mossy Stone Brick Slab,Prismarine (and variants);Wooden Slab
-|sprite=;,,,,cobblestone-slab,nether-brick-slab,,,quartz-slab,sandstone-slab,red-sandstone-slab,stone-slab,;,,diorite-slab,granite-slab,,prismarine-slab;all-wooden-slabs
-|Pickaxe;Pickaxe;Pickaxe;Axe
-|Wood;Wood;Wood
-|link=none;none;none;none
-}}
-
-Most slabs drop themselves when broken. The exception is petrified oak slabs, which drop normal oak slabs.{{only|bedrock}}
-
-Double slabs drop 2 of their respective single slabs, even when mined with Silk Touch. {{IN|java}}, double slabs are completely unobtainable.{{IN|bedrock}}, they can be obtained through inventory editing.
-
-=== Crafting ===
-
-{{Crafting
-|head=1
-|showdescription=1
-|name=[[Wood Slab]]
-|ingredients=Matching [[Planks]]
-|A3= Matching Planks; Crimson Planks; Warped Planks
-|B3= Matching Planks; Crimson Planks; Warped Planks
-|C3= Matching Planks; Crimson Planks; Warped Planks
-|Output= Matching wood Slab,6; Crimson Slab,6; Warped Slab,6
-|type= Building block
-}}
-{{Crafting
-|A3= Stone; Smooth Stone
-|B3= Stone; Smooth Stone
-|C3= Stone; Smooth Stone
-|Output= Stone Slab,6; Smooth Stone Slab,6
-|type= Building block
-}}
-{{Crafting
-|A3= Cobblestone; Mossy Cobblestone
-|B3= Cobblestone; Mossy Cobblestone
-|C3= Cobblestone; Mossy Cobblestone
-|Output= Cobblestone Slab,6; Mossy Cobblestone Slab,6
-|type= Building block
-}}
-{{Crafting
-|A3= Stone Bricks; Mossy Stone Bricks
-|B3= Stone Bricks; Mossy Stone Bricks
-|C3= Stone Bricks; Mossy Stone Bricks
-|Output= Stone Brick Slab,6; Mossy Stone Brick Slab, 6
-|type= Building block
-}}
-{{Crafting
-|A3= Andesite; Polished Andesite
-|B3= Andesite; Polished Andesite
-|C3= Andesite; Polished Andesite
-|Output= Andesite Slab,6; Polished Andesite Slab,6
-|type= Building block
-}}
-{{Crafting
-|A3= Diorite; Polished Diorite
-|B3= Diorite; Polished Diorite
-|C3= Diorite; Polished Diorite
-|Output= Diorite Slab,6; Polished Diorite Slab,6
-|type= Building block
-}}
-{{Crafting
-|A3= Granite; Polished Granite
-|B3= Granite; Polished Granite
-|C3= Granite; Polished Granite
-|Output= Granite Slab,6; Polished Granite Slab,6
-|type= Building block
-}}
-{{Crafting
-|A3= Sandstone; Red Sandstone
-|B3= Sandstone; Red Sandstone
-|C3= Sandstone; Red Sandstone
-|Output= Sandstone Slab,6; Red Sandstone Slab,6
-|type= Building block
-}}
-{{Crafting
-|A3= Cut Sandstone; Cut Red Sandstone
-|B3= Cut Sandstone; Cut Red Sandstone
-|C3= Cut Sandstone; Cut Red Sandstone
-|Output= Cut Sandstone Slab,6;Cut Red Sandstone Slab,6
-|type= Building block
-}}
-{{Crafting
-|A3= Smooth Sandstone; Smooth Red Sandstone
-|B3= Smooth Sandstone; Smooth Red Sandstone
-|C3= Smooth Sandstone; Smooth Red Sandstone
-|Output= Smooth Sandstone Slab,6; Smooth Red Sandstone Slab,6
-|type= Building block
-}}
-{{Crafting
-|A3= Bricks
-|B3= Bricks
-|C3= Bricks
-|Output= Brick Slab,6
-|type= Building block
-}}
-{{Crafting
-|A3= Prismarine; Prismarine Bricks; Dark Prismarine
-|B3= Prismarine; Prismarine Bricks; Dark Prismarine
-|C3= Prismarine; Prismarine Bricks; Dark Prismarine
-|Output= Prismarine Slab,6; Prismarine Brick Slab,6; Dark Prismarine Slab,6
-|type= Building block
-}}
-{{Crafting
-|A3= Nether Bricks; Red Nether Bricks
-|B3= Nether Bricks; Red Nether Bricks
-|C3= Nether Bricks; Red Nether Bricks
-|Output= Nether Brick Slab,6; Red Nether Brick Slab,6
-|type= Building block
-}}
-{{Crafting
-|A3= Any Quartz Block
-|B3= Any Quartz Block
-|C3= Any Quartz Block
-|Output= Quartz Slab,6
-|type= Building block
-}}
-{{Crafting
-|A3= Smooth Quartz Block
-|B3= Smooth Quartz Block
-|C3= Smooth Quartz Block
-|Output= Smooth Quartz Slab,6
-|type= Building block
-}}
-{{Crafting
-|A3= Any Purpur Block
-|B3= Any Purpur Block
-|C3= Any Purpur Block
-|Output= Purpur Slab,6
-|type= Building block
-}}
-{{Crafting
-|A3= End Stone Bricks
-|B3= End Stone Bricks
-|C3= End Stone Bricks
-|Output= End Stone Brick Slab,6
-|type= Building block
-}}
-{{Crafting
-|A3= Blackstone; Polished Blackstone; Polished Blackstone Bricks
-|B3= Blackstone; Polished Blackstone; Polished Blackstone Bricks
-|C3= Blackstone; Polished Blackstone; Polished Blackstone Bricks
-|Output= Blackstone Slab,6; Polished Blackstone Slab,6; Polished Blackstone Brick Slab,6
-|type= Building block
-|description=
-|foot=1
-}}
-
-=== Stonecutting ===
-
-{{Stonecutting
-|head=1
-|Stone; Smooth Stone
-|Stone Slab, 2; Smooth Stone Slab, 2
-}}
-{{Stonecutting
-|Cobblestone; Mossy Cobblestone
-|Cobblestone Slab, 2; Mossy Cobblestone Slab, 2
-}}
-{{Stonecutting
-|Stone; Stone Bricks; Mossy Stone Bricks
-|Stone Brick Slab, 2; Stone Brick Slab, 2; Mossy Stone Brick Slab, 2
-}}
-{{Stonecutting
-|Andesite; Andesite; Polished Andesite
-|Andesite Slab, 2; Polished Andesite Slab, 2; Polished Andesite Slab, 2
-}}
-{{Stonecutting
-|Diorite; Diorite; Polished Diorite
-|Diorite Slab, 2; Polished Diorite Slab, 2; Polished Diorite Slab, 2
-}}
-{{Stonecutting
-|Granite; Granite; Polished Granite
-|Granite Slab, 2; Polished Granite Slab, 2; Polished Granite Slab, 2
-}}
-{{Stonecutting
-|Sandstone; Sandstone; Cut Sandstone; Smooth Sandstone
-|Sandstone Slab, 2; Cut Sandstone Slab, 2; Cut Sandstone Slab, 2; Smooth Sandstone Slab, 2
-}}
-{{Stonecutting
-|Red Sandstone; Red Sandstone; Cut Red Sandstone; Smooth Red Sandstone
-|Red Sandstone Slab, 2; Cut Red Sandstone Slab, 2; Cut Red Sandstone Slab, 2; Smooth Red Sandstone Slab, 2
-}}
-{{Stonecutting
-|Bricks
-|Brick Slab, 2
-}}
-{{Stonecutting
-|Prismarine; Prismarine Bricks; Dark Prismarine
-|Prismarine Slab, 2; Prismarine Brick Slab, 2; Dark Prismarine Slab, 2
-}}
-{{Stonecutting
-|Nether Bricks; Red Nether Bricks
-|Nether Brick Slab, 2;Red Nether Brick Slab, 2
-}}
-{{Stonecutting
-|Block of Quartz; Smooth Quartz Block
-|Quartz Slab, 2; Smooth Quartz Slab, 2
-}}
-{{Stonecutting
-|Purpur Block
-|Purpur Slab, 2
-}}
-{{Stonecutting
-|End Stone; End Stone Bricks
-|End Stone Brick Slab, 2
-}}
-{{Stonecutting
-|Blackstone;Blackstone;Blackstone;Polished Blackstone;Polished Blackstone;Polished Blackstone Bricks
-|Blackstone Slab, 2;Polished Blackstone Slab, 2;Polished Blackstone Brick Slab, 2;Polished Blackstone Slab, 2;Polished Blackstone Brick Slab, 2;Polished Blackstone Brick Slab, 2
-|foot=1
-}}
-Petrified Oak Slabs are the stone-type wooden slabs left from before [[Java Edition 1.3.1]]. They are now unobtainable in vanilla survival.
+Planks can be broken by hand, but using an [[axe]] speeds up the process.
+{{breaking row|horizontal=1|Planks|Axe}}
 
 === Natural generation ===
 
-*{{InvSprite|Smooth Stone Slab}} Smooth stone slabs generate naturally in [[stronghold]]s.
-*{{InvSprite|Sandstone Slab}} Sandstone slabs generate naturally in [[desert well]]s, and [[desert pyramid]]s.
-*{{InvSprite|Spruce Slab}} Spruce slabs generate naturally in [[igloo]] basements.
-*{{InvSprite|Oak Slab}}{{InvSprite|Birch Slab}}{{InvSprite|Spruce Slab}}{{InvSprite|Cobblestone Slab}}{{InvSprite|Smooth Stone Slab}} Oak, birch, spruce, smooth stone and cobblestone slabs generate naturally in [[woodland mansion]]s.
-*{{InvSprite|Dark Oak Slab}}{{InvSprite|Cobblestone Slab}}{{InvSprite|Mossy Cobblestone Slab}} Dark oak, cobblestone and mossy cobblestone slabs generate in [[pillager outpost]].
-*{{InvSprite|Oak Slab}}{{InvSprite|Birch Slab}}{{InvSprite|Spruce Slab}}{{InvSprite|Acacia Slab}}{{InvSprite|Jungle Slab}}{{InvSprite|Dark Oak Slab}} Oak, birch, spruce, jungle, acacia, and dark oak slabs can generate in [[shipwreck]]s.
-*{{InvSprite|Blackstone Slab}}{{InvSprite|Quartz Slab}} Blackstone and Quartz slabs generate in [[bastion remnant]]s.
-; Villages
-*{{InvSprite|Smooth Stone Slab}}{{InvSprite|Cobblestone Slab}}{{InvSprite|Oak Slab}} Smooth stone, oak and cobblestone slabs generate naturally in [[plains]] [[village]]s.
-*{{InvSprite|Smooth Sandstone Slab}}{{InvSprite|Sandstone Slab}} Smooth sandstone and sandstone slabs generate naturally in [[desert]] villages.
-*{{InvSprite|Smooth Stone Slab}}{{InvSprite|Acacia Slab}} Smooth stone and acacia slabs generate naturally in [[savanna]] villages.
-*{{InvSprite|Smooth Stone Slab}}{{InvSprite|Spruce Slab}} Smooth stone and spruce slabs generate naturally in [[taiga]] and [[snowy taiga]] villages.
-; Ruined Portal
-*{{InvSprite|Stone Slab}}{{InvSprite|Stone Brick Slab}}{{InvSprite|Mossy Stone Brick Slab}} Stone, stone brick, and mossy stone brick slabs generate in overworld ruined portal.
-*{{InvSprite|Blackstone Slab}}{{InvSprite|Polished Blackstone Slab}}{{InvSprite|Polished Blackstone Brick Slab}} Blackstone, polished blackstone, and polished blackstone brick slabs generate in nether ruined portal.{{only|je}}
-*{{InvSprite|Nether Brick Slab}} Nether brick slabs generate in nether ruined portal.{{only|be}}
+; {{BlockSprite|Oak Planks|text=Oak}}
+Oak planks generate as part of:
+* [[Mineshaft]]s, where they are used as beams supported by oak [[fence]]s and as a platform where [[air]] is beneath.
+* [[Plains]] [[village]]s, where they are used for various structures including walls, roofs, and floors of many buildings, as well as paths over [[water]].
+* [[Stronghold]]s, where they are used for floors and pillars in the library and storage rooms.
+* [[Woodland mansion]]s
+* [[Shipwreck]]s
+
+
+; {{BlockSprite|Spruce Planks|text=Spruce}}
+Spruce planks generate as part of: 
+* [[Swamp hut]]s, where they are used as a primary building material. 
+* [[Taiga]], [[Snowy tundra]], and [[Snowy taiga]]{{only|bedrock|short=1}} villages, as a part of several buildings.
+* [[Underwater ruins]]
+* [[Shipwreck]]s
+
+
+; {{BlockSprite|Birch Planks|text=Birch}}
+Birch planks generate as part of: 
+* [[Woodland mansion]]s
+* [[Shipwreck]]s
+* [[Pillager outpost]]s
+
+
+; {{BlockSprite|Jungle Planks|text=Jungle}}
+Jungle planks generate as part of:
+* [[Shipwreck]]s
+
+
+; {{BlockSprite|Acacia Planks|text=Acacia}} 
+Acacia planks generate as part of: 
+* [[Savanna]] villages
+* [[Shipwreck]]s{{only|bedrock|short=1}}
+
+
+; {{BlockSprite|Dark oak Planks|text=Dark oak}} 
+Dark oak planks generate as part of:
+* [[Mineshaft]]s generated in [[badlands]] biomes
+* [[Woodland mansion]]s
+* [[Underwater ruins]]
+* [[Shipwreck]]s
+* [[Pillager outpost]]s
+
+=== Chest loot ===
+
+{{LootChestItem|oak-planks}}
+
+=== Crafting ===
+[[File:Wood Species.png|thumb|The [[sapling]]s and [[Fungus|fungi]] at the bottom grow into [[log|logs and stem]]s that are in the center, which are [[Crafting|crafted]] into wood planks at the top.|alt=]]
+<!--Can merge be merged-->
+{{Crafting |head=1 |showname=0 |showdescription=1
+ |Matching Log; Matching Stripped Log; Matching Wood; Matching Stripped Wood
+ |Output=Matching Overworld Planks,4
+ |type=Building block
+}}
+{{Crafting |foot=1
+ |Matching Stem; Matching Stripped Stem; Matching Hyphae; Matching Stripped Hyphae
+ |Output=Matching Nether Planks,4
+ |name=Planks
+ |type=Building block
+ |description=
+}}
 
 == Usage ==
 
-=== Placement ===
+[[File:Planks Chart.png|thumb|The different colors of wood planks. From left to right, there are: oak, spruce, birch, jungle, acacia, dark oak, crimson, and warped.]]
 
-Slabs can occupy either the top half or the bottom half of a block, or both:
-* Placing a slab on top of a [[block]] or on the side of a block in the lower half of the side surface creates a bottom slab
-* Placing a slab on the underside of a block or on the top half of the side surface creates a top slab
-* Placing a top and bottom slab of the same type in the same block creates a double slab block
-* It's impossible to place two different kinds of slabs in the same block.
-
-Slabs cannot be oriented vertically.
+Planks can be used for building structures, as crafting ingredients, and as fuel.
 
 === Crafting ingredient ===
 
-{{crafting usage|Slab|match=end}}
+Planks are used in many crafting recipes. [[Door]]s, [[fence]]s, [[fence gate]]s, [[slab]]s, [[stairs]], [[boat]]s, [[trapdoor]]s, [[pressure plate]]s, and [[button]]s must be crafted from planks of the same type, and the crafted result depends on the type used. For other products, planks of different types can be mixed freely and the wood types in the product is indeterminate.
 
-=== Behavior ===
-[[File:Upside-downRedstone.png|right|thumb|200px|An example of how top slabs can make redstone travel compactly "up stairs".]]
-[[File:Redstoneless Slab.png|200px|thumb|Slabs do not block a vertical redstone connection as it is a transparent block.]]
-
-Generally, the top face of top slabs, the bottom face of bottom slabs, and all faces of double slabs are handled as solid blocks. Due to this, transparent blocks that need to placed on an opaque surface can be placed on these faces.
-
-Double slabs are handled as a single block instead of two different slabs; as such, breaking one destroys the whole block and drop two slabs, as opposed to breaking only one slab within the block. "Double slabs" that are not aligned to the grid (i.e. a bottom slab on top of a top slab) are handled as separate blocks and are broken individually.
-
-Redstone dust placed on a top slab receives signals from redstone dust one block lower and adjacent, but cannot transmit signals down to that block.
-
-[[Mob]]s see a slab as a full block. Mobs can spawn on top slabs and double slabs, but not on bottom slabs. {{IN|bedrock}}, [[iron golem]]s do not spawn even on a top slab.{{verify|This seems to have changed since 1.11; top slabs don't seem prevent iron golems from spawning there}}
-
-{{IN|bedrock}}, mobs standing on bottom slabs with air or another bottom slab below fail to pathfind correctly. They often end up spinning around in a small circle when they try to move.
-
-Due to the way blast rays propagate from an [[explosion]], bottom slabs provide extremely effective absorption to explosions directly on top of them.
-
-[[Sneaking]] reduces the [[player]]'s hitbox height to 1.65 blocks {{in|bedrock}}, and so does not allow the player to walk over a bottom slab with one block of [[air]] above it, which is 1.5 blocks of space. {{IN|java}}, however, a crouching player's hitbox is exactly 1.5 blocks, allowing the player to fit through such a gap. A player cannot walk from a block of [[soul sand]] directly up to a bottom slab without jumping – this applies not just to soul sand, but to [[Solid block#Heights|any block]] {{frac|7|8}} of a block high or shorter, because the maximum step height of the player is 0.6 of a block. The player can walk off a bottom slab while sneaking, because the sneaking prevents falling only when the distance is higher than one half block.
-
-If a single slab is placed in a water source block, the empty half of that slab's block is waterlogged. If a slab is placed in flowing water, a pocket of air is created in the unfilled half of the block. If the player's head is in this pocket, the player can breathe and see as clearly as from an air block. If a single slab is placed in between two water sources or waterlogged blocks, the slab will become waterlogged. This also happens when a water bucket or a bucket containing a fish is used on a single slab. Double slabs cannot be waterlogged.
-
-A minecart on powered rails is not repelled by a slab, although it is repelled by a slab with a minecart on top.
-
-Falling block entities (like sand, gravel, and concrete powder) turn into their dropped form if they land on a bottom slab, as when they fall on a torch.
-
-Slabs do not block light {{in|bedrock}}.
+{{crafting usage|Planks,Overworld Planks,Nether Planks,Oak Planks,Spruce Planks,Birch Planks,Jungle Planks,Acacia Planks,Dark Oak Planks,Crimson Planks,Warped Planks|match=end}}
 
 === Fuel ===
 
-Wooden slabs can be used as a fuel in [[furnace]]s, smelting 0.75 items per slab in {{el|je}}, and smelting 1.5 items per slab {{in|be}}.
+[[Overworld]] planks can be used as a [[fuel]] in [[furnace]]s, [[smelting]] 1.5 [[item]]s per [[block]]. [[Nether]] planks (crimson and warped planks) cannot be used as [[fuel]].
+
+=== Repairing ===
+
+Planks are the repair items for the wood [[tier]], and thus can be used to [[item repair|repair]] the following items in an [[anvil]]:
+* {{ItemLink|Wooden sword}}
+* {{ItemLink|Wooden pickaxe}}
+* {{ItemLink|Wooden axe}}
+* {{ItemLink|Wooden shovel}}
+* {{ItemLink|Wooden hoe}}
+* {{ItemLink|Shield}}
 
 == Sounds ==
-
-{{el|je}}:
-{{Sound table
-|sound=Nether Bricks dig1.ogg
-|sound2=Nether Bricks dig2.ogg
-|sound3=Nether Bricks dig3.ogg
-|sound4=Nether Bricks dig4.ogg
-|sound5=Nether Bricks dig5.ogg
-|sound6=Nether Bricks dig6.ogg
-|subtitle=Block broken
-|source=Blocks
-|description=Breaking the block
-|id=block.nether_bricks.break
-|translationkey=subtitles.block.generic.break
-|volume=1.0
-|distance=16}}
-{{Sound table
-|sound=Nether Bricks hit1.ogg
-|sound2=Nether Bricks hit2.ogg
-|sound3=Nether Bricks hit3.ogg
-|sound4=Nether Bricks hit4.ogg
-|sound5=Nether Bricks hit5.ogg
-|sound6=Nether Bricks hit6.ogg
-|subtitle=''None''<ref name="fallmissing" group=sound>{{bug|MC-177082}}</ref>
-|source=Blocks
-|description=Falling on the block with fall damage
-|id=block.nether_bricks.fall
-|translationkey=-
-|volume=0.5
-|distance=16}}
-{{Sound table
-|sound=Nether Bricks hit1.ogg
-|sound2=Nether Bricks hit2.ogg
-|sound3=Nether Bricks hit3.ogg
-|sound4=Nether Bricks hit4.ogg
-|sound5=Nether Bricks hit5.ogg
-|sound6=Nether Bricks hit6.ogg
-|subtitle=Block breaking
-|source=Blocks
-|description=Mining the block
-|id=block.nether_bricks.hit
-|translationkey=subtitles.block.generic.hit
-|volume=0.25
-|distance=16}}
-{{Sound table
-|sound=Nether Bricks dig1.ogg
-|sound2=Nether Bricks dig2.ogg
-|sound3=Nether Bricks dig3.ogg
-|sound4=Nether Bricks dig4.ogg
-|sound5=Nether Bricks dig5.ogg
-|sound6=Nether Bricks dig6.ogg
-|subtitle=Block placed
-|source=Blocks
-|description=Placing the block
-|id=block.nether_bricks.place
-|translationkey=subtitles.block.generic.place
-|volume=1.0
-|distance=16}}
-{{Sound table
-|sound=Nether Bricks hit1.ogg
-|sound2=Nether Bricks hit2.ogg
-|sound3=Nether Bricks hit3.ogg
-|sound4=Nether Bricks hit4.ogg
-|sound5=Nether Bricks hit5.ogg
-|sound6=Nether Bricks hit6.ogg
-|subtitle=Footsteps
-|source=Blocks
-|description=Walking on the block
-|id=block.nether_bricks.step
-|translationkey=subtitles.block.generic.footsteps
-|volume=0.15
-|distance=16}}
-{{Sound table
-|sound=Stone dig1.ogg
-|sound2=Stone dig2.ogg
-|sound3=Stone dig3.ogg
-|sound4=Stone dig4.ogg
-|subtitle=Block broken
-|source=Blocks
-|description=Breaking the block
-|id=block.stone.break
-|translationkey=subtitles.block.generic.break
-|volume=1.0
-|pitch=0.8
-|distance=16}}
-{{Sound table
-|sound=Stone hit1.ogg
-|sound2=Stone hit2.ogg
-|sound3=Stone hit3.ogg
-|sound4=Stone hit4.ogg
-|sound5=Stone hit5.ogg
-|sound6=Stone hit6.ogg
-|subtitle=''None''<ref name="fallmissing" group=sound/>
-|source=Blocks
-|description=Falling on the block with fall damage
-|id=block.stone.fall
-|translationkey=-
-|volume=0.5
-|pitch=0.75
-|distance=16}}
-{{Sound table
-|sound=Stone hit1.ogg
-|sound2=Stone hit2.ogg
-|sound3=Stone hit3.ogg
-|sound4=Stone hit4.ogg
-|sound5=Stone hit5.ogg
-|sound6=Stone hit6.ogg
-|subtitle=Block breaking
-|source=Blocks
-|description=Mining the block
-|id=block.stone.hit
-|translationkey=subtitles.block.generic.hit
-|volume=0.25
-|pitch=0.5
-|distance=16}}
-{{Sound table
-|sound=Stone dig1.ogg
-|sound2=Stone dig2.ogg
-|sound3=Stone dig3.ogg
-|sound4=Stone dig4.ogg
-|subtitle=Block placed
-|source=Blocks
-|description=Placing the block
-|id=block.stone.place
-|translationkey=subtitles.block.generic.place
-|volume=1.0
-|pitch=0.8
-|distance=16}}
-{{Sound table
-|sound=Stone hit1.ogg
-|sound2=Stone hit2.ogg
-|sound3=Stone hit3.ogg
-|sound4=Stone hit4.ogg
-|sound5=Stone hit5.ogg
-|sound6=Stone hit6.ogg
-|subtitle=Footsteps
-|source=Blocks
-|description=Walking on the block
-|id=block.stone.step
-|translationkey=subtitles.block.generic.footsteps
-|volume=0.15
-|pitch=1.0
-|distance=16}}
-{{Sound table
-|sound=Wood dig1.ogg
-|sound2=Wood dig2.ogg
-|sound3=Wood dig3.ogg
-|sound4=Wood dig4.ogg
-|subtitle=Block broken
-|source=Blocks
-|description=Breaking the block
-|id=block.wood.break
-|translationkey=subtitles.block.generic.break
-|volume=1.0
-|pitch=0.8
-|distance=16}}
-{{Sound table
-|sound=Wood hit1.ogg
-|sound2=Wood hit2.ogg
-|sound3=Wood hit3.ogg
-|sound4=Wood hit4.ogg
-|sound5=Wood hit5.ogg
-|sound6=Wood hit6.ogg
-|subtitle=-
-|source=Blocks
-|description=Falling on the block with fall damage
-|id=block.wood.fall
-|translationkey=-
-|volume=0.5
-|pitch=0.75
-|distance=16}}
-{{Sound table
-|sound=Wood hit1.ogg
-|sound2=Wood hit2.ogg
-|sound3=Wood hit3.ogg
-|sound4=Wood hit4.ogg
-|sound5=Wood hit5.ogg
-|sound6=Wood hit6.ogg
-|subtitle=Block breaking
-|source=Blocks
-|description=Mining the block
-|id=block.wood.hit
-|translationkey=subtitles.block.generic.hit
-|volume=0.25
-|pitch=0.5
-|distance=16}}
-{{Sound table
-|sound=Wood dig1.ogg
-|sound2=Wood dig2.ogg
-|sound3=Wood dig3.ogg
-|sound4=Wood dig4.ogg
-|subtitle=Block placed
-|source=Blocks
-|description=Placing the block
-|id=block.wood.place
-|translationkey=subtitles.block.generic.place
-|volume=1.0
-|pitch=0.8
-|distance=16}}
-{{Sound table
-|sound=Wood hit1.ogg
-|sound2=Wood hit2.ogg
-|sound3=Wood hit3.ogg
-|sound4=Wood hit4.ogg
-|sound5=Wood hit5.ogg
-|sound6=Wood hit6.ogg
-|subtitle=Footsteps
-|source=Blocks
-|description=Walking on the block
-|id=block.wood.step
-|translationkey=subtitles.block.generic.footsteps
-|volume=0.15
-|pitch=1.0
-|distance=16
-|foot=1}}
+{{Sound table/Block/Wood}}
 
 == Data values ==
 === ID ===
 {{edition|java}}:
 {{ID table
-|showitemtags=y
 |generatetranslationkeys=java
-|displayname=Oak Slab
+|showblocktags=y
+|showitemtags=y
+|displayname=Oak Planks
 |spritetype=block
-|nameid=oak_slab
-|itemtags=wooden_slabs,slabs}}
+|nameid=oak_planks
+|blocktags=planks
+|itemtags=planks}}
 {{ID table
-|displayname=Spruce Slab
+|displayname=Spruce Planks
 |spritetype=block
-|nameid=spruce_slab
-|itemtags=wooden_slabs,slabs}}
+|nameid=spruce_planks
+|blocktags=planks
+|itemtags=planks}}
 {{ID table
-|displayname=Birch Slab
+|displayname=Birch Planks
 |spritetype=block
-|nameid=birch_slab
-|itemtags=wooden_slabs,slabs}}
+|nameid=birch_planks
+|blocktags=planks
+|itemtags=planks}}
 {{ID table
-|displayname=Jungle Slab
+|displayname=Jungle Planks
 |spritetype=block
-|nameid=jungle_slab
-|itemtags=wooden_slabs,slabs}}
+|nameid=jungle_planks
+|blocktags=planks
+|itemtags=planks}}
 {{ID table
-|displayname=Acacia Slab
+|displayname=Acacia Planks
 |spritetype=block
-|nameid=acacia_slab
-|itemtags=wooden_slabs,slabs}}
+|nameid=acacia_planks
+|blocktags=planks
+|itemtags=planks}}
 {{ID table
-|displayname=Dark Oak Slab
+|displayname=Dark Oak Planks
 |spritetype=block
-|nameid=dark_oak_slab
-|itemtags=wooden_slabs,slabs}}
+|nameid=dark_oak_planks
+|blocktags=planks
+|itemtags=planks}}
 {{ID table
-|displayname=Crimson Slab
+|displayname=Crimson Planks
 |spritetype=block
-|nameid=crimson_slab
-|itemtags=wooden_slabs,slabs,non_flammable_wood}}
+|nameid=crimson_planks
+|blocktags=planks,non_flammable_wood
+|itemtags=planks,non_flammable_wood}}
 {{ID table
-|displayname=Warped Slab
+|displayname=Warped Planks
 |spritetype=block
-|nameid=warped_slab
-|itemtags=wooden_slabs,slabs,non_flammable_wood}}
-{{ID table
-|displayname=Stone Slab
-|spritetype=block
-|nameid=stone_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Smooth Stone Slab
-|spritetype=block
-|nameid=smooth_stone_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Granite Slab
-|spritetype=block
-|nameid=granite_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Polished Granite Slab
-|spritetype=block
-|nameid=polished_granite_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Diorite Slab
-|spritetype=block
-|nameid=diorite_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Polished Diorite Slab
-|spritetype=block
-|nameid=polished_diorite_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Andesite Slab
-|spritetype=block
-|nameid=andesite_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Polished Andesite Slab
-|spritetype=block
-|nameid=polished_andesite_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Cobblestone Slab
-|spritetype=block
-|nameid=cobblestone_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Mossy Cobblestone Slab
-|spritetype=block
-|nameid=mossy_cobblestone_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Stone Brick Slab
-|spritetype=block
-|nameid=stone_brick_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Mossy Stone Brick Slab
-|spritetype=block
-|nameid=mossy_stone_brick_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Brick Slab
-|spritetype=block
-|nameid=brick_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=End Stone Brick Slab
-|spritetype=block
-|nameid=end_stone_brick_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Nether Brick Slab
-|spritetype=block
-|nameid=nether_brick_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Red Nether Brick Slab
-|spritetype=block
-|nameid=red_nether_brick_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Sandstone Slab
-|spritetype=block
-|nameid=sandstone_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Cut Sandstone Slab
-|spritetype=block
-|nameid=cut_sandstone_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Smooth Sandstone Slab
-|spritetype=block
-|nameid=smooth_sandstone_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Red Sandstone Slab
-|spritetype=block
-|nameid=red_sandstone_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Cut Red Sandstone Slab
-|spritetype=block
-|nameid=cut_red_sandstone_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Smooth Red Sandstone Slab
-|spritetype=block
-|nameid=smooth_red_sandstone_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Quartz Slab
-|spritetype=block
-|nameid=quartz_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Smooth Quartz Slab
-|spritetype=block
-|nameid=smooth_quartz_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Purpur Slab
-|spritetype=block
-|nameid=purpur_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Prismarine Slab
-|spritetype=block
-|nameid=prismarine_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Prismarine Brick Slab
-|spritetype=block
-|nameid=prismarine_brick_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Dark Prismarine Slab
-|spritetype=block
-|nameid=dark_prismarine_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Petrified Oak Slab
-|spritetype=block
-|nameid=petrified_oak_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Blackstone Slab
-|spritetype=block
-|nameid=blackstone_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Polished Blackstone Slab
-|spritetype=block
-|nameid=polished_blackstone_slab
-|itemtags=slabs}}
-{{ID table
-|displayname=Polished Blackstone Brick Slab
-|spritetype=block
-|nameid=polished_blackstone_brick_slab
-|itemtags=slabs
+|nameid=warped_planks
+|blocktags=planks,non_flammable_wood
+|itemtags=planks,non_flammable_wood
 |foot=1}}
 
 {{edition|bedrock}}:
 {{ID table
 |shownumericids=y
 |generatetranslationkeys=bedrock
-|displayname=Double Wooden Slabs
-|spritename=oak-planks
+|displayname=Wooden Planks
+|spritename=planks
 |spritetype=block
-|nameid=double_wooden_slab
-|id=157}}
+|nameid=planks
+|id=5
+|translationkey=tile.planks.oak.name,tile.planks.spruce.name,tile.planks.birch.name,tile.planks.jungle.name,tile.planks.acacia.name,tile.planks.big_oak.name}}
 {{ID table
-|displayname=Wooden Slabs
-|spritename=oak-slab
+|displayname=Crimson Planks
 |spritetype=block
-|nameid=wooden_slab
-|id=158
-|translationkey=tile.wooden_slab.oak.name,tile.wooden_slab.spruce.name,tile.wooden_slab.birch.name,tile.wooden_slab.jungle.name,tile.wooden_slab.acacia.name,tile.wooden_slab.big_oak.name}}
+|nameid=crimson_planks
+|id=497
+}}
 {{ID table
-|displayname=Double Crimson Slab
-|spritename=crimson-planks
+|displayname=Warped Planks
 |spritetype=block
-|nameid=crimson_double_slab
-|id=521}}
-{{ID table
-|displayname=Crimson Slab
-|spritetype=block
-|nameid=crimson_slab
-|id=519}}
-{{ID table
-|displayname=Double Warped Slab
-|spritename=warped-planks
-|spritetype=block
-|nameid=warped_double_slab
-|id=522}}
-{{ID table
-|displayname=Warped Slab
-|spritetype=block
-|nameid=warped_slab
-|id=520}}
-{{ID table
-|displayname=Double Stone Slabs (1)
-|spritename=double-smooth-stone-slab
-|spritetype=block
-|nameid=double_stone_slab
-|translationkey=tile.double_stone_slab.stone.name{{verify|Is .stone.name used or just .name?}}
-|id=43}}
-{{ID table
-|displayname=Stone Slabs (1)
-|spritename=smooth-stone-slab
-|spritetype=block
-|nameid=stone_slab
-|translationkey=tile.stone_slab.stone.name,tile.stone_slab.sand.name,tile.stone_slab.cobble.name,tile.stone_slab.wood.name,tile.stone_slab.brick.name,tile.stone_slab.smoothStoneBrick.name,tile.stone_slab.quartz.name,tile.stone_slab.nether_brick.name
-|id=44}}
-{{ID table
-|displayname=Double Stone Slabs (2)
-|spritename=red-sandstone
-|spritetype=block
-|nameid=double_stone_slab2
-|translationkey=tile.double_stone_slab2.red_sandstone.name
-|id=181}}
-{{ID table
-|displayname=Stone Slabs (2)
-|spritename=red-sandstone-slab
-|spritetype=block
-|nameid=stone_slab2
-|id=182
-|translationkey=tile.stone_slab2.red_sandstone.name,tile.stone_slab2.purpur.name,tile.stone_slab2.prismarine.rough.name,tile.stone_slab2.prismarine.dark.name,tile.stone_slab2.prismarine.bricks.name,tile.stone_slab2.mossy_cobblestone.name,tile.stone_slab2.sandstone.smooth.name,tile.stone_slab2.red_nether_brick.name}}
-{{ID table
-|displayname=Double Stone Slabs (3)
-|spritename=end-stone-bricks
-|spritetype=block
-|nameid=double_stone_slab3
-|id=422}}
-{{ID table
-|displayname=Stone Slabs (3)
-|spritename=end-stone-brick-slab
-|spritetype=block
-|nameid=stone_slab3
-|id=417
-|translationkey=tile.stone_slab3.end_brick.name,tile.stone_slab3.red_sandstone.smooth.name,tile.stone_slab3.andesite.smooth.name,tile.stone_slab3.andesite.name,tile.stone_slab3.diorite.smooth.name,tile.stone_slab3.diorite.name,tile.stone_slab3.granite.smooth.name,tile.stone_slab3.granite.name}}
-{{ID table
-|displayname=Double Stone Slabs (4
-|spritename=mossy-stone-bricks
-|spritetype=block
-|nameid=double_stone_slab4
-|id=423}}
-{{ID table
-|displayname=Stone Slabs (4)
-|spritename=mossy-stone-brick-slab
-|spritetype=block
-|nameid=stone_slab4
-|id=421
-|translationkey=tile.stone_slab4.mossy_stone_brick.name,tile.stone_slab4.smooth_quartz.name,tile.stone_slab4.stone.name,tile.stone_slab4.cut_sandstone.name,tile.stone_slab4.cut_red_sandstone.name}}
-{{ID table
-|displayname=Double Blackstone Slab
-|spritename=blackstone
-|spritetype=block
-|nameid=blackstone_double_slab
-|id=538}}
-{{ID table
-|displayname=Blackstone Slab
-|spritetype=block
-|nameid=blackstone_slab
-|id=537}}
-{{ID table
-|displayname=Double Polished Blackstone Slab
-|spritename=polished-blackstone
-|spritetype=block
-|nameid=polished_blackstone_double_slab
-|id=549}}
-{{ID table
-|displayname=Polished Blackstone Slab
-|spritetype=block
-|nameid=polished_blackstone_slab
-|id=548}}
-{{ID table
-|displayname=Double Polished Blackstone Brick Slab
-|spritename=polished-blackstone-bricks
-|spritetype=block
-|nameid=polished_blackstone_brick_double_slab
-|id=540}}
-{{ID table
-|displayname=Polished Blackstone Brick Slab
-|spritetype=block
-|nameid=polished_blackstone_brick_slab
-|id=539
+|nameid=warped_planks
+|id=498
 |foot=1}}
 
 === Block data ===
 {{see also|Data values}}
-{{IN|be}}, slabs use the following data values:
 
-;Double stone slab
+{{IN|be}}, wood planks use the following data values:
+
 {{/DV}}
-;Double stone slab 2
-{{/DV5}}
-;Double stone slab 3
-{{/DV7}}
-;Double stone slab 4
-{{/DV9}}
 
-;Stone slab
-{{/DV2}}
-;Stone slab 2
-{{/DV6}}
-;Stone slab 3
-{{/DV8}}
-;Stone slab 4
-{{/DV10}}
+If a [[command]] is used to create planks with data value 6 or higher, the resulting planks have the data value 0 (oak planks).
 
-;Double wood slab
-{{/DV3}}
-
-;Wood slab
-{{/DV4}}
-
-;Crimson, warped, blackstone, polished blackstone and polished blackstone brick slab
-{{/DV11}}
+Note: unlike in other editions, the names for wood planks (as listed with tooltips in the player's inventory and in the recipe book) in Bedrock Edition actually read "[wood type] Wood Planks," e.g. "Dark Oak Wood Planks." This was previously the case in other versions of the game but was changed in [[Java Edition 17w47a]], and subsequently{{When}} was changed in Pocket Edition to match.
 
 === Block states ===
 {{see also|Block states}}
 
+{{IN|be}}, wood planks use the following block states:
+
 {{/BS}}
 
+== Achievements ==
+{{load achievements|Benchmaking;Librarian}}
+
+== Advancements ==
+{{load advancements|Minecraft}}
+
 == History ==
-{{Cleanup|Bedrock/Legacy Console: 1.9.0/1.88 added new slabs, 1.10.0/1.90 added the new textures; some old textures are mixed with the new ones and some don't exist at all.}}
-{{History|Pre-classic}}
-{{History||May 16, 2009|link=https://archive.org/download/Minecraft_IRC_Logs_2009/history/files/May-15-to-June-03-2009/2009-05-16.075419-0400EDT.txt.~1~|[[Notch]] mentions wanting to add "half-height tiles for [[stairs]]".}}
+
+{{History|pre-classic}}
+{{History||rd-160052|[[File:Oak Planks JE1.png|32px]] Added wooden planks.}}
 {{History|classic}}
-{{History||May 17, 2009|link=http://forums.tigsource.com/index.php?topic=6273.msg201025#msg201025|Slabs were suggested on the [https://www.tigsource.com/ TIGSource] forums.}}
-{{History||October 22, 2009|link=https://notch.tumblr.com/post/220243988/half-sized-blocks-all-dirt-tiles-so-it-kinda|[[File:Dirt Slab.png|32px]] Dirt slabs were shown in a blog post.}}
-{{History||October 23, 2009|link=https://notch.tumblr.com/post/220508711/half-size-tiles-not-finished-yet-but-its|[[Notch]] says the new half [[block]] has nearly been finished and gives a video.}}
-{{History||0.26 SURVIVAL TEST|[[File:Smooth Stone Slab Bottom JE1.png|32px]] [[File:Double Smooth Stone Slab JE1 BE1.png|32px]] Stone slabs have been introduced to the game.
-|Stone slabs can be obtained by mining [[coal ore]] because of the lack of [[inventory]] and [[crafting]].
-|Slabs were originally called stairs.}}
+{{History||0.0.9a|[[File:Oak Planks JE2.png|32px]] The texture of planks has now been changed.}}
+{{History||0.0.14a|[[File:Oak Planks JE3 BE1.png|32px]] The texture of planks has now been changed again.}}
+{{History||0.24_SURVIVAL_TEST|Wooden planks are obtained by destroying [[log|wood]].}}
 {{History|indev}}
-{{History||0.31|snap=20100129|Slabs have now received a [[crafting]] recipe: 3 slabs from 3 [[cobblestone]].
-|Slabs no longer [[drops|drop]] from [[coal ore]].}}
+{{History||0.31|snap=20100129|Wooden planks are now used to craft [[crafting table]]s, [[stick]]s, [[sign]]s, [[bookshelves]], [[chest]]s and wooden [[sword]]s, [[axe]]s, [[pickaxe]]s and [[shovel]]s.}}
+{{History|||snap=20100130|Wooden planks are now used to craft [[bowl]]s.}}
+{{History||20100206|Wooden planks are now used to craft wooden [[hoe]]s.}}
+{{History||20100223|[[Breaking|Destroying]] a [[log|wood]] block now obtains the wood block itself, which is now [[crafting|craftable]] into wooden planks.}}
+{{History|infdev}}
+{{History||20100607|Wooden planks are now used to craft [[oak door|wooden door]]s.}}
+{{History||20100629|Wooden planks are now used to craft [[oak stairs|wooden stairs]].}}
+{{History|alpha}}
+{{History||v1.0.1|Wooden planks are now used to craft [[pressure plate|wooden pressure plate]]s.}}
+{{History||v1.0.6|Wooden planks are now used to craft [[oak boat|boat]]s.}}
+{{History||v1.0.14|Wooden planks are now used to craft [[jukebox]]es.}}
 {{History|beta}}
-{{History||1.3|[[File:Sandstone Slab Bottom JE1.png|32px]] [[File:Oak Slab Bottom JE1.png|32px]] [[File:Cobblestone Slab Bottom JE1.png|32px]] [[File:Seamless Stone Slab JE1.png|32px]] [[File:Smooth Stone JE1 BE1.png|32px]] Added sandstone, "wooden", cobblestone and smooth stone slabs as variants of the stone slabs. All had the same properties as stone slabs, apart from using different textures.
-|Smooth stone double slabs are obtainable only through [[inventory]] editing, and they use data the data value "4". These slabs are converted into brick slab when upgrading to Beta 1.8.
-|The original wooden slabs have to be mined with a [[pickaxe]] to collect, were not affected by [[fire]], and had stronger [[blast resistance]] than [[planks]], making them a useful building material.
-|Before the additional slabs were added, a double stone slab would yield only one slab when broken. Since this update, all double slabs now yield 2 of their respective single slabs when broken. Destroying double slabs with [[TNT]], however, still yields only single slabs (when the slabs aren't simply destroyed by the [[explosion]]). It is not known when or if this was fixed.
-|Before [[Java Edition Beta 1.3|Beta 1.3]] came out, stone slabs were made with [[cobblestone]] instead of [[stone]], but this update has now introduced cobblestone slabs to the game and changed the recipes for [[pressure plate]]s and stone slabs, so that there wouldn't be any conflicting recipes.}}
-{{History||1.7|[[File:Sandstone Slab Bottom JE2.png|32px]] [[File:Oak Slab Bottom JE2.png|32px]] [[File:Smooth Stone Slab Bottom JE2 BE1.png|32px]] [[File:Seamless Stone Slab JE2.png|32px]] Bottom slabs now use the bottom half of the double slab texture rather than the top.
-|[[File:Cobblestone Slab Bottom JE2 BE1.png|32px]] The texture of cobblestone slabs has been changed.}}
-{{History||1.8|snap=Pre-release|[[File:Stone Brick Slab Bottom JE1 BE1.png|32px]] [[File:Brick Slab Bottom JE1.png|32px]] Added the stone brick and bricks slabs.
-|Smooth stone double slabs now use the data value "6".
-|The [[sprinting]] feature has been added in this update. While stairs cancel the [[player]]'s sprinting, slabs allow a player to continue sprinting.}}
+{{History||1.2|Wooden planks are now used to craft [[note block]]s.}}
+{{History||1.3|Wooden planks are now used to craft [[red bed|bed]]s.}}
+{{History||1.6|snap=Test Build 3|Wooden planks are now used to craft [[oak trapdoor|wooden trapdoor]]s.{{check version|this is when trapdoors were added, but is it when the recipe was as well?}}}}
+{{History||1.7|Wooden planks are now used to craft [[piston]]s.}}
+{{History||1.8|snap=Pre-release|Wooden planks can now be found in [[village]]s and [[mineshaft]]s.
+|Wooden planks are now used to craft [[fence gate]]s.}}
 {{History|java}}
-{{History||1.0.0|snap=Beta 1.9 Prerelease 5|[[File:Oak Slab Bottom JE3 BE1.png|32px]] [[File:Brick Slab Bottom JE2 BE1.png|32px]] The textures of [[bricks]] and [[planks]] have been changed, and by extension that of the slabs.}}
-{{History||1.2.1|snap=1.2|[[File:Brick Slab Top JE1 BE1.png|32px]] [[File:Cobblestone Slab Top JE1 BE1.png|32px]] [[File:Oak Slab Top JE1 BE1.png|32px]] [[File:Sandstone Slab Top JE1 BE1.png|32px]] [[File:Smooth Stone Slab Top JE1 BE1.png|32px]] [[File:Stone Brick Slab Top JE1 BE1.png|32px]] All types of slabs are now able to be placed upside down and under [[block]]s; these occupy the ''top'' half of their block space rather than the bottom half.
-|The [[crafting]] recipe has been changed, so that 6 slabs would be crafted rather than 3. The prior restriction was likely due to the fact that the slab types were differentiated by their [[damage]] values instead of by different [[data values]], similar to [[wood]], [[coal]] or [[charcoal]], and colored [[wool]].}}
-{{History||1.2.4|snap=release|[[File:Sandstone Slab Bottom JE3 BE1.png|32px]] [[File:Sandstone JE2 BE1.png|32px]] The texture of sandstone slabs has been changed slightly, altough it is only visible in the double and bottom variants.}}
-{{History||?|Doubie slabs broken with Silk Touch now drop both slabs instead of one.}}
-{{History||1.3.1|snap=12w17a|[[File:Oak Slab JE3 BE1.png|32px]] [[File:Birch Slab JE1 BE1.png|32px]] [[File:Spruce Slab JE1 BE1.png|32px]] [[File:Jungle Slab JE1 BE1.png|32px]] New slabs have been added for the four different types of wood [[planks]], replacing the old wooden oak/"stone" slab. These new slabs are vulnerable to [[fire]], and can be collected faster with an [[axe]] than with a [[pickaxe]]. Wooden slabs already [[crafting|crafted]] or placed in the world remain the old 'stone' type.}}
-{{History|||snap=12w21a|Sandstone slabs now generate in [[desert temple]]s.}}
-{{History|||snap=12w22a|Upside down slabs can now be placed by generally looking at the top half of the side of a block, rather than strictly the underside of a block.}}
-{{History|||snap=12w25a|[[Redstone]] (including [[repeater]]s, [[torch]]es. [[lever]]s and [[pressure plate]]s) and [[rail]]s can now be placed on slabs and [[stairs]] positioned upside down.}}
-{{History|||snap=12w26a|[[Mob]]s can now spawn on upside down slabs.}}
-{{History||1.4.2|snap=12w39a|Slabs now interact properly with [[lighting]].
-|When slabs are placed upside down, they now accept light from light sources themselves, and no longer block light to surrounding [[block]]s.
-|Slabs no longer cast the shadow of a full-sized block.<ref>{{reddit|10g4mi/dinnerbone_at_this_point_i_think_its_almost}}</ref>}}
-{{History||1.4.6|snap=November 28, 2012|slink={{tweet|Jeb_|273775616162164736}}|[[Jeb]] tweeted a picture of himself crafting nether brick slabs.}}
-{{History|||snap=12w49a|[[File:Nether Brick Slab JE1 BE1.png|32px]] Added nether brick slabs.
-|The addition of nether brick slabs has now caused the smooth stone double slab to change its data value to 43:7.}}
-{{History||1.5|snap=January 22, 2013|slink={{reddit|1722hf/the_smooth_full_halfslab_will_become_438}}|[[Jeb]] states that the "smooth stone full half-slab" is to be re-implemented with a data value of 43:8. Other slabs with data values of 43:9-43:15 are also to use the top texture on all sides, resulting in a "smooth sandstone block" with a data value of 43:9. He also stated that they may be obtained legitimately later.<ref>{{reddit|1722hf/the_smooth_full_halfslab_will_become_438|c81gzi0}}</ref>}}
-{{History|||snap=13w01a|Wooden Slabs can now be used to craft [[daylight sensor]]s.}}
-{{History|||snap=13w02a|[[File:Quartz Slab JE1 BE1.png|32px]] Added quartz slabs, featuring the top quartz texture on all six sides. The formerly unused slab type, known as the smooth stone slab, has been removed from the game. Its data values have been replaced with the nether quartz slab.}}
-{{History|||snap=13w04a|[[File:Smooth Stone JE1 BE1.png|32px]] The smooth stone double slab has been re-implemented with a data value of 43:8.
-|[[File:Smooth Sandstone Revision 1.png|32px]] The smooth sandstone double slab has been added, with a data value of 43:9.
-|Seamless data values of 43:10-43:15 have been added, but are unused and appear identical to their normal counterparts.}}
-{{History|||snap=13w09c|Quartz slabs and double slabs now use the top, side and bottom textures of the block of quartz.
-|[[File:Block of Quartz.png|32px]] The quartz slab's seamless counterpart, with a data value of 43:15, retains the top texture on all 6 sides.}}
-{{History||April 1, 2013|link=Java Edition 2.0|Added TNT slabs, called Etho Slabs, to the April Fools update, [[Java Edition 2.0|Minecraft 2.0]]. They exploded like TNT, producing a larger explosion that caused anvils to spawn over any player in the explosion's range.}}
-{{History||1.7.2|snap=1.7|[[File:Acacia Slab JE1 BE1.png|32px]] [[File:Dark Oak Slab JE1 BE1.png|32px]] Added acacia and dark oak slabs.}}
-{{History||1.8|snap=14w02a|Stone brick slabs can now be used to craft [[chiseled stone bricks]].
-|Stone slabs can now be crafted using [[granite]], [[diorite]], [[andesite]], or their polished counterparts.}}
-{{History|||snap=14w25a|Double stone slabs and double wooden slabs can no longer be obtained as an [[item]].}}
-{{History|||snap=14w32a|[[File:Red Sandstone Slab JE1 BE1.png|32px]] [[File:Smooth Red Sandstone Revision 1.png|32px]] Added red sandstone slabs and double slabs, as well as smooth red sandstone double slabs.
-|[[Armor stand]]s are now [[crafting|crafted]] using any slab.}}
-{{History|||snap=14w32b|Armor stands can now be crafted only using stone slabs.}}
-{{History|||snap=14w33a|Stone slabs can no longer be crafted using [[granite]], [[diorite]], [[andesite]], or their polished counterparts.}}
-{{History||1.9|snap=June 22, 2015|slink=https://instagram.com/p/4ObC5EpMOO/|[[Jeb]] reveals purpur slabs on [[wikipedia:Instagram|Instagram]], with the words "[[MineCon 2015|MINECON 2015]] HYPE!"}}
-{{History|||snap=15w31a|[[File:Purpur Slab JE1 BE1.png|32px]] Added purpur slabs and double slabs.}}
-{{History|||snap=15w43a|A spruce slab now acts as the middle of a table generated within [[igloo]] basements.}}
-{{History||1.11|snap=16w39a|Oak, birch, spruce, stone, and cobblestone slabs now generate in [[woodland mansion]]s.}}
-{{History||April 17, 2018|link={{tweet|db|986324905045184513}}|[[Dinnerbone]] confirms that [[Java Edition 1.14]] contains many new [[stairs]] and slabs.}}
-{{History||1.13|snap=17w47a|The different variant [[block]] states for <code>stone_slab</code>, <code>stone_slab2</code>, <code>wooden_slab</code>, <code>purpur_slab</code>, <code>double_stone_slab</code>, <code>double_stone_slab2</code>, <code>double_wooden_slab</code> and <code>purpur_double_slab</code> IDs have been split up and merged into their own IDs depending on variant.
-|Old non-flammable wooden slabs, which are now called "Petrified oak slabs", have been re-implemented into the [[creative]] [[inventory]].
-|"Bricks slab" has been renamed to "Brick slab".
-|"Stone bricks slab" has been renamed to "Stone brick slab".
-|"<Wood type> wood slab" has been renamed to "<wood type> slab".
-|[[File:Smooth Stone JE2 BE2.png|32px]] [[File:Smooth Sandstone Revision 1.png|32px]] [[File:Smooth Red Sandstone Revision 1.png|32px]] [[File:Block of Quartz JE1 BE1.png|32px]] Smooth double slabs, now smooth blocks, have added to the [[creative]] [[inventory]].
-|Smooth [[block]]s now [[drops|drop]] themselves, instead of slabs when mined.
-|Prior to [[1.13/Flattening|''The Flattening'']], these [[block]]s' numeral IDs were 43, 44, 125, 126, 181, 182, 204 and 205.}}
-{{History|||snap=18w07a|[[File:Prismarine Slab JE1 BE1.gif|32px]] [[File:Prismarine Brick Slab JE1 BE1.png|32px]] [[File:Dark Prismarine Slab JE1 BE1.png|32px]] Added slabs for prismarine, prismarine bricks, and dark prismarine.}}
-{{History|||snap=18w10c|[[Water]] can now be placed on the same [[block]] as slabs.}}
-{{History|||snap=18w20a|"Prismarine Bricks Slab" has been renamed to "Prismarine Brick Slab."}}
-{{History||1.13.1|snap=18w32a|Purpur slabs can now be [[crafting|crafted]] with [[purpur pillar]]s.}}
-{{History||October 10, 2018|link={{tweet|db|1050023267082391552}}|[[Dinnerbone]] tweets that there are to be 14 new slabs.}}
-{{History||October 10, 2018|link={{tweet|agnes|1050038538559991810}}|Polished diorite slabs are tweeted out by [[LadyAgnes]].}}
-{{History||1.14|snap=18w43a|[[File:Oak Slab JE4.png|32px]] [[File:Spruce Slab JE2.png|32px]] [[File:Birch Slab JE2.png|32px]] [[File:Jungle Slab JE2.png|32px]] [[File:Acacia Slab JE2.png|32px]] [[File:Dark Oak Slab JE2.png|32px]] [[File:Smooth Stone Slab JE2 BE2.png|32px]] [[File:Cobblestone Slab JE3.png|32px]] [[File:Brick Slab JE3 BE2.png|32px]] [[File:Stone Brick Slab JE2.png|32px]] [[File:Sandstone Slab JE3.png|32px]] [[File:Red Sandstone Slab JE2.png|32px]] [[File:Nether Brick Slab JE2.png|32px]] [[File:Quartz Slab JE2.png|32px]] [[File:Purpur Slab JE2 BE2.png|32px]] [[File:Prismarine Slab JE2 BE2.gif|32px]] [[File:Prismarine Brick Slab JE2 BE2.png|32px]] [[File:Dark Prismarine Slab JE2 BE2.png|32px]] The textures of all slabs have been changed.
-|[[File:Andesite Slab JE1 BE1.png|32px]] [[File:Polished Andesite Slab JE1 BE1.png|32px]] [[File:Diorite Slab JE1 BE1.png|32px]] [[File:Polished Diorite Slab JE1 BE1.png|32px]] [[File:Granite Slab JE1 BE1.png|32px]] [[File:Polished Granite Slab JE1 BE1.png|32px]] [[File:Mossy Stone Brick Slab JE1 BE1.png|32px]] [[File:Mossy Cobblestone Slab JE1 BE1.png|32px]] [[File:Smooth Sandstone Slab JE1 BE1.png|32px]] [[File:Smooth Red Sandstone Slab JE1 BE1.png|32px]] [[File:Smooth Quartz Slab JE1 BE1.png|32px]] [[File:Red Nether Brick Slab JE1 BE1.png|32px]] [[File:End Stone Brick Slab JE1 BE1.png|32px]] Added andesite, polished andesite, diorite, polished diorite, granite, polished granite, mossy stone brick, mossy cobblestone, smooth sandstone, smooth red sandstone, smooth quartz, red nether brick, end stone brick slabs.
-|"Stone Slab" has been renamed to "Smooth Stone Slab".}}
-{{History|||snap=18w44a|[[File:Andesite Slab JE2 BE2.png|32px]] [[File:Polished Andesite Slab JE2 BE2.png|32px]] [[File:Diorite Slab JE2.png|32px]] [[File:Polished Diorite Slab JE2 BE2.png|32px]] [[File:Stone Slab JE2 BE1.png|32px]] [[File:Sandstone Slab JE4.png|32px]] [[File:Smooth Sandstone Slab JE2.png|32px]] The textures for andesite, polished andesite, diorite, polished diorite, stone, smooth sandstone slabs have been changed.}}
-{{History|||snap=18w47a|[[File:Oak Slab JE5 BE2.png|32px]] [[File:Spruce Slab JE3.png|32px]] [[File:Birch Slab JE3 BE2.png|32px]] [[File:Jungle Slab JE3 BE2.png|32px]] [[File:Acacia Slab JE3 BE2.png|32px]] [[File:Dark Oak Slab JE3 BE2.png|32px]] [[File:Stone Brick Slab JE3 BE2.png|32px]] [[File:Mossy Stone Brick Slab JE2 BE2.png|32px]] [[File:Nether Brick Slab JE3 BE3.png|32px]] [[File:Red Sandstone Slab JE3.png|32px]] [[File:Smooth Red Sandstone Slab JE2.png|32px]] The textures for oak, spruce, birch, jungle, acacia, dark oak, stone bricks, mossy stone bricks, nether bricks, red sandstone, and smooth red sandstone slabs have been changed.}}
-{{History|||snap=18w48a|Stone slabs are now use to craft [[grindstone]]s.}}
-{{History|||snap=18w50a|Wood slabs are now used to craft [[barrel]]s.
-|[[File:Spruce Slab JE4 BE2.png|32px]] [[File:Cobblestone Slab JE4 BE2.png|32px]] [[File:Mossy Cobblestone Slab JE2 BE2.png|32px]] [[File:Sandstone Slab JE5 BE2.png|32px]] [[File:Smooth Sandstone Slab JE3 BE2.png|32px]] [[File:Red Sandstone Slab JE4 BE2.png|32px]] [[File:Smooth Red Sandstone Slab JE3 BE2.png|32px]] [[File:Red Nether Brick Slab JE2 BE2.png|32px]] The textures for spruce, cobblestone, mossy cobblestone, sandstone, smooth sandstone, red sandstone, and smooth red sandstone slabs have been changed.}}
-{{History|||snap=19w02a|Wood slabs are now used to craft [[lectern]]s.}}
-{{History|||snap=19w08a|[[File:Diorite Slab JE3 BE2.png|32px]] The texture of diorite slabs has been changed.
-|[[File:Smooth Quartz Slab JE2 BE2.png|32px]] Smooth quartz now use the bottom texture of normal [[quartz block]]s, rather than the top texture.}}
-{{History|||snap=19w12a|[[File:Cut Sandstone Slab JE1 BE1.png|32px]] [[File:Cut Red Sandstone Slab JE1 BE1.png|32px]] Added cut sandstone and cut red sandstone slabs.}}
-{{History|||snap=19w13a|Slabs no longer block [[light]], except at their full faces.}}
-{{History|||snap=19w13b|[[File:Quartz Slab JE3 BE2.png|32px]] The texture of quartz slabs has been changed.}}
-{{History||1.16|snap=20w06a|[[File:Crimson Slab JE1 BE1.png|32px]] [[File:Warped Slab JE1 BE1.png|32px]] Added crimson and warped slabs.}}
-{{History|||snap=20w15a|[[File:Blackstone Slab JE1.png|32px]] [[File:Polished Blackstone Slab JE1 BE1.png|32px]] [[File:Polished Blackstone Brick Slab JE1 BE1.png|32px]] Added blackstone, polished blackstone, and polished blackstone brick slabs.}}
-{{History|||snap=20w16a|Blackstone and quartz slabs now generate as part of [[bastion remnant]]s.
-|Stone, mossy stone brick, stone brick, blackstone, polished blackstone brick and polished blackstone slabs can now generate as part of [[ruined portal]]s.}}
-{{History||1.16.2|snap=20w28a|Blackstone, polished blackstone and polished blackstone brick slabs are now [[renewable resource|renewable]] as [[piglin]]s have an 8.71% chance to [[trading|trade]] 8-16 blackstone during [[bartering]].}}
+{{History||1.0.0|snap=Beta 1.9 Prerelease 5|[[File:Oak Planks JE4 BE2.png|32px]] The texture of wooden planks has now been slightly changed.}}
+{{History||1.2.4|snap=release|[[File:Spruce Planks JE1 BE1.png|32px]] [[File:Birch Planks JE1 BE1.png|32px]] [[File:Jungle Planks JE1 BE1.png|32px]] Spruce, birch and jungle wood planks are now available, which are [[crafting|crafted]] from their corresponding [[log|wood]]. The color of wood planks available to this point is now obtainable only from oak wood.
+|The original "wooden planks" are now called 'Oak Wood Planks' and each wood planks color is named with the wood it is taken from.}}
+{{History||1.3.1|snap=12w16a|Oak wood planks are now found in the new [[bonus chest]]s.}}
+{{History|||snap=12w22a|Wood planks are now used to craft [[tripwire hook]]s.}}
+{{History|||snap=12w25a|Spruce, birch, and jungle wood planks now [[crafting|craft]] their respective wooden [[stairs]] and [[slab]]s.}}
+{{History||1.4.2|snap=12w34a|Wood planks are now used to craft [[wooden button]]s, using 2 planks.}}
+{{History|||snap=12w34b|Wooden buttons now require only 1 plank.}}
+{{History||1.7.2|snap=1.7.1|[[File:Acacia Planks JE1 BE1.png|32px]] [[File:Dark Oak Planks JE1 BE1.png|32px]] Acacia and dark oak wood planks are now available, [[crafting|crafted]] from their corresponding wood.}}
+{{History||1.8|snap=14w32b|Different types of wood planks now craft different types of [[fence]]s and [[fence gate]]s; the fence recipe now requires planks.}}
+{{History|||snap=14w32d|Different types of wood planks now craft different types of [[door]]s.}}
+{{History||1.9|snap=15w33c|Wood planks are now used to craft [[shield]]s.}}
+{{History|||snap=15w43a|Planks found in [[bonus chest]]s now may be of any type, rather than just oak.}}
+{{History|||snap=15w44a|The average yield of planks from bonus chests has now more than doubled.}}
+{{History||1.10|snap=16w20a|Dark oak planks can now be found as a part of [[abandoned mineshaft]]s in [[badlands|mesa]] biomes.
+|Spruce and acacia planks can now be found as a part of [[savanna]]/[[taiga]] [[village]]s respectively.}}
+{{History||1.11|snap=16w39a|Oak, birch, and dark oak wood planks now generate in [[woodland mansion]]s.}}
+{{History||July 19, 2017|link=https://twitter.com/jeb_/status/887599625045250048|[[Jeb]] tweets an image of new jungle wood planks, [[cauldron]], and [[flower|dandelion]] textures.}}
+{{History||July 22, 2017|link={{tweet|JasperBoerstra|888484852525404162}}|[[Jasper Boerstra]] tweets an image of new [[crafting table]], wood planks, and [[wood]] textures.}}
+{{History||1.13|snap=17w47a|The names of wood planks have now been changed from "<wood type> wood planks" to simply "<wood type> planks."
+|The different block states for the <code>planks</code> ID have now been split up into their own IDs.
+|Prior to [[1.13/Flattening|''The Flattening'']], this [[block]]'s numeral ID was 5.}}
+{{History|||snap=18w07a|Added stripped logs, a variant of [[log]]s, which can be used to [[crafting|craft]] wood planks.}}
+{{History|||snap=18w09a|Spruce and dark oak planks now generate in some [[underwater ruins]].}}
+{{History|||snap=18w11a|Wood planks now generate in [[shipwreck]].}}
+{{History||1.14|snap=18w43a|Wood planks are now used to craft a [[loom]].
+|[[File:Oak Planks JE5.png|32px]] [[File:Spruce Planks JE2.png|32px]] [[File:Birch Planks JE2.png|32px]] [[File:Jungle Planks JE2.png|32px]] [[File:Acacia Planks JE2.png|32px]] [[File:Dark Oak Planks JE2.png|32px]] The textures of planks have now been changed.}}
+{{History|||snap=18w47a|[[File:Oak Planks JE6 BE3.png|32px]] [[File:Spruce Planks JE3.png|32px]] [[File:Birch Planks JE3 BE2.png|32px]] [[File:Jungle Planks JE3 BE2.png|32px]] [[File:Acacia Planks JE3 BE2.png|32px]] [[File:Dark Oak Planks JE3 BE2.png|32px]] The textures of planks have now been changed, again.}}
+{{History|||snap=18w48a|Wood planks are now used to craft [[grindstone]]s.}}
+{{History|||snap=18w50a|[[File:Spruce Planks JE4 BE2.png|32px]] The texture of spruce planks have now been changed, once again.
+|Planks are now used to craft [[barrel]]s.}}
+{{History|||snap=19w02a|Planks are now use to craft a [[cartography table]].}}
+{{History|||snap=19w03a|Planks are now used to craft [[composter]]s.}}
+{{History||1.15|snap=19w34a|Planks are now used to craft [[beehive]]s.}}
+{{History||1.16|snap=20w06a|[[File:Crimson Planks JE1 BE1.png|32px]] [[File:Warped Planks JE1 BE1.png|32px]] Added crimson and warped planks, along with crimson and warped variants of all wooden [[block]]s and [[item]]s, except [[boat]]s.}}
 
 {{History|pocket alpha}}
-{{History||0.1.0|[[File:Smooth Stone Slab JE1 BE1.png|32px]] Added stone slabs.}}
-{{History||0.3.0|[[File:Oak Slab JE3 BE1.png|32px]] [[File:Brick Slab JE1 BE1.png|32px]] [[File:Cobblestone Slab JE2 BE1.png|32px]] Added wood (original oak), brick and cobblestone slabs.}}
-{{History||0.6.0|[[File:Sandstone Slab JE2 BE1.png|32px]] [[File:Stone Brick Slab JE2.png|32px]] Added sandstone and stone brick slabs.
-|Slabs can now be placed on the top half of [[block]]s.
-|The recipes for [[crafting]] slabs now give 6 slabs, instead of 3 slabs.}}
-{{History||0.7.3|[[File:Quartz Slab JE1 BE1.png|32px]] Added quartz slabs.
-|Wooden slabs can now be [[crafting|crafted]] during and after this update are now flammable. Existing wooden slabs (which have stone properties) are now tagged "Fake Wood Slab" and drop real wooden slabs.}}
-{{History||0.8.0|snap=build 2|[[File:Birch Slab JE1 BE1.png|32px]] [[File:Spruce Slab JE1 BE1.png|32px]] [[File:Jungle Slab JE1 BE1.png|32px]] Added birch, spruce and jungle wood slabs.}}
-{{History||0.9.0|snap=build 1|[[File:Acacia Slab JE1 BE1.png|32px]] [[File:Dark Oak Slab JE1 BE1.png|32px]] Added acacia and dark oak wood slabs.
-|Stone slabs now generate naturally in [[village]]s.}}
-{{History|||snap=build 11|Added crafting recipe for jungle wood slabs.}}
-{{History||unknown|The wooden slab names have been changed from "[woodtype] Slab" to "[woodtype] Wood Slab".}}
-{{History||0.12.1|snap=build 1|[[File:Nether Brick Slab JE1 BE1.png|32px]] Added nether brick slabs.}}
-{{History||0.13.0|snap=build 1|Wooden slabs are now used to craft [[daylight sensor]]s.
-|Sandstone slabs now generate in [[desert temple]]s.}}
-{{History||0.14.0|snap=build 1|[[File:Red Sandstone Slab JE1 BE1.png|32px]] Added red sandstone slabs.}}
-{{History||0.14.2|[[File:Nether Brick Slab BE2.png|32px]] The nether brick slab texture has been brightened.}}
+{{History||0.1.0|[[File:Oak Planks JE3 BE1.png|32px]] Added wooden planks.
+|Only oak wooden planks currently exist.}}
+{{History||0.2.0|[[File:Oak Planks JE4 BE2.png|32px]] The texture of oak planks has now been changed.}}
+{{History||0.3.0|Wooden planks are now used to [[crafting|craft]] oak wood [[stairs]], [[slab]]s and [[fence gate]]s, wooden [[door]]s, [[bowl]]s and [[bookshelves]].}}
+{{History||0.4.0|Wooden planks are now used to craft [[bed]]s, [[chest]]s and wooden [[hoe]]s.}}
+{{History||0.6.0|Wooden planks are now used to craft [[sign]]s.}}
+{{History||0.8.0|snap=build 2|[[File:Spruce Planks JE1 BE1.png|32px]] [[File:Birch Planks JE1 BE1.png|32px]] [[File:Jungle Planks JE1 BE1.png|32px]] Added spruce, birch, and jungle wood planks.}}
+{{History||unknown|The tooltips have now been changed to "(wood type) Planks."}}
+{{History||0.9.0|snap=build 1|[[File:Acacia Planks JE1 BE1.png|32px]] [[File:Dark Oak Planks JE1 BE1.png|32px]] Added acacia and dark oak wood planks.
+|Oak wood planks now naturally spawn in [[stronghold]]s, [[abandoned mineshaft]]s and [[village]]s.}}
+{{History||0.10.0|snap=build 1|Different types of wood planks now [[crafting|craft]] different types of [[fence]]s and [[fence gate]]s.
+|Above-ground [[mineshaft]]s now generate in [[badlands|mesa]] biomes, using dark oak planks.}}
+{{History||0.11.0|snap=build 1|Different types of wood planks can now be crafted into different types of [[boat]]s.
+|Oak wood planks now generate as a bridge in [[plains]] and [[savanna]] [[village]]s.}}
+{{History||unknown|The tooltips have now been changed to "(wood type) Wood Planks" for consistency with {{el|je}}.}}
+{{History||0.13.0|snap=build 1|Wood planks are now used to craft [[tripwire hook]]s, [[note block]]s, wooden [[pressure plate]]s, wooden [[button]]s, and spruce, birch, jungle, acacia and dark oak [[door]]s.}}
+{{History||0.14.0|snap=build 1|Spruce wood planks now generate in [[swamp hut|witch huts]].}}
+{{History||0.15.0|snap=build 1|Wood planks are now used to craft [[piston]]s.
+|Spruce wood planks now generate in [[taiga]] and [[snowy tundra]] [[village]]s.
+|Acacia wood planks now replace the position of oak wood planks in [[savanna]] villages.}}
 {{History|pocket}}
-{{History||1.0.0|snap=alpha 0.17.0.1|[[File:Purpur Slab JE1 BE1.png|32px]] Added purpur slabs.
-|A spruce slab nows act as the middle of a table generated within [[igloo]] basements.}}
-{{History||1.1.0|snap=alpha 1.1.0.0|Oak, birch, spruce, stone, and cobblestone slabs now generate in [[woodland mansion]]s.}}
+{{History||1.1.0|snap=alpha 1.1.0.0|Oak and dark oak wood planks now generate in [[woodland mansion]]s.}}
 {{History|bedrock}}
-{{History||1.2.0|snap=beta 1.2.0.2|Stone slabs are now used to craft [[armor stand]]s.}}
-{{History||1.4.0|snap=beta 1.2.13.8|[[File:Prismarine Slab JE1 BE1.gif|32px]] [[File:Prismarine Brick Slab JE1 BE1.png|32px]] [[File:Dark Prismarine Slab JE1 BE1.png|32px]] Added slabs for prismarine, prismarine brick and dark prismarine as part of [[Experimental Gameplay]].}}
-{{History|||snap=beta 1.2.14.2|The slabs for prismarine, prismarine brick, and dark prismarine have been fully implemented.}}
-{{History||1.9.0|snap=beta 1.9.0.0|"Stone Slab" has been renamed to "Smooth Stone Slab".
-|[[File:Oak Slab JE5 BE2.png|32px]] [[File:Spruce Slab JE4 BE2.png|32px]] [[File:Birch Slab JE3 BE2.png|32px]] [[File:Jungle Slab JE3 BE2.png|32px]] [[File:Acacia Slab JE3 BE2.png|32px]] [[File:Dark Oak Slab JE3 BE2.png|32px]] [[File:Smooth Stone Slab JE2 BE2.png|32px]] [[File:Cobblestone Slab JE4 BE2.png|32px]] [[File:Brick Slab JE3 BE2.png|32px]] [[File:Stone Brick Slab JE3 BE2.png|32px]] [[File:Sandstone Slab JE5 BE2.png|32px]] [[File:Red Sandstone Slab JE4 BE2.png|32px]] [[File:Nether Brick Slab JE3 BE3.png|32px]] [[File:Quartz Slab JE3 BE2.png|32px]] [[File:Purpur Slab JE2 BE2.png|32px]] [[File:Prismarine Slab JE2 BE2.gif|32px]] [[File:Prismarine Brick Slab JE2 BE2.png|32px]] [[File:Dark Prismarine Slab JE2 BE2.png|32px]] The textures of all slabs have been changed.
-|[[File:Andesite Slab JE1 BE1.png|32px]] [[File:Polished Andesite Slab JE1 BE1.png|32px]] [[File:Diorite Slab JE1 BE1.png|32px]] [[File:Polished Diorite Slab JE1 BE1.png|32px]] [[File:Granite Slab JE1 BE1.png|32px]] [[File:Polished Granite Slab JE1 BE1.png|32px]] [[File:Mossy Stone Brick Slab JE1 BE1.png|32px]] [[File:Mossy Cobblestone Slab JE1 BE1.png|32px]] [[File:Smooth Sandstone Slab JE1 BE1.png|32px]] [[File:Cut Sandstone Slab JE1 BE1.png|32px]] [[File:Smooth Red Sandstone Slab JE1 BE1.png|32px]] [[File:Cut Red Sandstone Slab JE1 BE1.png|32px]] [[File:Smooth Quartz Slab JE1 BE1.png|32px]] [[File:Red Nether Brick Slab JE1 BE1.png|32px]] [[File:End Stone Brick Slab JE1 BE1.png|32px]] Added andesite, polished andesite, diorite, polished diorite, granite, polished granite, mossy stone brick, mossy cobblestone, smooth sandstone, cut sandstone, smooth red sandstone, cut red sandstone, smooth quartz, red nether brick, and end stone brick slabs.
-|Sandstone and red sandstone slabs can now be [[crafting|crafted]] only using regular [[sandstone]].
-|Smooth stone slabs now require smooth [[stone]] to craft them.}}
-{{History||1.10.0|snap=beta 1.10.0.3|[[File:Andesite Slab JE2 BE2.png|32px]] [[File:Polished Andesite Slab JE2 BE2.png|32px]] [[File:Diorite Slab JE3 BE2.png|32px]] [[File:Polished Diorite Slab JE2 BE2.png|32px]] [[File:Mossy Cobblestone Slab JE2 BE2.png|32px]] [[File:Smooth Sandstone Slab JE3 BE2.png|32px]] [[File:Smooth Red Sandstone Slab JE3 BE2.png|32px]] [[File:Red Nether Brick Slab JE2 BE2.png|32px]] [[File:Smooth Quartz Slab JE2 BE2.png|32px]] The textures of slabs have been changed.
-|Cobblestone, mossy cobblestone, and dark oak slabs now generate in [[pillager outpost]]s.
-|Smooth sandstone slabs now generate in new [[desert]] [[village]]s.
-|Wood slabs can now be used to craft [[composter]]s, [[barrel]]s and [[lectern]]s.
-|Stone slabs can now be used to craft [[grindstone]].}}
-{{History||1.12.0|snap=beta 1.12.0.2|Single slabs now only block sky [[light]].}}
-{{History||1.16.0|snap=beta 1.16.0.51|[[File:Crimson Slab JE1 BE1.png|32px]] [[File:Warped Slab JE1 BE1.png|32px]] Added crimson and warped slabs.}}
-{{History|||snap=beta 1.16.0.57|[[File:Blackstone Slab BE1.png|32px]] [[File:Polished Blackstone Slab JE1 BE1.png|32px]] [[File:Polished Blackstone Brick Slab JE1 BE1.png|32px]] Added blackstone, polished blackstone, and polished blackstone brick slabs.
-|Quartz slabs now generate as part of [[bastion remnant]]s.
-|Stone, mossy stone brick, stone brick, blackstone, nether brick slabs can now generate as part of [[ruined portal]]s.
-|Added new [[sound]]s to the nether brick slab variants.}}
-{{History|||snap=beta 1.16.0.63|[[File:Nether Brick Slab JE3 BE3.png|32px]] The texture of nether brick slabs now matches [[Java Edition]]'s again.}}
-{{History||1.16.20|snap=beta 1.16.20.50|Crimson and warped slabs now uses regular plank [[sound]]s instead of their stem variant sounds.}}
+{{History||1.2.0|snap=beta 1.2.0.2|Birch wood planks now generate in [[woodland mansion]]s, instead of oak.}}
+{{History||1.4.0|snap=beta 1.2.13.8|Added [[stripped log]]s variants, which can be used to [[crafting|craft]] wooden planks.}}
+{{History|||snap=beta 1.2.14.2|Wood planks now generate in [[shipwreck]]s.}}
+{{History|||snap=beta 1.2.20.1|Spruce and dark oak planks now generate in some [[underwater ruins]].}}
+{{History||1.10.0|snap=beta 1.10.0.3|Wood planks can now be crafted from [[wood]].
+|Planks can now be used to craft [[loom]]s, [[grindstone]]s, and [[shield]]s.
+|Birch and dark oak planks now generate in [[pillager outpost]]s.
+|[[File:Oak Planks JE6 BE3.png|32px]] [[File:Spruce Planks JE4 BE2.png|32px]] [[File:Birch Planks JE3 BE2.png|32px]] [[File:Jungle Planks JE3 BE2.png|32px]] [[File:Acacia Planks JE3 BE2.png|32px]] [[File:Dark Oak Planks JE3 BE2.png|32px]] The textures of planks have now been changed.}}
+{{History||1.11.0|snap=beta 1.11.0.1|Planks can now be used to craft [[cartography table]]s.}}
+{{History||1.14.0|snap=beta 1.14.0.1|Planks are now used to craft [[beehive]]s.}}
+{{History||1.16.0|snap=beta 1.16.0.51|[[File:Crimson Planks JE1 BE1.png|32px]] [[File:Warped Planks JE1 BE1.png|32px]] Added crimson and warped planks, along with crimson and warped variants of all wooden [[block]]s and [[item]]s, except [[boat]]s.}}
+{{History||1.16.20|snap=beta 1.16.20.50|Crimson and warped planks now uses regular plank [[sound]]s instead of their stem variant sounds.}}
 
 {{History|console}}
-{{History||xbox=TU1|xbone=CU1|ps=1.0|wiiu=Patch 1|[[File:Smooth Stone Slab JE1 BE1.png|32px]] [[File:Oak Slab JE3 BE1.png|32px]] [[File:Sandstone Slab JE1.png|32px]] [[File:Cobblestone Slab JE1.png|32px]] Added stone, wood (original oak), sandstone and cobblestone slabs.}}
-{{History||xbox=TU5|[[File:Stone Brick Slab JE1 BE1.png|32px]] [[File:Brick Slab JE1 BE1.png|32px]] Added stone brick and brick slabs.}}
-{{History||xbox=TU9|[[File:Birch Slab JE1 BE1.png|32px]] [[File:Spruce Slab JE1 BE1.png|32px]] [[File:Nether Brick Slab JE1 BE1.png|32px]] Added birch wood, spruce wood and nether brick slabs.
-|Wooden slabs [[crafting|crafted]] during and after this update are now flammable and are broken with an [[axe]] instead of a [[pickaxe]]. Existing slabs (which have stone properties) are not stackable with the new slabs.}}
-{{History||xbox=TU12|[[File:Jungle Slab JE1 BE1.png|32px]] Added jungle wood slabs.
-|Slabs can now be placed upside down.
-|[[Item]]s can now be placed directly on upside down slabs.}}
-{{History||xbox=TU14|ps=1.04|[[File:Quartz Slab JE1 BE1.png|32px]] Added quartz slabs.
-|The placement of half [[block]]s and other blocks on half blocks has been changed.
-|The placement of upside down slabs has been changed.}}
-{{History||xbox=TU27|xbone=CU15|ps=1.18|[[File:Acacia Slab JE1 BE1.png|32px]] [[File:Dark Oak Slab JE1 BE1.png|32px]] Added acacia and dark oak wood slabs to the [[creative]] [[inventory]].}}
-{{History||xbox=TU46|xbone=CU36|ps=1.38|wiiu=Patch 15|[[File:Purpur Slab JE1 BE1.png|32px]] Added purpur slabs.}}
-{{History||xbox=TU69|ps=1.76|wiiu=Patch 38|[[File:Prismarine Slab JE1 BE1.png|32px]] [[File:Prismarine Brick Slab JE1 BE1.png|32px]] [[File:Dark Prismarine Slab JE1 BE1.png|32px]] Added slabs for prismarine, prismarine bricks and dark prismarine.}}
-{{History||xbox=none|xbone=none|ps=1.88|wiiu=none|switch=none|[[File:Oak Slab JE5 BE2.png|32px]] [[File:Spruce Slab JE4 BE2.png|32px]] [[File:Birch Slab JE3 BE2.png|32px]] [[File:Jungle Slab JE3 BE2.png|32px]] [[File:Acacia Slab JE3 BE2.png|32px]] [[File:Dark Oak Slab JE3 BE2.png|32px]] [[File:Smooth Stone Slab JE2 BE2.png|32px]] [[File:Cobblestone Slab JE4 BE2.png|32px]] [[File:Brick Slab JE3 BE2.png|32px]] [[File:Stone Brick Slab JE3 BE2.png|32px]] [[File:Sandstone Slab JE5 BE2.png|32px]] [[File:Red Sandstone Slab JE4 BE2.png|32px]] [[File:Nether Brick Slab JE3 BE3.png|32px]] [[File:Quartz Slab JE3 BE2.png|32px]] [[File:Purpur Slab JE2 BE2.png|32px]] [[File:Prismarine Slab JE2 BE2.gif|32px]] [[File:Prismarine Brick Slab JE2 BE2.png|32px]] [[File:Dark Prismarine Slab JE2 BE2.png|32px]] The textures of all slabs has been changed.
-|[[File:Andesite Slab JE1 BE1.png|32px]] [[File:Polished Andesite Slab JE1 BE1.png|32px]] [[File:Diorite Slab JE1 BE1.png|32px]] [[File:Polished Diorite Slab JE1 BE1.png|32px]] [[File:Granite Slab JE1 BE1.png|32px]] [[File:Polished Granite Slab JE1 BE1.png|32px]] [[File:Mossy Stone Brick Slab JE1 BE1.png|32px]] [[File:Mossy Cobblestone Slab JE1 BE1.png|32px]] [[File:Smooth Sandstone Slab JE1 BE1.png|32px]] [[File:Cut Sandstone Slab JE1 BE1.png|32px]] [[File:Smooth Red Sandstone Slab JE1 BE1.png|32px]] [[File:Cut Red Sandstone Slab JE1 BE1.png|32px]] [[File:Smooth Quartz Slab JE1 BE1.png|32px]] [[File:Red Nether Brick Slab JE1 BE1.png|32px]] [[File:End Stone Brick Slab JE1 BE1.png|32px]] Added andesite, polished andesite, diorite, polished diorite, granite, polished granite, mossy stone brick slab, mossy cobblestone, smooth sandstone, smooth red sandstone, smooth quartz, red nether brick, end stone brick slabs.
-|"Stone Slab" has been renamed to "Smooth Stone Slab".}}
-{{History||xbox=none|xbone=none|ps=1.90|wiiu=none|switch=none|[[File:Diorite Slab JE3 BE2.png|32px]] [[File:Polished Diorite Slab JE2 BE2.png|32px]] [[File:Mossy Cobblestone Slab JE2 BE2.png|32px]] [[File:Smooth Sandstone Slab JE3 BE2.png|32px]] [[File:Smooth Red Sandstone Slab JE3 BE2.png|32px]] [[File:Red Nether Brick Slab JE2 BE2.png|32px]] [[File:Smooth Quartz Slab JE2 BE2.png|32px]] The textures of slabs have been changed.}}
+{{History||xbox=TU1|xbone=CU1|ps=1.0|wiiu=Patch 1|switch=1.0.1|[[File:Oak Planks JE3 BE1.png|32px]] Added wooden planks.}}
+{{History||xbox=TU3|[[File:Oak Planks JE4 BE2.png|32px]] The texture of oak planks has been changed.}}
+{{History||xbox=TU9|[[File:Spruce Planks JE1 BE1.png|32px]] [[File:Birch Planks JE1 BE1.png|32px]] Added spruce and birch wood planks.}}
+{{History||xbox=TU12|[[File:Jungle Planks JE1 BE1.png|32px]] Added jungle wooden planks.}}
+{{History||xbox=TU27|xbone=CU15|ps=1.18|[[File:Acacia Planks JE1 BE1.png|32px]] [[File:Dark Oak Planks JE1 BE1.png|32px]] Added acacia and dark oak planks to the [[creative]] [[inventory]].}}
+{{History||xbox=TU31|xbone=CU19|ps=1.22|wiiu=Patch 3|Acacia and dark oak planks are now obtainable in [[survival]].}}
+{{History||xbox=none|xbone=none|ps=1.90|wiiu=none|switch=none|[[File:Oak Planks JE6 BE3.png|32px]] [[File:Spruce Planks JE4 BE2.png|32px]] [[File:Birch Planks JE3 BE2.png|32px]] [[File:Jungle Planks JE3 BE2.png|32px]] [[File:Acacia Planks JE3 BE2.png|32px]] [[File:Dark Oak Planks JE3 BE2.png|32px]] The textures of planks have now been changed.}}
+{{History||xbox=none|xbone=none|ps=1.95|wiiu=none|switch=none|Planks can now be [[crafting|crafted]] from [[wood]].}}
 
 {{History|new 3ds}}
-{{History||0.1.0|[[File:Smooth Stone Slab JE1 BE1.png|32px]] [[File:Oak Slab JE3 BE1.png|32px]] [[File:Brick Slab JE1 BE1.png|32px]] [[File:Cobblestone Slab JE2 BE1.png|32px]] [[File:Birch Slab JE1 BE1.png|32px]] [[File:Spruce Slab JE1 BE1.png|32px]] [[File:Jungle Slab JE1 BE1.png|32px]] [[File:Acacia Slab JE1 BE1.png|32px]][[File:Dark Oak Slab JE1 BE1.png|32px]] [[File:Red Sandstone Slab JE1 BE1.png|32px]] [[File:Nether Brick Slab BE2.png|32px]] Added slabs.}}
-{{History||1.7.10|[[File:Purpur Slab JE1 BE1.png|32px]] Added purpur slabs.}}
+{{History||0.1.0|[[File:Oak Planks JE4 BE2.png|32px]] [[File:Spruce Planks JE1 BE1.png|32px]] [[File:Birch Planks JE1 BE1.png|32px]] [[File:Jungle Planks JE1 BE1.png|32px]] [[File:Acacia Planks JE1 BE1.png|32px]] [[File:Dark Oak Planks JE1 BE1.png|32px]] Added wood planks.}}
 {{History|foot}}
 
 == Issues ==
@@ -1190,51 +351,27 @@ Wooden slabs can be used as a fuel in [[furnace]]s, smelting 0.75 items per slab
 {{issue list}}
 
 == Trivia ==
+* Many items crafted using planks or sticks have textures that most resemble oak planks, regardless of the species used to craft them. On the other hand, [[item frame]]s and [[fletching table]]s resemble birch planks, [[cartography table]]s resemble dark oak planks, [[barrel]]s resemble spruce planks, while [[smithing table]]s resemble crimson planks.
+* Crimson Planks and Warped Planks do not naturally generate, and are only available if [[crafted]] by a player.
 
-* Any light directed through a slab does not affect any block's light values north of the source.
-* Whereas 1×1 dents in a flat floor using slabs are darkened as one would expect, 1×1 dents created using 2×1 or 2×2 stairs darken less, due to having fewer surrounding solid blocks.<ref>{{bug|MCPE-31503}} resolved as "Works as Intended"</ref>
-* When [[water]] or [[lava]] are on top of an upside-down slab, the water dripping particles appear in midair below the slab instead of from the slab itself, this was fixed {{in|java}} [[Java Edition 1.13-pre7|1.13-pre7]],<ref>{{bug|MC-1390}}</ref> but is an intentional feature {{in|bedrock}}.<ref>{{bug|MCPE-32639}}</ref>
-*When a [[TNT]] placed on a slab explodes, its blast radius is greatly reduced. ( In some cases, only the slab is destroyed. )
-*As with the previous trivia, [[End Crystal|End Crystals]] and [[Creeper]] [[Explosion|explosions]] will also be weakened if the explosion happens on the slab.
+== Notes ==
+{{fnlist}}
 
-== Gallery ==
-<gallery>
-File:Tavern StoneSlabs.png|Naturally occurring smooth stone slabs in a butcher shop. (Before the [[Village and Pillage]] update)
-File:Brick Slabz.png|Brick slabs.
-File:Stone Brick Slabz.png|Stone brick slabs.
-File:Newstoneslab.png|Double smooth stone slab (left) compared to smooth stone.
-File:Smithy Stone Slab.png|Naturally occurring smooth stone slabs in a [[village]] blacksmith. (Before the [[Village and Pillage]] update)
-File:QVA1C.png|First image of upside down slabs as shown on [[Jeb]]'s [[wikipedia:Twitter|Twitter]].
-File:UpperHalfSlabs.png|Slabs used to create the impression of half-aligned full [[block]]s.
-File:Tipe.png|All six types of wooden slabs.
-File:HalfTrapSlabDoors.png|[[Trapdoor]]s on slabs.
-File:Slab Shelves.png|Example of slab shelving by placing slabs below other slabs.
-File:Smooth Sandstone Slab comparison.png|Smooth sandstone compared to smooth stone.
-File:FireSafeInHouse.png|A petrified oak slab house with a [[netherrack]] fireplace.
-File:FakeSlabs.jpeg|Fake wooden slabs.
-</gallery>
-
-== References ==
-
-{{Reflist}}
-
-{{Redstone}}
 {{Blocks}}
 
 [[Category:Manufactured blocks]]
 [[Category:Natural blocks]]
 
-[[cs:Půlblok]]
-[[de:Stufe]]
-[[es:Losas]]
-[[fr:Dalle]]
-[[hu:Lap]]
-[[it:Lastra]]
-[[ja:ハーフブロック]]
-[[ko:반 블록]]
-[[nl:Plaat]]
-[[pl:Półblok]]
-[[pt:Laje]]
-[[ru:Плита]]
-[[uk:Плита]]
-[[zh:台阶]]
+
+[[de:Holzbretter]]
+[[es:Madera]]
+[[fr:Planches]]
+[[hu:Fadeszka]]
+[[it:Assi]]
+[[ja:木材]]
+[[ko:나무 판자]]
+[[nl:Planken]]
+[[pl:Deski]]
+[[pt:Tábuas]]
+[[ru:Доски]]
+[[zh:木板]]

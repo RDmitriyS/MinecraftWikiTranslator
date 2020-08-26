@@ -13,7 +13,7 @@
 [egg-pre-texture-update] = [яйцо-до-texture-update]
 [sugar-pre-texture-update] = [сахар-до-texture-update]
 [snowball-pre-texture-update] = [снежок-до-texture-update]
-[fox-spawn-egg] = [яйцо-призывания-лисы]
+[fox-spawn-egg] = [призвать-лису][яйцо-призывания-лисы]
 [leather-chestplate-base][leather-tunic-base] = [кожаная-кираса-бесцветная][кожаная-куртка-бесцветная]
 [chainmail-chestplate-pre-texture-update] = [кольчужная-кираса-до-texture-update]
 [iron-chestplate-pre-texture-update] = [железная-кираса-до-texture-update]
@@ -36,16 +36,16 @@
 [diamond-leggings-pre-texture-update] = [алмазные-поножи-до-texture-update]
 [golden-leggings-pre-texture-update] = [золотые-поножи-до-texture-update]
 [arrow] = [стрела]
-[quiver] = [колчан]
+[quiver] = [колчан][колчан-стрел]
 [gold-ingot-pre-texture-update] = [золотой-слиток-до-texture-update]
 [gunpowder-pre-texture-update] = [порох-до-texture-update]
 [bread-pre-texture-update] = [хлеб-до-texture-update]
 [oak-sign][sign] = [дубовая-табличка]
-[oak-door] = [деревянная-дверь][дубовая-дверь]
+[oak-door] = [дверь][деревянная-дверь][дубовая-дверь]
 [iron-door] = [железная-дверь]
 [bed][red-bed] = [красная-кровать][кровать]
 [fire-charge-pre-texture-update] = [огненный-шар-до-texture-update]
-[chainmail-chestplate] = [кольчужная-кираса][кольчужный-нагрудник]
+[chainmail-chestplate] = [кольчуга][кольчужная-кираса][кольчужный-нагрудник]
 [leather-boots-base] = [кожаные-ботинки-бесцветные]
 [chainmail-boots-pre-texture-update] = [кольчужные-ботинки-до-texture-update]
 [iron-boots-pre-texture-update] = [железные-ботинки-до-texture-update]
@@ -61,7 +61,7 @@
 [buried-treasure-map-pre-texture-update][filled-map-pre-texture-update][map-pre-texture-update] = [карта-до-texture-update][карта-сокровищ-до-texture-update]
 [pumpkin-seeds] = [семена-тыквы]
 [melon-seeds] = [семена-арбуза]
-[chainmail-helmet] = [кольчужный-шлем]
+[chainmail-helmet] = [койф][кольчужный-шлем]
 [wooden-sword-pre-texture-update] = [деревянный-меч-до-texture-update]
 [stone-sword-pre-texture-update] = [каменный-меч-до-texture-update]
 [iron-sword-pre-texture-update] = [железный-меч-до-texture-update]
@@ -106,7 +106,7 @@
 [raw-beef-pre-texture-update] = [сырая-говядина-до-texture-update]
 [steak-pre-texture-update] = [жареная-говядина-до-texture-update]
 [ender-pearl-pre-texture-update] = [жемчуг-края-до-texture-update]
-[blaze-rod] = [огненный-стержень]
+[blaze-rod] = [огненный-жезл][огненный-стержень]
 [melon-slice-pre-texture-update] = [ломтик-арбуза-до-texture-update]
 [cactus-green] = [кактусовая-зелень]
 [lime-dye-pre-texture-update] = [лаймовый-краситель-до-texture-update]
@@ -123,7 +123,7 @@
 [cooked-chicken-pre-texture-update] = [жареная-курятина-до-texture-update]
 [ghast-tear-pre-texture-update] = [слеза-гаста-до-texture-update]
 [gold-nugget-pre-texture-update] = [кусочек-золота-до-texture-update]
-[nether-wart] = [адский-нарост]
+[nether-wart] = [адский-нарост][нарост-из-незера][семена-адского-нароста]
 [cocoa-beans-pre-texture-update] = [какао-бобы-до-texture-update]
 [dandelion-yellow] = 
 [wooden-hoe-pre-texture-update] = [деревянная-мотыга-до-texture-update]
@@ -166,7 +166,7 @@
 [nether-brick-pre-texture-update] = [адский-кирпич-до-texture-update]
 [beetroot-soup-pre-texture-update] = [свекольный-суп-до-texture-update]
 [minecart-with-furnace-pre-texture-update] = [вагонетка-с-печью-до-texture-update]
-[raw-salmon-revision-1][salmon-revision-1] = [лосось-старый][сырой-лосось-старый]
+[raw-salmon-revision-1][salmon-revision-1] = [лосось-старый][сырой-лосось-13w36a][сырой-лосось-старый]
 [dragon's-breath-pre-texture-update] = [драконье-дыханье-до-texture-update]
 [ruby] = [рубин]
 [bottle-o'-enchanting-pre-texture-update] = [зелье-опыта-до-texture-update]
@@ -182,7 +182,7 @@
 [potion-of-poison-pre-texture-update] = [зелье-отравления-до-texture-update]
 [potion-of-regeneration-pre-texture-update] = [зелье-регенерации-до-texture-update]
 [minecart-with-tnt-pre-texture-update] = [вагонетка-с-тнт-до-texture-update]
-[cooked-salmon-revision-1] = [жареный-лосось-старый]
+[cooked-salmon-revision-1] = [жареный-лосось-13w36a][жареный-лосось-старый]
 [nether-star-pre-texture-update] = [звезда-нижнего-мира-до-texture-update]
 [emerald-pre-texture-update] = [изумруд-до-texture-update]
 [book-and-quill-pre-texture-update] = [книга-с-пером-до-texture-update]
@@ -200,7 +200,7 @@
 [minecart-with-hopper-pre-texture-update] = [вагонетка-с-воронкой-до-texture-update]
 [clownfish-revision-1] = [рыба-клоун-старая]
 [firework-rocket-pre-texture-update] = [ракета-до-texture-update]
-[firework-star] = [звёздочка]
+[firework-star] = [звёздочка][пиротехническая-звезда]
 [arrow-of-poison-pre-texture-update] = [стрела-отравления-до-texture-update]
 [nether-quartz-pre-texture-update] = [кварц-нижнего-мира-до-texture-update]
 [empty-map-pre-texture-update] = [пустая-карта-до-texture-update]
@@ -232,7 +232,7 @@
 [rabbit's-foot-pre-texture-update] = [кроличья-лапка-до-texture-update]
 [rabbit-stew-pre-texture-update] = [тушёный-кролик-до-texture-update]
 [raw-mutton-pre-texture-update] = [сырая-баранина-до-texture-update]
-[spawn][spawn-egg] = [спаун][яйцо-призывания]
+[spawn][spawn-egg] = [пустое-яйцо-призывания][спаун][яйцо-призывания]
 [doors] = [двери]
 [splash-potion-bottle-pre-texture-update] = [взрывающаяся-колба-зелья-до-texture-update]
 [base-compass][compass-base] = [компас-основание]
@@ -251,7 +251,7 @@
 [music-disc-11-pre-texture-update] = [пластинка-11-до-texture-update]
 [music-disc-wait] = [пластинка-wait]
 [arrow-of-leaping-pre-texture-update] = [стрела-прыгучести-до-texture-update]
-[studded-chestplate] = [кожано-кольчужная-кираса]
+[studded-chestplate] = [кожано-кольчужная-кираса][кожано-кольчужная-куртка]
 [music-discs-pre-texture-update] = [пластинки-до-texture-update]
 [arrow-of-luck-pre-texture-update] = [стрела-удачи-до-texture-update]
 [oak-boat-pre-texture-update] = [дубовая-лодка-до-texture-update]
@@ -282,29 +282,29 @@
 [ocean-explorer-map-pre-texture-update] = [карта-к-подводной-крепости-до-texture-update]
 [woodland-explorer-map-pre-texture-update] = [карта-к-лесному-особняку-до-texture-update]
 [portfolio] = [портфолио]
-[slate] = [шифер]
-[poster] = [плакат]
+[slate] = [маленькая-доска][шифер]
+[poster] = [плакат][широкая-доска]
 [board][chalkboard] = [доска]
-[iron-nugget] = [кусочек-железа]
+[iron-nugget] = [железный-самородок][кусочек-железа]
 [knowledge-book-pre-texture-update] = [книга-знаний-до-texture-update]
 [bat-spawn-egg][spawn-bat] = [яйцо-призывания-летучей-мыши]
-[blaze-spawn-egg][spawn-blaze] = [яйцо-призывания-ифрита]
+[blaze-spawn-egg][spawn-blaze] = [яйцо-призывания-всполоха][яйцо-призывания-ифрита]
 [cave-spider-spawn-egg][spawn-cave-spider] = [яйцо-призывания-пещерного-паука]
 [chicken-spawn-egg][spawn-chicken] = [яйцо-призывания-курицы]
 [cow-spawn-egg][spawn-cow] = [яйцо-призывания-коровы]
 [creeper-spawn-egg][spawn-creeper] = [яйцо-призывания-крипера]
 [donkey-spawn-egg][spawn-donkey] = [яйцо-призывания-осла]
 [elder-guardian-spawn-egg][spawn-elder-guardian] = [яйцо-призывания-древнего-стража]
-[enderman-spawn-egg][spawn-enderman] = [яйцо-призывания-странника-края]
-[endermite-spawn-egg][spawn-endermite] = [яйцо-призывания-чешуйницы-края]
-[evoker-spawn-egg][spawn-evoker] = [яйцо-призывания-вызывателя]
+[enderman-spawn-egg][spawn-enderman] = [яйцо-призывания-странника-края][яйцо-призывания-эндермена]
+[endermite-spawn-egg][spawn-endermite] = [яйцо-призывания-чешуйницы-края][яйцо-призывания-эндермита]
+[evoker-spawn-egg][spawn-evoker] = [яйцо-призывания-вызывателя][яйцо-призывания-заклинателя]
 [ghast-spawn-egg][spawn-ghast] = [яйцо-призывания-гаста]
 [guardian-spawn-egg][spawn-guardian] = [яйцо-призывания-стража]
 [horse-spawn-egg][spawn-horse] = [яйцо-призывания-лошади]
 [husk-spawn-egg][spawn-husk] = [яйцо-призывания-кадавра]
 [llama-spawn-egg][spawn-llama] = [яйцо-призывания-ламы]
-[magma-cube-spawn-egg][spawn-magma-cube] = [яйцо-призывания-лавового-куба]
-[mooshroom-spawn-egg][spawn-mooshroom] = [яйцо-призывания-грибной-коровы]
+[magma-cube-spawn-egg][spawn-magma-cube] = [яйцо-призывания-лавового-куба][яйцо-призывания-магмового-куба]
+[mooshroom-spawn-egg][spawn-mooshroom] = [яйцо-призывания-грибной-коровы][яйцо-призывания-муухомора][яйцо-призывания-муухоморы]
 [mule-spawn-egg][spawn-mule] = [яйцо-призывания-мула]
 [ocelot-spawn-egg][spawn-ocelot] = [яйцо-призывания-оцелота]
 [pig-spawn-egg][spawn-pig] = [яйцо-призывания-свиньи]
@@ -320,16 +320,16 @@
 [spawn-spider][spider-spawn-egg] = [яйцо-призывания-паука]
 [spawn-squid][squid-spawn-egg] = [яйцо-призывания-спрута]
 [spawn-stray][stray-spawn-egg] = [яйцо-призывания-зимогора]
-[spawn-vex][vex-spawn-egg] = [яйцо-призывания-досаждателя]
-[spawn-villager][villager-spawn-egg] = [яйцо-призывания-деревенского-жителя]
+[spawn-vex][vex-spawn-egg] = [яйцо-призывания-вредины][яйцо-призывания-досаждателя]
+[spawn-villager][villager-spawn-egg] = [яйцо-призывания-деревенского-жителя][яйцо-призывания-крестьянина]
 [spawn-vindicator][vindicator-spawn-egg] = [яйцо-призывания-поборника]
 [spawn-witch][witch-spawn-egg] = [яйцо-призывания-ведьмы]
-[spawn-wither-skeleton][wither-skeleton-spawn-egg] = [яйцо-призывания-скелета-иссушителя]
+[spawn-wither-skeleton][wither-skeleton-spawn-egg] = [яйцо-призывания-визер-скелета][яйцо-призывания-скелета-иссушителя]
 [spawn-wolf][wolf-spawn-egg] = [яйцо-призывания-волка]
 [spawn-zombie][zombie-spawn-egg] = [яйцо-призывания-зомби]
 [spawn-zombie-horse][zombie-horse-spawn-egg] = [яйцо-призывания-лошади-зомби]
-[spawn-zombie-pigman][spawn-zombified-piglin][zombie-pigman-spawn-egg][zombified-piglin-spawn-egg] = [яйцо-призывания-зомби-свиночеловека][яйцо-призывания-зомбифицированного-пиглина]
-[spawn-zombie-villager][zombie-villager-spawn-egg] = [яйцо-призывания-зомби-жителя]
+[spawn-zombie-pigman][spawn-zombified-piglin][zombie-pigman-spawn-egg][zombified-piglin-spawn-egg] = [яйцо-призывания-зомби-свиночеловека][яйцо-призывания-зомбифицированного-пиглина][яйцо-призывания-свинозомби]
+[spawn-zombie-villager][zombie-villager-spawn-egg] = [яйцо-призывания-зомби-жителя][яйцо-призывания-зомби-крестьянина]
 [ankle-monitor] = [маячок]
 [reality-vision] = [очки-виртуальной-реальности]
 [smarter-watch] = [умные-часы]
@@ -342,7 +342,7 @@
 [potion-of-the-turtle-master-pre-texture-update] = [зелье-черепашьей-мощи-до-texture-update]
 [arrow-of-the-turtle-master-pre-texture-update] = [стрела-черепашьей-мощи-до-texture-update]
 [spawn-sea-turtle][turtle-spawn-egg] = [яйцо-призывания-черепахи]
-[phantom-spawn-egg][spawn-phantom] = [яйцо-призывания-фантома]
+[phantom-spawn-egg][spawn-phantom] = [призвать-фантома][яйцо-призывания-фантома]
 [cooked-cod] = [жареная-треска]
 [cooked-salmon] = [жареный-лосось]
 [pufferfish] = [иглобрюх]
@@ -354,7 +354,7 @@
 [bucket-of-cod-pre-texture-update] = [ведро-с-треской-до-texture-update]
 [bucket-of-pufferfish-pre-texture-update] = [ведро-с-иглобрюхом-до-texture-update]
 [bucket-of-salmon-pre-texture-update] = [ведро-с-лососем-до-texture-update]
-[spawn-tropical-fish][tropical-fish-spawn-egg] = [яйцо-призывания-тропической-рыбы]
+[spawn-tropical-fish][tropical-fish-spawn-egg] = [яйцо-призывания-рыбы-клоуна][яйцо-призывания-тропической-рыбы]
 [clownfish][tropical-fish] = [рыба-клоун][тропическая-рыба]
 [arrow-of-slow-falling-pre-texture-update] = [стрела-медленного-падения-до-texture-update]
 [potion-of-slow-falling-pre-texture-update] = [зелье-медленного-падения-до-texture-update]
@@ -364,7 +364,7 @@
 [nautilus-shell-be] = [раковина-наутилуса-be]
 [heart-of-the-sea] = [сердце-моря]
 [nautilus-shell] = [раковина-наутилуса]
-[dolphin-spawn-egg][spawn-dolphin] = [яйцо-призывания-дельфина]
+[dolphin-spawn-egg][spawn-dolphin] = [призвать-дельфина][яйцо-призывания-дельфина]
 [enchanted-golden-apple-pre-texture-update] = [зачарованное-золотое-яблоко-до-texture-update]
 [bamboo] = [бамбук]
 [cat-spawn-egg] = [яйцо-призывания-кошки]
@@ -379,58 +379,58 @@
 [crossbow-drawn-2] = [арбалет-натяжение-2]
 [crossbow-drawn-3] = [арбалет-натяжение-3]
 [crossbow-firework] = [арбалет-с-фейерверком]
-[bell] = [колокол]
-[banner-pattern] = [узор-флага]
+[bell] = [висящий-колокол][колокол]
+[banner-pattern] = [узор-флага][шаблон-для-флага]
 
 [lantern] = [фонарь]
 [acacia-sign] = [акациевая-табличка]
 [birch-sign] = [берёзовая-табличка]
 [dark-oak-sign] = [табличка-из-тёмного-дуба]
-[jungle-sign] = [джунглевая-табличка][табличка-из-тропического-дерева]
-[spruce-sign] = [еловая-табличка]
-[berries][sweet-berries] = [сладкие-ягоды]
-[ravager-spawn-egg][spawn-ravager] = [яйцо-призывания-разорителя]
+[jungle-sign] = [джунглевая-табличка][джунглиевая-табличка][табличка-из-тропического-дерева]
+[spruce-sign] = [еловая-табличка][сосновая-табличка]
+[berries][sweet-berries] = [куст-сладких-ягод][сладкие-ягоды]
+[ravager-spawn-egg][spawn-ravager] = [призвать-разорителя][яйцо-призывания-разорителя][яйцо-призывания-чудища-разбойника]
 [panda-spawn-egg] = [яйцо-призывания-панды]
-[pillager-spawn-egg][spawn-pillager] = [яйцо-призывания-разбойника]
-[spawn-agent] = [яйцо-призывания-агента]
-[spawn-cat][spawn-cat-be] = [яйцо-призывания-кошки-be]
-[spawn-mask] = [яйцо-призывания-маски]
+[pillager-spawn-egg][spawn-pillager] = [призвать-разбойника][яйцо-призывания-разбойника]
+[spawn-agent] = [призвать-агента][яйцо-призывания-агента]
+[spawn-cat][spawn-cat-be] = [призвать-кошку][призвать-кошку-be][яйцо-призывания-кошки-be]
+[spawn-mask] = [призвать-маску][яйцо-призывания-маски]
 [spawn-npc] = [яйцо-призывания-неигрового-персонажа]
-[spawn-panda][spawn-panda-be] = [яйцо-призывания-панды-be]
+[spawn-panda][spawn-panda-be] = [призвать-панду][призвать-панду-be][яйцо-призывания-панды-be]
 [campfire] = [костёр]
-[awkward-potion][long-mundane-potion][mundane-potion][thick-potion][water-bottle] = [неловкое-зелье]
-[spawn-trader-llama][trader-llama-spawn-egg] = [яйцо-призывания-ламы-странствующего-торговца]
-[spawn-wandering-trader][wandering-trader-spawn-egg] = [яйцо-призывания-странствующего-торговца]
+[awkward-potion][long-mundane-potion][mundane-potion][thick-potion][water-bottle] = [густое-зелье][заурядное-зелье][колба-воды][мутное-зелье][неловкое-зелье][непримечательное-зелье]
+[spawn-trader-llama][trader-llama-spawn-egg] = [призвать-ламу-торговца][яйцо-призывания-ламы-странствующего-торговца][яйцо-призывания-ламы-торговца]
+[spawn-wandering-trader][wandering-trader-spawn-egg] = [призвать-бродячего-торговца][яйцо-призывания-бродячего-торговца][яйцо-призывания-странствующего-торговца]
 [obsidian-boat] = [обсидиановая-лодка]
 [3d] = [3d]
 [blue-key] = [синий-ключ]
 [red-key] = [красный-ключ]
 [yellow-key] = [жёлтый-ключ]
 [diamond-boots] = [алмазные-ботинки]
-[diamond-chestplate] = [алмазная-кираса]
+[diamond-chestplate] = [алмазная-кираса][алмазный-нагрудник]
 [diamond-helmet] = [алмазный-шлем]
 [diamond-horse-armor] = [алмазная-конская-броня]
 [diamond-leggings] = [алмазные-поножи]
-[elytra] = [элитры]
+[elytra] = [надкрылья][элитры]
 [golden-boots] = [золотые-ботинки]
-[golden-chestplate] = [золотая-кираса]
+[golden-chestplate] = [золотая-кираса][золотой-нагрудник]
 [golden-helmet] = [золотой-шлем]
 [golden-horse-armor] = [золотая-конская-броня]
 [golden-leggings] = [золотые-поножи]
 [boots][iron-boots] = [ботинки][железные-ботинки]
-[chestplate][iron-chestplate] = [железная-кираса][кираса]
+[chestplate][iron-chestplate] = [железная-кираса][железный-нагрудник][кираса]
 [helmet][iron-helmet] = [железный-шлем][шлем]
 [iron-horse-armor] = [железная-конская-броня][конская-броня]
 [iron-leggings][leggings] = [железные-поножи][поножи]
 [leather-boots] = [кожаные-ботинки]
 [leather-cap][leather-helmet] = [кожаный-шлем]
-[leather-chestplate][leather-tunic] = [кожаная-кираса]
-[awkward-splash-potion][mundane-splash-potion][splash-awkward-potion][splash-long-mundane-potion][splash-mundane-potion][splash-potion][splash-thick-potion][splash-water-bottle][thick-splash-potion] = [взрывающаяся-колба-воды][взрывающееся-густое-зелье][взрывающееся-длительное-мирское-зелье][взрывающееся-зелье][взрывающееся-мирское-зелье][взрывающееся-неловкое-зелье][густое-взрывающееся-зелье][мирское-взрывающееся-зелье][неловкое-взрывающееся-зелье]
-[leather-leggings][leather-pants] = [кожаные-поножи]
+[leather-chestplate][leather-tunic] = [кожаная-кираса][кожаная-куртка]
+[awkward-splash-potion][mundane-splash-potion][splash-awkward-potion][splash-long-mundane-potion][splash-mundane-potion][splash-potion][splash-thick-potion][splash-water-bottle][thick-splash-potion] = [взрывающаяся-колба-воды][взрывающееся-густое-зелье][взрывающееся-длительное-мирское-зелье][взрывающееся-зелье][взрывающееся-мирское-зелье][взрывающееся-неловкое-зелье][взрывающееся-непримечательное-зелье][взрывное-мутное-зелье][грубое-взрывающееся-зелье][густое-взрывающееся-зелье][густое-взрывное-зелье][заурядное-взрывное-зелье][мирское-взрывающееся-зелье][неловкое-взрывающееся-зелье][непримечательное-взрывающееся-зелье]
+[leather-leggings][leather-pants] = [кожаные-поножи][кожаные-штаны]
 [arrow-of-decay] = [стрела-разложения]
 [arrow-of-fire-resistance] = [стрела-огнестойкости]
-[arrow-of-harming] = [стрела-урона]
-[arrow-of-healing] = [стрела-лечения]
+[arrow-of-harming] = [стрела-вреда][стрела-урона]
+[arrow-of-healing] = [стрела-исцеления][стрела-лечения]
 [arrow-of-invisibility] = [стрела-невидимости]
 [arrow-of-leaping] = [стрела-прыгучести]
 [arrow-of-luck] = [стрела-удачи]
@@ -440,9 +440,9 @@
 [arrow-of-slow-falling] = [стрела-медленного-падения]
 [arrow-of-slowness] = [стрела-замедления]
 [arrow-of-strength] = [стрела-силы]
-[arrow-of-swiftness] = [стрела-скорости]
-[arrow-of-the-turtle-master] = [стрела-черепашьей-мощи]
-[arrow-of-water-breathing] = [стрела-подводного-дыхания]
+[arrow-of-swiftness] = [стрела-скорости][стрела-стремительности]
+[arrow-of-the-turtle-master] = [стрела-черепашьего-мастера][стрела-черепашьей-мощи]
+[arrow-of-water-breathing] = [стрела-водного-дыхания][стрела-подводного-дыхания]
 [arrow-of-weakness] = [стрела-слабости]
 [diamond-sword] = [алмазный-меч]
 [golden-sword] = [золотой-меч]
@@ -451,15 +451,15 @@
 [snowball] = [снежок]
 [spectral-arrow] = [призрачная-стрела]
 [stone-sword] = [каменный-меч]
-[tipped-arrow][uncraftable-tipped-arrow] = [несоздаваемая-стела]
+[tipped-arrow][uncraftable-tipped-arrow] = [несоздаваемая-обработанная-стрела][несоздаваемая-стела][несоздаваемая-стрела][обработанная-стрела][стрела-разбрызгивания]
 [wooden-sword] = [деревянный-меч]
 [bucket][empty-bucket] = [ведро]
-[carrot-on-a-stick] = [удочка-с-морковью]
+[carrot-on-a-stick] = [удочка-с-морковкой][удочка-с-морковью]
 [diamond-axe] = [алмазный-топор]
 [diamond-hoe] = [алмазная-мотыга]
 [diamond-pickaxe] = [алмазная-кирка]
 [diamond-shovel] = [алмазная-лопата]
-[fire-charge] = [огненный-шар]
+[fire-charge] = [огненный-заряд][огненный-шар]
 [fishing-rod] = [удочка]
 [flint-and-steel][flint-steel] = [огниво]
 [golden-axe] = [золотой-топор]
@@ -490,9 +490,9 @@
 [cake] = [торт]
 [carrot] = [морковь]
 [chicken][raw-chicken] = [курятина][сырая-курятина]
-[chorus][chorus-fruit] = [плод-коруса]
+[chorus][chorus-fruit] = [плод-коруса][плод-хоруса]
 [cooked-beef][steak] = [жареная-говядина][стейк]
-[cooked-chicken] = [жареная-курятина]
+[cooked-chicken] = [жареная-курица][жареная-курятина]
 [cooked-mutton] = [жареная-баранина]
 [cooked-porkchop] = [жареная-свинина]
 [cooked-rabbit] = [жареная-крольчатина]
@@ -502,11 +502,11 @@
 [golden-apple] = [золотое-яблоко]
 [golden-carrot] = [золотая-морковь]
 [melon][melon-slice] = [арбуз][ломтик-арбуза]
-[milk][milk-bucket] = [ведро-с-молоком][молоко]
+[milk][milk-bucket] = [ведро-молока][ведро-с-молоком][молоко]
 [mushroom-stew][stew] = [тушёные-грибы]
 [mutton][raw-mutton] = [баранина][сырая-баранина]
 [poison-potato][poisonous-potato] = [ядовитый-картофель]
-[popped-chorus-fruit] = [приготовленный-плод-коруса]
+[popped-chorus-fruit] = [приготовленный-плод-коруса][прожаренный-плод-хоруса]
 [porkchop][raw-porkchop] = [свинина][сырая-свинина]
 [potato][raw-potato] = [картофель]
 [pumpkin-pie] = [тыквенный-пирог]
@@ -516,25 +516,25 @@
 [sugar] = [сахар]
 [all-signs][signs] = [табличка]
 [armor-stand] = [стойка-для-брони]
-[book-and-quill] = [книга-с-пером]
-[bottle-o'-enchanting] = [зелье-опыта]
+[book-and-quill] = [книга-и-перо][книга-с-пером]
+[bottle-o'-enchanting] = [зелье-опыта][пузырёк-опыта]
 [brewing-stand] = [варочная-стойка]
 [cauldron] = [котёл]
-[comparator][redstone-comparator] = [компаратор][красный-компаратор]
-[enchanted-book] = [зачарованная-книга]
-[end-crystal] = [кристалл-края]
-[firework-rocket] = [ракета]
+[comparator][redstone-comparator] = [компаратор][красный-компаратор][редстоуновый-компаратор]
+[enchanted-book] = [зачарованная-книга][чародейская-книга]
+[end-crystal] = [кристалл-края][кристалл-энда]
+[firework-rocket] = [ракета][фейерверк]
 [flower-pot] = [цветочный-горшок]
-[hopper] = [загрузочная-воронка]
+[hopper] = [воронка][загрузочная-воронка]
 [item-frame] = [рамка]
 [lead] = [поводок]
 [name-tag] = [бирка]
 [painting] = [картина]
-[redstone-repeater][repeater] = [красный-повторитель][повторитель]
+[redstone-repeater][repeater] = [красный-повторитель][повторитель][редстоуновый-повторитель]
 [saddle] = [седло]
-[written-book] = [написанная-книга]
-[buried-treasure-map][filled-map][map] = [заполненная-карта][карта][карта-к-кладу]
-[empty-map] = [пустая-карта]
+[written-book] = [завершённая-книга][написанная-книга]
+[buried-treasure-map][filled-map][map] = [заполненная-карта][карта][карта-к-кладу][карта-сокровищ]
+[empty-map] = [empty-locator-map][пустая-карта]
 [knowledge-book] = [книга-знаний]
 [ocean-explorer-map] = [карта-к-подводной-крепости]
 [woodland-explorer-map] = [карта-к-лесному-особняку]
@@ -542,25 +542,25 @@
 [bowl] = [миска]
 [brick] = [кирпич]
 [dragon's-breath] = [драконье-дыхание]
-[ender-eye][eye-of-ender] = [око-края]
-[fermented-spider-eye] = [приготовленный-паучий-глаз]
-[empty-bottle][empty-glass-bottle][glass-bottle] = [колба]
+[ender-eye][eye-of-ender] = [око-края][око-эндера]
+[fermented-spider-eye] = [маринованный-паучий-глаз][приготовленный-паучий-глаз]
+[empty-bottle][empty-glass-bottle][glass-bottle] = [колба][пузырёк]
 [glistering-melon][glistering-melon-slice] = [сверкающий-арбуз][сверкающий-ломтик-арбуза]
-[magma-cream] = [лавовый-крем]
-[nether-brick] = [адский-кирпич]
+[magma-cream] = [лавовый-крем][сгусток-магмы]
+[nether-brick] = [адский-кирпич][незеритовый-кирпич]
 [paper] = [бумага]
 [bone] = [кость]
 [bone-meal] = [костная-мука]
 [charcoal] = [древесный-уголь]
-[clay][clay-(ball)][clay-ball] = [глина]
+[clay][clay-(ball)][clay-ball] = [глина][глиняный]
 [coal] = [уголь]
 [diamond] = [алмаз]
 [emerald] = [изумруд]
-[ender-pearl] = [жемчуг-края]
+[ender-pearl] = [жемчуг-края][эндер-жемчуг]
 [feather][nib] = [перо]
 [flint] = [кремень]
 [ghast-tear][tear] = [слеза-гаста]
-[glowstone-dust] = [светокаменная-пыль]
+[glowstone-dust] = [светокаменная-пыль][светопыль]
 [gold-ingot] = [золотой-слиток]
 [gold-nugget] = [кусочек-золота]
 [gunpowder] = [порох]
@@ -568,16 +568,16 @@
 [iron-ingot] = [железный-слиток]
 [lapis-lazuli] = [лазурит]
 [leather] = [кожа]
-[nether-quartz] = [кварц-нижнего-мира]
+[nether-quartz] = [кварц-нижнего-мира][незер-кварц]
 [nether-star] = [звезда-нижнего-мира]
-[phantom-membrane] = [мембрана-фантома]
-[prismarine-crystals] = [призмариновый-кристалл]
-[prismarine-shard] = [призмариновый-осколок]
+[phantom-membrane] = [мембрана-фантома][перепонка-фантома]
+[prismarine-crystals] = [кристалл-призмарина][призмариновый-кристалл]
+[prismarine-shard] = [осколок-призмарина][призмариновый-осколок]
 [rabbit's-foot] = [кроличья-лапка]
 [rabbit-hide] = [кроличья-шкурка]
-[redstone][redstone-dust] = [красная-пыль]
+[redstone][redstone-dust] = [красная-пыль][красный-камень][редстоун]
 [shulker-shell] = [панцирь-шалкера]
-[slimeball] = [слизь]
+[slimeball] = [сгусток-слизи][слизь]
 [spider-eye] = [паучий-глаз]
 [string] = [нить]
 [totem-of-undying][undying-totem] = [тотем-бессмертия]
@@ -585,18 +585,18 @@
 [music-discs] = [пластинка][пластинки]
 [beetroot-seeds] = [семена-свёклы]
 [cocoa-beans] = [какао-бобы]
-[cane][sugar-cane] = [сахарный-тростник]
+[cane][sugar-cane] = [сахарный-тростник][тростник]
 [wheat] = [пшеница]
 [acacia-boat] = [акациевая-лодка]
 [birch-boat] = [берёзовая-лодка]
 [dark-oak-boat] = [лодка-из-тёмного-дуба]
 [jungle-boat] = [джунглевая-лодка][лодка-из-тропического-дерева]
 [minecart] = [вагонетка]
-[minecart-with-chest] = [вагонетка-с-сундуком]
+[minecart-with-chest] = [вагонетка-с-сундуком][грузовая-вагонетка]
 [minecart-with-command-block] = [вагонетка-с-командным-блоком]
-[minecart-with-furnace] = [вагонетка-с-печью]
-[minecart-with-hopper] = [вагонетка-с-воронкой]
-[minecart-with-tnt] = [вагонетка-с-тнт]
+[minecart-with-furnace] = [вагонетка-с-печью][самоходная-вагонетка]
+[minecart-with-hopper] = [вагонетка-с-воронкой][загрузочная-вагонетка]
+[minecart-with-tnt] = [вагонетка-с-динамитом][вагонетка-с-тнт]
 [oak-boat] = [дубовая-лодка]
 [spruce-boat] = [еловая-лодка]
 [cyan-dye] = [бирюзовый-краситель]
@@ -605,21 +605,21 @@
 [light-blue-dye] = [голубой-краситель][светло-синий-краситель]
 [light-gray-dye] = [светло-серый-краситель]
 [lime-dye] = [лаймовый-краситель]
-[magenta-dye] = [сиреневый-краситель]
+[magenta-dye] = [пурпурный-краситель][сиреневый-краситель]
 [orange-dye] = [оранжевый-краситель]
 [pink-dye] = [розовый-краситель]
 [purple-dye] = [фиолетовый-краситель]
 [red-dye] = [красный-краситель]
-[yellow-dye] = [жёлтый-краситель]
+[yellow-dye] = [жёлтый-краситель][жёлтый-одуванчиковый]
 [bucket-of-cod][cod-bucket] = [ведро-с-треской]
 [bucket-of-pufferfish][pufferfish-bucket] = [ведро-с-иглобрюхом]
 [bucket-of-salmon][salmon-bucket] = [ведро-с-лососем]
 [bucket-of-tropical-fish][tropical-fish-bucket] = [ведро-с-тропической-рыбой]
-[lingering-potion][lingering-potion-of-poison] = [оседающее-зелье][оседающее-зелье-отравления]
+[lingering-potion][lingering-potion-of-poison] = [оседающее-зелье][оседающее-зелье-отравления][туманное-зелье-отравления]
 [potion-of-decay] = [зелье-разложения]
 [potion-of-fire-resistance] = [зелье-огнестойкости]
-[potion-of-harming] = [зелье-урона]
-[potion-of-healing] = [зелье-лечения]
+[potion-of-harming] = [зелье-вреда][зелье-урона]
+[potion-of-healing] = [зелье-исцеления][зелье-лечения]
 [potion-of-invisibility] = [зелье-невидимости]
 [potion-of-leaping] = [зелье-прыгучести]
 [potion-of-luck] = [зелье-удачи]
@@ -629,82 +629,82 @@
 [potion-of-slow-falling] = [зелье-медленного-падения]
 [potion-of-slowness] = [зелье-замедления]
 [potion-of-strength] = [зелье-силы]
-[potion-of-swiftness] = [зелье-ускорения]
+[potion-of-swiftness] = [зелье-стремительности][зелье-ускорения]
 [potion-of-the-turtle-master] = [зелье-черепашьей-мощи]
-[potion-of-water-breathing] = [зелье-подводного-дыхания]
+[potion-of-water-breathing] = [зелье-водного-дыхания][зелье-подводного-дыхания]
 [potion-of-weakness] = [зелье-слабости]
 [uncraftable-potion] = [зелье-глупости][зелье-голода][зелье-слепоты][зелье-сопротивления][зелье-спешки][зелье-тошноты][несоздаваемое-зелье]
 [fishing-rod-no-string] = [удочка-без-нити]
 [splash-potion-bottle][splash-potion-empty] = [колба-взрывающегося-зелья]
-[awkward-lingering-potion][lingering-awkward-potion][lingering-long-mundane-potion][lingering-mundane-potion][lingering-thick-potion][lingering-water-bottle][mundane-lingering-potion][thick-lingering-potion] = [густое-оседающее-зелье][мирское-оседающее-зелье][неловкое-оседающее-зелье][оседающая-колба-воды][оседающее-густое-зелье][оседающее-длительное-мирское-зелье][оседающее-мирское-зелье][оседающее-неловкое-зелье]
+[awkward-lingering-potion][lingering-awkward-potion][lingering-long-mundane-potion][lingering-mundane-potion][lingering-thick-potion][lingering-water-bottle][mundane-lingering-potion][thick-lingering-potion] = [грубое-оседающее-зелье][густое-оседающее-зелье][густое-туманное-зелье][заурядное-туманное-зелье][мирское-оседающее-зелье][мутное-туманное-зелье][неловкое-оседающее-зелье][непримечательное-оседающее-зелье][оседающая-колба-воды][оседающее-густое-зелье][оседающее-длительное-мирское-зелье][оседающее-мирское-зелье][оседающее-неловкое-зелье][туманное-зелье]
 [lingering-potion-of-decay] = [оседающее-зелье-разложения]
-[lingering-potion-of-fire-resistance] = [оседающее-зелье-огнестойкости]
-[lingering-potion-of-harming] = [оседающее-зелье-урона]
-[lingering-potion-of-healing] = [оседающее-зелье-лечения]
-[lingering-potion-of-invisibility] = [оседающее-зелье-невидимости]
-[lingering-potion-of-leaping] = [оседающее-зелье-прыгучести]
-[lingering-potion-of-luck] = [оседающее-зелье-удачи]
-[lingering-potion-of-night-vision] = [оседающее-зелье-ночного-зрения]
-[lingering-potion-of-regeneration] = [оседающее-зелье-регенерации]
+[lingering-potion-of-fire-resistance] = [оседающее-зелье-огнестойкости][туманное-зелье-огнестойкости]
+[lingering-potion-of-harming] = [оседающее-зелье-урона][туманное-зелье-урона]
+[lingering-potion-of-healing] = [оседающее-зелье-лечения][туманное-зелье-исцеления]
+[lingering-potion-of-invisibility] = [оседающее-зелье-невидимости][туманное-зелье-невидимости]
+[lingering-potion-of-leaping] = [оседающее-зелье-прыгучести][туманное-зелье-прыгучести]
+[lingering-potion-of-luck] = [оседающее-зелье-удачи][туманное-зелье-удачи]
+[lingering-potion-of-night-vision] = [оседающее-зелье-ночного-зрения][туманное-зелье-ночного-зрения]
+[lingering-potion-of-regeneration] = [оседающее-зелье-регенерации][туманное-зелье-регенерации]
 [lingering-potion-of-slow-falling] = [оседающее-зелье-медленного-падения]
-[lingering-potion-of-slowness] = [оседающее-зелье-замедления]
-[lingering-potion-of-strength] = [оседающее-зелье-силы]
-[lingering-potion-of-swiftness] = [оседающее-зелье-ускорения]
+[lingering-potion-of-slowness] = [оседающее-зелье-замедления][туманное-зелье-замедления]
+[lingering-potion-of-strength] = [оседающее-зелье-силы][туманное-зелье-силы]
+[lingering-potion-of-swiftness] = [оседающее-зелье-ускорения][туманное-зелье-стремительности]
 [lingering-potion-of-the-turtle-master] = [оседающее-зелье-черепашьей-мощи]
-[lingering-potion-of-water-breathing] = [оседающее-зелье-подводного-дыхания]
-[lingering-potion-of-weakness] = [оседающее-зелье-слабости]
+[lingering-potion-of-water-breathing] = [оседающее-зелье-подводного-дыхания][туманное-зелье-водного-дыхания]
+[lingering-potion-of-weakness] = [оседающее-зелье-слабости][туманное-зелье-слабости]
 [lingering-uncraftable-potion] = [оседающее-несоздаваемое-зелье]
 [splash-potion-of-decay] = [взрывающееся-зелье-разложения]
-[splash-potion-of-fire-resistance] = [взрывающееся-зелье-огнестойкости]
-[splash-potion-of-harming] = [взрывающееся-зелье-урона]
-[splash-potion-of-healing] = [взрывающееся-зелье-лечения]
-[splash-potion-of-invisibility] = [взрывающееся-зелье-невидимости]
-[splash-potion-of-leaping] = [взрывающееся-зелье-прыгучести]
-[splash-potion-of-luck] = [взрывающееся-зелье-удачи]
-[splash-potion-of-night-vision] = [взрывающееся-зелье-ночного-зрения]
-[splash-potion-of-poison] = [взрывающееся-зелье-отравления]
-[splash-potion-of-regeneration] = [взрывающееся-зелье-регенерации]
+[splash-potion-of-fire-resistance] = [взрывающееся-зелье-огнестойкости][взрывное-зелье-огнестойкости]
+[splash-potion-of-harming] = [взрывающееся-зелье-урона][взрывное-зелье-вреда]
+[splash-potion-of-healing] = [взрывающееся-зелье-лечения][взрывное-зелье-исцеления]
+[splash-potion-of-invisibility] = [взрывающееся-зелье-невидимости][взрывное-зелье-невидимости]
+[splash-potion-of-leaping] = [взрывающееся-зелье-прыгучести][взрывное-зелье-прыгучести]
+[splash-potion-of-luck] = [взрывающееся-зелье-удачи][взрывное-зелье-удачи]
+[splash-potion-of-night-vision] = [взрывающееся-зелье-ночного-зрения][взрывное-зелье-ночного-зрения]
+[splash-potion-of-poison] = [взрывающееся-зелье-отравления][взрывное-зелье-отравления]
+[splash-potion-of-regeneration] = [взрывающееся-зелье-регенерации][взрывное-зелье-регенерации]
 [splash-potion-of-slow-falling] = [взрывающееся-зелье-медленного-падения]
-[splash-potion-of-slowness] = [взрывающееся-зелье-замедления]
-[splash-potion-of-strength] = [взрывающееся-зелье-силы]
-[splash-potion-of-swiftness] = [взрывающееся-зелье-ускорения]
-[splash-potion-of-the-turtle-master] = [взрывающееся-зелье-черепашьей-мощи]
-[splash-potion-of-water-breathing] = [взрывающееся-зелье-подводного-дыхания]
-[splash-potion-of-weakness] = [взрывающееся-зелье-слабости]
+[splash-potion-of-slowness] = [взрывающееся-зелье-замедления][взрывное-зелье-замедления]
+[splash-potion-of-strength] = [взрывающееся-зелье-силы][взрывное-зелье-силы]
+[splash-potion-of-swiftness] = [взрывающееся-зелье-ускорения][взрывное-зелье-стремительности]
+[splash-potion-of-the-turtle-master] = [взрывающееся-зелье-черепашьей-мощи][взрывное-зелье-черепашьей-мощи]
+[splash-potion-of-water-breathing] = [взрывающееся-зелье-подводного-дыхания][взрывное-зелье-водного-дыхания]
+[splash-potion-of-weakness] = [взрывающееся-зелье-слабости][взрывное-зелье-слабости]
 [splash-uncraftable-potion] = [взрывающееся-несоздаваемое-зелье]
 [ice-bomb] = [ледяная-бомба]
-[super-fertilizer] = [супер-удобрение]
+[super-fertilizer] = [супер-удобрение][суперудобрение]
 [honey][honey-bottle] = [бутылочка-мёда]
-[crystallized-honey] = [кристаллизовавшийся-мёд]
+[crystallized-honey] = [закристаллизовавшийся-мёд][кристаллизовавшийся-мёд]
 [honeycomb] = [пчелиные-соты]
-[studded-helmet] = [кожано-кольчужный-шлем]
+[studded-helmet] = [кожано-кольчужная-шапка][кожано-кольчужный-шлем]
 [studded-leggings] = [кожано-кольчужные-поножи]
 [studded-boots] = [кожано-кольчужные-ботинки]
 [leather-helmet-revision-1] = [кожаный-шлем-старый-1]
 [leather-chestplate-revision-1] = [кожаная-кираса-старая-1]
 [leather-leggings-revision-1] = [кожаные-поножи-старые-1]
 [leather-boots-revision-1] = [кожаные-ботинки-старые-1]
-[bucket-of-mud][mud-bucket] = 
+[bucket-of-mud][mud-bucket] = [ведро-грязи][ведро-земли]
 [apple-revision-1] = 
-[horn] = 
+[horn] = [рог]
 [bee-spawn-egg][spawn-bee] = [яйцо-призывания-пчелы]
 [oak-sign-pre-texture-update] = 
-[earth-ruby] = 
-[black-bed] = 
-[blue-bed] = 
-[brown-bed] = 
-[cyan-bed] = 
-[gray-bed] = 
-[green-bed] = 
-[light-blue-bed] = 
-[light-gray-bed] = 
-[lime-bed] = 
-[magenta-bed] = 
-[orange-bed] = 
-[pink-bed] = 
-[purple-bed] = 
-[white-bed] = 
-[yellow-bed] = 
+[earth-ruby] = [земляной-рубин]
+[black-bed] = [чёрная-кровать]
+[blue-bed] = [синяя-кровать]
+[brown-bed] = [коричневая-кровать]
+[cyan-bed] = [бирюзовая-кровать][циановая-кровать]
+[gray-bed] = [серая-кровать]
+[green-bed] = [зелёная-кровать]
+[light-blue-bed] = [светло-синяя-кровать]
+[light-gray-bed] = [светло-серая-кровать]
+[lime-bed] = [лаймовая-кровать]
+[magenta-bed] = [сиреневая-кровать]
+[orange-bed] = [оранжевая-кровать]
+[pink-bed] = [розовая-кровать]
+[purple-bed] = [фиолетовая-кровать]
+[white-bed] = [белая-кровать]
+[yellow-bed] = [жёлтая-кровать]
 [hoglin-spawn-egg][spawn-hoglin] = [яйцо-призывания-хоглина]
 [potion-of-absorption] = 
 [potion-of-blindness] = 
@@ -713,7 +713,7 @@
 [potion-of-haste] = 
 [potion-of-health-boost] = 
 [potion-of-hunger] = 
-[potion-of-levitation][splash-potion-of-levitation] = 
+[potion-of-levitation][splash-potion-of-levitation] = [взрывающееся-зелье-левитации][зелье-левитации]
 [potion-of-resistance] = 
 [potion-of-saturation] = 
 [splash-potion-of-absorption] = 
@@ -725,94 +725,94 @@
 [splash-potion-of-hunger] = 
 [splash-potion-of-resistance] = 
 [splash-potion-of-saturation] = 
-[all-balloons][balloons][white-balloon] = 
-[all-glow-sticks][glow-sticks][white-glow-stick] = 
+[all-balloons][balloons][white-balloon] = [белый-воздушный-шар]
+[all-glow-sticks][glow-sticks][white-glow-stick] = [белый-химический-источник-света]
 [all-sparkers-on][all-sparklers-active][orange-sparkler-active][orange-sparkler-on][sparklers][sparklers-active][sparklers-on] = 
-[all-sparklers][all-sparklers-off][orange-sparkler][orange-sparkler-off] = 
-[aluminum-oxide][brown-jar] = 
-[ammonia][beaker][clear-beaker][hydrogen-peroxide][sodium-hypochlorite] = 
-[antidote] = 
-[barium-sulfate][boron-trioxide][calcium-bromide][calcium-chloride][cerium-chloride][lithium-hydride][lye][magnesium-oxide][mercuric-chloride][potassium-chloride][soap][sodium-acetate][sodium-oxide][sulfate][white-jar] = 
-[benzene][potassium-iodide][yellow-beaker] = 
-[black-balloon] = 
-[black-beaker][crude-oil] = 
-[black-flask] = 
-[black-jar][iron-sulfide] = 
-[bleach] = 
+[all-sparklers][all-sparklers-off][orange-sparkler][orange-sparkler-off] = [оранжевый-бенгальский-огонь]
+[aluminum-oxide][brown-jar] = [коричневая-банка][оксид-алюминия]
+[ammonia][beaker][clear-beaker][hydrogen-peroxide][sodium-hypochlorite] = [аммиак][гипохлорит-натрия][мензурка][пероксид-водорода]
+[antidote] = [противоядие]
+[barium-sulfate][boron-trioxide][calcium-bromide][calcium-chloride][cerium-chloride][lithium-hydride][lye][magnesium-oxide][mercuric-chloride][potassium-chloride][soap][sodium-acetate][sodium-oxide][sulfate][white-jar] = [ацетат-натрия][белая-банка][бромид-кальция][гидрид-лития][мыло][оксид-бора][оксид-магния][оксид-натрия][сульфат][сульфат-бария][триоксид-бора][хлорид-калия][хлорид-кальция][хлорид-ртути][хлорид-церия][щёлок]
+[benzene][potassium-iodide][yellow-beaker] = [бензол][жёлтая-мензурка][иодид-калия]
+[black-balloon] = [чёрный-воздушный-шар]
+[black-beaker][crude-oil] = [сырая-нефть][чёрная-мензурка]
+[black-flask] = [чёрная-бутыль]
+[black-jar][iron-sulfide] = [сульфид-железа][чёрная-банка]
+[bleach] = [отбеливатель]
 [bleach-filled] = 
-[blue-balloon] = 
-[blue-beaker][water] = 
-[blue-flask] = 
-[blue-glow-stick] = 
-[blue-jar][tungsten-chloride] = 
-[blue-sparkler][blue-sparkler-off] = 
+[blue-balloon] = [синий-воздушный-шар]
+[blue-beaker][water] = [вода][вода-(вещество)][синяя-мензурка][текущая-вода]
+[blue-flask] = [синяя-бутыль]
+[blue-glow-stick] = [синий-химический-источник-света]
+[blue-jar][tungsten-chloride] = [синяя-банка][хлорид-вольфрама]
+[blue-sparkler][blue-sparkler-off] = [синий-бенгальский-огонь]
 [blue-sparkler-active][blue-sparkler-on] = 
-[brown-balloon] = 
-[brown-beaker] = 
+[brown-balloon] = [коричневый-воздушный-шар]
+[brown-beaker] = [коричневая-мензурка]
 [brown-flash] = 
-[brown-glow-stick] = 
-[clear-flask][flask] = 
-[clear-jar][jar][luminol][polyethylene] = 
-[cyan-balloon] = 
-[cyan-glow-stick] = 
-[cyanoacrylate][glue] = 
-[dark-gray-beaker][gray-beaker] = 
-[dark-gray-flask][gray-flask] = 
-[dark-gray-jar][gray-jar] = 
-[elixir] = 
-[eye-drops][medicine] = 
-[garbage] = 
-[gray-balloon] = 
-[gray-glow-stick] = 
-[green-balloon] = 
-[green-beaker] = 
-[green-flask] = 
-[green-glow-stick] = 
-[green-jar] = 
-[green-sparkler][green-sparkler-off] = 
+[brown-glow-stick] = [коричневый-химический-источник-света]
+[clear-flask][flask] = [бутыль]
+[clear-jar][jar][luminol][polyethylene] = [банка][люминол][полиэтилен]
+[cyan-balloon] = [бирюзовый-воздушный-шар]
+[cyan-glow-stick] = [бирюзовый-химический-источник-света]
+[cyanoacrylate][glue] = [клей][цианоакрилат]
+[dark-gray-beaker][gray-beaker] = [тёмно-серая-мензурка]
+[dark-gray-flask][gray-flask] = [тёмно-серая-бутыль]
+[dark-gray-jar][gray-jar] = [тёмно-серая-банка]
+[elixir] = [эликсир]
+[eye-drops][medicine] = [глазные-капли]
+[garbage] = [мусор]
+[gray-balloon] = [серый-воздушный-шар]
+[gray-glow-stick] = [светло-серый-химический-источник-света][серый-химический-источник-света][чёрный-химический-источник-света]
+[green-balloon] = [зелёный-воздушный-шар]
+[green-beaker] = [зелёная-мензурка]
+[green-flask] = [зелёная-бутыль]
+[green-glow-stick] = [зелёный-химический-источник-света]
+[green-jar] = [зелёная-банка]
+[green-sparkler][green-sparkler-off] = [зелёный-бенгальский-огонь]
 [green-sparkler-active][green-sparkler-on] = 
-[indigo-beaker] = 
-[indigo-flask] = 
-[indigo-jar] = 
-[latex][sodium-fluoride][white-beaker] = 
-[light-blue-balloon] = 
-[light-blue-glow-stick] = 
-[light-gray-balloon][silver-balloon] = 
-[light-gray-beaker] = 
-[light-gray-flask] = 
-[light-gray-jar][sodium-hydride] = 
-[lime-balloon] = 
-[lime-glow-stick] = 
-[magenta-balloon] = 
-[magenta-glow-stick] = 
-[magnesium-nitrate][yellow-jar] = 
-[orange-balloon] = 
-[orange-beaker] = 
-[orange-flask] = 
-[orange-glow-stick] = 
-[orange-jar] = 
-[pink-balloon] = 
-[pink-glow-stick] = 
-[purple-balloon] = 
-[purple-beaker] = 
-[purple-flask] = 
-[purple-glow-stick] = 
-[purple-jar] = 
-[purple-sparkler][purple-sparkler-off] = 
+[indigo-beaker] = [мензурка-цвета-индиго]
+[indigo-flask] = [бутыль-цвета-индиго]
+[indigo-jar] = [банка-цвета-индиго]
+[latex][sodium-fluoride][white-beaker] = [белая-мензурка][каучук][фторид-натрия]
+[light-blue-balloon] = [светло-синий-воздушный-шар]
+[light-blue-glow-stick] = [светло-синий-химический-источник-света]
+[light-gray-balloon][silver-balloon] = [светло-серый-воздушный-шар][серебристый-воздушный-шар]
+[light-gray-beaker] = [светло-серая-мензурка]
+[light-gray-flask] = [светло-серая-бутыль]
+[light-gray-jar][sodium-hydride] = [гидрид-натрия][светло-серая-банка]
+[lime-balloon] = [лаймовый-воздушный-шар]
+[lime-glow-stick] = [лаймовый-химический-источник-света]
+[magenta-balloon] = [сиреневый-воздушный-шар]
+[magenta-glow-stick] = [сиреневый-химический-источник-света]
+[magnesium-nitrate][yellow-jar] = [жёлтая-банка][нитрат-магния]
+[orange-balloon] = [оранжевый-воздушный-шар]
+[orange-beaker] = [оранжевая-мензурка]
+[orange-flask] = [оранжевая-бутыль]
+[orange-glow-stick] = [оранжевый-химический-источник-света]
+[orange-jar] = [оранжевая-банка]
+[pink-balloon] = [розовый-воздушный-шар]
+[pink-glow-stick] = [розовый-химический-источник-света]
+[purple-balloon] = [фиолетовый-воздушный-шар]
+[purple-beaker] = [фиолетовая-мензурка]
+[purple-flask] = [фиолетовая-бутыль]
+[purple-glow-stick] = [фиолетовый-химический-источник-света]
+[purple-jar] = [фиолетовая-банка]
+[purple-sparkler][purple-sparkler-off] = [фиолетовый-бенгальский-огонь]
 [purple-sparkler-active][purple-sparkler-on] = 
-[red-balloon] = 
-[red-beaker] = 
-[red-flask] = 
-[red-glow-stick] = 
-[red-jar] = 
-[red-sparkler][red-sparkler-off] = 
+[red-balloon] = [красный-воздушный-шар]
+[red-beaker] = [красная-мензурка]
+[red-flask] = [красная-бутыль]
+[red-glow-stick] = [красный-химический-источник-света]
+[red-jar] = [красная-банка]
+[red-sparkler][red-sparkler-off] = [красный-бенгальский-огонь]
 [red-sparkler-active][red-sparkler-on] = 
-[compound][salt] = 
-[tonic] = 
-[white-flask] = 
-[yellow-balloon] = 
-[yellow-flask] = 
-[yellow-glow-stick] = 
+[compound][salt] = [соль]
+[tonic] = [тоник]
+[white-flask] = [белая-бутыль]
+[yellow-balloon] = [жёлтый-воздушный-шар]
+[yellow-flask] = [жёлтая-бутыль]
+[yellow-glow-stick] = [жёлтый-химический-источник-света]
 [netherite-ingot] = [незеритовый-слиток]
 [netherite-scrap] = [незеритовый-скрап]
 [netherite-boots] = [незеритовые-ботинки]
@@ -841,1160 +841,4 @@
 [piglin-brute-spawn-egg] = [яйцо-призывания-жестокого-пиглина]
 [lingering-potion-bottle][lingering-potion-empty] = 
 [fancy-feather] = 
-[rainbow-bed] = 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[rainbow-bed] = [радужная-кровать]

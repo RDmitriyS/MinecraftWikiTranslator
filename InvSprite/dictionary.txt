@@ -36,7 +36,7 @@
 [Blue Globe Banner] = [Флаг с синим глобусом]
 [Brown Globe Banner] = [Флаг с коричневым глобусом]
 [Cyan Globe Banner] = [Флаг с бирюзовым глобусом]
-[Iron Horse Armor] = [Железная конская броня]
+[Iron Horse Armor] = [Железная конская броня][Конская броня]
 [Gray Globe Banner] = [Флаг с серым глобусом]
 [Green Globe Banner] = [Флаг с зелёным глобусом]
 [Light Blue Globe Banner] = [Флаг со светло-синим глобусом]
@@ -92,7 +92,7 @@
 [Bucket of Mud][Mud Bucket] = [Ведро грязи][Ведро земли]
 [Horn] = [Рог]
 [Nether Sprouts] = [Адские ростки]
-[Crystallized Honey] = [Закристаллизовавшийся мёд]
+[Crystallized Honey] = [Закристаллизовавшийся мёд][Кристаллизовавшийся мёд]
 [Wax Block] = [Восковой блок]
 [Prismarine Wall] = [Призмариновая стена]
 [Honey Block BE][Honey Block Revision 1] = [Блок мёда (версия 1)][Блок мёда BE]
@@ -192,7 +192,7 @@
 [Warped Roots] = [Искажённые корни]
 [Piglin Spawn Egg] = [Яйцо призывания пиглина]
 [Hoglin Spawn Egg] = [Яйцо призывания хоглина]
-[Soul Fire Lantern Revision 1] =
+[Soul Fire Lantern Revision 1] = 
 [Target] = [Мишень][Мишень блок]
 [Crying Obsidian] = [Плачущий обсидиан]
 [Crimson Hyphae] = [Багровые гифы]
@@ -224,7 +224,7 @@
 [Warped Fungus on a Stick] = [Удочка с искажённым грибком]
 [Nether Gold Ore Revision 1] = [Золотая руда Нижнего мира (версия 1)]
 [Netherite Ingot BE] = [Незеритовый слиток BE]
-[Cast Fishing Rod] =
+[Cast Fishing Rod] = 
 [Ultramarine Cloth] = [Шерсть ультрамариновая]
 [Cyan Cloth] = [Шерсть бирюзовая]
 [Dark Gray Cloth] = [Шерсть тёмно-серая]
@@ -286,76 +286,76 @@
 [Polished Blackstone Pressure Plate] = [Нажимная пластина из полированного чернокамня]
 [Soul Campfire] = [Костёр душ]
 [Quartz Bricks] = [Кварцевые кирпичи]
-[Music Disc Pigstep] = [Пластинка Pigstep]
+[Music Disc Pigstep] = [Пластинка Pigstep][Пластинка pigstep]
 [Chain] = [Цепь]
 [Jigsaw][Jigsaw BE][Jigsaw Block][Jigsaw Block BE] = [Блок головоломки][Блок головоломки блок][Блок-пазл BE][Пазл BE]
-[Awkward Potion Revision 1] =
-[Mundane Potion Revision 1] =
-[Potion of Fire Resistance Revision 1] =
-[Potion of Harming Revision 1] =
-[Potion of Healing Revision 1] =
-[Potion of Invisibility Revision 1] =
-[Potion of Leaping Revision 1] =
-[Potion of Luck Revision 1] =
-[Potion of Night Vision Revision 1] =
-[Potion of Poison Revision 1] =
-[Potion of Regeneration Revision 1] =
-[Potion of Slow Falling Revision 1] =
-[Potion of Slowness Revision 1] =
-[Potion of Strength Revision 1] =
-[Potion of Swiftness Revision 1] =
-[Potion of the Turtle Master Revision 1] =
-[Potion of Water Breathing Revision 1] =
-[Thick Potion Revision 1] =
-[Uncraftable Potion Revision 1] =
-[Water Bottle Revision 1] =
-[Lingering Awkward Potion Revision 1] =
-[Lingering Mundane Potion Revision 1] =
-[Lingering Potion of Fire Resistance Revision 1] =
-[Lingering Potion of Harming Revision 1] =
-[Lingering Potion of Healing Revision 1] =
-[Lingering Potion of Invisibility Revision 1] =
-[Lingering Potion of Leaping Revision 1] =
-[Lingering Potion of Luck Revision 1] =
-[Lingering Potion of Night Vision Revision 1] =
-[Lingering Potion of Poison Revision 1] =
-[Lingering Potion of Regeneration Revision 1] =
-[Lingering Potion of Slow Falling Revision 1] =
-[Lingering Potion of Slowness Revision 1] =
-[Lingering Potion of Strength Revision 1] =
-[Lingering Potion of Swiftness Revision 1] =
-[Lingering Potion of the Turtle Master Revision 1] =
-[Lingering Potion of Water Breathing Revision 1] =
-[Lingering Thick Potion Revision 1] =
-[Lingering Uncraftable Potion Revision 1] =
-[Lingering Water Bottle Revision 1] =
-[Splash Awkward Potion Revision 1] =
-[Splash Mundane Potion Revision 1] =
-[Splash Potion of Fire Resistance Revision 1] =
-[Splash Potion of Harming Revision 1] =
-[Splash Potion of Healing Revision 1] =
-[Splash Potion of Invisibility Revision 1] =
-[Splash Potion of Leaping Revision 1] =
-[Splash Potion of Luck Revision 1] =
-[Splash Potion of Night Vision Revision 1] =
-[Splash Potion of Poison Revision 1] =
-[Splash Potion of Regeneration Revision 1] =
-[Splash Potion of Slow Falling Revision 1] =
-[Splash Potion of Slowness Revision 1] =
-[Splash Potion of Strength Revision 1] =
-[Splash Potion of Swiftness Revision 1] =
-[Splash Potion of the Turtle Master Revision 1] =
-[Splash Potion of Water Breathing Revision 1] =
-[Splash Thick Potion Revision 1] =
-[Splash Uncraftable Potion Revision 1] =
-[Splash Water Bottle Revision 1] =
+[Awkward Potion Revision 1] = 
+[Mundane Potion Revision 1] = 
+[Potion of Fire Resistance Revision 1] = 
+[Potion of Harming Revision 1] = 
+[Potion of Healing Revision 1] = 
+[Potion of Invisibility Revision 1] = 
+[Potion of Leaping Revision 1] = 
+[Potion of Luck Revision 1] = 
+[Potion of Night Vision Revision 1] = 
+[Potion of Poison Revision 1] = 
+[Potion of Regeneration Revision 1] = 
+[Potion of Slow Falling Revision 1] = 
+[Potion of Slowness Revision 1] = 
+[Potion of Strength Revision 1] = 
+[Potion of Swiftness Revision 1] = 
+[Potion of the Turtle Master Revision 1] = 
+[Potion of Water Breathing Revision 1] = 
+[Thick Potion Revision 1] = 
+[Uncraftable Potion Revision 1] = 
+[Water Bottle Revision 1] = 
+[Lingering Awkward Potion Revision 1] = 
+[Lingering Mundane Potion Revision 1] = 
+[Lingering Potion of Fire Resistance Revision 1] = 
+[Lingering Potion of Harming Revision 1] = 
+[Lingering Potion of Healing Revision 1] = 
+[Lingering Potion of Invisibility Revision 1] = 
+[Lingering Potion of Leaping Revision 1] = 
+[Lingering Potion of Luck Revision 1] = 
+[Lingering Potion of Night Vision Revision 1] = 
+[Lingering Potion of Poison Revision 1] = 
+[Lingering Potion of Regeneration Revision 1] = 
+[Lingering Potion of Slow Falling Revision 1] = 
+[Lingering Potion of Slowness Revision 1] = 
+[Lingering Potion of Strength Revision 1] = 
+[Lingering Potion of Swiftness Revision 1] = 
+[Lingering Potion of the Turtle Master Revision 1] = 
+[Lingering Potion of Water Breathing Revision 1] = 
+[Lingering Thick Potion Revision 1] = 
+[Lingering Uncraftable Potion Revision 1] = 
+[Lingering Water Bottle Revision 1] = 
+[Splash Awkward Potion Revision 1] = 
+[Splash Mundane Potion Revision 1] = 
+[Splash Potion of Fire Resistance Revision 1] = 
+[Splash Potion of Harming Revision 1] = 
+[Splash Potion of Healing Revision 1] = 
+[Splash Potion of Invisibility Revision 1] = 
+[Splash Potion of Leaping Revision 1] = 
+[Splash Potion of Luck Revision 1] = 
+[Splash Potion of Night Vision Revision 1] = 
+[Splash Potion of Poison Revision 1] = 
+[Splash Potion of Regeneration Revision 1] = 
+[Splash Potion of Slow Falling Revision 1] = 
+[Splash Potion of Slowness Revision 1] = 
+[Splash Potion of Strength Revision 1] = 
+[Splash Potion of Swiftness Revision 1] = 
+[Splash Potion of the Turtle Master Revision 1] = 
+[Splash Potion of Water Breathing Revision 1] = 
+[Splash Thick Potion Revision 1] = 
+[Splash Uncraftable Potion Revision 1] = 
+[Splash Water Bottle Revision 1] = 
 [End Gateway BE] = [Врата Края BE]
-[End Portal BE] =
-[Oak Sign Revision 1][Sign Revision 1] =
-[Nether Star] =
-[Missing Texture BE] =
-[tile.info_update.name] =
-[Hopper Revision 2] =
+[End Portal BE] = 
+[Oak Sign Revision 1][Sign Revision 1] = 
+[Nether Star] = 
+[Missing Texture BE] = 
+[tile.info_update.name] = 
+[Hopper Revision 2] = 
 [Black Piglin Banner][Black Snout Banner] = [Флаг с чёрным рылом]
 [Blue Piglin Banner][Blue Snout Banner] = [Флаг с синим рылом]
 [Brown Piglin Banner][Brown Snout Banner] = [Флаг с коричневым рылом]
@@ -373,78 +373,78 @@
 [White Piglin Banner][White Snout Banner] = [Флаг с белым рылом]
 [Yellow Piglin Banner][Yellow Snout Banner] = [Флаг с жёлтым рылом]
 [Chest Revision 2] = [Сундук (версия 2)]
-[Stone Revision 2] =
-[Ominous Shield] =
-[Leather Horse Armor BE] =
-[Crimson Fence Gate BE] =
-[Lit Redstone Lamp Post-Flip] =
-[Redstone Lamp Post-Flip] =
+[Stone Revision 2] = 
+[Ominous Shield] = 
+[Leather Horse Armor BE] = 
+[Crimson Fence Gate BE] = 
+[Lit Redstone Lamp Post-Flip] = 
+[Redstone Lamp Post-Flip] = 
 [Damaged Warped Fungus on a Stick] = [Повреждённая удочка с искажённым грибком]
-[Warped Fence Gate BE] =
-[Fancy Feather] =
-[Clock 01] =
-[Clock 02] =
-[Clock 03] =
-[Clock 04] =
-[Clock 05] =
-[Clock 06] =
-[Clock 07] =
-[Clock 08] =
-[Clock 09] =
-[Clock 10] =
-[Clock 11] =
-[Clock 12] =
-[Clock 13] =
-[Clock 14] =
-[Clock 15] =
-[Clock 16] =
-[Clock 17] =
-[Clock 18] =
-[Clock 19] =
-[Clock 20] =
-[Clock 21] =
-[Clock 22] =
-[Clock 23] =
-[Clock 24] =
-[Clock 25] =
-[Clock 26] =
-[Clock 27] =
-[Clock 28] =
-[Clock 29] =
-[Clock 30] =
-[Clock 31] =
-[Clock 32] =
-[Clock 33] =
-[Clock 34] =
-[Clock 35] =
-[Clock 36] =
-[Clock 37] =
-[Clock 38] =
-[Clock 39] =
-[Clock 40] =
-[Clock 41] =
-[Clock 42] =
-[Clock 43] =
-[Clock 44] =
-[Clock 45] =
-[Clock 46] =
-[Clock 47] =
-[Clock 48] =
-[Clock 49] =
-[Clock 50] =
-[Clock 51] =
-[Clock 52] =
-[Clock 53] =
-[Clock 54] =
-[Clock 55] =
-[Clock 56] =
-[Clock 57] =
-[Clock 58] =
-[Clock 59] =
-[Clock 60] =
-[Clock 61] =
-[Clock 62] =
-[Clock 63] =
+[Warped Fence Gate BE] = 
+[Fancy Feather] = 
+[Clock 01] = 
+[Clock 02] = 
+[Clock 03] = 
+[Clock 04] = 
+[Clock 05] = 
+[Clock 06] = 
+[Clock 07] = 
+[Clock 08] = 
+[Clock 09] = 
+[Clock 10] = 
+[Clock 11] = 
+[Clock 12] = 
+[Clock 13] = 
+[Clock 14] = 
+[Clock 15] = 
+[Clock 16] = 
+[Clock 17] = 
+[Clock 18] = 
+[Clock 19] = 
+[Clock 20] = 
+[Clock 21] = 
+[Clock 22] = 
+[Clock 23] = 
+[Clock 24] = 
+[Clock 25] = 
+[Clock 26] = 
+[Clock 27] = 
+[Clock 28] = 
+[Clock 29] = 
+[Clock 30] = 
+[Clock 31] = 
+[Clock 32] = 
+[Clock 33] = 
+[Clock 34] = 
+[Clock 35] = 
+[Clock 36] = 
+[Clock 37] = 
+[Clock 38] = 
+[Clock 39] = 
+[Clock 40] = 
+[Clock 41] = 
+[Clock 42] = 
+[Clock 43] = 
+[Clock 44] = 
+[Clock 45] = 
+[Clock 46] = 
+[Clock 47] = 
+[Clock 48] = 
+[Clock 49] = 
+[Clock 50] = 
+[Clock 51] = 
+[Clock 52] = 
+[Clock 53] = 
+[Clock 54] = 
+[Clock 55] = 
+[Clock 56] = 
+[Clock 57] = 
+[Clock 58] = 
+[Clock 59] = 
+[Clock 60] = 
+[Clock 61] = 
+[Clock 62] = 
+[Clock 63] = 
 [Broken Anvil] = [Сломанная наковальня]
 
 
@@ -656,7 +656,7 @@
 
 
 
-[Glistering Melon] =
+[Glistering Melon] = 
 
 
 
@@ -667,7 +667,7 @@
 
 
 
-[Milk] =
+[Milk] = 
 
 
 [Music Disc 13] = [Пластинка 13]
@@ -689,7 +689,7 @@
 [Cactus Green] = [Кактусовая зелень]
 
 
-[Dandelion Yellow] =
+[Dandelion Yellow] = 
 
 
 
@@ -700,7 +700,7 @@
 
 
 
-[Rose Red] =
+[Rose Red] = 
 [Black Banner] = [Чёрный флаг]
 [Black Carpet Revision 1] = [Чёрный ковёр (версия 1)]
 [Black Terracotta] = [Чёрная керамика][Чёрная обожжённая глина][Чёрная окрашенная глина|у]
@@ -780,11 +780,11 @@
 [Purple Stained Glass Pane] = [Фиолетовая окрашенная стеклянная панель][Фиолетовая стеклянная панель]
 [Purple Wool Revision 2] = [Фиолетовая шерсть (версия 2)]
 [Red Banner] = [Красный флаг]
-[Red Carpet Revision 1] =
+[Red Carpet Revision 1] = 
 [Red Terracotta] = [Красная керамика][Красная обожжённая глина][Красная окрашенная глина]
 [Red Stained Glass] = [Красное окрашенное стекло][Красное стекло]
 [Red Stained Glass Pane] = [Красная окрашенная стеклянная панель][Красная стеклянная панель]
-[Red Wool Revision 2] =
+[Red Wool Revision 2] = 
 [Banner][White Banner] = [Белый флаг][Флаг]
 [White Carpet Revision 1] = [Белый ковёр (версия 1)]
 [White Terracotta] = [Белая керамика][Белая обожжённая глина][Белая окрашенная глина][Окрашенная обожжённая глина]
@@ -822,7 +822,7 @@
 
 
 
-[Clownfish][Clownfish Revision 1] = [Рыба-клоун (версия 1)]
+[Clownfish][Clownfish Revision 1] = [Рыба-клоун][Рыба-клоун (версия 1)]
 
 [Cooked Fish][Cooked Fish Revision 1] = [Жареная рыба]
 
@@ -839,7 +839,7 @@
 
 
  = [Курятина]
-[Raw Fish][Raw Fish Revision 1] = [Сырая рыба]
+[Raw Fish][Raw Fish Revision 1] = [Рыба][Сырая рыба]
 
 
 
@@ -852,13 +852,13 @@
 
  = [Акациевая калитка]
 [Acacia Planks][Acacia Wood Planks] = [Акациевые доски]
-[Acacia Wood Slab] =
-[Acacia Wood Stairs] =
+[Acacia Wood Slab] = 
+[Acacia Wood Stairs] = 
 
  = [Берёзовая калитка]
 [Birch Planks][Birch Wood Planks] = [Берёзовые доски]
-[Birch Wood Slab] =
-[Birch Wood Stairs] =
+[Birch Wood Slab] = 
+[Birch Wood Stairs] = 
 
 
 
@@ -868,7 +868,7 @@
 
 
 [Bricks Old] = [Кирпичи старые][Кирпичный блок старый]
-[Brick Slab Old] =
+[Brick Slab Old] = 
 [Chiseled Quartz Block] = [Резной кварцевый блок]
 
 
@@ -901,7 +901,7 @@
 
 
 [Oak Planks][Oak Wood Planks] = [Доски|у][Дубовые доски]
-[Oak Wood Slab][Petrified Oak Slab][Wooden Slab] = [Окаменевшая дубовая плита]
+[Oak Wood Slab][Petrified Oak Slab][Wooden Slab] = [Окаменевшая дубовая плита][Поддельная дубовая плита]
 [Oak Wood Stairs] = [Дубовые ступени BE]
 [Quartz Pillar] = [Кварцевый пилон]
 [Polished Andesite] = [Полированный андезит]
@@ -927,8 +927,8 @@
 
 
 [Spruce Planks][Spruce Wood Planks] = [Еловые доски]
-[Spruce Wood Slab] =
-[Spruce Wood Stairs] =
+[Spruce Wood Slab] = 
+[Spruce Wood Stairs] = 
 
 [Stone Brick Slab] = [Плита из каменного кирпича][Плита из каменных кирпичей]
 
@@ -983,7 +983,7 @@
 
 [Frosted Ice] = [Подмороженный лёд]
 [Monster Spawner] = [Спаунер][Спаунер монстров]
-[Moss Stone] =
+[Moss Stone] = 
 
 
 
@@ -996,7 +996,7 @@
 
 
 
-[Top Snow] =
+[Top Snow] = 
 [Infested Stone][Stone][Stone Monster Egg] = [Заражённый блок камень][Заражённый камень][Каменное яйцо монстра][Камень][Камень с монстрами]
 
 
@@ -1078,9 +1078,9 @@
 
 [Cyan Flower] = [Бирюзовый цветок][Голубой цветок]
 [Glowing Obsidian] = [Пылающий обсидиан]
-[Nether Reactor Core Revision 1] =
+[Nether Reactor Core Revision 1] = 
 [Stonecutter BE] = [Камнерез-pocket]
-[Awkward Potion][Mundane Potion][Thick Potion][Water Bottle] = [Грубое зелье][Густое зелье][Заурядное зелье][Колба воды][Мутное зелье][Непримечательное зелье]
+[Awkward Potion][Mundane Potion][Thick Potion][Water Bottle] = [Грубое зелье][Густое зелье][Заурядное зелье][Колба воды][Мутное зелье][Неловкое зелье][Непримечательное зелье]
 
 
 
@@ -1094,10 +1094,10 @@
 
 
 
-[Awkward Lingering Potion][Mundane Lingering Potion][Thick Lingering Potion] =
+[Awkward Lingering Potion][Mundane Lingering Potion][Thick Lingering Potion] = [Мирское оседающее зелье][Неловкое оседающее зелье][Оседающее густое зелье][Оседающее длительное мирское зелье][Оседающее мирское зелье][Оседающее неловкое зелье]
 
  = [Зелье опыта]
-[Awkward Splash Potion][Mundane Splash Potion][Splash Mundane Potion][Splash Water Bottle][Thick Splash Potion] = [Взрывающаяся колба воды][Взрывающееся непримечательное зелье][Взрывное мутное зелье][Грубое взрывающееся зелье][Густое взрывающееся зелье][Густое взрывное зелье][Заурядное взрывное зелье][Непримечательное взрывающееся зелье]
+[Awkward Splash Potion][Mundane Splash Potion][Splash Mundane Potion][Splash Water Bottle][Thick Splash Potion] = [Взрывающаяся колба воды][Взрывающееся густое зелье][Взрывающееся длительное мирское зелье][Взрывающееся зелье][Взрывающееся мирское зелье][Взрывающееся неловкое зелье][Взрывающееся непримечательное зелье][Взрывное мутное зелье][Грубое взрывающееся зелье][Густое взрывающееся зелье][Густое взрывное зелье][Заурядное взрывное зелье][Мирское взрывающееся зелье][Неловкое взрывающееся зелье][Непримечательное взрывающееся зелье]
 
 
 
@@ -1135,7 +1135,7 @@
 
 
 
-[Redstone Revision 1] =
+[Redstone Revision 1] = 
 
 [Debug Stick][Stick] = [Палка][Палка отладки]
 
@@ -1171,7 +1171,7 @@
 
 
 [Clock] = [Часы]
-[Compass] = [Компас]
+[Compass] = [Компас][Магнетитовый компас]
 
 
 
@@ -1250,11 +1250,11 @@
 
 [Locked Chest] = [Запертый сундук]
 
-[Slightly Damaged Anvil] =
+[Slightly Damaged Anvil] = 
 
 
 
-[Very Damaged Anvil] =
+[Very Damaged Anvil] = 
 
 [Boat] = [Лодка]
 
@@ -1263,7 +1263,7 @@
 
 
 
-[Arrow of Splashing][Tipped Arrow] = [Обработанная стрела][Стрела разбрызгивания][Стрела с эффектом]
+[Arrow of Splashing][Tipped Arrow] = [Несоздаваемая стела][Обработанная стрела][Стрела разбрызгивания][Стрела с эффектом]
 [Arrow] = [Стрела]
 [Arrow of Fire Resistance] = [Стрела огнестойкости]
 [Arrow of Harming] = [Стрела вреда][Стрела урона]
@@ -1380,7 +1380,7 @@
 [Structure Block] = [Блок-конструктор][Структурный блок]
  = [Пустой блок]
 [Leather Horse Armor] = [Кожаная конская броня]
-[Observer PE old][Observer pre-1.11-pre1] =
+[Observer PE old][Observer pre-1.11-pre1] = 
 [Chicken Spawn Egg Revision 1] = [Яйцо призывания курицы 11w49a]
 [Cow Spawn Egg Revision 1] = [Яйцо призывания коровы 11w49a]
 [Creeper Spawn Egg Revision 1] = [Яйцо призывания крипера 11w49a]
@@ -1400,7 +1400,7 @@
 [Zombie Spawn Egg Revision 1] = [Яйцо призывания зомби 11w49a]
 [Zombie Pigman Spawn Egg Revision 1] = [Яйцо призывания зомби-свиночеловека 11w49a]
 [Potion of Decay] = [Зелье разложения]
-[Uncraftable Potion] = [Несоздаваемое зелье]
+[Uncraftable Potion] = [Зелье глупости][Зелье голода][Зелье слепоты][Зелье сопротивления][Зелье спешки][Зелье тошноты][Несоздаваемое зелье]
 [Splash Potion of Decay] = [Взрывающееся зелье разложения]
  = [Взрывающееся несоздаваемое зелье][Взрывное несоздаваемое зелье]
 [Lingering Potion of Decay] = [Оседающее зелье разложения]
@@ -1592,8 +1592,8 @@
 [Board] = [Доска]
 [Border] = [Граница]
 [Portfolio] = [Портфолио]
-[Poster] = [Широкая доска]
-[Slate] = [Маленькая доска]
+[Poster] = [Плакат][Широкая доска]
+[Slate] = [Маленькая доска][Шифер]
 [Initialized Nether Reactor Core Revision 1] = [Ядро запущенного реактора Нижнего мира (версия 1)]
 [Finished Nether Reactor Core Revision 1] = [Ядро отработанного реактора Нижнего мира (версия 1)]
 [Nether Reactor Core] = [Ядро реактора Нижнего мира][Ядро реактора нижнего мира]
@@ -1661,10 +1661,10 @@
 
 
 [Prismarine Brick Stairs Old] = [Ступени из призмаринового кирпича старый][Ступеньки из призмариновых кирпичей][Ступеньки из призмариновых кирпичей старый]
-[Prismarine Stairs] = [Призмариновые ступени][Призмариновые ступеньки]
+ = [Призмариновые ступени][Призмариновые ступеньки]
 
-[Prismarine Bricks Slab] = [Плита из призмаринового кирпича][Плита из призмариновых кирпичей]
-[Prismarine Slab] = [Призмариновая плита]
+[Prismarine Bricks Slab] = [Плита из призмариновых кирпичей]
+ = [Призмариновая плита]
 [Turtle Egg Revision 1] = [Черепашье яйцо (версия 1)]
 [Dried Kelp Block] = [Блок сушёной ламинарии]
 [Stripped Acacia Log] = [Обтёсанная акациевая древесина]
@@ -1678,7 +1678,7 @@
 
 
 [Trident Revision 1] = [Трезубец 18w07a]
-[Turtle Helmet][Turtle Shell] = [Черепаший панцирь]
+[Turtle Helmet][Turtle Shell] = [Черепаший панцирь][Черепаший шлем]
 [Dried Kelp] = [Сушёная ламинария]
 [Kelp] = [Ламинария]
 [Scute] = [Щиток]
@@ -1690,8 +1690,8 @@
 [Cooked Cod] = [Жареная треска]
 [Cooked Salmon] = [Жареный лосось]
 [Pufferfish] = [Иглобрюх]
-[Raw Cod] = [Сырая треска]
-[Raw Salmon] = [Сырой лосось]
+[Raw Cod] = [Сырая треска][Треска]
+[Raw Salmon] = [Лосось][Сырой лосось]
 [Tube Coral Fan Revision 1] = [Веер синего коралла|у][Веер трубчатого коралла|у][Трубчатый веерный коралл]
  = [Иглобрюх 13w36a]
 [Cod Spawn Egg][Spawn Cod] = [Яйцо призывания трески]
@@ -1764,7 +1764,7 @@
 [Red Sparkler (active)] = [Красный бенгальский огонь (горящий)]
 [Red Torch] = [Красный факел (Education Edition)][Настенный цветной красный факел][Цветной красный факел]
 [Salt] = [Соль]
-[Super Fertilizer] = [Суперудобрение]
+[Super Fertilizer] = [Супер удобрение][Суперудобрение]
 [Tonic] = [Тоник]
 [Underwater Torch] = [Подводный факел]
 [???] = [Неизвестный химический элемент][Неизвестный элемент]
@@ -2358,7 +2358,7 @@
  = [ТНТ после освещения]
 [Grass Block Revision 2] = [Трава (версия 2)]
  = [Дубовые листья после освещения]
-[Blank Spawn Egg][Spawn Egg] = [Пустое яйцо призывания][Яйцо призывания]
+[Blank Spawn Egg][Spawn Egg] = [Пустое яйцо призывания][Спаун][Яйцо призывания]
  = [Булыжник до поворота]
 [Air][Cave Air][Void Air] = [Воздух][Воздух в пустоте][Пещерный воздух][Пустотный воздух]
 [Bubble Column] = [Столб пузырей]
@@ -2371,14 +2371,14 @@
 [Dead Horn Coral] = [Мёртвый роговый коралл]
 [Ender Chest BE] = [Сундук Края BE]
 [Bamboo] = [Бамбук]
-[Spawn Panda][Spawn Panda BE] = [Призвать панду][Призвать панду BE]
+[Spawn Panda][Spawn Panda BE] = [Призвать панду][Призвать панду BE][Яйцо призывания панды BE]
 [Black Dye] = [Чёрный краситель]
 [Blue Dye] = [Синий краситель]
 [Brown Dye] = [Коричневый краситель]
-[White Dye] = [Белый краситель]
+[White Dye] = [Белый краситель][Все красители][Краситель]
 [Spawn Agent] = [Призвать агента][Яйцо призывания агента]
-[Spawn Cat][Spawn Cat BE] = [Призвать кошку][Призвать кошку BE]
-[Spawn Mask] = [Призвать маску]
+[Spawn Cat][Spawn Cat BE] = [Призвать кошку][Призвать кошку BE][Яйцо призывания кошки BE]
+[Spawn Mask] = [Призвать маску][Яйцо призывания маски]
 [Crossbow] = [Арбалет]
 [Arrow Loaded Crossbow] = [Арбалет со стрелой]
 [Damaged Arrow Loaded Crossbow] = [Повреждённый арбалет со стрелой]
@@ -2447,7 +2447,7 @@
 [Smithing Table Revision 1] = [Кузнечный стол (версия 1)]
 [Smoker] = [Коптильня]
 [Stonecutter Revision 1] = [Резак (версия 1)]
-[Jigsaw Block Revision 1][Jigsaw Revision 1] =
+[Jigsaw Block Revision 1][Jigsaw Revision 1] = 
 [Lantern] = [Фонарь]
 [Cartography Table] = [Стол картографа]
 [Fletching Table] = [Стол лучника]
@@ -2459,7 +2459,7 @@
 [Campfire] = [Костёр]
 [Composter] = [Компостер]
 [Grindstone] = [Точило]
-[Spawn Trader Llama][Trader Llama Spawn Egg] = [Призвать ламу торговца][Яйцо призывания ламы торговца]
+[Spawn Trader Llama][Trader Llama Spawn Egg] = [Призвать ламу торговца][Яйцо призывания ламы странствующего торговца][Яйцо призывания ламы торговца]
 [Spawn Wandering Trader][Wandering Trader Spawn Egg] = [Призвать бродячего торговца][Яйцо призывания бродячего торговца][Яйцо призывания странствующего торговца]
 [Fox Spawn Egg][Spawn Fox] = [Призвать лису][Яйцо призывания лисы]
 [Horse Saddle] = [Конское седло]
@@ -2471,7 +2471,7 @@
 [Broken Elytra] = [Сломанные надкрылья][Сломанные элитры]
 [Brown Shield] = [Коричневый щит]
 [Chainmail Boots] = [Кольчужные ботинки]
-[Chainmail Chestplate] = [Кольчуга][Кольчужная кираса]
+[Chainmail Chestplate] = [Кольчуга][Кольчужная кираса][Кольчужный нагрудник]
 [Chainmail Helmet] = [Койф][Кольчужный шлем]
 [Chainmail Leggings] = [Кольчужные поножи]
 [Cyan Shield] = [Бирюзовый щит]
@@ -2508,10 +2508,10 @@
 [Golden Leggings] = [Золотые поножи]
 [Gray Shield] = [Серый щит]
 [Green Shield] = [Зелёный щит]
-[Iron Boots] = [Железные ботинки]
-[Iron Chestplate] = [Железная кираса][Железный нагрудник]
-[Iron Helmet] = [Железный шлем]
-[Iron Leggings] = [Железные поножи]
+[Iron Boots] = [Ботинки][Железные ботинки]
+[Iron Chestplate] = [Железная кираса][Железный нагрудник][Кираса]
+[Iron Helmet] = [Железный шлем][Шлем]
+[Iron Leggings] = [Железные поножи][Поножи]
 [Leather Boots] = [Кожаные ботинки]
 [Leather Cap] = [Кожаный шлем]
 [Leather Pants] = [Кожаные поножи][Кожаные штаны]
@@ -2534,7 +2534,7 @@
 [Black Base Sinister Canton Banner] = [Флаг с чёрным нижне-левым крыжем]
 [Black Bend Banner] = [Флаг с чёрной перевязью]
 [Black Bend Sinister Banner] = [Флаг с чёрной левой перевязью]
-[Black Bordure Banner] =
+[Black Bordure Banner] = 
 [Black Bordure Indented Banner] = [Берёзовая калитка BE]
 [Black Chevron Banner] = [Флаг с чёрным остриём]
 [Black Chief Banner] = [Флаг с чёрной главой]
@@ -3159,7 +3159,7 @@
 [Green Dye] = [Зелёный краситель]
 [Ink Sac] = [Чернильный мешок]
 [Lapis Lazuli] = [Лазурит][Ультрамарин|у]
-[Light Blue Dye] = [Светло-синий краситель]
+[Light Blue Dye] = [Голубой краситель][Светло-синий краситель]
 [Light Gray Dye] = [Светло-серый краситель]
 [Lime Dye] = [Лаймовый краситель]
 [Magenta Dye] = [Пурпурный краситель][Сиреневый краситель]
@@ -3210,11 +3210,11 @@
 [Potato] = [Картофель]
 [Pumpkin Pie] = [Тыквенный пирог]
 [Rabbit Stew] = [Тушёный кролик]
-[Raw Beef] = [Сырая говядина]
+[Raw Beef] = [Говядина][Сырая говядина]
 [Raw Chicken] = [Сырая курятина]
-[Raw Mutton] = [Сырая баранина]
-[Raw Porkchop] = [Сырая свинина]
-[Raw Rabbit] = [Сырая крольчатина]
+[Raw Mutton] = [Баранина][Сырая баранина]
+[Raw Porkchop] = [Свинина][Сырая свинина]
+[Raw Rabbit] = [Крольчатина][Сырая крольчатина]
 [Rotten Flesh] = [Гнилая плоть]
 [Sugar] = [Сахар]
 [Wheat] = [Пшеница]
@@ -3342,7 +3342,7 @@
 [Piston] = [Поршень]
 [Powered Rail] = [Электрические рельсы][Энергорельсы]
 [Rail] = [Плита из гладкого камня]
-[Redstone Comparator] = [Компаратор][Редстоуновый компаратор]
+[Redstone Comparator] = [Компаратор][Красный компаратор][Редстоуновый компаратор]
 [Redstone Lamp] = [Выключенная лампа][Лампа][Редстоуновый фонарь]
 [Redstone Repeater] = [Красный повторитель][Повторитель][Редстоуновый повторитель]
 [Redstone Torch] = [Красный факел][Настенный красный факел][Редстоуновый факел]
@@ -3478,9 +3478,9 @@
 [Splash Potion of Slowness] = [Взрывающееся зелье замедления][Взрывное зелье замедления]
 [Splash Potion of Strength] = [Взрывающееся зелье силы][Взрывное зелье силы]
 [Splash Potion of Swiftness] = [Взрывающееся зелье ускорения][Взрывное зелье стремительности]
-[Splash Potion of the Turtle Master] = [Взрывное зелье черепашьей мощи]
+[Splash Potion of the Turtle Master] = [Взрывающееся зелье черепашьей мощи][Взрывное зелье черепашьей мощи]
 [Splash Potion of Weakness] = [Взрывное зелье слабости]
-[Uncraftable Splash Potion] =
+[Uncraftable Splash Potion] = 
 [Lingering Potion of Fire Resistance] = [Оседающее зелье огнестойкости][Туманное зелье огнестойкости]
 [Lingering Potion of Harming] = [Оседающее зелье урона][Туманное зелье урона]
 [Lingering Potion of Healing] = [Оседающее зелье лечения][Туманное зелье исцеления]
@@ -3488,7 +3488,7 @@
 [Lingering Potion of Leaping] = [Оседающее зелье прыгучести][Туманное зелье прыгучести]
 [Lingering Potion of Luck] = [Оседающее зелье удачи][Туманное зелье удачи]
 [Lingering Potion of Night Vision] = [Оседающее зелье ночного зрения][Туманное зелье ночного зрения]
-[Lingering Potion of Poison] = [Оседающее зелье отравления][Туманное зелье отравления]
+[Lingering Potion of Poison] = [Оседающее зелье][Оседающее зелье отравления][Туманное зелье отравления]
 [Lingering Potion of Regeneration] = [Оседающее зелье регенерации][Туманное зелье регенерации]
 [Lingering Potion of Slow Falling] = [Оседающее зелье медленного падения]
 [Lingering Potion of Slowness] = [Оседающее зелье замедления][Туманное зелье замедления]
@@ -3571,12 +3571,12 @@
 [Golden Hoe] = [Золотая мотыга]
 [Golden Pickaxe] = [Золотая кирка]
 [Golden Shovel] = [Золотая лопата]
-[Iron Axe] = [Железный топор]
-[Iron Hoe] = [Железная мотыга]
-[Iron Pickaxe] = [Железная кирка]
-[Iron Shovel] = [Железная лопата]
+[Iron Axe] = [Железный топор][Топор]
+[Iron Hoe] = [Железная мотыга][Мотыга]
+[Iron Pickaxe] = [Железная кирка][Кирка]
+[Iron Shovel] = [Железная лопата][Лопата]
 [Lead] = [Поводок]
-[Buried Treasure Map][Map] = [Карта][Карта сокровищ]
+[Buried Treasure Map][Map] = [Заполненная карта][Карта][Карта к кладу][Карта сокровищ]
 [Name Tag] = [Бирка]
 [Ocean Explorer Map] = [Карта к подводной крепости]
 [Saddle] = [Седло]
@@ -3634,15 +3634,15 @@
 [Damaged Wooden Sword] = [Повреждённый деревянный меч]
 [Diamond Sword] = [Алмазный меч]
 [Golden Sword] = [Золотой меч]
-[Iron Sword] = [Железный меч]
+[Iron Sword] = [Железный меч][Меч]
 [Snowball] = [Снежок]
 [Spectral Arrow] = [Призрачная стрела]
 [Stone Sword] = [Каменный меч]
 [Totem of Undying] = [Тотем бессмертия]
 [Wooden Sword] = [Деревянный меч]
-[MHF Skeleton] =
-[MHF WSkeleton] =
-[MHF Zombie] =
+[MHF Skeleton] = 
+[MHF WSkeleton] = 
+[MHF Zombie] = 
 [Rainbow Bed] = [Радужная кровать]
 [Rainbow Carpet] = [Радужный ковёр]
 [Rainbow Wool] = [Радужная шерсть]
