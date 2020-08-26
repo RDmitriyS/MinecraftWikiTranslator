@@ -96,9 +96,11 @@ public class Functions {
     static void mergeByLine(String path1, String path2) {
         final var reader1 = getScanner(path1);
         final var reader2 = getScanner(path2);
+        final var builder = new StringBuilder();
         while (reader1.hasNextLine() && reader2.hasNextLine()) {
-            write("output.txt", (reader1.nextLine() + reader2.nextLine()));
+            appendAll(builder, reader1.nextLine(), reader2.nextLine(), '\n');
         }
+        write("output.txt", builder.toString());
     }
 
     static void requireTrue(final boolean cond) {

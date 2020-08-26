@@ -108,13 +108,7 @@ public class Table extends Node {
         final var node_words = lang == Lang.ru ? get(index).ru : get(index).en;
         final var all_words = lang == Lang.ru ? ru : en;
 
-        final var names = parse_dict_id(line);
-        node_words.keySet().removeIf(name -> {
-            final int idx = name.indexOf('|');
-            return !names.contains(idx < 0 ? name : name.substring(0, idx));
-        });
-
-        for (var name : names) {
+        for (var name : parse_dict_id(line)) {
             final int idx = name.indexOf('|');
             boolean outdated = false;
             if (idx >= 0) {
@@ -227,14 +221,21 @@ public class Table extends Node {
         return table;
     }
 
+    Table transform(Function<String, String> fun) {
+        return transform(fun, fun);
+    }
+
     Table toLowerCase() {
-        return transform(Functions::toLowerCase, Functions::toLowerCase);
+        return transform(Functions::toLowerCase);
     }
 
     Table toUpperCase() {
         return transform(e -> Functions.toUpperCase(e, Lang.en), e -> Functions.toUpperCase(e, Lang.ru));
     }
 
+    Table toRuUpperCase() {
+        return transform(e -> Functions.toUpperCase(e, Lang.ru));
+    }
 
     Table toLowerCase(Lang lang) {
         return lang == Lang.en

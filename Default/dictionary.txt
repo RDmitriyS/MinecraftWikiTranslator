@@ -34,6 +34,10 @@
 [Quartz Block] = [Кварцевый блок]
 [Wood Slab] = [Деревянная доска]
 
+[Revision 1] = [(версия 1)]
+[Revision 2] = [(версия 2)]
+[Revision 3] = [(версия 3)]
+
 [Double Wooden Slabs] = [Двойные деревянные плиты]
 [Wooden Slabs] = [Деревянные плиты]
 [Double Crimson Slab] = [Двойная багровая плита]

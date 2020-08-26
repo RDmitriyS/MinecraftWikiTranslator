@@ -374,7 +374,7 @@
 [Yellow Piglin Banner][Yellow Snout Banner] = [Флаг с жёлтым рылом]
 [Chest Revision 2] = [Сундук (версия 2)]
 [Stone Revision 2] = 
-[Ominous Shield] = 
+[Ominous Shield] = [Зловещий щит]
 [Leather Horse Armor BE] = 
 [Crimson Fence Gate BE] = 
 [Lit Redstone Lamp Post-Flip] = 
@@ -382,69 +382,69 @@
 [Damaged Warped Fungus on a Stick] = [Повреждённая удочка с искажённым грибком]
 [Warped Fence Gate BE] = 
 [Fancy Feather] = 
-[Clock 01] = 
-[Clock 02] = 
-[Clock 03] = 
-[Clock 04] = 
-[Clock 05] = 
-[Clock 06] = 
-[Clock 07] = 
-[Clock 08] = 
-[Clock 09] = 
-[Clock 10] = 
-[Clock 11] = 
-[Clock 12] = 
-[Clock 13] = 
-[Clock 14] = 
-[Clock 15] = 
-[Clock 16] = 
-[Clock 17] = 
-[Clock 18] = 
-[Clock 19] = 
-[Clock 20] = 
-[Clock 21] = 
-[Clock 22] = 
-[Clock 23] = 
-[Clock 24] = 
-[Clock 25] = 
-[Clock 26] = 
-[Clock 27] = 
-[Clock 28] = 
-[Clock 29] = 
-[Clock 30] = 
-[Clock 31] = 
-[Clock 32] = 
-[Clock 33] = 
-[Clock 34] = 
-[Clock 35] = 
-[Clock 36] = 
-[Clock 37] = 
-[Clock 38] = 
-[Clock 39] = 
-[Clock 40] = 
-[Clock 41] = 
-[Clock 42] = 
-[Clock 43] = 
-[Clock 44] = 
-[Clock 45] = 
-[Clock 46] = 
-[Clock 47] = 
-[Clock 48] = 
-[Clock 49] = 
-[Clock 50] = 
-[Clock 51] = 
-[Clock 52] = 
-[Clock 53] = 
-[Clock 54] = 
-[Clock 55] = 
-[Clock 56] = 
-[Clock 57] = 
-[Clock 58] = 
-[Clock 59] = 
-[Clock 60] = 
-[Clock 61] = 
-[Clock 62] = 
-[Clock 63] = 
+[Clock 01] = [Часы 01]
+[Clock 02] = [Часы 02]
+[Clock 03] = [Часы 03]
+[Clock 04] = [Часы 04]
+[Clock 05] = [Часы 05]
+[Clock 06] = [Часы 06]
+[Clock 07] = [Часы 07]
+[Clock 08] = [Часы 08]
+[Clock 09] = [Часы 09]
+[Clock 10] = [Часы 10]
+[Clock 11] = [Часы 11]
+[Clock 12] = [Часы 12]
+[Clock 13] = [Часы 13]
+[Clock 14] = [Часы 14]
+[Clock 15] = [Часы 15]
+[Clock 16] = [Часы 16]
+[Clock 17] = [Часы 17]
+[Clock 18] = [Часы 18]
+[Clock 19] = [Часы 19]
+[Clock 20] = [Часы 20]
+[Clock 21] = [Часы 21]
+[Clock 22] = [Часы 22]
+[Clock 23] = [Часы 23]
+[Clock 24] = [Часы 24]
+[Clock 25] = [Часы 25]
+[Clock 26] = [Часы 26]
+[Clock 27] = [Часы 27]
+[Clock 28] = [Часы 28]
+[Clock 29] = [Часы 29]
+[Clock 30] = [Часы 30]
+[Clock 31] = [Часы 31]
+[Clock 32] = [Часы 32]
+[Clock 33] = [Часы 33]
+[Clock 34] = [Часы 34]
+[Clock 35] = [Часы 35]
+[Clock 36] = [Часы 36]
+[Clock 37] = [Часы 37]
+[Clock 38] = [Часы 38]
+[Clock 39] = [Часы 39]
+[Clock 40] = [Часы 40]
+[Clock 41] = [Часы 41]
+[Clock 42] = [Часы 42]
+[Clock 43] = [Часы 43]
+[Clock 44] = [Часы 44]
+[Clock 45] = [Часы 45]
+[Clock 46] = [Часы 46]
+[Clock 47] = [Часы 47]
+[Clock 48] = [Часы 48]
+[Clock 49] = [Часы 49]
+[Clock 50] = [Часы 50]
+[Clock 51] = [Часы 51]
+[Clock 52] = [Часы 52]
+[Clock 53] = [Часы 53]
+[Clock 54] = [Часы 54]
+[Clock 55] = [Часы 55]
+[Clock 56] = [Часы 56]
+[Clock 57] = [Часы 57]
+[Clock 58] = [Часы 58]
+[Clock 59] = [Часы 59]
+[Clock 60] = [Часы 60]
+[Clock 61] = [Часы 61]
+[Clock 62] = [Часы 62]
+[Clock 63] = [Часы 63]
 [Broken Anvil] = [Сломанная наковальня]
 
 
@@ -689,7 +689,7 @@
 [Cactus Green] = [Кактусовая зелень]
 
 
-[Dandelion Yellow] = 
+[Dandelion Yellow] =
 
 
 
@@ -700,7 +700,7 @@
 
 
 
-[Rose Red] = 
+[Rose Red] =
 [Black Banner] = [Чёрный флаг]
 [Black Carpet Revision 1] = [Чёрный ковёр (версия 1)]
 [Black Terracotta] = [Чёрная керамика][Чёрная обожжённая глина][Чёрная окрашенная глина|у]
@@ -755,7 +755,7 @@
 [Lime Stained Glass] = [Лаймовое окрашенное стекло][Лаймовое стекло]
 [Lime Stained Glass Pane] = [Лаймовая окрашенная стеклянная панель][Лаймовая стеклянная панель]
 [Lime Wool Revision 2] = [Лаймовая шерсть (версия 2)]
-[Magenta Banner] = [Пурпурный флаг][Сиреневый флаг]
+[Magenta Banner] = [Пурпурный флаг|у][Сиреневый флаг]
 [Magenta Carpet Revision 1] = [Сиреневый ковёр (версия 1)]
 [Magenta Terracotta] = [Пурпурная керамика][Сиреневая керамика][Сиреневая обожжённая глина][Сиреневая окрашенная глина]
 [Magenta Stained Glass] = [Пурпурное стекло][Сиреневое окрашенное стекло]
@@ -1065,7 +1065,7 @@
 [Rose] = [Роза]
 
 [Seeds][Wheat Seeds] = [Семена][Семена пшеницы]
-[Scaffolding BE] = [Строительные леса Bedrock]
+[Scaffolding BE] = [Строительные леса Bedrock|у][Строительные леса BE]
 
 
 
@@ -1079,7 +1079,7 @@
 [Cyan Flower] = [Бирюзовый цветок][Голубой цветок]
 [Glowing Obsidian] = [Пылающий обсидиан]
 [Nether Reactor Core Revision 1] = 
-[Stonecutter BE] = [Камнерез-pocket]
+[Stonecutter BE] = [Камнерез-pocket|у][Камнерез BE]
 [Awkward Potion][Mundane Potion][Thick Potion][Water Bottle] = [Грубое зелье][Густое зелье][Заурядное зелье][Колба воды][Мутное зелье][Неловкое зелье][Непримечательное зелье]
 
 
@@ -1151,7 +1151,7 @@
 [Guardian Spawn Egg][Spawn Guardian] = [Яйцо призывания стража]
 [Donkey Spawn Egg Revision 1][Horse Spawn Egg][Mule Spawn Egg Revision 1][Spawn Horse] = [Яйцо призывания лошади]
 [Magma Cube Spawn Egg][Spawn Magma Cube] = [Яйцо призывания лавового куба][Яйцо призывания магмового куба]
-[Mooshroom Spawn Egg][Spawn Mooshroom] = [Яйцо призывания грибной коровы][Яйцо призывания муухомора][Яйцо призывания муухоморы]
+[Mooshroom Spawn Egg][Spawn Mooshroom] = [Яйцо призывания грибной коровы][Яйцо призывания муухомора]
 [Ocelot Spawn Egg][Spawn Ocelot] = [Яйцо призывания оцелота]
 [Pig Spawn Egg][Spawn Pig] = [Яйцо призывания свиньи]
 [Rabbit Spawn Egg][Spawn Rabbit] = [Яйцо призывания кролика]
@@ -1292,7 +1292,7 @@
 
 
 [Black Tinted Glass] = [Чёрное тонированное стекло]
-[Block of Coal Revision 1] = [Угольный блок (13w18a)]
+[Block of Coal Revision 1] = [Угольный блок 13w18a]
 [Blue Tinted Glass] = [Синее тонированное стекло]
 [Brown Tinted Glass] = [Коричневое тонированное стекло]
 [Cyan Tinted Glass] = [Бирюзовое тонированное стекло]
@@ -1302,8 +1302,8 @@
 [Light Blue Tinted Glass] = [Голубое тонированное стекло][Светло-синее тонированное стекло]
 [Light Gray Tinted Glass] = [Светло-серое тонированное стекло]
 [Lime Tinted Glass] = [Лаймовое тонированное стекло]
-[Locked Chest 12w22a] = [Запертый сундук (12w22a)]
-[Locked Chest 13w18a][Missing Texture] = [Блок отсутствующей текстуры][Блок с отсутствующей текстурой][Запертый сундук (13w18b)]
+[Locked Chest 12w22a] = [Запертый сундук 12w22a]
+[Locked Chest 13w18a][Missing Texture] = [Блок отсутствующей текстуры][Блок с отсутствующей текстурой][Запертый сундук 13w18b][Запертый сундук (13w18b)|у]
 [Magenta Tinted Glass] = [Пурпурное тонированное стекло][Сиреневое тонированное стекло]
 [Obsidian Boat] = [Обсидиановая лодка]
 [Orange Tinted Glass] = [Оранжевое тонированное стекло]
@@ -1314,7 +1314,7 @@
 [White Tinted Glass] = [Белое тонированное стекло]
 [Yellow Tinted Glass] = [Жёлтое тонированное стекло]
 [Piston Head Model] = [Модель головки поршня]
-[Locked Chest 12w19a][Placeholder Texture] = [Запертый сундук (12w19a)][Фиолетовый блок ошибки]
+[Locked Chest 12w19a][Placeholder Texture] = [Запертый сундук 12w19a][Фиолетовый блок ошибки]
  = [Красный факел (отключённый)][Отключённый редстоуновый факел]
 
 
@@ -1609,7 +1609,7 @@
 [Light Blue Shulker Box] = [Голубой шалкеровый ящик][Светло-синий шалкеровый ящик]
 [Light Gray Shulker Box] = [Светло-серый шалкеровый ящик]
 [Lime Shulker Box] = [Лаймовый шалкеровый ящик]
-[Magenta Shulker Box] = [Пурпурный шалкеровый ящик][Сиреневый шалкеровый ящик]
+[Magenta Shulker Box] = [Пурпурный шалкеровый ящик|у][Сиреневый шалкеровый ящик]
 [Orange Shulker Box] = [Оранжевый шалкеровый ящик]
 [Pink Shulker Box] = [Розовый шалкеровый ящик]
 [Shulker Box] = [Шалкеровый ящик]
@@ -1627,7 +1627,7 @@
 [Light Blue Carpet] = [Голубой ковёр][Светло-синий ковёр]
 [Light Gray Carpet] = [Светло-серый ковёр]
 [Lime Carpet] = [Лаймовый ковёр]
-[Magenta Carpet] = [Пурпурный ковёр][Сиреневый ковёр]
+[Magenta Carpet] = [Пурпурный ковёр|у][Сиреневый ковёр]
 [Orange Carpet] = [Оранжевый ковёр]
 [Pink Carpet] = [Розовый ковёр]
 [Purple Carpet] = [Фиолетовый ковёр]
@@ -2114,7 +2114,7 @@
  = [Требуется кирка]
  = [Требуется лопата]
  = [Требуется меч]
-[Etho Slab] = [Etho Slab][ТНТ плита]
+[Etho Slab] = [ТНТ плита]
  = [Блок железной двери]
 [Lava Block] = [Блок лавы]
  = [Блок дубовой двери]
@@ -2446,7 +2446,7 @@
 [Loom] = [Ткацкий станок]
 [Smithing Table Revision 1] = [Кузнечный стол (версия 1)]
 [Smoker] = [Коптильня]
-[Stonecutter Revision 1] = [Резак (версия 1)]
+[Stonecutter Revision 1] = [Резак (версия 1)|у][Камнерез (версия 1)]
 [Jigsaw Block Revision 1][Jigsaw Revision 1] = 
 [Lantern] = [Фонарь]
 [Cartography Table] = [Стол картографа]
@@ -2519,7 +2519,7 @@
 [Light Blue Shield] = [Голубой щит][Светло-синий щит]
 [Light Gray Shield] = [Светло-серый щит]
 [Lime Shield] = [Лаймовый щит]
-[Magenta Shield] = [Пурпурный щит][Сиреневый щит]
+[Magenta Shield] = [Пурпурный щит|у][Сиреневый щит]
 [Orange Shield] = [Оранжевый щит]
 [Pink Shield] = [Розовый щит]
 [Purple Shield] = [Фиолетовый щит]
@@ -2534,8 +2534,8 @@
 [Black Base Sinister Canton Banner] = [Флаг с чёрным нижне-левым крыжем]
 [Black Bend Banner] = [Флаг с чёрной перевязью]
 [Black Bend Sinister Banner] = [Флаг с чёрной левой перевязью]
-[Black Bordure Banner] = 
-[Black Bordure Indented Banner] = [Берёзовая калитка BE]
+[Black Bordure Banner] = [Флаг с чёрной каймой]
+[Black Bordure Indented Banner] = [Флаг с чёрной зубчатой каймой]
 [Black Chevron Banner] = [Флаг с чёрным остриём]
 [Black Chief Banner] = [Флаг с чёрной главой]
 [Black Chief Dexter Canton Banner] = [Флаг с чёрным верхне-правым крыжем]
@@ -3159,15 +3159,15 @@
 [Green Dye] = [Зелёный краситель]
 [Ink Sac] = [Чернильный мешок]
 [Lapis Lazuli] = [Лазурит][Ультрамарин|у]
-[Light Blue Dye] = [Голубой краситель][Светло-синий краситель]
+[Light Blue Dye] = [Голубой краситель|у][Светло-синий краситель]
 [Light Gray Dye] = [Светло-серый краситель]
 [Lime Dye] = [Лаймовый краситель]
-[Magenta Dye] = [Пурпурный краситель][Сиреневый краситель]
+[Magenta Dye] = [Пурпурный краситель|у][Сиреневый краситель]
 [Orange Dye] = [Оранжевый краситель]
 [Pink Dye] = [Розовый краситель]
 [Purple Dye] = [Фиолетовый краситель]
 [Red Dye] = [Красный краситель][Цвет розы|у]
-[Yellow Dye] = [Жёлтый краситель][Жёлтый одуванчиковый]
+[Yellow Dye] = [Жёлтый краситель][Жёлтый одуванчиковый|у]
 [Black Bed] = [Чёрная кровать]
 [Blue Bed] = [Синяя кровать]
 [Brown Bed] = [Коричневая кровать]
@@ -3479,8 +3479,8 @@
 [Splash Potion of Strength] = [Взрывающееся зелье силы][Взрывное зелье силы]
 [Splash Potion of Swiftness] = [Взрывающееся зелье ускорения][Взрывное зелье стремительности]
 [Splash Potion of the Turtle Master] = [Взрывающееся зелье черепашьей мощи][Взрывное зелье черепашьей мощи]
-[Splash Potion of Weakness] = [Взрывное зелье слабости]
-[Uncraftable Splash Potion] = 
+[Splash Potion of Weakness] = [Взрывающееся зелье слабости][Взрывное зелье слабости]
+[Uncraftable Splash Potion] = [Несоздаваемое взрывающееся зелье][Несоздаваемое взрывное зелье]
 [Lingering Potion of Fire Resistance] = [Оседающее зелье огнестойкости][Туманное зелье огнестойкости]
 [Lingering Potion of Harming] = [Оседающее зелье урона][Туманное зелье урона]
 [Lingering Potion of Healing] = [Оседающее зелье лечения][Туманное зелье исцеления]
@@ -3560,7 +3560,7 @@
 [Diamond Hoe] = [Алмазная мотыга]
 [Diamond Pickaxe] = [Алмазная кирка]
 [Diamond Shovel] = [Алмазная лопата]
-[Empty Locator Map][Empty Map] = [Empty Locator Map][Пустая карта]
+[Empty Locator Map][Empty Map] = [Пустая карта]
 [Enchanted Book] = [Зачарованная книга][Чародейская книга]
 [Eye of Ender] = [Око Края][Око Эндера]
 [Fire Charge] = [Огненный заряд][Огненный шар]

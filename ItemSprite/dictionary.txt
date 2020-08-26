@@ -304,7 +304,7 @@
 [husk-spawn-egg][spawn-husk] = [яйцо-призывания-кадавра]
 [llama-spawn-egg][spawn-llama] = [яйцо-призывания-ламы]
 [magma-cube-spawn-egg][spawn-magma-cube] = [яйцо-призывания-лавового-куба][яйцо-призывания-магмового-куба]
-[mooshroom-spawn-egg][spawn-mooshroom] = [яйцо-призывания-грибной-коровы][яйцо-призывания-муухомора][яйцо-призывания-муухоморы]
+[mooshroom-spawn-egg][spawn-mooshroom] = [яйцо-призывания-грибной-коровы][яйцо-призывания-муухомора]
 [mule-spawn-egg][spawn-mule] = [яйцо-призывания-мула]
 [ocelot-spawn-egg][spawn-ocelot] = [яйцо-призывания-оцелота]
 [pig-spawn-egg][spawn-pig] = [яйцо-призывания-свиньи]
