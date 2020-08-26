@@ -17,7 +17,7 @@ import static main.Exceptions.*;
 
 public class Functions {
 
-    static String toUpperCase(String val, Lang lang) {
+    static String lowerTypeToUpperType(String val, Lang lang) {
         var temp = name_exceptions_lower.get(val);
         if (temp != null) {
             return temp;
@@ -49,12 +49,12 @@ public class Functions {
         return sb.toString().replace('-', ' ').replace('+', '-');
     }
 
-    static String toLowerCase(String val) {
+    static String upperTypeToLowerType(String val) {
         return val.toLowerCase().replace(' ', '-');
     }
 
     static Map<String, String> to_lower_upper_map(final Set<String> set) {
-        return set.stream().collect(Collectors.toMap(Functions::toLowerCase, word -> word));
+        return set.stream().collect(Collectors.toMap(Functions::upperTypeToLowerType, word -> word));
     }
 
     static String readFile(String path) {

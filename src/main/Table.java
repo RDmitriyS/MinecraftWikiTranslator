@@ -104,7 +104,7 @@ public class Table extends Node {
         return set;
     }
 
-    private void update_dict(final String line, Lang lang, int index, int section) {
+    private void update_dict(final String line, Lang lang, int index) {
         final var node_words = lang == Lang.ru ? get(index).ru : get(index).en;
         final var all_words = lang == Lang.ru ? ru : en;
 
@@ -116,7 +116,11 @@ public class Table extends Node {
                 name = name.substring(0, idx);
             }
 
-            final var word = new Word(name, index, section, outdated);
+            final var original_word = all_words.get(name);
+            final var section = original_word != null ? original_word.section
+                    : !get(index).en.isEmpty() ? get(index).en.firstEntry().getValue().section : -1;
+
+            final var word = new Word(name, index,  section, outdated);
             node_words.put(name, word);
             all_words.put(name, word);
 
@@ -133,19 +137,11 @@ public class Table extends Node {
             final String line = dict.nextLine();
             final int delim = line.indexOf(" = ");
             if (delim < 0) {
-                get(i).en.clear();
-                get(i).ru.clear();
                 continue;
             }
 
-            final var words_en = get(i).en;
-            final var words_ru = get(i).ru;
-
-            int section = !words_ru.isEmpty() ? words_ru.firstEntry().getValue().section
-                        : !words_en.isEmpty() ? words_en.firstEntry().getValue().section : -1;
-
-            update_dict(transform.apply(line.substring(0, delim).trim()), Lang.en, i, section);
-            update_dict(transform.apply(line.substring(delim + 2).trim()), Lang.ru, i, section);
+            update_dict(transform.apply(line.substring(0, delim).trim()), Lang.en, i);
+            update_dict(transform.apply(line.substring(delim + 2).trim()), Lang.ru, i);
         }
     }
 
@@ -225,28 +221,24 @@ public class Table extends Node {
         return transform(fun, fun);
     }
 
-    Table toLowerCase() {
-        return transform(Functions::toLowerCase);
+    Table upperTypeToLowerType() {
+        return transform(Functions::upperTypeToLowerType);
     }
 
-    Table toUpperCase() {
-        return transform(e -> Functions.toUpperCase(e, Lang.en), e -> Functions.toUpperCase(e, Lang.ru));
+    Table lowerTypeToUpperType() {
+        return transform(e -> Functions.lowerTypeToUpperType(e, Lang.en), e -> Functions.lowerTypeToUpperType(e, Lang.ru));
     }
 
-    Table toRuUpperCase() {
-        return transform(e -> Functions.toUpperCase(e, Lang.ru));
-    }
-
-    Table toLowerCase(Lang lang) {
+    Table upperTypeToLowerType(Lang lang) {
         return lang == Lang.en
-                ? transform(Functions::toLowerCase, e -> e)
-                : transform(e -> e, Functions::toLowerCase);
+                ? transform(Functions::upperTypeToLowerType, e -> e)
+                : transform(e -> e, Functions::upperTypeToLowerType);
     }
 
-    Table toUpperCase(Lang lang) {
+    Table lowerTypeToUpperType(Lang lang) {
         return lang == Lang.en
-                ? transform(e -> Functions.toUpperCase(e, Lang.en), e -> e)
-                : transform(e -> e, e -> Functions.toUpperCase(e, Lang.ru));
+                ? transform(e -> Functions.lowerTypeToUpperType(e, Lang.en), e -> e)
+                : transform(e -> e, e -> Functions.lowerTypeToUpperType(e, Lang.ru));
     }
 
     static String translate_en_ru(final String text, final Table... tables) {

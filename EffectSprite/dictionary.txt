@@ -1,0 +1,256 @@
+[speed-revision-1][swiftness-revision-1] = [скорость-1]
+[slowness-revision-1] = [замедление-1]
+[haste-bedrock][haste-revision-1] = [спешка-1]
+[mining-fatigue-revision-1] = [усталость-1]
+[strength-revision-1] = [сила-1]
+[weakness-revision-1] = [слабость-1]
+[fatal-poison-revision-1][poison-revision-1] = [отравление-1]
+[regeneration-revision-1] = [регенерация-1]
+[particle-speed][particle-swiftness] = [частица-скорость]
+[particle-slowness] = [частица-замедление][частица-медлительность]
+[particle-haste] = [частица-спешка]
+[particle-mining-fatigue] = [частица-усталость][частица-утомление]
+[particle-strength] = [частица-сила]
+[particle-weakness] = [частица-слабость]
+[particle-fatal-poison][particle-poison] = [частица-отравление]
+[particle-regeneration] = [частица-регенерация]
+[invisibility-revision-1] = [невидимость-1]
+[hunger-revision-1] = [голод-1]
+[jump-boost-revision-1] = [мощный-прыжок-1]
+[nausea-revision-1] = [тошнота-1]
+[night-vision-revision-1] = [ночное-зрение-1]
+[blindness-revision-1] = [слепота-1]
+[resistance-revision-1] = [сопротивление-1]
+[fire-resistance-revision-1] = [огнестойкость-1]
+[particle-invisibility] = [частица-невидимость]
+[particle-hunger] = [частица-голод]
+[particle-jump-boost] = [частица-мощный-прыжок][частица-прыгучесть]
+[particle-nausea] = [частица-тошнота]
+[particle-night-vision] = [частица-ночное-зрение]
+[particle-blindness] = [частица-слепота]
+[particle-resistance] = [частица-сопротивление]
+[particle-fire-resistance] = [частица-огнестойкость]
+[water-breathing-revision-1] = [подводное-дыхание-1]
+[wither-revision-1] = [иссушение-1]
+[absorption-revision-1][health-boost-revision-1] = [старое-повышение-здоровья][старое-поглощение]
+[levitation-revision-1] = [левитация-1]
+[glowing-revision-1] = [свечение-1]
+[luck-revision-1] = [везение-1][удача-1]
+[bad-luck-revision-1][unluck-revision-1] = [невезение-1][неудача-1]
+[absorption-revision-2] = [поглощение-1]
+[particle-water-breathing] = [частица-водное-дыхание][частица-подводное-дыхание]
+[particle-wither] = [частица-иссушение]
+[particle-health-boost] = [частица-повышение-здоровья][частица-прилив-здоровья]
+[particle-absorption] = [частица-поглощение]
+[particle-saturation] = [частица-насыщение][частица-насыщенность]
+[particle-glowing] = [частица-свечение]
+[particle-levitation][particle-slow-falling] = [частица-левитация][частица-плавное-падение]
+[particle-luck] = [частица-везение][частица-удача]
+[health-boost-revision-2] = [повышение-здоровья-1]
+[particle-evoker-attack] = 
+[particle-evoker-wololo] = 
+[particle-evoker-summon] = 
+[particle-illusioner-blindness] = 
+[particle-illusioner-mirror] = 
+[conduit-power] = [морская-сила][сила-источника]
+[slow-falling] = [медленное-падение][плавное-падение]
+[particle-bad-luck][particle-unluck] = [частица-невезение][частица-неудача]
+[dolphin's-grace][dolphins-grace] = [грация-дельфина][дельфинья-грация]
+[particle-conduit-power] = [частица-морская-сила][частица-сила-источника]
+[particle-dolphin's-grace][particle-dolphins-grace] = [частица-грация-дельфина][частица-дельфинья-грация]
+[instant-damage] = [моментальный-урон]
+[bad-omen-revision-1] = [клеймо-беды-1][плохой-знак-1]
+[bad-omen] = [дурное-знамение][клеймо-беды][плохой-знак]
+[absorption] = [поглощение]
+[bad-luck][unluck] = [невезение][неудача]
+[blindness] = [слепота]
+[fatal-poison][poison] = [отравление]
+[fire-resistance] = [огнестойкость]
+[glowing] = [свечение]
+[haste] = [спешка]
+[health-boost] = [повышение-здоровья][прилив-здоровья]
+[hunger] = [голод]
+[invisibility] = [невидимость]
+[jump-boost] = [мощный-прыжок][прыгучесть]
+[levitation] = [левитация]
+[luck] = [везение][удача]
+[mining-fatigue] = [усталость][утомление]
+[nausea] = [тошнота]
+[night-vision] = [ночное-зрение]
+[regeneration] = [регенерация]
+[resistance] = [сопротивление]
+[particle-bad-omen] = [частица-дурное-знамение][частица-плохой-знак]
+[slowness] = [замедление][медлительность]
+[speed][swiftness] = [скорость]
+[strength] = [сила]
+[water-breathing] = [водное-дыхание][подводное-дыхание]
+[weakness] = [слабость]
+[wither] = [иссушение]
+[hero-of-the-village][village-hero] = [герой-деревни]
+[particle-hero-of-the-village] = [частица-герой-деревни]
+[hero-of-the-village-revision-1][village-hero-revision-1] = [герой-деревни-старый-1]
+[instant-health] = [исцеление][мгновенное-лечение]
+[saturation] = [насыщение][насыщенность]
+[bad-omen-programmer-art] = 
+[bad-luck-revision-2][unluck-revision-2] = 
+[luck-revision-2] = 
+[particle-bell-highlight-1] = 
+[particle-bell-highlight-2] = 
+[particle-bad-omen-BE] = 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[particle-healing][particle-instant-health] = [частица-исцеление][частица-мгновенное-лечение]
+[particle-harming][particle-instant-damage] = [частица-мгновенный-урон][частица-моментальный-урон]
+ = [неизвестно]
