@@ -689,7 +689,7 @@
 [Cactus Green] = [Кактусовая зелень]
 
 
-[Dandelion Yellow] =
+[Dandelion Yellow] = 
 
 
 
@@ -700,7 +700,7 @@
 
 
 
-[Rose Red] =
+[Rose Red] = 
 [Black Banner] = [Чёрный флаг]
 [Black Carpet Revision 1] = [Чёрный ковёр (версия 1)]
 [Black Terracotta] = [Чёрная керамика][Чёрная обожжённая глина][Чёрная окрашенная глина|у]
@@ -1065,7 +1065,7 @@
 [Rose] = [Роза]
 
 [Seeds][Wheat Seeds] = [Семена][Семена пшеницы]
-[Scaffolding BE] = [Строительные леса Bedrock|у][Строительные леса BE]
+[Scaffolding BE] = [Строительные леса BE][Строительные леса Bedrock|у]
 
 
 
@@ -1079,7 +1079,7 @@
 [Cyan Flower] = [Бирюзовый цветок][Голубой цветок]
 [Glowing Obsidian] = [Пылающий обсидиан]
 [Nether Reactor Core Revision 1] = 
-[Stonecutter BE] = [Камнерез-pocket|у][Камнерез BE]
+[Stonecutter BE] = [Камнерез BE][Камнерез-pocket|у]
 [Awkward Potion][Mundane Potion][Thick Potion][Water Bottle] = [Грубое зелье][Густое зелье][Заурядное зелье][Колба воды][Мутное зелье][Неловкое зелье][Непримечательное зелье]
 
 
@@ -1110,7 +1110,7 @@
 
 
 
- = [Взрывающееся зелье слабости]
+
 
 
 
@@ -1292,7 +1292,7 @@
 
 
 [Black Tinted Glass] = [Чёрное тонированное стекло]
-[Block of Coal Revision 1] = [Угольный блок 13w18a]
+[Block of Coal Revision 1] = [Угольный блок (13w18a)|у][Угольный блок 13w18a]
 [Blue Tinted Glass] = [Синее тонированное стекло]
 [Brown Tinted Glass] = [Коричневое тонированное стекло]
 [Cyan Tinted Glass] = [Бирюзовое тонированное стекло]
@@ -1302,8 +1302,8 @@
 [Light Blue Tinted Glass] = [Голубое тонированное стекло][Светло-синее тонированное стекло]
 [Light Gray Tinted Glass] = [Светло-серое тонированное стекло]
 [Lime Tinted Glass] = [Лаймовое тонированное стекло]
-[Locked Chest 12w22a] = [Запертый сундук 12w22a]
-[Locked Chest 13w18a][Missing Texture] = [Блок отсутствующей текстуры][Блок с отсутствующей текстурой][Запертый сундук 13w18b][Запертый сундук (13w18b)|у]
+[Locked Chest 12w22a] = [Запертый сундук (12w22a)|у][Запертый сундук 12w22a]
+[Locked Chest 13w18a][Missing Texture] = [Блок отсутствующей текстуры][Блок с отсутствующей текстурой][Запертый сундук (13w18b)|у][Запертый сундук 13w18b]
 [Magenta Tinted Glass] = [Пурпурное тонированное стекло][Сиреневое тонированное стекло]
 [Obsidian Boat] = [Обсидиановая лодка]
 [Orange Tinted Glass] = [Оранжевое тонированное стекло]
@@ -1314,7 +1314,7 @@
 [White Tinted Glass] = [Белое тонированное стекло]
 [Yellow Tinted Glass] = [Жёлтое тонированное стекло]
 [Piston Head Model] = [Модель головки поршня]
-[Locked Chest 12w19a][Placeholder Texture] = [Запертый сундук 12w19a][Фиолетовый блок ошибки]
+[Locked Chest 12w19a][Placeholder Texture] = [Запертый сундук (12w19a)|у][Запертый сундук 12w19a][Фиолетовый блок ошибки]
  = [Красный факел (отключённый)][Отключённый редстоуновый факел]
 
 
@@ -2114,7 +2114,7 @@
  = [Требуется кирка]
  = [Требуется лопата]
  = [Требуется меч]
-[Etho Slab] = [ТНТ плита]
+[Etho Slab] = [Etho Slab][ТНТ плита]
  = [Блок железной двери]
 [Lava Block] = [Блок лавы]
  = [Блок дубовой двери]
@@ -2446,7 +2446,7 @@
 [Loom] = [Ткацкий станок]
 [Smithing Table Revision 1] = [Кузнечный стол (версия 1)]
 [Smoker] = [Коптильня]
-[Stonecutter Revision 1] = [Резак (версия 1)|у][Камнерез (версия 1)]
+[Stonecutter Revision 1] = [Камнерез (версия 1)][Резак (версия 1)|у]
 [Jigsaw Block Revision 1][Jigsaw Revision 1] = 
 [Lantern] = [Фонарь]
 [Cartography Table] = [Стол картографа]
@@ -2535,7 +2535,7 @@
 [Black Bend Banner] = [Флаг с чёрной перевязью]
 [Black Bend Sinister Banner] = [Флаг с чёрной левой перевязью]
 [Black Bordure Banner] = [Флаг с чёрной каймой]
-[Black Bordure Indented Banner] = [Флаг с чёрной зубчатой каймой]
+[Black Bordure Indented Banner] = [Берёзовая калитка BE][Флаг с чёрной зубчатой каймой]
 [Black Chevron Banner] = [Флаг с чёрным остриём]
 [Black Chief Banner] = [Флаг с чёрной главой]
 [Black Chief Dexter Canton Banner] = [Флаг с чёрным верхне-правым крыжем]
@@ -3560,7 +3560,7 @@
 [Diamond Hoe] = [Алмазная мотыга]
 [Diamond Pickaxe] = [Алмазная кирка]
 [Diamond Shovel] = [Алмазная лопата]
-[Empty Locator Map][Empty Map] = [Пустая карта]
+[Empty Locator Map][Empty Map] = [Empty Locator Map][Пустая карта]
 [Enchanted Book] = [Зачарованная книга][Чародейская книга]
 [Eye of Ender] = [Око Края][Око Эндера]
 [Fire Charge] = [Огненный заряд][Огненный шар]

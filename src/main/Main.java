@@ -8,7 +8,7 @@ class Main {
 
     public static void main(String[] args) {
         generate(TableType.InvSprite, 5000);
-//        translate("input.txt", "output.txt");
+        translate("input.txt", "output.txt");
 //        mergeByLine("text1.txt", "text2.txt");
     }
 
@@ -34,8 +34,6 @@ class Main {
         var item_table = getTranslationTable(TableType.ItemSprite, 5000);
         var biome_table = getTranslationTable(TableType.BiomeSprite, 1000);
 
-        var default_table_2 = default_table.toRuUpperCase();
-        var inv_table_2 = inv_table.toRuUpperCase();
         var block_table_2 = block_table.toRuUpperCase();
         var item_table_2 = item_table.toRuUpperCase();
         var biome_table_2 = biome_table.toRuUpperCase();
@@ -46,8 +44,6 @@ class Main {
                 block_table,
                 item_table,
                 biome_table,
-                default_table_2,
-                inv_table_2,
                 block_table_2,
                 item_table_2,
                 biome_table_2
