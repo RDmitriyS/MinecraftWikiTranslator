@@ -2,10 +2,8 @@ package main;
 
 import java.util.*;
 import java.util.function.Function;
-import java.util.stream.Collectors;
 
 import static java.lang.Character.isLetter;
-import static java.lang.Character.isAlphabetic;
 import static main.Functions.*;
 
 public class Table extends Node {
@@ -13,13 +11,13 @@ public class Table extends Node {
     private final TreeMap<Long, Word> hash_en;
 
     private final TableType type;
-    private final int maxSize;
+    private final int maxID;
 
-    Table(TableType type, int maxSize) {
+    Table(TableType type, int maxID) {
         this.type = type;
-        this.maxSize = maxSize;
-        data = new ArrayList<>(maxSize);
-        for (int i = 0; i < maxSize; i++) {
+        this.maxID = maxID;
+        data = new ArrayList<>(maxID);
+        for (int i = 0; i < maxID; i++) {
             data.add(new Node());
         }
 
@@ -70,7 +68,7 @@ public class Table extends Node {
     void loadData(Lang lang) {
         final Scanner sc = getScanner(type + "/" + lang + ".txt");
 
-        for (int i = 0; i < maxSize && sc.hasNextLine(); i++) {
+        for (int i = 0; i < maxID && sc.hasNextLine(); i++) {
             final var line = sc.nextLine().replace('}', ',');
             final var name = line.substring(0, line.indexOf("="))
                     .trim()
@@ -133,7 +131,7 @@ public class Table extends Node {
     void loadDictionary(final Function<String, String> transform) {
         final Scanner dict = getScanner(type + "/dictionary.txt");
 
-        for (int i = 0; i < maxSize && dict.hasNextLine(); i++) {
+        for (int i = 0; i < maxID && dict.hasNextLine(); i++) {
             final String line = dict.nextLine();
             final int delim = line.indexOf(" = ");
             if (delim < 0) {
@@ -150,8 +148,8 @@ public class Table extends Node {
     }
 
     void generateDictionary() {
-        final StringBuilder sb = new StringBuilder(maxSize * 16);
-        for (int i = 0; i < maxSize; i++) {
+        final StringBuilder sb = new StringBuilder(maxID * 16);
+        for (int i = 0; i < maxID; i++) {
             if (!get(i).en.isEmpty() || !get(i).ru.isEmpty()) {
                 get(i).en.keySet().forEach(name -> appendAll(sb, '[', name, ']'));
                 sb.append(" = ");
@@ -168,15 +166,19 @@ public class Table extends Node {
         final TreeSet<Word> words = new TreeSet<>(comp);
 
         if (use_en_sections) {
-            words.addAll(ru.values().stream().map(word ->
-                    new Word(word.name, word.pos, getFirstElse(get(word.pos).en.values(), word).section)).collect(Collectors.toSet()));
+            for (var word : ru.values()) {
+                int section = getFirstElse(get(word.pos).en.values(), word).section;
+                words.add(new Word(word.name, word.pos, section, word.outdated));
+            }
         } else {
             words.addAll(ru.values());
         }
 
-        final StringBuilder sb = new StringBuilder(maxSize * 16);
+        final StringBuilder sb = new StringBuilder(maxID * 16);
         for (var word : words) {
-            appendAll(sb, "\t\t['", word.name, "'] = { ['поз'] = ", word.pos + 1, ", ['раздел'] = ", word.section,
+            appendAll(sb, "\t\t['", word.name,
+                    "'] = { ['поз'] = ", word.pos + 1,
+                    ", ['раздел'] = ", word.section,
                     word.outdated ? ", ['устарел'] = true },\n" : " },\n");
         }
 
@@ -187,8 +189,7 @@ public class Table extends Node {
         generateOutput(comp, false);
     }
 
-    // merge this_table with table by en words
-    void mergeWith(final Table table) {
+    void mergeWithByEN(final Table table) {
         for (var entry : table.en.entrySet()) {
             var new_word = entry.getValue();
             var word_en = en.get(new_word.name);
@@ -203,8 +204,13 @@ public class Table extends Node {
         }
     }
 
+    void mergeWithByPos(final Table table) {
+        table.en.values().forEach(this::add_en);
+        table.ru.values().forEach(this::add_ru);
+    }
+
     Table transform(Function<String, String> fun_en, Function<String, String> fun_ru) {
-        final Table table = new Table(type, maxSize);
+        final Table table = new Table(type, maxID);
 
         for (var word : en.values()) {
             table.add_en(new Word(fun_en.apply(word.name), word.pos, word.section, word.outdated));
@@ -246,13 +252,19 @@ public class Table extends Node {
         final var builder = new StringBuilder();
         final var h_str = new HashString(text);
 
-        next: for (int begin = 0; begin < text.length(); begin++) {
-            if (isAlphabetic(text.charAt(begin)) && (begin == 0 || !isLetter(text.charAt(begin - 1)))) {
-                for (int end = Math.min(text.length(), maxLen + begin); end > begin; end--) {
-                    if (end != text.length() && isLetter(text.charAt(end))) {
-                        continue;
-                    }
+        int last_legal_end_pos = 0;
+        final int[] prev_legal_end_pos = new int[text.length() + 1];
 
+        for (int i = 1; i <= text.length(); i++) {
+            prev_legal_end_pos[i] = last_legal_end_pos;
+            if (legal_pos(text, i)) {
+                last_legal_end_pos = i;
+            }
+        }
+
+        next: for (int begin = 0; begin < text.length(); begin++) {
+            if (legal_pos(text, begin)) {
+                for (int end = Math.min(text.length(), maxLen + begin); end > begin; end = prev_legal_end_pos[end]) {
                     for (final var table : tables) {
                         final var word_en = table.hash_en.get(h_str.hash(begin, end));
                         if (word_en != null && word_en.name.equals(text.substring(begin, end))) {
@@ -271,6 +283,10 @@ public class Table extends Node {
         }
 
         return builder.toString();
+    }
+
+    private static boolean legal_pos(final String text, final int pos) {
+        return pos == 0 || pos == text.length() || !isLetter(text.charAt(pos - 1)) || !isLetter(text.charAt(pos));
     }
 
     void removeOutdatedWords() {

@@ -49,6 +49,14 @@ public class Functions {
         return sb.toString().replace('-', ' ').replace('+', '-');
     }
 
+    static String lowerTypeToUpperTypeEN(String val) {
+        return lowerTypeToUpperType(val, Lang.en);
+    }
+
+    static String lowerTypeToUpperTypeRU(String val) {
+        return lowerTypeToUpperType(val, Lang.ru);
+    }
+
     static String upperTypeToLowerType(String val) {
         return val.toLowerCase().replace(' ', '-');
     }
@@ -58,7 +66,7 @@ public class Functions {
     }
 
     static String readFile(String path) {
-        byte[] encoded = null;
+        byte[] encoded;
         try {
             encoded = Files.readAllBytes(Paths.get(path));
         } catch (IOException e) {
@@ -118,6 +126,24 @@ public class Functions {
     }
 
     static int compareTo(final String lhs, final String rhs) {
-        return lhs.replace('ё', 'е').compareTo(rhs.replace('ё', 'е'));
+        final char[] lc = lhs.toCharArray();
+        final char[] rc = rhs.toCharArray();
+        final int lim = Math.min(lc.length, rc.length);
+        for (int k = 0; k < lim; k++) {
+            if (lc[k] != rc[k]) {
+                if (lc[k] == 'ё') {
+                    return rc[k] == 'е' ? 1 : 'е' - rc[k];
+                } else if (rc[k] == 'ё') {
+                    return lc[k] == 'е' ? -1 : lc[k] - 'е';
+                } else if (lc[k] == 'Ё') {
+                    return rc[k] == 'Е' ? 1 : 'Е' - rc[k];
+                } else if (rc[k] == 'Ё') {
+                    return lc[k] == 'Е' ? -1 : lc[k] - 'Е';
+                } else {
+                    return lc[k] - rc[k];
+                }
+            }
+        }
+        return lc.length - rc.length;
     }
 }

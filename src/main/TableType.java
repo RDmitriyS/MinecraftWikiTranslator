@@ -7,5 +7,6 @@ public enum TableType {
     ItemSprite,
     BiomeSprite,
     EnvSprite,
-    EffectSprite
+    EffectSprite,
+    EntitySprite,
 }

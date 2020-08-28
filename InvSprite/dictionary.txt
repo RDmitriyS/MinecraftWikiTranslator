@@ -350,11 +350,11 @@
 [Splash Uncraftable Potion Revision 1] = 
 [Splash Water Bottle Revision 1] = 
 [End Gateway BE] = [Врата Края BE]
-[End Portal BE] = 
+[End Portal BE] = [Блок портала Края BE]
 [Oak Sign Revision 1][Sign Revision 1] = 
-[Nether Star] = 
-[Missing Texture BE] = 
-[tile.info_update.name] = 
+[Nether Star] = [Звезда Нижнего мира][Звезда из Незера]
+[Missing Texture BE] = [Блок отсутствующей текстуры][Блок с отсутствующей текстурой]
+[tile.info_update.name] = [tile.info_update.name]
 [Hopper Revision 2] = 
 [Black Piglin Banner][Black Snout Banner] = [Флаг с чёрным рылом]
 [Blue Piglin Banner][Blue Snout Banner] = [Флаг с синим рылом]
@@ -656,7 +656,7 @@
 
 
 
-[Glistering Melon] = 
+[Glistering Melon] = [Сверкающий арбуз]
 
 
 
@@ -667,7 +667,7 @@
 
 
 
-[Milk] = 
+[Milk] = [Молоко]
 
 
 [Music Disc 13] = [Пластинка 13]
@@ -703,7 +703,7 @@
 [Rose Red] = 
 [Black Banner] = [Чёрный флаг]
 [Black Carpet Revision 1] = [Чёрный ковёр (версия 1)]
-[Black Terracotta] = [Чёрная керамика][Чёрная обожжённая глина][Чёрная окрашенная глина|у]
+[Black Terracotta] = [Чёрная керамика][Чёрная обожжённая глина]
 [Black Stained Glass] = [Чёрное окрашенное стекло][Чёрное стекло]
 [Black Stained Glass Pane] = [Закалённая чёрная окрашенная стеклянная панель][Чёрная окрашенная стеклянная панель][Чёрная стеклянная панель]
 [Black Wool Revision 2] = [Чёрная шерсть (версия 2)]
@@ -755,7 +755,7 @@
 [Lime Stained Glass] = [Лаймовое окрашенное стекло][Лаймовое стекло]
 [Lime Stained Glass Pane] = [Лаймовая окрашенная стеклянная панель][Лаймовая стеклянная панель]
 [Lime Wool Revision 2] = [Лаймовая шерсть (версия 2)]
-[Magenta Banner] = [Пурпурный флаг|у][Сиреневый флаг]
+[Magenta Banner] = [Сиреневый флаг]
 [Magenta Carpet Revision 1] = [Сиреневый ковёр (версия 1)]
 [Magenta Terracotta] = [Пурпурная керамика][Сиреневая керамика][Сиреневая обожжённая глина][Сиреневая окрашенная глина]
 [Magenta Stained Glass] = [Пурпурное стекло][Сиреневое окрашенное стекло]
@@ -852,13 +852,13 @@
 
  = [Акациевая калитка]
 [Acacia Planks][Acacia Wood Planks] = [Акациевые доски]
-[Acacia Wood Slab] = 
-[Acacia Wood Stairs] = 
+[Acacia Wood Slab] = [Акациевая плита BE]
+[Acacia Wood Stairs] = [Акациевые ступени BE]
 
  = [Берёзовая калитка]
 [Birch Planks][Birch Wood Planks] = [Берёзовые доски]
-[Birch Wood Slab] = 
-[Birch Wood Stairs] = 
+[Birch Wood Slab] = [Берёзовая плита BE]
+[Birch Wood Stairs] = [Берёзовые ступени BE]
 
 
 
@@ -868,7 +868,7 @@
 
 
 [Bricks Old] = [Кирпичи старые][Кирпичный блок старый]
-[Brick Slab Old] = 
+[Brick Slab Old] = [Кирпичая плита старая]
 [Chiseled Quartz Block] = [Резной кварцевый блок]
 
 
@@ -927,8 +927,8 @@
 
 
 [Spruce Planks][Spruce Wood Planks] = [Еловые доски]
-[Spruce Wood Slab] = 
-[Spruce Wood Stairs] = 
+[Spruce Wood Slab] = [Еловая плита BE]
+[Spruce Wood Stairs] = [Еловые ступени BE]
 
 [Stone Brick Slab] = [Плита из каменного кирпича][Плита из каменных кирпичей]
 
@@ -983,7 +983,7 @@
 
 [Frosted Ice] = [Подмороженный лёд]
 [Monster Spawner] = [Спаунер][Спаунер монстров]
-[Moss Stone] = 
+[Moss Stone] = [Замшелый камень]
 
 
 
@@ -996,7 +996,7 @@
 
 
 
-[Top Snow] = 
+[Top Snow] = [Верхний снег]
 [Infested Stone][Stone][Stone Monster Egg] = [Заражённый блок камень][Заражённый камень][Каменное яйцо монстра][Камень][Камень с монстрами]
 
 
@@ -1007,7 +1007,7 @@
 [Nether Wart (block)] = [Адский нарост (блок)][Нарост из Незера (блок)]
 
 
-[End Portal] = [Блок портала Края][Блок портала Энда]
+[End Portal] = [Блок портала Края]
 [Portal] = [Блок портала Незера][Блок портала Нижнего мира]
 
 
@@ -1065,7 +1065,7 @@
 [Rose] = [Роза]
 
 [Seeds][Wheat Seeds] = [Семена][Семена пшеницы]
-[Scaffolding BE] = [Строительные леса BE][Строительные леса Bedrock|у]
+[Scaffolding BE] = [Строительные леса BE]
 
 
 
@@ -1079,7 +1079,7 @@
 [Cyan Flower] = [Бирюзовый цветок][Голубой цветок]
 [Glowing Obsidian] = [Пылающий обсидиан]
 [Nether Reactor Core Revision 1] = 
-[Stonecutter BE] = [Камнерез BE][Камнерез-pocket|у]
+[Stonecutter BE] = [Камнерез BE]
 [Awkward Potion][Mundane Potion][Thick Potion][Water Bottle] = [Грубое зелье][Густое зелье][Заурядное зелье][Колба воды][Мутное зелье][Неловкое зелье][Непримечательное зелье]
 
 
@@ -1145,8 +1145,8 @@
 [Chicken Spawn Egg][Spawn Chicken] = [Яйцо призывания курицы]
 [Cow Spawn Egg][Spawn Cow] = [Яйцо призывания коровы]
 [Creeper Spawn Egg][Spawn Creeper] = [Яйцо призывания крипера]
-[Enderman Spawn Egg][Spawn Enderman] = [Яйцо призывания странника Края][Яйцо призывания эндермена]
-[Endermite Spawn Egg][Spawn Endermite] = [Яйцо призывания чешуйницы Края][Яйцо призывания эндермита]
+[Enderman Spawn Egg][Spawn Enderman] = [Яйцо призывания странника Края]
+[Endermite Spawn Egg][Spawn Endermite] = [Яйцо призывания чешуйницы Края]
 [Ghast Spawn Egg][Spawn Ghast] = [Яйцо призывания гаста]
 [Guardian Spawn Egg][Spawn Guardian] = [Яйцо призывания стража]
 [Donkey Spawn Egg Revision 1][Horse Spawn Egg][Mule Spawn Egg Revision 1][Spawn Horse] = [Яйцо призывания лошади]
@@ -1250,11 +1250,11 @@
 
 [Locked Chest] = [Запертый сундук]
 
-[Slightly Damaged Anvil] = 
+[Slightly Damaged Anvil] = [Слегка повреждённая наковальня BE]
 
 
 
-[Very Damaged Anvil] = 
+[Very Damaged Anvil] = [Сильно повреждённая наковальня BE]
 
 [Boat] = [Лодка]
 
@@ -1292,7 +1292,7 @@
 
 
 [Black Tinted Glass] = [Чёрное тонированное стекло]
-[Block of Coal Revision 1] = [Угольный блок (13w18a)|у][Угольный блок 13w18a]
+[Block of Coal Revision 1] = [Угольный блок 13w18a]
 [Blue Tinted Glass] = [Синее тонированное стекло]
 [Brown Tinted Glass] = [Коричневое тонированное стекло]
 [Cyan Tinted Glass] = [Бирюзовое тонированное стекло]
@@ -1302,8 +1302,8 @@
 [Light Blue Tinted Glass] = [Голубое тонированное стекло][Светло-синее тонированное стекло]
 [Light Gray Tinted Glass] = [Светло-серое тонированное стекло]
 [Lime Tinted Glass] = [Лаймовое тонированное стекло]
-[Locked Chest 12w22a] = [Запертый сундук (12w22a)|у][Запертый сундук 12w22a]
-[Locked Chest 13w18a][Missing Texture] = [Блок отсутствующей текстуры][Блок с отсутствующей текстурой][Запертый сундук (13w18b)|у][Запертый сундук 13w18b]
+[Locked Chest 12w22a] = [Запертый сундук 12w22a]
+[Locked Chest 13w18a][Missing Texture] = [Блок отсутствующей текстуры][Блок с отсутствующей текстурой][Запертый сундук 13w18b]
 [Magenta Tinted Glass] = [Пурпурное тонированное стекло][Сиреневое тонированное стекло]
 [Obsidian Boat] = [Обсидиановая лодка]
 [Orange Tinted Glass] = [Оранжевое тонированное стекло]
@@ -1314,7 +1314,7 @@
 [White Tinted Glass] = [Белое тонированное стекло]
 [Yellow Tinted Glass] = [Жёлтое тонированное стекло]
 [Piston Head Model] = [Модель головки поршня]
-[Locked Chest 12w19a][Placeholder Texture] = [Запертый сундук (12w19a)|у][Запертый сундук 12w19a][Фиолетовый блок ошибки]
+[Locked Chest 12w19a][Placeholder Texture] = [Запертый сундук 12w19a][Фиолетовый блок ошибки]
  = [Красный факел (отключённый)][Отключённый редстоуновый факел]
 
 
@@ -1609,7 +1609,7 @@
 [Light Blue Shulker Box] = [Голубой шалкеровый ящик][Светло-синий шалкеровый ящик]
 [Light Gray Shulker Box] = [Светло-серый шалкеровый ящик]
 [Lime Shulker Box] = [Лаймовый шалкеровый ящик]
-[Magenta Shulker Box] = [Пурпурный шалкеровый ящик|у][Сиреневый шалкеровый ящик]
+[Magenta Shulker Box] = [Сиреневый шалкеровый ящик]
 [Orange Shulker Box] = [Оранжевый шалкеровый ящик]
 [Pink Shulker Box] = [Розовый шалкеровый ящик]
 [Shulker Box] = [Шалкеровый ящик]
@@ -1627,7 +1627,7 @@
 [Light Blue Carpet] = [Голубой ковёр][Светло-синий ковёр]
 [Light Gray Carpet] = [Светло-серый ковёр]
 [Lime Carpet] = [Лаймовый ковёр]
-[Magenta Carpet] = [Пурпурный ковёр|у][Сиреневый ковёр]
+[Magenta Carpet] = [Сиреневый ковёр]
 [Orange Carpet] = [Оранжевый ковёр]
 [Pink Carpet] = [Розовый ковёр]
 [Purple Carpet] = [Фиолетовый ковёр]
@@ -1692,7 +1692,7 @@
 [Pufferfish] = [Иглобрюх]
 [Raw Cod] = [Сырая треска][Треска]
 [Raw Salmon] = [Лосось][Сырой лосось]
-[Tube Coral Fan Revision 1] = [Веер синего коралла|у][Веер трубчатого коралла|у][Трубчатый веерный коралл]
+[Tube Coral Fan Revision 1] = [Трубчатый веерный коралл]
  = [Иглобрюх 13w36a]
 [Cod Spawn Egg][Spawn Cod] = [Яйцо призывания трески]
 [Pufferfish Spawn Egg][Spawn Pufferfish] = [Яйцо призывания иглобрюха]
@@ -1703,27 +1703,27 @@
 [Bubble Coral Block Revision 1] = [Фиолетовый коралл 18w09a]
 [Fire Coral Block Revision 1] = [Красный коралл 18w09a]
 [Horn Coral Block Revision 1] = [Жёлтый коралл 18w09a]
-[Tube Coral Block] = [Синий коралл|у][Трубчатый коралловый блок]
-[Brain Coral Block] = [Мозговой коралловый блок][Розовый коралл|у]
-[Bubble Coral Block] = [Пузырчатый коралловый блок][Фиолетовый коралл|у]
-[Fire Coral Block] = [Красный коралл|у][Огненный коралловый блок]
-[Horn Coral Block] = [Жёлтый коралл|у][Роговый коралловый блок]
-[Tube Coral] = [Растение синего коралла|у][Трубчатый коралл]
-[Brain Coral] = [Мозговой коралл][Растение розового коралла|у]
-[Bubble Coral] = [Пузырчатый коралл][Растение фиолетового коралла|у]
-[Fire Coral] = [Огненный коралл][Растение красного коралла|у]
-[Horn Coral] = [Растение жёлтого коралла|у][Роговый коралл]
+[Tube Coral Block] = [Трубчатый коралловый блок]
+[Brain Coral Block] = [Мозговой коралловый блок]
+[Bubble Coral Block] = [Пузырчатый коралловый блок]
+[Fire Coral Block] = [Огненный коралловый блок]
+[Horn Coral Block] = [Роговый коралловый блок]
+[Tube Coral] = [Трубчатый коралл]
+[Brain Coral] = [Мозговой коралл]
+[Bubble Coral] = [Пузырчатый коралл]
+[Fire Coral] = [Огненный коралл]
+[Horn Coral] = [Роговый коралл]
 [Trident] = [Трезубец]
-[Dead Tube Coral Block] = [Синий мёртвый коралл|у][Трубчатый мёртвый коралловый блок]
-[Dead Brain Coral Block] = [Мозговой мёртвый коралловый блок][Розовый мёртвый коралл|у]
-[Dead Bubble Coral Block] = [Пузырчатый мёртвый коралловый блок][Фиолетовый мёртвый коралл|у]
+[Dead Tube Coral Block] = [Трубчатый мёртвый коралловый блок]
+[Dead Brain Coral Block] = [Мозговой мёртвый коралловый блок]
+[Dead Bubble Coral Block] = [Пузырчатый мёртвый коралловый блок]
 [Dead Fire Coral Block] = [Красный мёртвый коралл][Огненный мёртвый коралловый блок]
-[Dead Horn Coral Block] = [Жёлтый мёртвый коралл|у][Роговый мёртвый коралловый блок]
+[Dead Horn Coral Block] = [Роговый мёртвый коралловый блок]
 [Spawn Tropical Fish][Tropical Fish Spawn Egg] = [Яйцо призывания рыбы-клоуна][Яйцо призывания тропической рыбы]
-[Brain Coral Fan Revision 1] = [Веер мозгового коралла|у][Веер розового коралла|у][Мозговой веерный коралл]
-[Bubble Coral Fan Revision 1] = [Веер пузырчатого коралла|у][Веер фиолетового коралла|у][Пузырчатый веерный коралл]
-[Fire Coral Fan] = [Веер красного коралла|у][Веер огненного коралла|у][Огненный веерный коралл]
-[Horn Coral Fan Revision 1] = [Веер жёлтого коралла|у][Веер рогового коралла|у][Роговый веерный коралл]
+[Brain Coral Fan Revision 1] = [Мозговой веерный коралл]
+[Bubble Coral Fan Revision 1] = [Пузырчатый веерный коралл]
+[Fire Coral Fan] = [Огненный веерный коралл]
+[Horn Coral Fan Revision 1] = [Роговый веерный коралл]
 [Drowned Spawn Egg][Spawn Drowned] = [Яйцо призывания утопленника]
 [Phantom Spawn Egg Revision 1] = [Яйцо призывания фантома (версия 1)]
 [Spawn Turtle][Turtle Spawn Egg] = [Яйцо призывания черепахи]
@@ -1734,11 +1734,11 @@
 [Arrow of Slow Falling] = [Стрела медленного падения]
 [Blue Ice] = [Синий лёд]
 [Sea Pickle] = [Морской огурец]
-[Dead Brain Coral Fan Revision 1] = [Мёртвый веер мозгового коралла|у][Мёртвый веер розового коралла|у][Мёртвый мозговой веерный коралл]
-[Dead Bubble Coral Fan Revision 1] = [Мёртвый веер пузырчатого коралла|у][Мёртвый веер пурпурного коралла|у][Мёртвый пузырчатый веерный коралл]
-[Dead Fire Coral Fan Revision 1] = [Мёртвый веер красного коралла|у][Мёртвый веер огненного коралла|у][Мёртвый огненный веерный коралл]
-[Dead Horn Coral Fan Revision 1] = [Мёртвый веер жёлтого коралла|у][Мёртвый веер рогового коралла|у][Мёртвый роговый веерный коралл]
-[Dead Tube Coral Fan Revision 1] = [Мёртвый веер синего коралла|у][Мёртвый веер трубчатого коралла|у][Мёртвый трубчатый веерный коралл]
+[Dead Brain Coral Fan Revision 1] = [Мёртвый мозговой веерный коралл]
+[Dead Bubble Coral Fan Revision 1] = [Мёртвый пузырчатый веерный коралл]
+[Dead Fire Coral Fan Revision 1] = [Мёртвый огненный веерный коралл]
+[Dead Horn Coral Fan Revision 1] = [Мёртвый роговый веерный коралл]
+[Dead Tube Coral Fan Revision 1] = [Мёртвый трубчатый веерный коралл]
 [Heart of the Sea] = [Сердце моря]
 [Nautilus Shell] = [Раковина наутилуса]
 [Antidote] = [Противоядие]
@@ -2446,7 +2446,7 @@
 [Loom] = [Ткацкий станок]
 [Smithing Table Revision 1] = [Кузнечный стол (версия 1)]
 [Smoker] = [Коптильня]
-[Stonecutter Revision 1] = [Камнерез (версия 1)][Резак (версия 1)|у]
+[Stonecutter Revision 1] = [Камнерез (версия 1)]
 [Jigsaw Block Revision 1][Jigsaw Revision 1] = 
 [Lantern] = [Фонарь]
 [Cartography Table] = [Стол картографа]
@@ -2519,7 +2519,7 @@
 [Light Blue Shield] = [Голубой щит][Светло-синий щит]
 [Light Gray Shield] = [Светло-серый щит]
 [Lime Shield] = [Лаймовый щит]
-[Magenta Shield] = [Пурпурный щит|у][Сиреневый щит]
+[Magenta Shield] = [Сиреневый щит]
 [Orange Shield] = [Оранжевый щит]
 [Pink Shield] = [Розовый щит]
 [Purple Shield] = [Фиолетовый щит]
@@ -3138,14 +3138,14 @@
 [Dragon's Breath] = [Драконье дыхание]
 [Fermented Spider Eye] = [Маринованный паучий глаз][Приготовленный паучий глаз]
 [Ghast Tear] = [Слеза гаста]
-[Glistering Melon Slice] = [Сверкающий арбуз][Сверкающий ломтик арбуза]
+[Glistering Melon Slice] = [Сверкающий ломтик арбуза]
 [Golden Carrot] = [Золотая морковь]
 [Magma Cream] = [Лавовый крем][Сгусток магмы]
 [Rabbit's Foot] = [Кроличья лапка]
 [Spider Eye] = [Паучий глаз]
 [Bucket] = [Ведро]
 [Lava Bucket] = [Ведро лавы]
-[Milk Bucket] = [Ведро молока][Ведро с молоком][Молоко]
+[Milk Bucket] = [Ведро молока][Ведро с молоком]
 [Water Bucket] = [Ведро воды]
 [Armor Stand] = [Стойка для брони]
 [Flower Pot] = [Цветочный горшок]
@@ -3158,16 +3158,16 @@
 [Gray Dye] = [Серый краситель]
 [Green Dye] = [Зелёный краситель]
 [Ink Sac] = [Чернильный мешок]
-[Lapis Lazuli] = [Лазурит][Ультрамарин|у]
-[Light Blue Dye] = [Голубой краситель|у][Светло-синий краситель]
+[Lapis Lazuli] = [Лазурит]
+[Light Blue Dye] = [Светло-синий краситель]
 [Light Gray Dye] = [Светло-серый краситель]
 [Lime Dye] = [Лаймовый краситель]
-[Magenta Dye] = [Пурпурный краситель|у][Сиреневый краситель]
+[Magenta Dye] = [Сиреневый краситель]
 [Orange Dye] = [Оранжевый краситель]
 [Pink Dye] = [Розовый краситель]
 [Purple Dye] = [Фиолетовый краситель]
-[Red Dye] = [Красный краситель][Цвет розы|у]
-[Yellow Dye] = [Жёлтый краситель][Жёлтый одуванчиковый|у]
+[Red Dye] = [Красный краситель]
+[Yellow Dye] = [Жёлтый краситель]
 [Black Bed] = [Чёрная кровать]
 [Blue Bed] = [Синяя кровать]
 [Brown Bed] = [Коричневая кровать]
@@ -3185,11 +3185,11 @@
 [White Bed] = [Белая кровать]
 [Yellow Bed] = [Жёлтая кровать]
 [Dragon Egg] = [Яйцо дракона]
-[End Crystal] = [Кристалл Края][Кристалл Энда]
-[End Portal Frame] = [Портал Края][Портал в Энд][Рамка портала Края][Рамка портала Края пустая]
-[End Rod] = [Стержень Края][Стержень Энда]
-[End Stone] = [Камень Края][Эндерняк]
-[Firework Rocket] = [Ракета][Фейерверк]
+[End Crystal] = [Кристалл Края]
+[End Portal Frame] = [Портал Края][Рамка портала Края][Рамка портала Края пустая]
+[End Rod] = [Стержень Края]
+[End Stone] = [Камень Края]
+[Firework Rocket] = [Пиротехническая ракета][Фейерверк]
 [Apple] = [Яблоко]
 [Baked Potato] = [Печёный картофель]
 [Beetroot Soup] = [Свекольный суп]
@@ -3258,7 +3258,7 @@
 [Diorite Slab] = [Диоритовая плита]
 [Diorite Stairs] = [Диоритовые ступени]
 [Diorite Wall] = [Диоритовая стена]
-[End Stone Bricks] = [Каменный кирпич Края][Кирпич Края][Эндерняковые кирпичи]
+[End Stone Bricks] = [Каменный кирпич Края][Кирпич Края]
 [Glass Pane] = [Закалённая стеклянная панель][Стеклянная панель]
 [Glass] = [Стекло]
 [Hay Bale] = [Блок сена]
@@ -3507,19 +3507,19 @@
 [Coal] = [Уголь]
 [Diamond] = [Алмаз]
 [Emerald] = [Изумруд]
-[Ender Pearl] = [Жемчуг Края][Эндер-жемчуг]
+[Ender Pearl] = [Жемчуг Края]
 [Feather] = [Перо]
 [Flint] = [Кремень]
 [Glowstone Dust] = [Светокаменная пыль][Светопыль]
 [Gold Ingot] = [Золотой слиток]
-[Gold Nugget] = [Золотой самородок|у][Кусочек золота]
+[Gold Nugget] = [Кусочек золота]
 [Gunpowder] = [Порох]
 [Iron Ingot] = [Железный слиток]
 [Iron Nugget] = [Железный самородок][Кусочек железа]
 [Leather] = [Кожа]
 [Nether Brick] = [Адский кирпич (предмет)][Незеритовый кирпич]
 [Nether Quartz] = [Кварц Нижнего мира][Незер-кварц]
- = [Звезда Нижнего мира][Звезда из Незера]
+
 [Paper] = [Бумага]
 [Popped Chorus Fruit] = [Приготовленный плод коруса][Прожаренный плод хоруса]
 [Prismarine Crystals] = [Кристалл призмарина][Призмариновый кристалл]
@@ -3530,7 +3530,7 @@
 [Slimeball] = [Сгусток слизи][Слизь]
 [String] = [Нить]
 [Book and Quill] = [Книга и перо][Книга с пером]
-[Bowl] = [Миска][Чашка|у]
+[Bowl] = [Миска]
 [Carrot on a Stick] = [Удочка с морковкой][Удочка с морковью]
 [Damaged Carrot on a Stick] = [Повреждённая удочка с морковью]
 [Damaged Diamond Axe] = [Повреждённый алмазный топор]
@@ -3562,7 +3562,7 @@
 [Diamond Shovel] = [Алмазная лопата]
 [Empty Locator Map][Empty Map] = [Empty Locator Map][Пустая карта]
 [Enchanted Book] = [Зачарованная книга][Чародейская книга]
-[Eye of Ender] = [Око Края][Око Эндера]
+[Eye of Ender] = [Око Края]
 [Fire Charge] = [Огненный заряд][Огненный шар]
 [Fishing Rod] = [Удочка]
 [Flint and Steel] = [Огниво]
@@ -3603,8 +3603,8 @@
 [Dispenser] = [Раздатчик]
 [Dropper] = [Выбрасыватель]
 [Enchanting Table][Enchantment Table] = [Стол зачаровывания][Чародейский стол]
-[Ender Chest] = [Сундук Края][Эндер-сундук]
-[Furnace] = [Печка|у][Печь]
+[Ender Chest] = [Сундук Края]
+[Furnace] = [Печь]
 [Hopper] = [Воронка][Загрузочная воронка]
 [Jukebox] = [Проигрыватель]
 [Knowledge Book] = [Книга знаний]
@@ -3622,7 +3622,7 @@
 [Minecart] = [Вагонетка]
 [Minecart with Chest] = [Вагонетка с сундуком][Грузовая вагонетка]
 [Minecart with Command Block] = [Вагонетка с командным блоком]
-[Minecart with Furnace] = [Вагонетка с печкой|у][Вагонетка с печью][Самоходная вагонетка]
+[Minecart with Furnace] = [Вагонетка с печью][Самоходная вагонетка]
 [Minecart with Hopper] = [Вагонетка с воронкой][Загрузочная вагонетка]
 [Minecart with TNT] = [Вагонетка с ТНТ][Вагонетка с динамитом]
 [Oak Boat] = [Дубовая лодка]
@@ -3640,9 +3640,9 @@
 [Stone Sword] = [Каменный меч]
 [Totem of Undying] = [Тотем бессмертия]
 [Wooden Sword] = [Деревянный меч]
-[MHF Skeleton] = 
-[MHF WSkeleton] = 
-[MHF Zombie] = 
+[MHF Skeleton] = [MHF Skeleton]
+[MHF WSkeleton] = [MHF WSkeleton]
+[MHF Zombie] = [MHF Zombie]
 [Rainbow Bed] = [Радужная кровать]
 [Rainbow Carpet] = [Радужный ковёр]
 [Rainbow Wool] = [Радужная шерсть]
