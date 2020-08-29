@@ -11,7 +11,7 @@ class Main {
 
     public static void main(String[] args) {
 //        generate(InvSprite, 5000);
-        translate("input.txt", "output.txt");
+//        translate("input.txt", "output.txt");
 //        mergeByLine("text1.txt", "text2.txt");
     }
 
@@ -19,9 +19,9 @@ class Main {
         var table = new Table(type, maxID);
         table.loadData(en);
         table.loadData(ru);
-        table.loadDictionary();
-//        table.removeOutdatedWords();
-//        table.generateDictionary();
+//        table.loadDictionary();
+//        table.removeOutdatedWordsRU();
+        table.generateDictionary();
         table.generateOutput(Word::compareByName);
     }
 
@@ -61,7 +61,7 @@ class Main {
     private static Table getTranslationTable(TableType type, int maxID) {
         var table = new Table(type, maxID);
         table.loadDictionary();
-        table.removeOutdatedWords();
+        table.removeOutdatedWordsRU();
         return table;
     }
 
@@ -76,16 +76,4 @@ class Main {
             to.add(table.transform(fun));
         }
     }
-
-    // has an effect on the loadData function
-    final static Set<String> ignored_words = Set.of(
-//            "-бок", "-перед", "-вниз", "-верх", "-низ", "-ножка", "-вертикальные", "-прямые",
-//            "-север", "-юг", "-запад", "-восток", "-старая", "-старое", "-старый", "-старые",
-//            "pre-", "-1", "-2", "-3", "-4", "-5", "-6", "-7", "-8", "-9",
-//            "-вкл", "-выкл",
-//            "-be-", "-ce-", "-pe-",
-//            " BE", " LCE", " PE",
-//            " (версия 1)", " (версия 2)", " (версия 3)",
-//            " (предмет)", " блок ", "Блок"
-    );
 }

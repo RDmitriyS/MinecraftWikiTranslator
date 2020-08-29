@@ -24,19 +24,19 @@ public class Table extends Node {
         hash_en = new TreeMap<>();
     }
 
-    private Node get(int index) {
+    Node get(int index) {
         return data.get(index);
     }
 
-    private void add(final Word word, Lang lang) {
+    void add(final Word word, Lang lang, final Set<String> ignored_ru_words) {
         if (lang == Lang.ru) {
-            add_ru(word);
+            add_ru(word, ignored_ru_words);
         } else {
             add_en(word);
         }
     }
 
-    private void add_en(final Word word_en) {
+    void add_en(final Word word_en) {
         if (type != TableType.Default && en.get(word_en.name) != null) {
             System.out.println("[" + word_en.name + "] already exist");
         }
@@ -46,12 +46,16 @@ public class Table extends Node {
         hash_en.put(HashString.hash(word_en.name), word_en);
     }
 
-    private void add_ru(final Word word_ru) {
+    void add_ru(final Word word_ru) {
+        add_ru(word_ru, Collections.emptySet());
+    }
+
+    void add_ru(final Word word_ru, final Set<String> ignored_ru_words) {
         if (type != TableType.Default && ru.get(word_ru.name) != null) {
             System.out.println("[" + word_ru.name + "] already exist");
         }
 
-        if (Main.ignored_words.stream().anyMatch((" " + word_ru.name + " ")::contains)) {
+        if (ignored_ru_words.stream().anyMatch((" " + word_ru.name + " ")::contains)) {
             System.out.println("[" + word_ru.name + "] was ignored");
             return;
         }
@@ -66,6 +70,10 @@ public class Table extends Node {
     }
 
     void loadData(Lang lang) {
+        loadData(lang, Collections.emptySet());
+    }
+
+    void loadData(Lang lang, final Set<String> ignored_ru_words) {
         final Scanner sc = getScanner(type + "/" + lang + ".txt");
 
         for (int i = 0; i < maxID && sc.hasNextLine(); i++) {
@@ -89,7 +97,7 @@ public class Table extends Node {
 
             final boolean outdated = line.contains("['устарел'] = true");
 
-            add(new Word(name, pos, section, outdated), lang);
+            add(new Word(name, pos, section, outdated), lang, ignored_ru_words);
         }
     }
 
@@ -102,11 +110,11 @@ public class Table extends Node {
         return set;
     }
 
-    private void update_dict(final String line, Lang lang, int index) {
-        final var node_words = lang == Lang.ru ? get(index).ru : get(index).en;
+    private void update_dict(TreeSet<String> names, Lang lang, int pos) {
+        final var node_words = lang == Lang.ru ? get(pos).ru : get(pos).en;
         final var all_words = lang == Lang.ru ? ru : en;
 
-        for (var name : parse_dict_id(line)) {
+        for (var name : names) {
             final int idx = name.indexOf('|');
             boolean outdated = false;
             if (idx >= 0) {
@@ -116,9 +124,9 @@ public class Table extends Node {
 
             final var original_word = all_words.get(name);
             final var section = original_word != null ? original_word.section
-                    : !get(index).en.isEmpty() ? get(index).en.firstEntry().getValue().section : -1;
+                    : !get(pos).en.isEmpty() ? get(pos).en.firstEntry().getValue().section : -1;
 
-            final var word = new Word(name, index,  section, outdated);
+            final var word = new Word(name, pos,  section, outdated);
             node_words.put(name, word);
             all_words.put(name, word);
 
@@ -128,8 +136,12 @@ public class Table extends Node {
         }
     }
 
-    void loadDictionary(final Function<String, String> transform) {
-        final Scanner dict = getScanner(type + "/dictionary.txt");
+    void loadDictionary() {
+        loadDictionary("dictionary.txt");
+    }
+
+    void loadDictionary(String fileName) {
+        final Scanner dict = getScanner(type + "/" + fileName);
 
         for (int i = 0; i < maxID && dict.hasNextLine(); i++) {
             final String line = dict.nextLine();
@@ -138,16 +150,16 @@ public class Table extends Node {
                 continue;
             }
 
-            update_dict(transform.apply(line.substring(0, delim).trim()), Lang.en, i);
-            update_dict(transform.apply(line.substring(delim + 2).trim()), Lang.ru, i);
+            update_dict(parse_dict_id(line.substring(0, delim).trim()), Lang.en, i);
+            update_dict(parse_dict_id(line.substring(delim + 2).trim()), Lang.ru, i);
         }
     }
 
-    void loadDictionary() {
-        loadDictionary(e -> e);
+    void generateDictionary() {
+        generateDictionary("dictionary.txt");
     }
 
-    void generateDictionary() {
+    void generateDictionary(String fileName) {
         final StringBuilder sb = new StringBuilder(maxID * 16);
         for (int i = 0; i < maxID; i++) {
             if (!get(i).en.isEmpty() || !get(i).ru.isEmpty()) {
@@ -159,7 +171,7 @@ public class Table extends Node {
             sb.append('\n');
         }
 
-        write(type + "/dictionary.txt", sb.toString().stripTrailing());
+        write(type + "/" + fileName, sb.toString().stripTrailing());
     }
 
     void generateOutput(Comparator<Word> comp, boolean use_en_sections) {
@@ -289,7 +301,7 @@ public class Table extends Node {
         return pos == 0 || pos == text.length() || !isLetter(text.charAt(pos - 1)) || !isLetter(text.charAt(pos));
     }
 
-    void removeOutdatedWords() {
+    void removeOutdatedWordsRU() {
         ru.entrySet().removeIf(entry -> entry.getValue().outdated);
         for (var node : data) {
             node.ru.entrySet().removeIf(entry -> entry.getValue().outdated);

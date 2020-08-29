@@ -17,6 +17,10 @@ public class Word implements Comparable<Word> {
         this(name, pos, section, false);
     }
 
+    Word(String name, int pos) {
+        this(name, pos, -1);
+    }
+
     @Override
     public int compareTo(final Word word) {
         return Functions.compareTo(name, word.name);

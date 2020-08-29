@@ -32,6 +32,9 @@ public class Exceptions {
             "Transition metal"
     );
 
+    final static Map<String, String> word_exceptions_lower = to_lower_upper_map(word_exceptions);
+    final static Map<String, String> name_exceptions_lower = to_lower_upper_map(name_exceptions);
+
     final static Set<String> dash_exceptions = Set.of(
             "светло-", "pre-", "визер-", "верхне-", "нижне-",
             "эндер-", "тёмно-", "сундук-ловушк", "кожано-", "незер-",
@@ -39,6 +42,14 @@ public class Exceptions {
             "лошади-зомби", "лошади-скелет", "рыбы-клоун", "скелета-иссушител"
     );
 
-    final static Map<String, String> word_exceptions_lower = to_lower_upper_map(word_exceptions);
-    final static Map<String, String> name_exceptions_lower = to_lower_upper_map(name_exceptions);
+    final static Set<String> ignored_ru_words = Set.of(
+            "-бок", "-перед", "-вниз", "-верх", "-низ", "-ножка", "-вертикальные", "-прямые",
+            "-север", "-юг", "-запад", "-восток", "-старая", "-старое", "-старый", "-старые",
+            "pre-", "-1", "-2", "-3", "-4", "-5", "-6", "-7", "-8", "-9",
+            "-вкл", "-выкл",
+            "-be-", "-ce-", "-pe-",
+            " BE", " LCE", " PE",
+            " (версия 1)", " (версия 2)", " (версия 3)",
+            " (предмет)", " блок ", "Блок"
+    );
 }
