@@ -2,6 +2,7 @@ package main;
 
 public enum TableType {
     Default,
+    Template,
     InvSprite,
     BlockSprite,
     ItemSprite,

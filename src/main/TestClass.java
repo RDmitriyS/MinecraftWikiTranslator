@@ -9,7 +9,7 @@ import static main.Lang.ru;
 import static main.TableType.Default;
 import static main.TableType.InvSprite;
 
-public class SomeFunctions {
+public class TestClass {
 
     public static void main(String[] args) {
 

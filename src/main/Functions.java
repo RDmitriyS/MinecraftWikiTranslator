@@ -3,6 +3,7 @@ package main;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -87,7 +88,8 @@ public class Functions {
 
     static Scanner getScanner(String filename) {
         try {
-            return new Scanner(new File(filename));
+            String encoding = System.getProperty("console.encoding", "utf-8");
+            return new Scanner(new File(filename), encoding);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
             System.exit(1);

@@ -4,16 +4,23 @@ import java.util.*;
 import java.util.function.Function;
 
 import static java.lang.Character.isLetter;
+import static java.lang.Character.isLowerCase;
 import static main.Functions.*;
 
 public class Table extends Node {
+    static boolean showWarnings = true;
+
     private final List<Node> data;
     private final TreeMap<Long, Word> hash_en;
 
-    private final TableType type;
+    private final String type;
     private final int maxID;
 
     Table(TableType type, int maxID) {
+        this(type.name(), maxID);
+    }
+
+    Table(String type, int maxID) {
         this.type = type;
         this.maxID = maxID;
         data = new ArrayList<>(maxID);
@@ -37,7 +44,7 @@ public class Table extends Node {
     }
 
     void add_en(final Word word_en) {
-        if (type != TableType.Default && en.get(word_en.name) != null) {
+        if (showWarnings && en.get(word_en.name) != null) {
             System.out.println("[" + word_en.name + "] already exist");
         }
 
@@ -51,11 +58,11 @@ public class Table extends Node {
     }
 
     void add_ru(final Word word_ru, final Set<String> ignored_ru_words) {
-        if (type != TableType.Default && ru.get(word_ru.name) != null) {
+        if (showWarnings && ru.get(word_ru.name) != null) {
             System.out.println("[" + word_ru.name + "] already exist");
         }
 
-        if (ignored_ru_words.stream().anyMatch((" " + word_ru.name + " ")::contains)) {
+        if (showWarnings && ignored_ru_words.stream().anyMatch((" " + word_ru.name + " ")::contains)) {
             System.out.println("[" + word_ru.name + "] was ignored");
             return;
         }
@@ -194,7 +201,7 @@ public class Table extends Node {
                     word.outdated ? ", ['устарел'] = true },\n" : " },\n");
         }
 
-        write("output.txt", sb.toString().stripTrailing());
+        write("table.txt", sb.toString().stripTrailing());
     }
 
     void generateOutput(Comparator<Word> comp) {
@@ -263,6 +270,7 @@ public class Table extends Node {
         final int maxLen = 50;
         final var builder = new StringBuilder();
         final var h_str = new HashString(text);
+        final var table = mergeAllByEN(tables);
 
         int last_legal_end_pos = 0;
         final int[] prev_legal_end_pos = new int[text.length() + 1];
@@ -275,18 +283,24 @@ public class Table extends Node {
         }
 
         next: for (int begin = 0; begin < text.length(); begin++) {
-            if (legal_pos(text, begin)) {
-                for (int end = Math.min(text.length(), maxLen + begin); end > begin; end = prev_legal_end_pos[end]) {
-                    for (final var table : tables) {
-                        final var word_en = table.hash_en.get(h_str.hash(begin, end));
-                        if (word_en != null && word_en.name.equals(text.substring(begin, end))) {
-                            final var words_ru = table.translate_en_ru(word_en.name);
-                            if (!words_ru.isEmpty()) {
-                                builder.append(words_ru.iterator().next());
-                                begin = end - 1;
-                                continue next;
-                            }
-                        }
+            boolean beginIsLower = isLowerCase(text.charAt(begin));
+            if (!legal_pos(text, begin) || beginIsLower && begin > 0 && text.charAt(begin - 1) == '.') {
+                builder.append(text.charAt(begin));
+                continue;
+            }
+
+            for (int end = Math.min(text.length(), maxLen + begin); end > begin; end = prev_legal_end_pos[end]) {
+                if (beginIsLower && end < text.length() && text.charAt(end) == '.') {
+                    continue;
+                }
+
+                final var word_en = table.hash_en.get(h_str.hash(begin, end));
+                if (word_en != null && word_en.name.equals(text.substring(begin, end))) {
+                    final var words_ru = table.translate_en_ru(word_en.name);
+                    if (!words_ru.isEmpty()) {
+                        builder.append(words_ru.iterator().next());
+                        begin = end - 1;
+                        continue next;
                     }
                 }
             }
@@ -299,6 +313,40 @@ public class Table extends Node {
 
     private static boolean legal_pos(final String text, final int pos) {
         return pos == 0 || pos == text.length() || !isLetter(text.charAt(pos - 1)) || !isLetter(text.charAt(pos));
+    }
+
+    private static Table mergeAllByEN(final Table... tables) {
+        final boolean showWarnings0 = showWarnings;
+        showWarnings = false;
+        int maxID = 0;
+        for (Table table : tables) {
+            maxID += table.maxID;
+        }
+
+        int pos = 0;
+        final var table = new Table(TableType.Default, maxID);
+        for (Table next_table : tables) {
+            for (Node node : next_table.data) {
+                if (node.en.isEmpty() || node.ru.isEmpty()) {
+                    continue;
+                }
+
+                boolean added = false;
+                for (var name : node.en.keySet()) {
+                    if (!table.en.containsKey(name)) {
+                        table.add_en(new Word(name, pos));
+                        added = true;
+                    }
+                }
+
+                if (added) {
+                    table.add_ru(new Word(node.ru.firstKey(), pos++));
+                }
+            }
+        }
+
+        showWarnings = showWarnings0;
+        return table;
     }
 
     void removeOutdatedWordsRU() {

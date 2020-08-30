@@ -1920,6 +1920,7 @@
 [Pink Wool] = [Розовая шерсть]
 [Piston Head Model] = [Модель головки поршня]
 [Piston] = [Поршень]
+[Planks] = [Доски]
 [Platinum] = [Платина]
 [Plutonium] = [Плутоний]
 [Podzol] = [Подзол]

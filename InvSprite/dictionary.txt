@@ -192,7 +192,7 @@
 [Warped Roots] = [Искажённые корни]
 [Piglin Spawn Egg] = [Яйцо призывания пиглина]
 [Hoglin Spawn Egg] = [Яйцо призывания хоглина]
-[Soul Fire Lantern Revision 1] = 
+[Soul Fire Lantern Revision 1] =
 [Target] = [Мишень][Мишень блок|у]
 [Crying Obsidian] = [Плачущий обсидиан]
 [Crimson Hyphae] = [Багровые гифы]
@@ -224,7 +224,7 @@
 [Warped Fungus on a Stick] = [Удочка с искажённым грибком]
 [Nether Gold Ore Revision 1] = [Золотая руда Нижнего мира (версия 1)]
 [Netherite Ingot BE] = [Незеритовый слиток BE]
-[Cast Fishing Rod] = 
+[Cast Fishing Rod] =
 [Ultramarine Cloth] = [Шерсть ультрамариновая]
 [Cyan Cloth] = [Шерсть бирюзовая]
 [Dark Gray Cloth] = [Шерсть тёмно-серая]
@@ -289,73 +289,73 @@
 [Music Disc Pigstep] = [Пластинка Pigstep][Пластинка pigstep|у]
 [Chain] = [Цепь]
 [Jigsaw][Jigsaw BE][Jigsaw Block][Jigsaw Block BE] = [Блок головоломки][Блок головоломки BE][Блок головоломки блок|у][Блок-пазл BE|у][Пазл][Пазл BE]
-[Awkward Potion Revision 1] = 
-[Mundane Potion Revision 1] = 
-[Potion of Fire Resistance Revision 1] = 
-[Potion of Harming Revision 1] = 
-[Potion of Healing Revision 1] = 
-[Potion of Invisibility Revision 1] = 
-[Potion of Leaping Revision 1] = 
-[Potion of Luck Revision 1] = 
-[Potion of Night Vision Revision 1] = 
-[Potion of Poison Revision 1] = 
-[Potion of Regeneration Revision 1] = 
-[Potion of Slow Falling Revision 1] = 
-[Potion of Slowness Revision 1] = 
-[Potion of Strength Revision 1] = 
-[Potion of Swiftness Revision 1] = 
-[Potion of the Turtle Master Revision 1] = 
-[Potion of Water Breathing Revision 1] = 
-[Thick Potion Revision 1] = 
-[Uncraftable Potion Revision 1] = 
-[Water Bottle Revision 1] = 
-[Lingering Awkward Potion Revision 1] = 
-[Lingering Mundane Potion Revision 1] = 
-[Lingering Potion of Fire Resistance Revision 1] = 
-[Lingering Potion of Harming Revision 1] = 
-[Lingering Potion of Healing Revision 1] = 
-[Lingering Potion of Invisibility Revision 1] = 
-[Lingering Potion of Leaping Revision 1] = 
-[Lingering Potion of Luck Revision 1] = 
-[Lingering Potion of Night Vision Revision 1] = 
-[Lingering Potion of Poison Revision 1] = 
-[Lingering Potion of Regeneration Revision 1] = 
-[Lingering Potion of Slow Falling Revision 1] = 
-[Lingering Potion of Slowness Revision 1] = 
-[Lingering Potion of Strength Revision 1] = 
-[Lingering Potion of Swiftness Revision 1] = 
-[Lingering Potion of the Turtle Master Revision 1] = 
-[Lingering Potion of Water Breathing Revision 1] = 
-[Lingering Thick Potion Revision 1] = 
-[Lingering Uncraftable Potion Revision 1] = 
-[Lingering Water Bottle Revision 1] = 
-[Splash Awkward Potion Revision 1] = 
-[Splash Mundane Potion Revision 1] = 
-[Splash Potion of Fire Resistance Revision 1] = 
-[Splash Potion of Harming Revision 1] = 
-[Splash Potion of Healing Revision 1] = 
-[Splash Potion of Invisibility Revision 1] = 
-[Splash Potion of Leaping Revision 1] = 
-[Splash Potion of Luck Revision 1] = 
-[Splash Potion of Night Vision Revision 1] = 
-[Splash Potion of Poison Revision 1] = 
-[Splash Potion of Regeneration Revision 1] = 
-[Splash Potion of Slow Falling Revision 1] = 
-[Splash Potion of Slowness Revision 1] = 
-[Splash Potion of Strength Revision 1] = 
-[Splash Potion of Swiftness Revision 1] = 
-[Splash Potion of the Turtle Master Revision 1] = 
-[Splash Potion of Water Breathing Revision 1] = 
-[Splash Thick Potion Revision 1] = 
-[Splash Uncraftable Potion Revision 1] = 
-[Splash Water Bottle Revision 1] = 
+[Awkward Potion Revision 1] =
+[Mundane Potion Revision 1] =
+[Potion of Fire Resistance Revision 1] =
+[Potion of Harming Revision 1] =
+[Potion of Healing Revision 1] =
+[Potion of Invisibility Revision 1] =
+[Potion of Leaping Revision 1] =
+[Potion of Luck Revision 1] =
+[Potion of Night Vision Revision 1] =
+[Potion of Poison Revision 1] =
+[Potion of Regeneration Revision 1] =
+[Potion of Slow Falling Revision 1] =
+[Potion of Slowness Revision 1] =
+[Potion of Strength Revision 1] =
+[Potion of Swiftness Revision 1] =
+[Potion of the Turtle Master Revision 1] =
+[Potion of Water Breathing Revision 1] =
+[Thick Potion Revision 1] =
+[Uncraftable Potion Revision 1] =
+[Water Bottle Revision 1] =
+[Lingering Awkward Potion Revision 1] =
+[Lingering Mundane Potion Revision 1] =
+[Lingering Potion of Fire Resistance Revision 1] =
+[Lingering Potion of Harming Revision 1] =
+[Lingering Potion of Healing Revision 1] =
+[Lingering Potion of Invisibility Revision 1] =
+[Lingering Potion of Leaping Revision 1] =
+[Lingering Potion of Luck Revision 1] =
+[Lingering Potion of Night Vision Revision 1] =
+[Lingering Potion of Poison Revision 1] =
+[Lingering Potion of Regeneration Revision 1] =
+[Lingering Potion of Slow Falling Revision 1] =
+[Lingering Potion of Slowness Revision 1] =
+[Lingering Potion of Strength Revision 1] =
+[Lingering Potion of Swiftness Revision 1] =
+[Lingering Potion of the Turtle Master Revision 1] =
+[Lingering Potion of Water Breathing Revision 1] =
+[Lingering Thick Potion Revision 1] =
+[Lingering Uncraftable Potion Revision 1] =
+[Lingering Water Bottle Revision 1] =
+[Splash Awkward Potion Revision 1] =
+[Splash Mundane Potion Revision 1] =
+[Splash Potion of Fire Resistance Revision 1] =
+[Splash Potion of Harming Revision 1] =
+[Splash Potion of Healing Revision 1] =
+[Splash Potion of Invisibility Revision 1] =
+[Splash Potion of Leaping Revision 1] =
+[Splash Potion of Luck Revision 1] =
+[Splash Potion of Night Vision Revision 1] =
+[Splash Potion of Poison Revision 1] =
+[Splash Potion of Regeneration Revision 1] =
+[Splash Potion of Slow Falling Revision 1] =
+[Splash Potion of Slowness Revision 1] =
+[Splash Potion of Strength Revision 1] =
+[Splash Potion of Swiftness Revision 1] =
+[Splash Potion of the Turtle Master Revision 1] =
+[Splash Potion of Water Breathing Revision 1] =
+[Splash Thick Potion Revision 1] =
+[Splash Uncraftable Potion Revision 1] =
+[Splash Water Bottle Revision 1] =
 [End Gateway BE] = [Врата Края BE]
 [End Portal BE] = [Блок портала Края BE]
-[Oak Sign Revision 1][Sign Revision 1] = 
+[Oak Sign Revision 1][Sign Revision 1] =
 [Nether Star] = [Звезда Нижнего мира][Звезда из Незера|у]
 [Missing Texture BE] = [Блок с отсутствующей текстурой BE]
 [tile.info_update.name] = [tile.info_update.name]
-[Hopper Revision 2] = 
+[Hopper Revision 2] =
 [Black Piglin Banner][Black Snout Banner] = [Флаг с чёрным рылом]
 [Blue Piglin Banner][Blue Snout Banner] = [Флаг с синим рылом]
 [Brown Piglin Banner][Brown Snout Banner] = [Флаг с коричневым рылом]
@@ -373,15 +373,15 @@
 [White Piglin Banner][White Snout Banner] = [Флаг с белым рылом]
 [Yellow Piglin Banner][Yellow Snout Banner] = [Флаг с жёлтым рылом]
 [Chest Revision 2] = [Сундук (версия 2)]
-[Stone Revision 2] = 
+[Stone Revision 2] =
 [Ominous Shield] = [Зловещий щит]
-[Leather Horse Armor BE] = 
-[Crimson Fence Gate BE] = 
-[Lit Redstone Lamp Post-Flip] = 
-[Redstone Lamp Post-Flip] = 
+[Leather Horse Armor BE] =
+[Crimson Fence Gate BE] =
+[Lit Redstone Lamp Post-Flip] =
+[Redstone Lamp Post-Flip] =
 [Damaged Warped Fungus on a Stick] = [Повреждённая удочка с искажённым грибком]
-[Warped Fence Gate BE] = 
-[Fancy Feather] = 
+[Warped Fence Gate BE] =
+[Fancy Feather] =
 [Clock 01] = [Часы 01]
 [Clock 02] = [Часы 02]
 [Clock 03] = [Часы 03]
@@ -689,7 +689,7 @@
 [Cactus Green] = [Кактусовая зелень]
 
 
-[Dandelion Yellow] = 
+[Dandelion Yellow] =
 
 
 
@@ -700,7 +700,7 @@
 
 
 
-[Rose Red] = 
+[Rose Red] =
 [Black Banner] = [Чёрный флаг]
 [Black Carpet Revision 1] = [Чёрный ковёр (версия 1)]
 [Black Terracotta] = [Чёрная керамика][Чёрная обожжённая глина|у]
@@ -780,11 +780,11 @@
 [Purple Stained Glass Pane] = [Фиолетовая окрашенная стеклянная панель][Фиолетовая стеклянная панель|у]
 [Purple Wool Revision 2] = [Фиолетовая шерсть (версия 2)]
 [Red Banner] = [Красный флаг]
-[Red Carpet Revision 1] = 
+[Red Carpet Revision 1] =
 [Red Terracotta] = [Красная керамика][Красная обожжённая глина|у][Красная окрашенная глина|у]
 [Red Stained Glass] = [Красное окрашенное стекло][Красное стекло|у]
 [Red Stained Glass Pane] = [Красная окрашенная стеклянная панель][Красная стеклянная панель|у]
-[Red Wool Revision 2] = 
+[Red Wool Revision 2] =
 [Banner][White Banner] = [Белый флаг][Флаг]
 [White Carpet Revision 1] = [Белый ковёр (версия 1)]
 [White Terracotta] = [Белая керамика][Белая обожжённая глина|у][Белая окрашенная глина|у][Окрашенная обожжённая глина|у]
@@ -1078,7 +1078,7 @@
 
 [Cyan Flower] = [Бирюзовый цветок][Голубой цветок|у]
 [Glowing Obsidian] = [Пылающий обсидиан]
-[Nether Reactor Core Revision 1] = 
+[Nether Reactor Core Revision 1] =
 [Stonecutter BE] = [Камнерез BE]
 [Awkward Potion][Mundane Potion][Thick Potion][Water Bottle] = [Грубое зелье|у][Густое зелье][Заурядное зелье|у][Колба воды][Мутное зелье][Неловкое зелье|у][Непримечательное зелье]
 
@@ -1135,7 +1135,7 @@
 
 
 
-[Redstone Revision 1] = 
+[Redstone Revision 1] =
 
 [Debug Stick][Stick] = [Палка][Палка отладки]
 
@@ -1380,7 +1380,7 @@
 [Structure Block] = [Блок-конструктор|у][Структурный блок]
  = [Пустой блок]
 [Leather Horse Armor] = [Кожаная конская броня]
-[Observer PE old][Observer pre-1.11-pre1] = 
+[Observer PE old][Observer pre-1.11-pre1] =
 [Chicken Spawn Egg Revision 1] = [Яйцо призывания курицы (версия 1)][Яйцо призывания курицы 11w49a|у]
 [Cow Spawn Egg Revision 1] = [Яйцо призывания коровы (версия 1)][Яйцо призывания коровы 11w49a|у]
 [Creeper Spawn Egg Revision 1] = [Яйцо призывания крипера (версия 1)][Яйцо призывания крипера 11w49a|у]
@@ -2447,7 +2447,7 @@
 [Smithing Table Revision 1] = [Кузнечный стол (версия 1)]
 [Smoker] = [Коптильня]
 [Stonecutter Revision 1] = [Камнерез (версия 1)]
-[Jigsaw Block Revision 1][Jigsaw Revision 1] = 
+[Jigsaw Block Revision 1][Jigsaw Revision 1] =
 [Lantern] = [Фонарь]
 [Cartography Table] = [Стол картографа]
 [Fletching Table] = [Стол лучника]
