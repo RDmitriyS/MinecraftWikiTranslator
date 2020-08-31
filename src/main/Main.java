@@ -19,13 +19,16 @@ class Main {
         var table = new Table(type, maxID);
         table.loadData(en);
         table.loadData(ru);
-//        table.loadDictionary();
+        table.loadDictionary();
 //        table.removeOutdatedWordsRU();
-        table.generateDictionary();
+//        table.generateDictionary();
         table.generateOutput(Word::compareByName);
     }
 
     static void translate(final String input_file_name, final String output_file_name) {
+        Exceptions.illegal_start_end_chars.add('.');
+        Exceptions.illegal_start_end_chars.add('_');
+
         var tables = new ArrayList<Table>();
 
         var default_table = getTranslationTable(Default, 5000);
@@ -45,7 +48,7 @@ class Main {
         tables.add(default_table);
         tables.add(default_table_lower);
         tables.add(default_table_lower.transform(e -> e.replace(' ', '-')));
-        tables.add(default_table_lower.transform(e -> e.replace(' ', '_')));
+//        tables.add(default_table_lower.transform(e -> e.replace(' ', '_')));
 
         tables.add(template_table);
         tables.add(template_table.transform(String::toLowerCase));
@@ -54,7 +57,7 @@ class Main {
 
         tables.addAll(lower_tables);
 
-        name_transform_and_add(lower_tables, tables, e -> e.replace('-', '_'));
+//        name_transform_and_add(lower_tables, tables, e -> e.replace('-', '_'));
         name_transform_and_add(lower_tables, tables, e -> e.replace('-', ' '));
         table_transform_and_add(lower_tables, tables, Table::lowerTypeToUpperType);
 

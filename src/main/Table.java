@@ -5,6 +5,7 @@ import java.util.function.Function;
 
 import static java.lang.Character.isLetter;
 import static java.lang.Character.isLowerCase;
+import static main.Exceptions.illegal_start_end_chars;
 import static main.Functions.*;
 
 public class Table extends Node {
@@ -148,6 +149,10 @@ public class Table extends Node {
     }
 
     void loadDictionary(String fileName) {
+        loadDictionary(fileName, true);
+    }
+
+    void loadDictionary(String fileName, boolean pos_matter) {
         final Scanner dict = getScanner(type + "/" + fileName);
 
         for (int i = 0; i < maxID && dict.hasNextLine(); i++) {
@@ -157,9 +162,37 @@ public class Table extends Node {
                 continue;
             }
 
-            update_dict(parse_dict_id(line.substring(0, delim).trim()), Lang.en, i);
-            update_dict(parse_dict_id(line.substring(delim + 2).trim()), Lang.ru, i);
+            var id_en = parse_dict_id(line.substring(0, delim).trim());
+            var id_ru = parse_dict_id(line.substring(delim + 2).trim());
+
+            int pos = findExisting(id_ru, Lang.ru, pos_matter);
+            if (pos == -1) {
+                pos = findExisting(id_en, Lang.en, pos_matter);
+            }
+            if (pos == -1) {
+                pos = i;
+            }
+
+            update_dict(id_en, Lang.en, pos);
+            update_dict(id_ru, Lang.ru, pos);
         }
+    }
+
+    private int findExisting(TreeSet<String> names, Lang lang, boolean pos_matter) {
+        final var all_words = lang == Lang.ru ? ru : en;
+        int pos = -1;
+        for (var name : names) {
+            var word = all_words.get(name);
+            if (word != null) {
+                if (pos_matter) {
+                    System.out.println("[" + word.name + "] already exist");
+                } else {
+                    pos = word.pos;
+                    break;
+                }
+            }
+        }
+        return pos;
     }
 
     void generateDictionary() {
@@ -284,13 +317,15 @@ public class Table extends Node {
 
         next: for (int begin = 0; begin < text.length(); begin++) {
             boolean beginIsLower = isLowerCase(text.charAt(begin));
-            if (!legal_pos(text, begin) || beginIsLower && begin > 0 && text.charAt(begin - 1) == '.') {
+            if (!legal_pos(text, begin) || beginIsLower && begin > 0
+                    && illegal_start_end_chars.contains(text.charAt(begin - 1))) {
                 builder.append(text.charAt(begin));
                 continue;
             }
 
             for (int end = Math.min(text.length(), maxLen + begin); end > begin; end = prev_legal_end_pos[end]) {
-                if (beginIsLower && end < text.length() && text.charAt(end) == '.') {
+                if (beginIsLower && end < text.length() &&
+                        illegal_start_end_chars.contains(text.charAt(end))) {
                     continue;
                 }
 
