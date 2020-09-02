@@ -14,7 +14,8 @@ public class TestClass {
     public static void main(String[] args) {
 //        uniqueness(BlockSprite, 5000);
 //        merge();
-        update_table();
+//        update_table();
+        Functions.write("output.txt", work(Functions.readFile("input.txt")));
     }
 
     static void uniqueness(TableType type, int maxID) {
@@ -249,5 +250,45 @@ public class TestClass {
         for (int i = 0; i < maxID; i++) {
 
         }
+    }
+
+    static String work(String code) {
+
+        String types[] = {
+                "Предмет",
+                "Блок",
+                "Сущность",
+                "Биом",
+                "Окружение"
+        };
+
+        for (String type : types) {
+            for (int i = 0; ; ) {
+                int a = code.indexOf("{{Спрайт/" + type + "|", i);
+                if (a < 0) break;
+
+                i = a + type.length() + 10;
+
+                int b = code.indexOf("}}", i);
+                String mt = code.substring(i, b).replace('-', ' ').replace('_', ' ').toLowerCase();
+
+                int c = code.indexOf("[[", b) + 2;
+                if (c < 2) break;
+                if (b + 6 < c) {
+                    continue;
+                }
+
+                int d = code.indexOf("]]", c);
+                String mp = code.substring(c, d);
+
+//                System.out.println(mt + " " + mp);
+
+                if (mt.equals(mp.replace('-', ' ').toLowerCase())) {
+                    code = code.substring(0, a) + "{{Ссылка/" + type + "|" + mp + "}}" + code.substring(d + 2);
+                }
+            }
+        }
+
+        return code;
     }
 }

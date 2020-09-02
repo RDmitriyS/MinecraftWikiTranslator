@@ -3,6 +3,7 @@ package main;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -78,10 +79,20 @@ public class Functions {
     }
 
     static void write(final String file, final String text) {
-        Path path = Paths.get(file);
+        write(file, text, false);
+    }
+
+    static void write(final String file, final String text, boolean append){
         try {
-            Files.write(path, text.getBytes());
-        } catch (IOException e) {
+            PrintWriter writer = new PrintWriter(file);
+            if (append) {
+                writer.append(text);
+            } else {
+                writer.write(text);
+            }
+
+            writer.close();
+        } catch (IOException e){
             e.printStackTrace();
         }
     }

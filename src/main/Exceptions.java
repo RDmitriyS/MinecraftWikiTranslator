@@ -44,6 +44,8 @@ public class Exceptions {
             "лошади-зомби", "лошади-скелет", "рыбы-клоун", "скелета-иссушител"
     );
 
+    final static HashSet<Character> illegal_start_end_chars = new HashSet<>();
+
     final static Set<String> ignored_ru_words = Set.of(
 //            "-бок", "-перед", "-вниз", "-верх", "-низ", "-ножка", "-вертикальные", "-прямые",
 //            "-север", "-юг", "-запад", "-восток", "-старая", "-старое", "-старый", "-старые",
@@ -52,8 +54,7 @@ public class Exceptions {
 //            "-be-", "-ce-", "-pe-",
 //            " BE", " LCE", " PE",
 //            " блок ", "Блок"
-//            " (версия 1)", " (версия 2)", " (версия 3)", " (предмет)"
+//            " (версия 1)", " (версия 2)", " (версия 3)", " (предмет)
     );
 
-    final static HashSet<Character> illegal_start_end_chars = new HashSet<>();
 }
