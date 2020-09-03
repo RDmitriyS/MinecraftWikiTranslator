@@ -63,8 +63,10 @@ public class Table extends Node {
             System.out.println("[" + word_ru.name + "] already exist");
         }
 
-        if (showWarnings && ignored_ru_words.stream().anyMatch((" " + word_ru.name + " ")::contains)) {
-            System.out.println("[" + word_ru.name + "] was ignored");
+        if (ignored_ru_words.stream().anyMatch((" " + word_ru.name + " ")::contains)) {
+            if (showWarnings) {
+                System.out.println("[" + word_ru.name + "] was ignored");
+            }
             return;
         }
 
@@ -152,6 +154,10 @@ public class Table extends Node {
         loadDictionary(fileName, true);
     }
 
+    void loadDictionary(boolean pos_matter) {
+        loadDictionary("dictionary.txt", false);
+    }
+
     void loadDictionary(String fileName, boolean pos_matter) {
         final Scanner dict = getScanner(type + "/" + fileName);
 
@@ -185,7 +191,9 @@ public class Table extends Node {
             var word = all_words.get(name);
             if (word != null) {
                 if (pos_matter) {
-                    System.out.println("[" + word.name + "] already exist");
+                    if (showWarnings) {
+                        System.out.println("[" + word.name + "] already exist");
+                    }
                 } else {
                     pos = word.pos;
                     break;

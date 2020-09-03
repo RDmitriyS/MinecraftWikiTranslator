@@ -8,10 +8,10 @@ import java.io.UnsupportedEncodingException;
 import static java.lang.System.*;
 import static main.Lang.en;
 import static main.Lang.ru;
+import static main.Table.showWarnings;
 
 public class ConsoleApp {
     public static void main(String[] args) throws UnsupportedEncodingException {
-        System.setProperty("console.encoding", "utf-8");
         String encoding = System.getProperty("console.encoding", "utf-8");
         System.setOut(new PrintStream(System.out, true, encoding));
 
@@ -111,6 +111,7 @@ public class ConsoleApp {
         var table = new Table(args[1], maxID);
         table.loadData(en);
         table.loadData(ru);
+        showWarnings = false;
         table.loadDictionary();
         table.generateOutput(sort_by.equals("pos") ? Word::compareByPos : Word::compareByName);
     }

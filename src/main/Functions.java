@@ -84,7 +84,7 @@ public class Functions {
 
     static void write(final String file, final String text, boolean append){
         try {
-            PrintWriter writer = new PrintWriter(file);
+            PrintWriter writer = new PrintWriter(file, StandardCharsets.UTF_8);
             if (append) {
                 writer.append(text);
             } else {

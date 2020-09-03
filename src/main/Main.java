@@ -11,8 +11,8 @@ import static main.Lang.*;
 class Main {
 
     public static void main(String[] args) {
-        generate(InvSprite, 5000);
-//        translate("input.txt", "output.txt");
+//        generate(InvSprite, 5000);
+        translate("input.txt", "output.txt");
 //        mergeByLine("text1.txt", "text2.txt");
     }
 
