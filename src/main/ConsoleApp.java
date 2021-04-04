@@ -1,8 +1,6 @@
 package main;
 
-import java.io.OutputStreamWriter;
 import java.io.PrintStream;
-import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 
 import static java.lang.System.*;
@@ -11,25 +9,33 @@ import static main.Lang.ru;
 import static main.Table.showWarnings;
 
 public class ConsoleApp {
+
     public static void main(String[] args) throws UnsupportedEncodingException {
         String encoding = System.getProperty("console.encoding", "utf-8");
         System.setOut(new PrintStream(System.out, true, encoding));
 
         if (args.length == 0) {
-            availableCommands();
+            availableArguments();
             return;
         }
 
         switch (args[0]) {
-            case "translate": translate(args); break;
-            case "generateDictionary": generateDictionary(args); break;
-            case "generateTable": generateTable(args); break;
-            default: availableCommands();
+            case "translate":
+                translate(args);
+                break;
+            case "generateDictionary":
+                generateDictionary(args);
+                break;
+            case "generateTable":
+                generateTable(args);
+                break;
+            default:
+                availableArguments();
         }
     }
 
-    private static void availableCommands() {
-        out.println("Available commands:");
+    private static void availableArguments() {
+        out.println("Available arguments:");
         out.println("translate");
         out.println("generateDictionary");
         out.println("generateTable");
@@ -46,83 +52,49 @@ public class ConsoleApp {
     }
 
     private static void generateDictionary(String[] args) {
-        if (args.length == 1 || args.length > 3) {
+        if (args.length != 2) {
             generateDictionaryError();
             return;
         }
 
-        int maxID = 10000;
-        if (args.length >= 3) {
-            try {
-                maxID = Integer.parseInt(args[2]);
-            } catch (NumberFormatException e) {
-                out.println("Wrong max_lines_count value: " + args[2]);
-                generateDictionaryError();
-                return;
-            }
-
-            if (maxID < 0 || maxID > 100000) {
-                out.println("Wrong max_lines_count value: " + args[2]);
-                generateDictionaryError();
-                return;
-            }
-        }
-
-        var table = new Table(args[1], maxID);
+        var table = new Table(args[1]);
         table.loadData(en);
         table.loadData(ru);
         table.generateDictionary();
     }
 
     private static void generateTable(String[] args) {
-        if (args.length == 1 || args.length > 4) {
+        if (args.length == 1 || args.length > 3) {
             generateTableError();
             return;
         }
 
-        int maxID = 10000;
+        var sortBy = "name";
         if (args.length >= 3) {
-            try {
-                maxID = Integer.parseInt(args[2]);
-            } catch (NumberFormatException e) {
-                out.println("Wrong max_lines_count value: " + args[2]);
-                generateTableError();
-                return;
-            }
-
-            if (maxID < 0 || maxID > 100000) {
-                out.println("Wrong max_lines_count value: " + args[2]);
+            if (args[2].equals("pos")) {
+                sortBy = "pos";
+            } else if (!args[2].equals("name")) {
+                out.println("Illegal value of argument 3: " + args[2]);
                 generateTableError();
                 return;
             }
         }
 
-        var sort_by = "name";
-        if (args.length >= 4) {
-            if (args[3].equals("pos")) {
-                sort_by = "pos";
-            } else if (!args[3].equals("name")) {
-                out.println("Wrong sort_by value: " + args[3]);
-                generateTableError();
-                return;
-            }
-        }
-
-        var table = new Table(args[1], maxID);
+        var table = new Table(args[1]);
         table.loadData(en);
         table.loadData(ru);
         showWarnings = false;
         table.loadDictionary();
-        table.generateOutput(sort_by.equals("pos") ? Word::compareByPos : Word::compareByName);
+        table.generateOutput(sortBy.equals("pos") ? Word.posComparator : Word.nameComparator);
     }
 
     private static void generateDictionaryError() {
-        out.println("Usage: generateDictionary <directory> [max_lines_count]");
-        out.println("Example: generateDictionary InvSprite 5000");
+        out.println("Usage: generateDictionary <directory>");
+        out.println("Example: generateDictionary InvSprite");
     }
 
     private static void generateTableError() {
-        out.println("Usage: generateTable <directory> [max_lines_count] [sort_by (name|pos)]");
-        out.println("Example: generateTable InvSprite 5000 name");
+        out.println("Usage: generateTable <directory> [sort_by (name|pos)]");
+        out.println("Example: generateTable InvSprite name");
     }
 }

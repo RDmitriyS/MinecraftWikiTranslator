@@ -1,81 +1,91 @@
 package main;
 
+import java.nio.file.Path;
 import java.util.*;
 import java.util.function.Function;
 
 import static java.lang.Character.isLetter;
 import static java.lang.Character.isLowerCase;
-import static main.Exceptions.illegal_start_end_chars;
+import static main.Exceptions.ILLEGAL_START_END_CHARS;
 import static main.Functions.*;
 
 public class Table extends Node {
     static boolean showWarnings = true;
 
-    private final List<Node> data;
-    private final TreeMap<Long, Word> hash_en;
+    private final ArrayList<Node> data;
+    private final TreeMap<Long, Word> hashEn;
 
     private final String type;
-    private final int maxID;
 
-    Table(TableType type, int maxID) {
-        this(type.name(), maxID);
+    Table() {
+        this(TableType.Default);
     }
 
-    Table(String type, int maxID) {
-        this.type = type;
-        this.maxID = maxID;
-        data = new ArrayList<>(maxID);
-        for (int i = 0; i < maxID; i++) {
-            data.add(new Node());
-        }
+    Table(TableType type) {
+        this(type.name());
+    }
 
-        hash_en = new TreeMap<>();
+    Table(String type) {
+        this.type = type;
+        data = new ArrayList<>();
+        hashEn = new TreeMap<>();
     }
 
     Node get(int index) {
+        data.ensureCapacity(index + 1);
+        while (data.size() <= index) {
+            data.add(null);
+        }
+        if (data.get(index) == null) {
+            data.set(index, new Node());
+        }
         return data.get(index);
     }
 
-    void add(final Word word, Lang lang, final Set<String> ignored_ru_words) {
+    int size() {
+        return data.size();
+    }
+
+    void add(final Word word, Lang lang, final Set<String> ignoredRuWords) {
         if (lang == Lang.ru) {
-            add_ru(word, ignored_ru_words);
+            addRu(word, ignoredRuWords);
         } else {
-            add_en(word);
+            addEn(word);
         }
     }
 
-    void add_en(final Word word_en) {
-        if (showWarnings && en.get(word_en.name) != null) {
-            System.out.println("[" + word_en.name + "] already exist");
+    void addEn(final Word wordEn) {
+        if (showWarnings && en.get(wordEn.name) != null) {
+            System.out.println("[" + wordEn.name + "] already exist");
         }
 
-        en.put(word_en.name, word_en);
-        get(word_en.pos).en.put(word_en.name, word_en);
-        hash_en.put(HashString.hash(word_en.name), word_en);
+        en.put(wordEn.name, wordEn);
+        get(wordEn.pos).en.put(wordEn.name, wordEn);
+        hashEn.put(HashString.hash(wordEn.name), wordEn);
     }
 
-    void add_ru(final Word word_ru) {
-        add_ru(word_ru, Collections.emptySet());
+    void addRu(final Word wordRu) {
+        addRu(wordRu, Collections.emptySet());
     }
 
-    void add_ru(final Word word_ru, final Set<String> ignored_ru_words) {
-        if (showWarnings && ru.get(word_ru.name) != null) {
-            System.out.println("[" + word_ru.name + "] already exist");
+    void addRu(final Word wordRu, final Set<String> ignoredRuWords) {
+        if (showWarnings && ru.get(wordRu.name) != null) {
+            System.out.println("[" + wordRu.name + "] already exist");
         }
 
-        if (ignored_ru_words.stream().anyMatch((" " + word_ru.name + " ")::contains)) {
+        if (ignoredRuWords.stream().anyMatch((" " + wordRu.name + " ")::contains)) {
             if (showWarnings) {
-                System.out.println("[" + word_ru.name + "] was ignored");
+                System.out.println("[" + wordRu.name + "] was ignored");
             }
             return;
         }
 
-        ru.put(word_ru.name, word_ru);
-        get(word_ru.pos).ru.put(word_ru.name, word_ru);
+        ru.put(wordRu.name, wordRu);
+        get(wordRu.pos).ru.put(wordRu.name, wordRu);
     }
 
-    Set<String> translate_en_ru(final String word_en) {
-        var word = en.get(word_en);
+    Set<String> translateEnRu(final String wordEn) {
+        var word = en.get(wordEn);
         return word != null ? data.get(word.pos).ru.keySet() : Collections.emptySet();
     }
 
@@ -83,10 +93,10 @@ public class Table extends Node {
         loadData(lang, Collections.emptySet());
     }
 
-    void loadData(Lang lang, final Set<String> ignored_ru_words) {
-        final Scanner sc = getScanner(type + "/" + lang + ".txt");
+    void loadData(Lang lang, final Set<String> ignoredRuWords) {
+        final Scanner sc = getScanner(Path.of(type, lang + ".txt"));
 
-        for (int i = 0; i < maxID && sc.hasNextLine(); i++) {
+        while (sc.hasNextLine()) {
             final var line = sc.nextLine().replace('}', ',');
             final var name = line.substring(0, line.indexOf("="))
                     .trim()
@@ -95,23 +105,23 @@ public class Table extends Node {
                     .replace("']", "")
                     .replace("\"]", "");
 
-            final var pos_name = lang == Lang.ru ? "['поз'] = " : "pos = ";
-            requireTrue(line.contains(pos_name));
-            final int pos_i = line.indexOf(pos_name) + pos_name.length();
-            final int pos = Integer.parseInt(line.substring(pos_i, line.indexOf(',', pos_i)).trim()) - 1;
+            final var posName = lang == Lang.ru ? "['поз'] = " : "pos = ";
+            requireTrue(line.contains(posName));
+            final int posIndex = line.indexOf(posName) + posName.length();
+            final int pos = Integer.parseInt(line.substring(posIndex, line.indexOf(',', posIndex)).trim()) - 1;
 
-            final var sec_name = lang == Lang.ru ? "['раздел'] = " : "section = ";
-            requireTrue(line.contains(sec_name));
-            final int sec_i = line.indexOf(sec_name) + sec_name.length();
-            final int section = Integer.parseInt(line.substring(sec_i, line.indexOf(',', sec_i)).trim());
+            final var secName = lang == Lang.ru ? "['раздел'] = " : "section = ";
+            requireTrue(line.contains(secName));
+            final int secIndex = line.indexOf(secName) + secName.length();
+            final int section = Integer.parseInt(line.substring(secIndex, line.indexOf(',', secIndex)).trim());
 
             final boolean outdated = line.contains("['устарел'] = true");
 
-            add(new Word(name, pos, section, outdated), lang, ignored_ru_words);
+            add(new Word(name, pos, section, outdated), lang, ignoredRuWords);
         }
     }
 
-    private TreeSet<String> parse_dict_id(final String line) {
+    private TreeSet<String> parseDictId(final String line) {
         final var set = new TreeSet<String>();
         for (int begin = 1, next; begin < line.length(); begin = next + 2) {
             next = line.indexOf(']', begin);
@@ -120,9 +130,9 @@ public class Table extends Node {
         return set;
     }
 
-    private void update_dict(TreeSet<String> names, Lang lang, int pos) {
-        final var node_words = lang == Lang.ru ? get(pos).ru : get(pos).en;
-        final var all_words = lang == Lang.ru ? ru : en;
+    private void updateDict(TreeSet<String> names, Lang lang, int pos) {
+        final var nodeWords = lang == Lang.ru ? get(pos).ru : get(pos).en;
+        final var allWords = lang == Lang.ru ? ru : en;
 
         for (var name : names) {
             final int idx = name.indexOf('|');
@@ -132,16 +142,16 @@ public class Table extends Node {
                 name = name.substring(0, idx);
             }
 
-            final var original_word = all_words.get(name);
-            final var section = original_word != null ? original_word.section
+            final var originalWord = allWords.get(name);
+            final var section = originalWord != null ? originalWord.section
                     : !get(pos).en.isEmpty() ? get(pos).en.firstEntry().getValue().section : -1;
 
             final var word = new Word(name, pos,  section, outdated);
-            node_words.put(name, word);
-            all_words.put(name, word);
+            nodeWords.put(name, word);
+            allWords.put(name, word);
 
             if (lang == Lang.en) {
-                hash_en.put(HashString.hash(name), word);
+                hashEn.put(HashString.hash(name), word);
             }
         }
     }
@@ -154,43 +164,43 @@ public class Table extends Node {
         loadDictionary(fileName, true);
     }
 
-    void loadDictionary(boolean pos_matter) {
-        loadDictionary("dictionary.txt", false);
+    void loadDictionary(boolean posMatter) {
+        loadDictionary("dictionary.txt", posMatter);
     }
 
-    void loadDictionary(String fileName, boolean pos_matter) {
-        final Scanner dict = getScanner(type + "/" + fileName);
+    void loadDictionary(String fileName, boolean posMatter) {
+        final Scanner dict = getScanner(Path.of(type, fileName));
 
-        for (int i = 0; i < maxID && dict.hasNextLine(); i++) {
+        for (int i = 0; dict.hasNextLine(); i++) {
             final String line = dict.nextLine();
             final int delim = line.indexOf(" = ");
             if (delim < 0) {
                 continue;
             }
 
-            var id_en = parse_dict_id(line.substring(0, delim).trim());
-            var id_ru = parse_dict_id(line.substring(delim + 2).trim());
+            var idEn = parseDictId(line.substring(0, delim).trim());
+            var idRu = parseDictId(line.substring(delim + 2).trim());
 
-            int pos = findExisting(id_ru, Lang.ru, pos_matter);
+            int pos = findExisting(idRu, Lang.ru, posMatter);
             if (pos == -1) {
-                pos = findExisting(id_en, Lang.en, pos_matter);
+                pos = findExisting(idEn, Lang.en, posMatter);
             }
             if (pos == -1) {
                 pos = i;
             }
 
-            update_dict(id_en, Lang.en, pos);
-            update_dict(id_ru, Lang.ru, pos);
+            updateDict(idEn, Lang.en, pos);
+            updateDict(idRu, Lang.ru, pos);
         }
     }
 
-    private int findExisting(TreeSet<String> names, Lang lang, boolean pos_matter) {
-        final var all_words = lang == Lang.ru ? ru : en;
+    private int findExisting(TreeSet<String> names, Lang lang, boolean posMatter) {
+        final var allWords = lang == Lang.ru ? ru : en;
         int pos = -1;
         for (var name : names) {
-            var word = all_words.get(name);
+            var word = allWords.get(name);
             if (word != null) {
-                if (pos_matter) {
+                if (posMatter) {
                     if (showWarnings) {
                         System.out.println("[" + word.name + "] already exist");
                     }
@@ -208,24 +218,26 @@ public class Table extends Node {
     }
 
     void generateDictionary(String fileName) {
-        final StringBuilder sb = new StringBuilder(maxID * 16);
-        for (int i = 0; i < maxID; i++) {
-            if (!get(i).en.isEmpty() || !get(i).ru.isEmpty()) {
-                get(i).en.keySet().forEach(name -> appendAll(sb, '[', name, ']'));
-                sb.append(" = ");
-                get(i).ru.forEach((key, value) -> appendAll(sb, '[', key, value.outdated ? "|у]" : "]"));
+        final StringBuilder sb = new StringBuilder(size() * 16);
+        for (Node node : data) {
+            if (node == null || node.en.isEmpty() && node.ru.isEmpty()) {
+                sb.append('\n');
+                continue;
             }
 
+            node.en.keySet().forEach(name -> appendAll(sb, '[', name, ']'));
+            sb.append(" = ");
+            node.ru.forEach((key, value) -> appendAll(sb, '[', key, value.outdated ? "|у]" : "]"));
             sb.append('\n');
         }
 
         write(type + "/" + fileName, sb.toString().stripTrailing());
     }
 
-    void generateOutput(Comparator<Word> comp, boolean use_en_sections) {
+    void generateOutput(Comparator<Word> comp, boolean useEnSections) {
         final TreeSet<Word> words = new TreeSet<>(comp);
 
-        if (use_en_sections) {
+        if (useEnSections) {
             for (var word : ru.values()) {
                 int section = getFirstElse(get(word.pos).en.values(), word).section;
                 words.add(new Word(word.name, word.pos, section, word.outdated));
@@ -234,7 +246,7 @@ public class Table extends Node {
             words.addAll(ru.values());
         }
 
-        final StringBuilder sb = new StringBuilder(maxID * 16);
+        final StringBuilder sb = new StringBuilder(size() * 16);
         for (var word : words) {
             appendAll(sb, "\t\t['", word.name,
                     "'] = { ['поз'] = ", word.pos + 1,
@@ -249,15 +261,15 @@ public class Table extends Node {
         generateOutput(comp, false);
     }
 
-    void mergeWithByEN(final Table table) {
+    void mergeWithByEn(final Table table) {
         for (var entry : table.en.entrySet()) {
-            var new_word = entry.getValue();
-            var word_en = en.get(new_word.name);
-            if (word_en != null) {
-                for (var word_ru : table.get(new_word.pos).ru.entrySet()) {
-                    final var name_ru = word_ru.getKey();
-                    if (!ru.containsKey(name_ru)) {
-                        add_ru(new Word(name_ru, word_en.pos, word_en.section, word_ru.getValue().outdated));
+            var newWord = entry.getValue();
+            var wordEn = en.get(newWord.name);
+            if (wordEn != null) {
+                for (var wordRu : table.get(newWord.pos).ru.entrySet()) {
+                    final var nameRu = wordRu.getKey();
+                    if (!ru.containsKey(nameRu)) {
+                        addRu(new Word(nameRu, wordEn.pos, wordEn.section, wordRu.getValue().outdated));
                     }
                 }
             }
@@ -265,19 +277,19 @@ public class Table extends Node {
     }
 
     void mergeWithByPos(final Table table) {
-        table.en.values().forEach(this::add_en);
-        table.ru.values().forEach(this::add_ru);
+        table.en.values().forEach(this::addEn);
+        table.ru.values().forEach(this::addRu);
     }
 
-    Table transform(Function<String, String> fun_en, Function<String, String> fun_ru) {
-        final Table table = new Table(type, maxID);
+    Table transform(Function<String, String> fnEn, Function<String, String> fnRu) {
+        final Table table = new Table(type);
 
         for (var word : en.values()) {
-            table.add_en(new Word(fun_en.apply(word.name), word.pos, word.section, word.outdated));
+            table.addEn(new Word(fnEn.apply(word.name), word.pos, word.section, word.outdated));
         }
 
         for (var word : ru.values()) {
-            table.add_ru(new Word(fun_ru.apply(word.name), word.pos, word.section, word.outdated));
+            table.addRu(new Word(fnRu.apply(word.name), word.pos, word.section, word.outdated));
         }
 
         return table;
@@ -307,41 +319,41 @@ public class Table extends Node {
                 : transform(e -> e, e -> Functions.lowerTypeToUpperType(e, Lang.ru));
     }
 
-    static String translate_en_ru(final String text, final Table... tables) {
+    static String translateEnRu(String text, Table... tables) {
         final int maxLen = 50;
         final var builder = new StringBuilder();
-        final var h_str = new HashString(text);
-        final var table = mergeAllByEN(tables);
+        final var hashString = new HashString(text);
+        final var table = mergeAllByEn(tables);
 
-        int last_legal_end_pos = 0;
-        final int[] prev_legal_end_pos = new int[text.length() + 1];
+        int lastLegalEndPos = 0;
+        final int[] prevLegalEndPos = new int[text.length() + 1];
 
         for (int i = 1; i <= text.length(); i++) {
-            prev_legal_end_pos[i] = last_legal_end_pos;
-            if (legal_pos(text, i)) {
-                last_legal_end_pos = i;
+            prevLegalEndPos[i] = lastLegalEndPos;
+            if (isLegalPos(text, i)) {
+                lastLegalEndPos = i;
             }
         }
 
         next: for (int begin = 0; begin < text.length(); begin++) {
             boolean beginIsLower = isLowerCase(text.charAt(begin));
-            if (!legal_pos(text, begin) || beginIsLower && begin > 0
-                    && illegal_start_end_chars.contains(text.charAt(begin - 1))) {
+            if (!isLegalPos(text, begin) || beginIsLower && begin > 0
+                    && ILLEGAL_START_END_CHARS.contains(text.charAt(begin - 1))) {
                 builder.append(text.charAt(begin));
                 continue;
             }
 
-            for (int end = Math.min(text.length(), maxLen + begin); end > begin; end = prev_legal_end_pos[end]) {
+            for (int end = Math.min(text.length(), maxLen + begin); end > begin; end = prevLegalEndPos[end]) {
                 if (beginIsLower && end < text.length() &&
-                        illegal_start_end_chars.contains(text.charAt(end))) {
+                        ILLEGAL_START_END_CHARS.contains(text.charAt(end))) {
                     continue;
                 }
 
-                final var word_en = table.hash_en.get(h_str.hash(begin, end));
-                if (word_en != null && word_en.name.equals(text.substring(begin, end))) {
-                    final var words_ru = table.translate_en_ru(word_en.name);
-                    if (!words_ru.isEmpty()) {
-                        builder.append(words_ru.iterator().next());
+                final var wordEn = table.hashEn.get(hashString.hash(begin, end));
+                if (wordEn != null && equal(wordEn.name, text, begin, end)) {
+                    final var wordsRu = table.translateEnRu(wordEn.name);
+                    if (!wordsRu.isEmpty()) {
+                        builder.append(wordsRu.iterator().next());
                         begin = end - 1;
                         continue next;
                     }
@@ -354,36 +366,49 @@ public class Table extends Node {
         return builder.toString();
     }
 
-    private static boolean legal_pos(final String text, final int pos) {
-        return pos == 0 || pos == text.length() || !isLetter(text.charAt(pos - 1)) || !isLetter(text.charAt(pos));
-    }
-
-    private static Table mergeAllByEN(final Table... tables) {
-        final boolean showWarnings0 = showWarnings;
-        showWarnings = false;
-        int maxID = 0;
-        for (Table table : tables) {
-            maxID += table.maxID;
+    private static boolean equal(String lhs, String rhs, int rhsBegin, int rhsEnd) {
+        if (lhs.length() != rhsEnd - rhsBegin) {
+            return false;
         }
 
+        for (int i = 0; i < lhs.length(); i++) {
+            if (lhs.charAt(i) != rhs.charAt(i + rhsBegin)) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    private static boolean isLegalPos(CharSequence text, int pos) {
+        return pos == 0
+                || pos == text.length()
+                || !isLetter(text.charAt(pos - 1))
+                || !isLetter(text.charAt(pos));
+    }
+
+    private static Table mergeAllByEn(Table... tables) {
+        final boolean showWarnings0 = showWarnings;
+        showWarnings = false;
+
         int pos = 0;
-        final var table = new Table(TableType.Default, maxID);
-        for (Table next_table : tables) {
-            for (Node node : next_table.data) {
-                if (node.en.isEmpty() || node.ru.isEmpty()) {
+        final var table = new Table();
+        for (Table nextTable : tables) {
+            for (Node node : nextTable.data) {
+                if (node == null || node.en.isEmpty() || node.ru.isEmpty()) {
                     continue;
                 }
 
                 boolean added = false;
                 for (var name : node.en.keySet()) {
                     if (!table.en.containsKey(name)) {
-                        table.add_en(new Word(name, pos));
+                        table.addEn(new Word(name, pos));
                         added = true;
                     }
                 }
 
                 if (added) {
-                    table.add_ru(new Word(node.ru.firstKey(), pos++));
+                    table.addRu(new Word(node.ru.firstKey(), pos++));
                 }
             }
         }
@@ -392,10 +417,12 @@ public class Table extends Node {
         return table;
     }
 
-    void removeOutdatedWordsRU() {
+    void removeOutdatedWordsRu() {
         ru.entrySet().removeIf(entry -> entry.getValue().outdated);
-        for (var node : data) {
-            node.ru.entrySet().removeIf(entry -> entry.getValue().outdated);
+        for (Node node : data) {
+            if (node != null) {
+                node.ru.entrySet().removeIf(entry -> entry.getValue().outdated);
+            }
         }
     }
 }

@@ -382,163 +382,163 @@
 [Damaged Warped Fungus on a Stick] = [Повреждённая удочка с искажённым грибком]
 [Warped Fence Gate BE] = 
 [Fancy Feather] = 
-
-
-
-
-
-
-
-
-
- = [Часы 10|у]
-
-
- = [Часы 13|у]
-
-
-
-
-
-
-
-
-
-
-
-
- = [Часы 26|у]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[Recipe Book] = [Книга рецептов]
+[Blackstone Wall BE] = [Чернокаменная стена BE]
+[Polished Blackstone Brick Wall BE] = [Стена из полированного чернокамня BE]
+[Polished Blackstone Wall BE] = [Стена из полированных чернокаменных кирпичей BE]
+[Spawn Wandering Trader][Spawn Wandering Trader BE] = [Яйцо призывания странствующего торговца][Яйцо призывания странствующего торговца BE]
+[Goat Horn] = [Козий рог]
+[Powder Snow] = [Рыхлый снег]
+[Spawn Goat] = [Яйцо призывания козла][Яйцо призывания козы]
+[Amethyst Cluster] = [Аметистовый кластер]
+[Amethyst Shard] = [Аметистовый осколок][Часы 10|у]
+[Black Candle] = [Чёрная свеча]
+[Block of Amethyst] = [Аметистовый блок]
+[Blue Candle] = [Синяя свеча][Часы 13|у]
+[Brown Candle] = [Коричневая свеча]
+[Budding Amethyst] = [Расцветающий аметист]
+[Candle] = [Свеча]
+[Block of Copper][Copper Block][Waxed Block of Copper][Waxed Copper][Waxed Copper Block] = [Вощёный медный блок][Медный блок]
+[Cut Copper][Cut Copper Block][Waxed Cut Copper][Waxed Cut Copper Block] = [Вощёный резной медный блок][Резной медный блок]
+[Cut Copper Slab][Waxed Cut Copper Slab] = [Вощёная плита из резного медного блока][Плита из резного медного блока]
+[Cut Copper Stairs][Waxed Cut Copper Stairs] = [Вощёные ступени из резного медного блока][Ступени из резного медного блока]
+[Cyan Candle] = [Бирюзовая свеча]
+[Gray Candle] = [Серая свеча]
+[Green Candle] = [Зелёная свеча]
+[Large Amethyst Bud] = [Большой аметистовый бутон]
+[Light Blue Candle] = [Голубая свеча]
+[Light Gray Candle] = [Светло-серая свеча][Часы 26|у]
+[Exposed Copper][Exposed Copper Block][Waxed Exposed Copper][Waxed Exposed Copper Block] = [Вощёный слегка окисленный медный блок][Слегка окисленный медный блок]
+[Exposed Cut Copper][Exposed Cut Copper Block][Waxed Exposed Cut Copper][Waxed Exposed Cut Copper Block] = [Вощёный слегка окисленный резной медный блок][Слегка окисленный резной медный блок]
+[Exposed Cut Copper Slab][Waxed Exposed Cut Copper Slab] = [Вощёная слегка окисленная плита из резного медного блока][Слегка окисленная плита из резного медного блока]
+[Exposed Cut Copper Stairs][Waxed Exposed Cut Copper Stairs] = [Вощёные слегка окисленные ступени из резного медного блока][Слегка окисленные ступени из резного медного блока]
+[Lightning Rod] = [Молниеотвод]
+[Lime Candle] = [Лаймовая свеча]
+[Magenta Candle] = [Пурпурная свеча]
+[Medium Amethyst Bud] = [Средний аметистовый бутон]
+[Orange Candle] = [Оранжевая свеча]
+[Pink Candle] = [Розовая свеча]
+[Purple Candle] = [Фиолетовая свеча]
+[Red Candle] = [Красная свеча]
+[Waxed Weathered Cut Copper Slab][Weathered Cut Copper Slab] = [Вощёная полуокисленная плита из резного медного блока][Полуокисленная плита из резного медного блока]
+[Waxed Weathered Copper][Waxed Weathered Copper Block][Weathered Copper][Weathered Copper Block] = [Вощёный полуокисленный медный блок][Полуокисленный медный блок]
+[Waxed Weathered Cut Copper][Waxed Weathered Cut Copper Block][Weathered Cut Copper][Weathered Cut Copper Block] = [Вощёный полуокисленный резной медный блок][Полуокисленный резной медный блок]
+[Waxed Weathered Cut Copper Stairs][Weathered Cut Copper Stairs] = [Вощёные полуокисленные ступени из резного медного блока][Полуокисленные ступени из резного медного блока]
+[Small Amethyst Bud] = [Малый аметистовый бутон]
+[Spyglass] = [Подзорная труба]
+[Filled Bundle] = [Полный мешок]
+[Half Filled Bundle] = [Наполовину полный мешок]
+[Tinted Glass] = [Тонированное стекло]
+[Calcite] = [Кальцит]
+[Tuff] = [Туф]
+[Powder Snow Bucket] = [Ведро с рыхлым снегом]
+[Dripstone Block] = [Капельниковый блок]
+[Pointed Dripstone] = [Pointed Dripstone][Капельник]
+[White Candle] = [Белая свеча]
+[Yellow Candle] = [Жёлтая свеча]
+[Sculk Sensor] = [Акустический датчик]
+[Axolotl Spawn Egg] = [Яйцо призывания аксолотля]
+[Oxidized Copper][Oxidized Copper Block] = [Окисленный медный блок]
+[Oxidized Cut Copper][Oxidized Cut Copper Block] = [Окисленный резной медный блок]
+[Oxidized Cut Copper Slab] = [Окисленная плита из резного медного блока]
+[Oxidized Cut Copper Stairs] = [Окисленные ступени из резного медного блока]
+[Bucket of Axolotl] = [Ведро с аксолотлем]
+[3D] = 
+[Bundle] = [Мешок]
 [Broken Anvil] = [Сломанная наковальня]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[Copper Ore] = [Медная руда]
+[Copper Ingot] = [Медный слиток]
+[Blue Key] = 
+[Red Key] = 
+[Yellow Key] = 
+[Glow Item Frame] = [Светящаяся рамка]
+[Glow Lichen] = [Светящийся лишайник]
+[Glow Ink Sac] = [Светящийся чернильный мешок]
+[Glow Squid Spawn Egg] = [Яйцо призывания светящегося спрута]
+[Sculk Sensor BE] = 
+[Pointed Dripstone BE] = 
+[Glow Berries] = [Светящиеся ягоды]
+[Moss Block] = [Блок мха]
+[Moss Carpet] = [Мшистый покров]
+[Rooted Dirt] = [Корнистая земля][Укоренённая земля]
+[Azalea] = [Азалия]
+[Azalea Leaves] = [Листва азалии]
+[Big Dripleaf] = 
+[Flowering Azalea] = [Цветущая азалия]
+[Flowering Azalea Leaves] = [Листва цветущей азалии]
+[Hanging Roots] = [Свисающие корни]
+[Small Dripleaf] = 
+[Spore Blossom] = [Spore Blossom][Спороцвет]
+[Black Banner 15w14a] = 
+[Blue Banner 15w14a] = 
+[Brown Banner 15w14a] = 
+[Cyan Banner 15w14a] = 
+[Gray Banner 15w14a] = 
+[Green Banner 15w14a] = 
+[Light Blue Banner 15w14a] = 
+[Light Gray Banner 15w14a] = 
+[Lime Banner 15w14a] = 
+[Magenta Banner 15w14a] = 
+[Orange Banner 15w14a] = 
+[Pink Banner 15w14a] = 
+[Purple Banner 15w14a] = 
+[Red Banner 15w14a] = 
+[Swaggiest stairs ever] = 
+[White Banner 15w14a] = 
+[Yellow Banner 15w14a] = 
+[Chiseled Deepslate] = [Chiseled Deepslate]
+[Deepslate Brick Slab] = [Grimstone Brick Slab]
+[Deepslate Brick Stairs] = [Grimstone Brick Stairs]
+[Deepslate Brick Wall] = [Grimstone Brick Wall]
+[Deepslate Bricks] = [Grimstone Bricks]
+[Cobbled Deepslate Slab] = [Cobbled Deepslate Slab][Grimstone Slab]
+[Cobbled Deepslate Stairs] = [Cobbled Deepslate Stairs][Grimstone Stairs]
+[Deepslate Tile Slab] = [Deepslate Tile Slab][Grimstone Tile Slab]
+[Deepslate Tile Stairs] = [Deepslate Tile Stairs][Grimstone Tile Stairs]
+[Deepslate Tile Wall] = [Deepslate Tile Wall][Grimstone Tile Wall]
+[Deepslate Tiles] = [Deepslate Tiles][Grimstone Tiles]
+[Cobbled Deepslate Wall] = [Cobbled Deepslate Wall][Grimstone Wall]
+[Polished Deepslate] = [Polished Grimstone]
+[Polished Deepslate Wall] = [Polished Grimstone Wall]
+[Deepslate][Infested Deepslate] = [Grimstone][Глубинный сланец]
+[Polished Deepslate Slab] = [Polished Grimstone Slab]
+[Polished Deepslate Stairs] = [Polished Grimstone Stairs]
+[Dragon Egg BE] = [Яйцо дракона BE]
+[End Portal Frame BE] = 
+[Spawner BE] = 
+[Crying Obsidian BE] = 
+[Magma Block BE] = 
+[Clock] = 
+[Compass] = 
+[Cobbled Deepslate] = [Cobbled Deepslate][Дроблёный сланец]
+[Deepslate Diamond Ore] = [Deepslate Diamond Ore]
+[Deepslate Gold Ore] = 
+[Deepslate Iron Ore] = [Deepslate Iron Ore]
+[Deepslate Lapis Lazuli Ore] = 
+[Deepslate Redstone Ore] = 
+[Smooth Basalt] = [Гладкий базальт]
+[Cracked Deepslate Bricks] = 
+[Cracked Deepslate Tiles] = 
+[Deepslate Coal Ore] = 
+[Deepslate Copper Ore] = 
+[Deepslate Emerald Ore] = 
+[Light 0] = 
+[Light 1] = 
+[Light 10] = 
+[Light 11] = 
+[Light 12] = 
+[Light 13] = 
+[Light 14] = 
+[Light 15] = 
+[Light 2] = 
+[Light 3] = 
+[Light 4] = 
+[Light 5] = 
+[Light 6] = 
+[Light 7] = 
+[Light 8] = 
+[Light 9] = 
+[Light Negative] = 
 
 
 
@@ -809,7 +809,7 @@
 [Firework Star] = [Звёздочка|у][Пиротехническая звезда]
 [Gray Firework Star] = [Серая пиротехническая звезда]
 [Green Firework Star] = [Зелёная пиротехническая звезда]
-[Light Blue Firework Star] = [Голубая пиротехническая звезда]
+[Light Blue Firework Star] = [Голубая пиротехническая звезда][Светло-синяя пиротехническая звезда]
 [Light Gray Firework Star] = [Светло-серая пиротехническая звезда]
 [Lime Firework Star] = [Лаймовая пиротехническая звезда]
 [Magenta Firework Star] = [Сиреневая пиротехническая звезда]
@@ -838,7 +838,7 @@
 
 
 
- = [Курятина|у]
+
 [Raw Fish][Raw Fish Revision 1] = [Рыба|у][Сырая рыба][Сырая рыба (версия 1)]
 
 
@@ -888,7 +888,7 @@
 
 
 
- = [Сноп сена]
+
 
 
 
@@ -902,7 +902,7 @@
 
 [Oak Planks][Oak Wood Planks] = [Доски][Дубовые доски][Дубовые доски (версия 1)]
 [Oak Wood Slab][Petrified Oak Slab][Wooden Slab] = [Деревянная плита][Дубовая плита (версия 1)][Окаменевшая дубовая плита]
- = [Дубовые ступени (версия 1)|у]
+
 [Quartz Pillar] = [Кварцевый пилон]
 [Polished Andesite] = [Полированный андезит]
 [Polished Diorite] = [Полированный диорит]
@@ -944,7 +944,7 @@
 
 [Oak Door][Oak Wood Door] = [Дверь|у][Деревянная дверь|у][Дубовая дверь]
 
- = [Блок 36|у][Расширение поршня|у]
+
 
 
 
@@ -1007,7 +1007,7 @@
 [Nether Wart (block)] = [Адский нарост (блок)]
 
 
-[End Portal] = [Блок портала Края]
+[End Portal] = 
 [Portal] = [Блок портала Нижнего мира]
 
 
@@ -1018,9 +1018,9 @@
 
 
 
- = [Листва акации|у][Листья акации|у]
 
- = [Акация|у][Древесина акации|у]
+
+
 
 
 
@@ -1076,7 +1076,7 @@
 
 
 
-[Cyan Flower] = [Бирюзовый цветок][Голубой цветок|у]
+[Rose BE] = [Роза BE]
 [Glowing Obsidian] = [Пылающий обсидиан]
 [Nether Reactor Core Revision 1] = 
 [Stonecutter BE] = [Камнерез BE]
@@ -1096,7 +1096,7 @@
 
 [Awkward Lingering Potion][Mundane Lingering Potion][Thick Lingering Potion] = [Мирское оседающее зелье][Неловкое оседающее зелье][Оседающее густое зелье][Оседающее длительное мирское зелье][Оседающее мирское зелье][Оседающее неловкое зелье]
 
- = [Зелье опыта]
+
 [Awkward Splash Potion][Mundane Splash Potion][Splash Mundane Potion][Splash Water Bottle][Thick Splash Potion] = [Взрывающаяся колба воды][Взрывающееся густое зелье][Взрывающееся длительное мирское зелье][Взрывающееся зелье][Взрывающееся мирское зелье][Взрывающееся неловкое зелье][Взрывающееся непримечательное зелье][Взрывное мутное зелье][Грубое взрывающееся зелье][Густое взрывающееся зелье][Густое взрывное зелье][Заурядное взрывное зелье][Мирское взрывающееся зелье][Неловкое взрывающееся зелье][Непримечательное взрывающееся зелье]
 
 
@@ -1170,8 +1170,8 @@
 
 
 
-[Clock] = [Часы]
-[Compass] = [Компас][Магнетитовый компас|у]
+ = [Часы]
+ = [Компас][Магнетитовый компас|у]
 
 
 
@@ -1233,7 +1233,7 @@
 
 
 [Black Bed BE][Black Bed LCE] = [Кровать]
- = [Зельеварка]
+
 
 
 [Chest] = [Сундук]
@@ -1298,7 +1298,7 @@
 [Cyan Tinted Glass] = [Бирюзовое тонированное стекло]
 [Gray Tinted Glass] = [Серое тонированное стекло]
 [Green Tinted Glass] = [Зелёное тонированное стекло]
- = [Воронка (до 13w02a)|у][Загрузочная воронка (до 13w02a)|у]
+
 [Light Blue Tinted Glass] = [Светло-синее тонированное стекло]
 [Light Gray Tinted Glass] = [Светло-серое тонированное стекло]
 [Lime Tinted Glass] = [Лаймовое тонированное стекло]
@@ -1315,7 +1315,6 @@
 [Yellow Tinted Glass] = [Жёлтое тонированное стекло]
 [Piston Head Model] = [Модель головки поршня]
 [Locked Chest 12w19a][Placeholder Texture] = [Запертый сундук 12w19a]
- = [Красный факел (отключённый)]
 
 
 
@@ -1345,7 +1344,8 @@
 
 
 
-[Grass Path] = [Травяная тропинка][Тропа|у][Тропинка|у]
+
+[Dirt Path][Grass Path] = [Травяная тропинка][Тропа|у][Тропинка|у]
 [Spawn Zombie Villager][Zombie Villager Spawn Egg] = [Призвать зомби-жителя][Яйцо призывания зомби-жителя]
 [Blaze Spawn Egg Revision 1] = [Яйцо призывания ифрита (версия 1)]
 
@@ -1378,7 +1378,7 @@
 [Spawn Wither Skeleton][Wither Skeleton Spawn Egg] = [Призвать скелета-иссушителя][Яйцо призывания скелета-иссушителя]
 [Spawn Zombie Horse][Zombie Horse Spawn Egg] = [Призвать лошадь-зомби][Яйцо призывания лошади-зомби]
 [Structure Block] = [Блок-конструктор|у][Структурный блок]
- = [Пустой блок]
+
 [Leather Horse Armor] = [Кожаная конская броня]
 [Observer PE old][Observer pre-1.11-pre1] = 
 [Chicken Spawn Egg Revision 1] = [Яйцо призывания курицы (версия 1)]
@@ -1402,7 +1402,7 @@
 [Potion of Decay] = [Зелье разложения]
 [Uncraftable Potion] = [Зелье голода|у][Зелье слепоты|у][Зелье сопротивления|у][Зелье спешки|у][Зелье тошноты|у][Несоздаваемое зелье]
 [Splash Potion of Decay] = [Взрывающееся зелье разложения]
- = [Взрывающееся несоздаваемое зелье][Взрывное несоздаваемое зелье]
+
 [Lingering Potion of Decay] = [Оседающее зелье разложения]
 
 [Arrow of Decay] = [Стрела разложения]
@@ -1564,11 +1564,11 @@
 [Shulker Spawn Egg Revision 1] = [Яйцо призывания шалкера (версия 1)]
 [Silverfish Spawn Egg Revision 2] = [Яйцо призывания чешуйницы (версия 2)]
 [Stray Spawn Egg Revision 1] = [Яйцо призывания зимогора (версия 1)]
- = [Голова крипера (версия 1)|у]
- = [Череп скелета (версия 1)|у]
- = [Голова (версия 1)|у]
- = [Череп скелета-иссушителя (версия 1)|у]
- = [Голова зомби (версия 1)|у]
+
+
+
+
+
 [Peony BE][Peony LCE] = [Пион BE][Пион LCE]
 [Rose Bush BE][Rose Bush LCE] = [Куст розы BE][Куст розы LCE]
 
@@ -1661,10 +1661,10 @@
 
 
 [Prismarine Brick Stairs Old] = [Ступени из призмаринового кирпича старый]
- = [Призмариновые ступени]
+
 
 [Prismarine Bricks Slab] = [Плита из призмариновых кирпичей]
- = [Призмариновая плита]
+
 [Turtle Egg Revision 1] = [Черепашье яйцо (версия 1)]
 [Dried Kelp Block] = [Блок сушёной ламинарии]
 [Stripped Acacia Log] = [Обтёсанная акациевая древесина]
@@ -1693,7 +1693,7 @@
 [Raw Cod] = [Сырая треска][Треска|у]
 [Raw Salmon] = [Лосось|у][Сырой лосось]
 [Tube Coral Fan Revision 1] = [Трубчатый веерный коралл (версия 1)]
- = [Иглобрюх 13w36a|у]
+
 [Cod Spawn Egg][Spawn Cod] = [Призвать треску][Яйцо призывания трески]
 [Pufferfish Spawn Egg][Spawn Pufferfish] = [Призвать иглобрюха][Яйцо призывания иглобрюха]
 [Salmon Spawn Egg][Spawn Salmon] = [Призвать лосося][Яйцо призывания лосося]
@@ -1894,7 +1894,7 @@
 [Dark Gray Beaker] = [Тёмно-серая мензурка]
 [Green Beaker] = [Зелёная мензурка]
 [Indigo Beaker] = [Мензурка цвета индиго]
-[Latex][Sodium Fluoride][White Beaker] = [Белая мензурка][Каучук][Фторид натрия]
+[Latex][Sodium Fluoride][White Beaker] = [Белая мензурка][Каучук][Латекс][Фторид натрия]
 [Light Gray Beaker] = [Светло-серая мензурка]
 [Orange Beaker] = [Оранжевая мензурка]
 [Purple Beaker] = [Фиолетовая мензурка]
@@ -2028,50 +2028,50 @@
 [Bucket of Tropical Fish] = [Ведро с тропической рыбой]
 [Seagrass] = [Водоросли][Морская трава]
 [Arrow of the Turtle Master] = [Стрела черепашьего мастера][Стрела черепашьей мощи]
- = [Булыжниковые ступени (версия 1)|у]
+
 
 [Conduit] = [Морской проводник]
 [Apple Revision 1] = [Яблоко (версия 1)]
 [Bread Revision 1] = [Хлеб (версия 1)]
- = [Жареная курятина (версия 1)|у]
- = [Жареная свинина (версия 2)|у]
- = [Сырая говядина (версия 1)|у]
- = [Сырая курятина (версия 1)|у]
- = [Сырая свинина (версия 1)|у]
- = [Жареная говядина (версия 1)|у][Жареная свинина (версия 1)|у]
+
+
+
+
+
+
 [Banner Revision 1] = [Флаг (версия 1)]
- = [Жареная курятина (версия 0)|у]
- = [Жареная баранина (версия 1)|у]
- = [Жареная крольчатина (версия 1)|у]
- = [Перо (версия 1)|у]
- = [Огниво (версия 1)|у]
- = [Огниво (версия 2)|у]
- = [Железный топор (версия 1)|у]
- = [Железный топор (версия 2)|у]
 
 
- = [Звезда Нижнего мира (версия 1)|у]
- = [Сырая баранина (версия 1)|у]
- = [Сырая крольчатина (версия 1)|у]
- = [Акациевая дверь (версия 1)|у]
- = [Акациевая дверь (версия 2)|у]
- = [Берёзовая дверь (версия 1)|у]
- = [Берёзовая дверь (версия 2)|у]
- = [Дверь из тёмного дуба (версия 1)|у]
- = [Дверь из тёмного дуба (версия 2)|у]
- = [Железная дверь (версия 1)|у]
- = [Джунглевая дверь (версия 1)|у]
- = [Джунглевая дверь (версия 2)|у]
- = [Дубовая дверь (версия 1)|у]
- = [Дубовая дверь (версия 2)|у]
- = [Сосновая дверь (версия 1)|у]
- = [Сосновая дверь (версия 2)|у]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [Baked Potato Revision 1] = [Печёный картофель (версия 1)]
- = [Морковь (версия 1)|у]
- = [Уголь (версия 1)|у]
- = [Какао-бобы (версия 1)|у]
- = [Золотая морковь (версия 1)|у]
- = [Золотая морковь (версия 2)|у]
+
+
+
+
+
 [Heavy Weighted Pressure Plate Revision 1] = [Тяжёлая утяжелённая нажимная пластина (версия 1)]
 [Leather Boots Revision 1] = [Кожаные ботинки (версия 1)]
 [Leather Boots Revision 2] = [Кожаные ботинки (версия 2)]
@@ -2082,53 +2082,53 @@
 [Leather Tunic Revision 1] = [Кожаная куртка (версия 1)]
 [Leather Tunic Revision 2] = [Кожаная куртка (версия 2)]
 [Light Weighted Pressure Plate Revision 1] = [Лёгкая утяжелённая нажимная пластина (версия 1)]
- = [Вагонетка (версия 1)|у]
+
 [Oak Pressure Plate Revision 1] = [Дубовая нажимная пластина (версия 1)]
 [Bucket of Pufferfish BE] = [Ведро с иглобрюхом BE]
 [Quiver] = [Колчан][Колчан стрел]
- = [Кроличья шкура (версия 1)|у]
- = [Кроличья лапка (версия 1)|у]
+
+
 [Stone Pressure Plate Revision 1] = [Каменная нажимная пластина (версия 1)]
 [Torch Revision 1] = [Факел (версия 1)]
 
 
 
 
- = [Пустая ячейка для огненного порошка в варочной стойке]
 
-[Stripped Oak Wood] = [Обтёсанное дубовое бревно]
-[Stripped Spruce Wood] = [Обтёсанное сосновое бревно]
-[Stripped Birch Wood] = [Обтёсанное берёзовое бревно]
-[Stripped Jungle Wood] = [Обтёсанное джунглевое бревно]
-[Stripped Acacia Wood] = [Обтёсанное акациевое бревно]
-[Stripped Dark Oak Wood] = [Обтёсанное тёмнодубовое бревно]
- = [Требуется топор]
- = [Пустая ячейка для зелья в варочной стойке]
- = [Требуется ведро]
- = [Пустая ячейка для ковра]
- = [Пустая ячейка для лазурита в столе зачаровывания]
- = [Пустая ячейка для конской брони]
 
- = [Пустая ячейка для седла]
- = [Требуется мотыга]
- = [Требуется кирка]
- = [Требуется лопата]
- = [Требуется меч]
+[Stripped Oak Wood] = [Обтёсанная дубовая кора]
+[Stripped Spruce Wood] = [Обтёсанная еловая кора]
+[Stripped Birch Wood] = [Обтёсанная берёзовая кора]
+[Stripped Jungle Wood] = [Обтёсанная кора тропического дерева]
+[Stripped Acacia Wood] = [Обтёсанная акациевая кора]
+[Stripped Dark Oak Wood] = [Обтёсанная кора тёмного дуба]
+
+
+
+
+
+
+
+
+
+
+
+
 [Etho Slab] = [Etho Slab|у][ТНТ плита]
- = [Блок железной двери]
+
 [Lava Block] = [Блок лавы]
- = [Блок дубовой двери]
- = [Головка поршня]
- = [Активированный компаратор]
- = [Активированный повторитель]
- = [Висящая табличка][Стоящая табличка]
- = [Неактивный компаратор]
- = [Неактивный повторитель]
+
+
+
+
+
+
+
 [Water Block] = [Блок воды]
 
 [Flowing Lava][Lava] = [Лава][Текущая лава]
 [Flowing Lava BE][Lava BE] = [Лава BE][Текущая лава BE]
- = [Блок кровати]
+
 [Brain Coral Fan] = [Мозговой веерный коралл]
 [Bubble Coral Fan] = [Пузырчатый веерный коралл]
 [Horn Coral Fan] = [Роговый веерный коралл]
@@ -2149,22 +2149,22 @@
 [Dead Horn Coral Fan] = [Мёртвый роговый веерный коралл]
 [Dead Tube Coral Fan] = [Мёртвый трубчатый веерный коралл]
 [Invisible Bedrock] = [Невидимая коренная порода]
- = [Блок варочной стойки]
- = [Блок торта]
- = [Картофель (растение)][Морковь (растение)]
- = [Блок котла]
- = [Какао-бобы (блок)]
- = [Огонь]
- = [Блок цветочного горшка]
- = [Горящая печь]
- = [Горящая лампа]
- = [Стебель арбуза][Стебель тыквы]
+
+
+
+
+
+
+
+
+
+
 [Nether Portal] = [Портал Нижнего мира][Портал нижнего мира|у]
 [Cactus BE] = [Кактус PE]
- = [Красный провод]
- = [Блок тростника]
- = [Растяжка]
- = [Пшеница (растение)]
+
+
+
+
 [Compass Revision 1] = [Компас (версия 1)]
 [Clock Revision 1] = [Часы (версия 1)]
 [Adult Nether Warts] = [Выросший адский нарост]
@@ -2190,7 +2190,6 @@
 
 
 
- = [Дёрн до поворота|у]
 
 
 
@@ -2212,9 +2211,10 @@
 
 
 
- = [Булыжниковые ступени (версия 2)]
- = [Дубовые ступени (версия 2)]
- = [Угольная руда до поворота|у]
+
+
+
+
 
 
 
@@ -2242,12 +2242,12 @@
 [Ruby Ore] = [Рубиновая руда]
 [Sponge Revision 1] = [Губка (версия 1)]
 [Spruce Log Revision 1] = [Сосновое бревно (версия 1)]
- = [Булыжниковые ступени (версия 3)|у]
- = [Дубовые ступени (версия 3)|у]
 
 
 
- = [Оригинальный мицелий]
+
+
+
 
 
 
@@ -2452,7 +2452,7 @@
 [Cartography Table] = [Стол картографа]
 [Fletching Table] = [Стол лучника]
 [Smithing Table] = [Кузнечный стол]
- = [Камнерез][Резак]
+
 [Damaged Turtle Shell] = [Повреждённый черепаший панцирь]
 [Sweet Berries] = [Куст сладких ягод][Сладкие ягоды]
 [Jigsaw Block Revision 2][Jigsaw Revision 2] = [Блок-пазл]
@@ -2460,7 +2460,7 @@
 [Composter] = [Компостер]
 [Grindstone] = [Точило]
 [Spawn Trader Llama][Trader Llama Spawn Egg] = [Призвать ламу торговца][Яйцо призывания ламы странствующего торговца|у][Яйцо призывания ламы торговца]
-[Spawn Wandering Trader][Wandering Trader Spawn Egg] = [Призвать бродячего торговца][Яйцо призывания странствующего торговца]
+[Wandering Trader Spawn Egg] = [Призвать бродячего торговца]
 [Fox Spawn Egg][Spawn Fox] = [Призвать лису][Яйцо призывания лисы]
 [Horse Saddle] = [Конское седло]
 [Cut Red Sandstone Slab] = [Плита из резного красного песчаника]
@@ -3261,7 +3261,7 @@
 [End Stone Bricks] = [Каменный кирпич Края][Кирпич Края|у]
 [Glass Pane] = [Закалённая стеклянная панель|у][Стеклянная панель]
 [Glass] = [Стекло]
-[Hay Bale] = [Блок сена]
+[Hay Bale] = [Блок сена|у][Сноп сена]
 [Iron Bars] = [Железная решётка][Железные прутья|у]
 [Jack o'Lantern] = [Светильник Джека]
 [Jungle Fence Gate][Jungle Wood Fence Gate] = [Джунглевые ворота]
@@ -3311,7 +3311,7 @@
 [Smooth Sandstone Slab] = [Плита из гладкого песчаника]
 [Smooth Sandstone Stairs] = [Ступени из гладкого песчаника]
 [Smooth Sandstone] = [Гладкий песчаник]
-[Smooth Stone Slab] = [Гладкая каменная плита]
+[Smooth Stone Slab] = [Гладкая каменная плита][Плита из гладкого камня|у]
 [Snow Block] = [Блок снега|у][Снег (блок)][Снежный блок|у]
 [Spruce Fence Gate][Spruce Wood Fence Gate] = [Еловые ворота]
 [Spruce Fence][Spruce Wood Fence] = [Еловый забор]
@@ -3341,7 +3341,7 @@
 [Oak Pressure Plate][Oak Wood Pressure Plate] = [Деревянная нажимная пластина|у][Дубовая нажимная пластина]
 [Piston] = [Поршень]
 [Powered Rail] = [Электрические рельсы][Энергорельсы|у]
-[Rail] = [Плита из гладкого камня|у][Рельсы]
+[Rail] = [Рельсы]
 [Redstone Comparator] = [Компаратор][Красный компаратор|у]
 [Redstone Lamp] = [Выключенная лампа|у][Лампа]
 [Redstone Repeater] = [Красный повторитель][Повторитель|у]
@@ -3377,7 +3377,7 @@
 [Sandstone] = [Песчаник]
 [Snow] = [Слой снега|у][Снег][Снег (слой)|у]
 [Spawner] = [Рассадник монстров|у][Спаунер мобов]
-[Infested Stone Bricks][Stone Bricks][Stone Bricks Monster Egg] = [Заражённый блок (каменный кирпич)][Заражённый блок каменный кирпич|у][Заражённый каменный кирпич][Каменные кирпичи|у][Каменный кирпич][Каменный кирпич с монстрами|у]
+[Infested Stone Bricks][Smooth Stone Bricks][Stone Bricks][Stone Bricks Monster Egg] = [Гладкие каменные кирпичи][Заражённый блок (каменный кирпич)][Заражённый блок каменный кирпич|у][Заражённый каменный кирпич][Каменные кирпичи|у][Каменный кирпич][Каменный кирпич с монстрами|у]
 [Terracotta] = [Терракота]
 [Glowstone] = [Светокамень][Светящийся камень|у]
 [Nether Brick Fence] = [Забор из адского кирпича][Незеритовый забор|у]
@@ -3418,7 +3418,7 @@
 [Dead Bush] = [Мёртвый куст|у][Сухой куст]
 [Fern] = [Папоротник]
 [Grass] = [Трава]
-[Jungle Leaves] = [Джунглевая листва][Листва тропического дерева|у][Листья тропического дерева|у]
+[Jungle Leaves] = [Джунглевая листва][Листва тропического дерева|у]
 [Jungle Log] = [Джунглевая древесина][Древесина тропического дерева|у][Тропическое дерево|у]
 [Jungle Sapling] = [Джунглевый саженец][Саженец тропического дерева|у]
 [Large Fern] = [Раскидистый папоротник]
@@ -3463,7 +3463,7 @@
 [Potion of the Turtle Master] = [Зелье черепашьей мощи]
 [Potion of Water Breathing] = [Зелье подводного дыхания]
 [Potion of Weakness] = [Зелье слабости]
-[Bottle o' Enchanting] = [Пузырёк опыта]
+[Bottle o' Enchanting] = [Зелье опыта][Пузырёк опыта|у]
 [Splash Potion of Water Breathing] = [Взрывающееся зелье подводного дыхания]
 [Splash Potion of Fire Resistance] = [Взрывающееся зелье огнестойкости][Взрывное зелье огнестойкости|у]
 [Splash Potion of Harming] = [Взрывающееся зелье урона][Взрывное зелье вреда|у]
@@ -3521,7 +3521,7 @@
 [Nether Quartz] = [Кварц Нижнего мира][Незер-кварц|у]
 
 [Paper] = [Бумага]
-[Popped Chorus Fruit] = [Приготовленный плод коруса]
+[Popped Chorus Fruit] = [Приготовленный плод коруса][Приготовленный плод хоруса]
 [Prismarine Crystals] = [Кристалл призмарина|у][Призмариновый кристалл]
 [Prismarine Shard] = [Призмариновый осколок]
 [Rabbit Hide] = [Кроличья шкурка]

@@ -1,5 +1,7 @@
 package main;
 
+import java.util.Comparator;
+
 public class Word implements Comparable<Word> {
     final String name;
     final int pos;
@@ -23,16 +25,12 @@ public class Word implements Comparable<Word> {
 
     @Override
     public int compareTo(final Word word) {
-        return Functions.compareTo(name, word.name);
+        return name.compareTo(word.name);
     }
 
-    public int compareByName(final Word word) {
-        final int temp = compareTo(word);
-        return temp != 0 ? temp : Integer.compare(pos, word.pos);
-    }
+    final static Comparator<Word> nameComparator =
+            Comparator.comparing((Word w) -> w.name).thenComparingInt(w -> w.pos);
 
-    public int compareByPos(final Word word) {
-        final int temp = Integer.compare(pos, word.pos);
-        return temp != 0 ? temp : compareTo(word);
-    }
+    final static Comparator<Word> posComparator =
+            Comparator.comparingInt((Word w) -> w.pos).thenComparing(w -> w.name);
 }

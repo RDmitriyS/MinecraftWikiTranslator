@@ -1,18 +1,12 @@
 package main;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Collection;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 import static main.Exceptions.*;
@@ -20,7 +14,7 @@ import static main.Exceptions.*;
 public class Functions {
 
     static String lowerTypeToUpperType(String val, Lang lang) {
-        var temp = name_exceptions_lower.get(val);
+        var temp = NAME_EXCEPTIONS_LOWER.get(val);
         if (temp != null) {
             return temp;
         }
@@ -28,7 +22,7 @@ public class Functions {
         final var sb = new StringBuilder(val);
 
         if (lang == Lang.ru) {
-            for (var key : dash_exceptions) {
+            for (var key : DASH_EXCEPTIONS) {
                 final int index = sb.indexOf(key);
                 if (index >= 0) {
                     sb.setCharAt(sb.indexOf("-", index), '+');
@@ -38,9 +32,9 @@ public class Functions {
 
         for (int end = 0, begin = 0; end <= sb.length(); end++) {
             if (end == sb.length() || sb.charAt(end) == '-') {
-                final var new_word = word_exceptions_lower.get(sb.substring(begin, end));
-                if (new_word != null) {
-                    sb.replace(begin, end, new_word);
+                final var newWord = WORD_EXCEPTIONS_LOWER.get(sb.substring(begin, end));
+                if (newWord != null) {
+                    sb.replace(begin, end, newWord);
                 } else if (lang == Lang.en || begin == 0) {
                     sb.setCharAt(begin, Character.toUpperCase(sb.charAt(begin)));
                 }
@@ -63,7 +57,7 @@ public class Functions {
         return val.toLowerCase().replace(' ', '-');
     }
 
-    static Map<String, String> to_lower_upper_map(final Set<String> set) {
+    static Map<String, String> toLowerUpperMap(Set<String> set) {
         return set.stream().collect(Collectors.toMap(Functions::upperTypeToLowerType, word -> word));
     }
 
@@ -97,11 +91,11 @@ public class Functions {
         }
     }
 
-    static Scanner getScanner(String filename) {
+    static Scanner getScanner(Path path) {
         try {
             String encoding = System.getProperty("console.encoding", "utf-8");
-            return new Scanner(new File(filename), encoding);
-        } catch (FileNotFoundException e) {
+            return new Scanner(path, encoding);
+        } catch (IOException e) {
             e.printStackTrace();
             System.exit(1);
         }
@@ -115,8 +109,8 @@ public class Functions {
     }
 
     static void mergeByLine(String path1, String path2) {
-        final var reader1 = getScanner(path1);
-        final var reader2 = getScanner(path2);
+        final var reader1 = getScanner(Path.of(path1));
+        final var reader2 = getScanner(Path.of(path2));
         final var builder = new StringBuilder();
         while (reader1.hasNextLine() && reader2.hasNextLine()) {
             appendAll(builder, reader1.nextLine(), reader2.nextLine(), '\n');
@@ -132,31 +126,5 @@ public class Functions {
 
     static <T> T getFirstElse(Collection<T> col, T value) {
         return col.isEmpty() ? value : col.iterator().next();
-    }
-
-    static <T> T getFirstIfNotNullElse(T first, T second) {
-        return first != null ? first : second;
-    }
-
-    static int compareTo(final String lhs, final String rhs) {
-        final char[] lc = lhs.toCharArray();
-        final char[] rc = rhs.toCharArray();
-        final int lim = Math.min(lc.length, rc.length);
-        for (int k = 0; k < lim; k++) {
-            if (lc[k] != rc[k]) {
-                if (lc[k] == 'ё') {
-                    return rc[k] == 'е' ? 1 : 'е' - rc[k];
-                } else if (rc[k] == 'ё') {
-                    return lc[k] == 'е' ? -1 : lc[k] - 'е';
-                } else if (lc[k] == 'Ё') {
-                    return rc[k] == 'Е' ? 1 : 'Е' - rc[k];
-                } else if (rc[k] == 'Ё') {
-                    return lc[k] == 'Е' ? -1 : lc[k] - 'Е';
-                } else {
-                    return lc[k] - rc[k];
-                }
-            }
-        }
-        return lc.length - rc.length;
     }
 }

@@ -1,164 +1,164 @@
 [grass-block-top] = [дёрн-верх]
-[stone-pre-texture-update] = [камень-до-texture-update]
+[structure-air] = [структурный-воздух]
 [dirt] = [земля]
-[grass-block-pre-texture-update][grass-block-side-pre-texture-update] = [дёрн-бок-до-texture-update][дёрн-до-texture-update]
-[oak-planks-pre-texture-update][oak-wood-planks-pre-texture-update] = [дубовые-доски-до-texture-update]
-[double-smooth-stone-slab-pre-texture-update] = [двойная-каменная-плита-до-texture-update]
-[smooth-stone-pre-texture-update] = [двойная-каменная-плита-вверху-до-texture-update][двойная-каменная-плита-верх-до-texture-update|у]
-[bricks-pre-texture-update] = [кирпичный-блок-до-texture-update]
-[tnt-pre-texture-update][tnt-side-pre-texture-update] = [тнт-бок-до-texture-update][тнт-до-texture-update]
-[tnt-top-pre-texture-update] = [тнт-верх-до-texture-update]
-[tnt-bottom-pre-texture-update] = [тнт-низ-до-texture-update]
-[cobweb-pre-texture-update] = [паутина-до-texture-update]
-[rose] = [роза]
-[dandelion-pre-texture-update] = [одуванчик-до-texture-update]
-[red-sand-pre-texture-update] = [красный-песок-до-texture-update]
-[oak-sapling-pre-texture-update] = [дубовый-саженец-до-texture-update]
-[brick-slab-pre-texture-update][bricks-slab-pre-texture-update] = [кирпичная-плита-до-texture-update]
-[sandstone-slab-pre-texture-update] = [песчаниковая-плита-до-texture-update]
-[cobblestone-slab-pre-texture-update] = [булыжниковая-плита-до-texture-update]
-[red-bed-pre-texture-update] = [красная-кровать-до-texture-update]
-[all-infested-blocks-pre-texture-update][all-monster-eggs-pre-texture-update][infested-blocks-pre-texture-update][monster-eggs-pre-texture-update] = [все-заражённые-блоки-до-texture-update][заражённые-блоки-до-texture-update]
+[structure-void-be] = [структурная-пустота-be]
+[powder-snow] = [рыхлый-снег]
+[amethyst-block][block-of-amethyst] = [аметистовый-блок]
+[amethyst-bud][large-amethyst-bud] = [аметистовый-бутон][большой-аметистовый-бутон]
+[amethyst-cluster][amethyst-crystal] = [аметистовый-кластер][аметистовый-кристалл]
+[block-of-copper][copper-block][waxed-block-of-copper][waxed-copper][waxed-copper-block] = [вощёный-медный-блок][медный-блок]
+[budding-amethyst] = [расцветающий-аметист]
+[calcite] = [кальцит]
+[copper-ore] = [медная-руда]
+[rose][rose-je] = [роза][роза-je]
+[cut-copper][waxed-cut-copper] = [вощёный-резной-медный-блок][резной-медный-блок]
+[exposed-copper][waxed-exposed-copper] = [вощёный-слегка-окисленный-медный-блок][слегка-окисленный-медный-блок]
+[exposed-cut-copper][waxed-exposed-cut-copper] = [вощёный-слегка-окисленный-резной-медный-блок][слегка-окисленный-резной-медный-блок]
+[lightning-rod] = [молниеотвод]
+[medium-amethyst-bud] = [средний-аметистовый-бутон]
+[waxed-weathered-copper][weathered-copper] = [вощёный-полуокисленный-медный-блок][полуокисленный-медный-блок]
+[waxed-weathered-cut-copper][weathered-cut-copper] = [вощёный-полуокисленный-резной-медный-блок][полуокисленный-резной-медный-блок]
+[small-amethyst-bud] = [малый-аметистовый-бутон]
 [all-banners][banners] = [все-флаги][флаг|у][флаги]
-[all-stairs-pre-texture-update][stairs-pre-texture-update] = [все-ступени-до-texture-update][ступени-до-texture-update]
-[all-weighted-pressure-plates-pre-texture-update][weighted-pressure-plates-pre-texture-update] = [все-утяжелённые-нажимные-пластины-до-texture-update][утяжелённые-нажимные-пластины-до-texture-update]
-[cobblestone-pre-texture-update] = [булыжник-до-texture-update]
-[bedrock-pre-texture-update] = [коренная-порода-до-texture-update]
-[sand-pre-texture-update] = [песок-до-texture-update]
-[gravel-pre-texture-update] = [гравий-до-texture-update]
-[oak-log-pre-texture-update][oak-wood-pre-texture-update] = [дубовая-древесина-до-texture-update][дубовая-кора-до-texture-update]
-[oak-log-top-pre-texture-update] = [дуб-верх-до-texture-update]
-[block-of-iron-pre-texture-update][iron-block-pre-texture-update] = [железный-блок-до-texture-update]
-[block-of-gold-pre-texture-update][gold-block-pre-texture-update] = [золотой-блок-до-texture-update]
-[block-of-diamond-pre-texture-update][diamond-block-pre-texture-update] = [алмазный-блок-до-texture-update]
-[block-of-emerald-pre-texture-update][emerald-block-pre-texture-update] = [изумрудный-блок-до-texture-update]
-[block-of-redstone-pre-texture-update][redstone-block-pre-texture-update] = [блок-красного-камня-до-texture-update]
-[barrier-pre-texture-update] = [барьер-до-texture-update]
-[red-mushroom-pre-texture-update] = [красный-гриб-до-texture-update]
-[brown-mushroom-pre-texture-update] = [коричневый-гриб-до-texture-update]
-[jungle-sapling-pre-texture-update] = [джунглевый-саженец-до-texture-update]
-[air][cave-air][invisible-bedrock][void-air] = [воздух][воздух-в-пустоте][невидимая-коренная-порода][пещерный-воздух][пустотный-воздух|у]
-[stone-brick-slab-pre-texture-update][stone-bricks-slab-pre-texture-update] = [плита-из-каменного-кирпича-до-texture-update]
-[fake-wood-slab-pre-texture-update][oak-slab-pre-texture-update][oak-wood-slab-pre-texture-update][petrified-oak-slab-pre-texture-update] = [дубовая-плита-до-texture-update][окаменевшая-дубовая-плита-до-texture-update][поддельная-дубовая-плита-до-texture-update]
-[smooth-stone-slab-pre-texture-update] = [каменная-плита-до-texture-update]
-[cake-pre-texture-update] = [торт-до-texture-update]
+[tuff] = [туф]
+[oxidized-copper] = [окисленный-медный-блок]
+[oxidized-cut-copper] = [окисленный-резной-медный-блок]
+[tinted-glass] = [тонированное-стекло]
+[cut-copper-slab][waxed-cut-copper-slab] = [вощёная-плита-из-резного-медного-блока][плита-из-резного-медного-блока]
+[cut-copper-slab-bottom][waxed-cut-copper-slab-bottom] = [вощёная-плита-из-резного-медного-блока-низ][плита-из-резного-медного-блока-низ]
+[cut-copper-slab-top][waxed-cut-copper-slab-top] = [вощёная-плита-из-резного-медного-блока-верх][плита-из-резного-медного-блока-верх]
+[cut-copper-stairs][waxed-cut-copper-stairs] = [вощёные-ступени-из-резного-медного-блока][ступени-из-резного-медного-блока]
+[double-cut-copper-slab][double-waxed-cut-copper-slab] = [вощёная-двойная-плита-из-резного-медного-блока][двойная-плита-из-резного-медного-блока]
+[double-exposed-cut-copper-slab][waxed-double-exposed-cut-copper-slab] = [вощёная-слегка-окисленная-двойная-плита-из-резного-медного-блока][слегка-окисленная-двойная-плита-из-резного-медного-блока]
+[double-waxed-weathered-cut-copper-slab][double-weathered-cut-copper-slab] = [вощёная-полуокисленная-двойная-плита-из-резного-медного-блока][полуокисленная-двойная-плита-из-резного-медного-блока]
+[double-oxidized-cut copper-slab] = [окисленная-двойная-плита-из-резного-медного-блока]
+[exposed-cut-copper-slab][waxed-exposed-cut-copper-slab] = [вощёная-слегка-окисленная-плита-из-резного-медного-блока][слегка-окисленная-плита-из-резного-медного-блока]
+[exposed-cut-copper-slab-bottom][waxed-exposed-cut-copper-slab-bottom] = [вощёная-слегка-окисленная-плита-из-резного-медного-блока-низ][слегка-окисленная-плита-из-резного-медного-блока-низ]
+[exposed-cut-copper-slab-top][waxed-exposed-cut-copper-slab-top] = [вощёная-слегка-окисленная-плита-из-резного-медного-блока-верх][слегка-окисленная-плита-из-резного-медного-блока-верх]
+[exposed-cut-copper-stairs][waxed-exposed-cut-copper-stairs] = [вощёные-слегка-окисленные-ступени-из-резного-медного-блока][слегка-окисленные-ступени-из-резного-медного-блока]
+[waxed-weathered-cut-copper-slab][weathered-cut-copper-slab] = [вощёная-полуокисленная-плита-из-резного-медного-блока][полуокисленная-плита-из-резного-медного-блока]
+[air][cave-air][invisible-bedrock][leftover][void-air][zone-block] = [воздух][воздух-в-пустоте][невидимая-коренная-порода][пещерный-воздух][пустотный-воздух|у]
+[waxed-weathered-cut-copper-slab-bottom][weathered-cut-copper-slab-bottom] = [вощёная-полуокисленная-плита-из-резного-медного-блока-низ][полуокисленная-плита-из-резного-медного-блока-низ]
+[waxed-weathered-cut-copper-slab-top][weathered-cut-copper-slab-top] = [вощёная-полуокисленная-плита-из-резного-медного-блока-верх][полуокисленная-плита-из-резного-медного-блока-верх]
+[waxed-weathered-cut-copper-stairs][weathered-cut-copper-stairs] = [вощёные-полуокисленные-ступени-из-резного-медного-блока][полуокисленные-ступени-из-резного-медного-блока]
+[oxidized-cut-copper-slab] = [окисленная-плита-из-резного-медного-блока]
 [nether-portal] = [портал-нижнего-мира]
-[oak-fence-pre-texture-update] = [дубовый-забор-до-texture-update]
-[nether-brick-fence-pre-texture-update] = [забор-из-адского-кирпича-до-texture-update]
-[nether-brick-slab-pre-texture-update] = [плита-из-адского-кирпича-до-texture-update]
-[gold-ore-pre-texture-update] = [золотая-руда-до-texture-update]
-[iron-ore-pre-texture-update] = [железная-руда-до-texture-update]
-[coal-ore-pre-texture-update] = [угольная-руда-до-texture-update]
-[bookshelf-pre-texture-update] = [книжный-шкаф-до-texture-update]
-[mossy-cobblestone-pre-texture-update] = [замшелый-булыжник-до-texture-update]
-[obsidian-pre-texture-update] = [обсидиан-до-texture-update]
-[structure-void-pre-texture-update] = [структурная-пустота-до-texture-update]
+[oxidized-cut-copper-slab-bottom] = [окисленная-плита-из-резного-медного-блока-низ]
+[oxidized-cut-copper-slab-top] = [окисленная-плита-из-резного-медного-блока-верх]
+[oxidized-cut-copper-stairs] = [окисленные-ступени-из-резного-медного-блока]
+[all-cut-copper-slabs][cut-copper-slabs] = [все-плиты-из-резного-медного-блока][плиты-из-резного-медного-блока]
+[all-cut-copper-slabs-bottom][cut-copper-slabs-bottom] = [все-плиты-из-резного-медного-блока-низ]
+[all-cut-copper-slabs-top][cut-copper-slabs-top] = [все-плиты-из-резного-медного-блока-верх]
+[all-double-cut-copper-slabs][double-all-cut-copper-slabs][double-copper-slabs][double-cut-copper-slabs] = [все-двойные-плиты-из-резного-медного-блока-верх]
+[all-cut-copper-stairs] = [все-ступени-из-резного-медного-блока]
+[all-copper-blocks][copper-blocks] = [все-медные-блоки][медные-блоки]
+[all-cut-copper][all-cut-copper-blocks][cut-copper-blocks] = [все-резные-медные-блоки][резные-медные-блоки]
 [shrub-inv] = [сухая-трава]
-[grass-pre-texture-update] = [трава-до-texture-update]
+[black-candle] = [чёрная-свеча]
 [redstone-dust-downleft][redstone-wire-downleft] = [красный-провод-влевовниз]
 [inverted-daylight-detector][inverted-daylight-sensor] = [инвертированный-датчик-дневного-света]
-[crafting-table-top-pre-texture-update] = [верстак-верх-до-texture-update]
-[furnace-pre-texture-update] = [печь-до-texture-update]
-[furnace-side-pre-texture-update] = [печь-бок-до-texture-update]
-[dispenser-pre-texture-update] = [раздатчик-до-texture-update]
-[dropper-pre-texture-update] = [выбрасыватель-до-texture-update]
-[redstone-torch-on-pre-texture-update][redstone-torch-pre-texture-update][redstone-wall-torch-on-pre-texture-update][redstone-wall-torch-pre-texture-update] = [красный-факел-вкл-до-texture-update][красный-факел-до-texture-update]
-[all-logs-pre-texture-update][all-wood-pre-texture-update][logs-pre-texture-update][wood-pre-texture-update] = [вся-древесина-до-texture-update][вся-кора-до-texture-update][дерево-до-texture-update][древесина-до-texture-update]
-[redstone-repeater-pre-texture-update][repeater-pre-texture-update] = [красный-повторитель-до-texture-update][повторитель-до-texture-update]
-[stone-button-pre-texture-update] = [каменная-кнопка-до-texture-update]
+[blue-candle] = [синяя-свеча]
+[brown-candle] = [коричневая-свеча]
+[candle] = [свеча]
+[cyan-candle] = [бирюзовая-свеча]
+[gray-candle] = [серая-свеча]
+[green-candle] = [зелёная-свеча]
+[light-blue-candle] = [голубая-свеча]
+[light-gray-candle] = [светло-серая-свеча]
+[lime-candle] = [лаймовая-свеча]
 [all-signs][signs] = [все-таблички][таблички]
 [all-stripped-logs][all-stripped-wood][stripped-logs][stripped-wood] = [вся-обтёсанная-древесина][вся-обтёсанная-кора][обтёсанная-древесина][обтёсанная-кора][обтёсанные-брёвна|у]
 [cog][gear] = [шестерня]
-[redstone-comparator-pre-texture-update] = [компаратор-до-texture-update]
+[magenta-candle] = [пурпурная-свеча]
 [sponge-revision-1] = [губка-старая-1]
-[glass-pre-texture-update] = [стекло-до-texture-update]
-[diamond-ore-pre-texture-update] = [алмазная-руда-до-texture-update]
-[redstone-ore-pre-texture-update] = [красная-руда-до-texture-update]
-[acacia-leaves-pre-texture-update][all-leaves-pre-texture-update][dark-oak-leaves-pre-texture-update][leaves-pre-texture-update][oak-leaves-pre-texture-update] = [акациевая-листва-до-texture-update][вся-листва-до-texture-update][дубовая-листва-до-texture-update][листва-до-texture-update][листва-тёмного-дуба-до-texture-update]
-[acacia-leaves-fast-pre-texture-update][all-leaves-fast-pre-texture-update][dark-oak-leaves-fast-pre-texture-update][leaves-fast-pre-texture-update][oak-leaves-fast-pre-texture-update] = [вся-густая-листва-до-texture-update][густая-акациевая-листва-до-texture-update][густая-дубовая-листва-до-texture-update][густая-листва-до-texture-update][густая-листва-тёмного-дуба-до-texture-update]
-[stone-bricks-pre-texture-update] = [каменный-кирпич-до-texture-update]
-[dead-bush-pre-texture-update][shrub-ce-pre-texture-update] = [сухой-куст-ce-до-texture-update][сухой-куст-до-texture-update]
-[fern-pre-texture-update][shrub-be-pre-texture-update] = [папоротник-be-до-texture-update][папоротник-до-texture-update]
+[orange-candle] = [оранжевая-свеча]
+[pink-candle] = [розовая-свеча]
+[purple-candle] = [фиолетовая-свеча]
+[red-candle] = [красная-свеча]
+[white-candle] = [белая-свеча]
+[yellow-candle] = [жёлтая-свеча]
+[dripstone-block] = [капельниковый-блок]
+[pointed-dripstone][pointed-dripstone-down-tip] = [капельник][капельник-вниз-кончик]
 [daylight-detector][daylight-detector-top][daylight-sensor][daylight-sensor-top] = [датчик-дневного-света][датчик-дневного-света-верх]
 [daylight-detector-side][daylight-sensor-side] = [датчик-дневного-света-бок]
-[crafting-table-side-pre-texture-update] = [верстак-бок-до-texture-update]
-[crafting-table-front-pre-texture-update][crafting-table-pre-texture-update] = [верстак-до-texture-update][верстак-перед-до-texture-update]
-[lit-furnace-pre-texture-update] = [горящая-печь-до-texture-update]
-[furnace-bottom-pre-texture-update] = [печь-низ-до-texture-update]
-[spruce-sapling-pre-texture-update] = [еловый-саженец-до-texture-update]
-[flower-pre-texture-update][flowers-pre-texture-update] = [цветок-до-texture-update][цветы-до-texture-update]
-[mushrooms-pre-texture-update] = [грибы-до-texture-update]
+[pointed-dripstone-down-base] = [капельник-вниз-основание]
+[pointed-dripstone-down-frustum] = [капельник-вниз-сужение]
+[pointed-dripstone-down-middle] = [капельник-вниз-середина]
+[pointed-dripstone-down-tip-merge] = [капельник-вниз-кончик-объединённый]
+[pointed-dripstone-up-base] = [капельник-вверх-основание]
+[pointed-dripstone-up-frustum] = [капельник-вверх-сужение]
+[pointed-dripstone-up-middle] = [капельник-вверх-середина]
 [tube-coral-fan][tube-coral-wall-fan] = [трубчатый-веерный-коралл]
 [fire] = [огонь]
-[tulips-pre-texture-update] = [тюльпаны-до-texture-update]
+[pointed-dripstone-up-tip] = [капельник-вверх-кончик]
 [lava] = [лава]
 [water] = [вода][текущая-вода|у]
-[potted-red-mushroom-pre-texture-update] = [посаженный-красный-гриб-до-texture-update]
+[pointed-dripstone-up-tip-merge] = [капельник-вверх-кончик-объединённый]
 [white-wool] = [белая-шерсть]
-[monster-spawner-pre-texture-update][spawner-pre-texture-update] = [спаунер-мобов-до-texture-update][спаунер-монстров-до-texture-update]
-[snow-block-pre-texture-update][snowy-grass-top-pre-texture-update] = [заснеженный-дёрн-верх-до-texture-update][снежный-блок-до-texture-update]
-[frosted-ice-pre-texture-update][ice-pre-texture-update] = [лёд-до-texture-update][подмороженный-лёд-до-texture-update]
-[snowy-grass-pre-texture-update][snowy-grass-side-pre-texture-update] = [заснеженный-дёрн-бок-до-texture-update][заснеженный-дёрн-до-texture-update]
-[cactus-top-pre-texture-update] = [кактус-верх-до-texture-update]
-[cactus-pre-texture-update][cactus-side-pre-texture-update] = [кактус-бок-до-texture-update][кактус-до-texture-update]
-[cactus-bottom-pre-texture-update] = [кактус-низ-до-texture-update]
-[clay-pre-texture-update] = [глина-до-texture-update]
-[sugar-cane-pre-texture-update] = [сахарный-тростник-до-texture-update]
-[jukebox-side-pre-texture-update][note-block-pre-texture-update] = [музыкальный-блок-до-texture-update][проигрыватель-бок-до-texture-update]
-[jukebox-pre-texture-update][jukebox-top-pre-texture-update] = [проигрыватель-верх-до-texture-update][проигрыватель-до-texture-update]
-[lily-pad-pre-texture-update] = [кувшинка-до-texture-update]
-[mycelium-pre-texture-update][mycelium-side-pre-texture-update] = [мицелий-бок-до-texture-update][мицелий-до-texture-update]
-[mycelium-top-pre-texture-update] = [мицелий-верх-до-texture-update]
-[birch-sapling-pre-texture-update] = [берёзовый-саженец-до-texture-update]
-[piston-side-left-pre-texture-update] = [поршень-бок-влево-до-texture-update]
-[piston-side-down-pre-texture-update] = [поршень-бок-вниз-до-texture-update]
-[piston-side-right-pre-texture-update] = [поршень-бок-вправо-до-texture-update]
-[piston-side-up-pre-texture-update] = [поршень-бок-вверх-до-texture-update]
-[all-mushroom-blocks-pre-texture-update][mushroom-blocks-pre-texture-update] = [огромные-грибы-до-texture-update]
-[cobweb-with-background-pre-texture-update] = [паутина-чёрная-до-texture-update]
-[cyan-flower] = [бирюзовый-цветок][голубой-цветок|у]
+[big-dripleaf-stem] = 
+[black-candle-cake] = [чёрная-свеча-торт]
+[blue-candle-cake] = [синяя-свеча-торт]
+[brown-candle-cake] = [коричневая-свеча-торт]
+[candle-cake] = [свеча-торт]
+[cyan-candle-cake] = [бирюзовая-свеча-торт]
+[gray-candle-cake] = [серая-свеча-торт]
+[green-candle-cake] = [зелёная-свеча-торт]
+[lava-cauldron] = [котёл-с-лавой]
+[light-blue-candle-cake] = [голубая-свеча-торт]
+[light-gray-candle-cake] = [светло-серая-свеча-торт]
+[lime-candle-cake] = [лаймовая-свеча-торт]
+[magenta-candle-cake] = [пурпурная-свеча-торт]
+[orange-candle-cake] = [оранжевая-свеча-торт]
+[pink-candle-cake] = [розовая-свеча-торт]
+[powder-snow-cauldron] = [котёл-с-рыхлым-снегом]
+[purple-candle-cake] = [фиолетовая-свеча-торт]
+[red-candle-cake] = [красная-свеча-торт]
+[white-candle-cake] = [белая-свеча-торт]
+[yellow-candle-cake] = [жёлтая-свеча-торт]
+[glow-lichen] = [светящийся-лишайник]
+[rose-be] = [роза-be]
 [redstone-dust-downright][redstone-wire-downright] = [красная-пыль-вправовниз][красный-провод-вправовниз]
-[torch-pre-texture-update][wall-torch-pre-texture-update] = [факел-до-texture-update]
-[oak-door-top-pre-texture-update] = [деревянная-дверь-верх-до-texture-update]
-[iron-door-top-pre-texture-update] = [железная-дверь-верх-до-texture-update]
-[ladder-pre-texture-update] = [лестница-до-texture-update]
-[oak-trapdoor-pre-texture-update] = [деревянный-люк-до-texture-update]
-[iron-bars-pre-texture-update] = [железная-решётка-до-texture-update]
-[farmland-moist-pre-texture-update][farmland-wet-pre-texture-update] = [мокрая-грядка-до-texture-update][увлажнённая-грядка-до-texture-update]
-[farmland-pre-texture-update] = [грядка-до-texture-update]
-[wheat-1-pre-texture-update][wheat-crops-1-pre-texture-update] = [пшеница-1-до-texture-update]
-[wheat-2-pre-texture-update][wheat-crops-2-pre-texture-update] = [пшеница-2-до-texture-update]
-[wheat-3-pre-texture-update][wheat-crops-3-pre-texture-update] = [пшеница-3-до-texture-update]
-[wheat-4-pre-texture-update][wheat-crops-4-pre-texture-update] = [пшеница-4-до-texture-update]
-[wheat-5-pre-texture-update][wheat-crops-5-pre-texture-update] = [пшеница-5-до-texture-update]
-[wheat-6-pre-texture-update][wheat-crops-6-pre-texture-update] = [пшеница-6-до-texture-update]
-[wheat-7-pre-texture-update][wheat-crops-7-pre-texture-update] = [пшеница-7-до-texture-update]
-[wheat-8-pre-texture-update][wheat-crops-8-pre-texture-update][wheat-crops-pre-texture-update][wheat-pre-texture-update] = [пшеница-8-до-texture-update][пшеница-до-texture-update]
-[brewing-stand-pre-texture-update] = [варочная-стойка-до-texture-update]
+[azalea-leaves] = 
+[cave-vines] = [пещерная-лиана-основа][пещерные-лианы]
+[cave-vines-plant] = [пещерная-лиана-тело]
+[flowering-azalea-leaves] = 
+[hanging-roots] = [свисающие-корни]
+[lit-cave-vines] = 
+[lit-cave-vines-plant] = 
+[moss-block] = [блок-мха]
+[moss-carpet] = [мшистый-покров]
+[rooted-dirt] = [корнистая-земля]
+[calibrated-sculk-sensor] = 
+[sculk-sensor-active] = 
+[sculk-sensor][sculk-sensor-inactive] = [акустический-датчик]
+[honey-block-minecon][old-honey-block] = 
+[azalea] = [азалия]
+[big-dripleaf] = [большой-твердолист]
+[flowering-azalea] = [цветущая-азалия]
 [camera] = [камера]
-[oak-fence-gate-pre-texture-update] = [дубовые-ворота-до-texture-update]
-[birch-leaves-pre-texture-update] = [берёзовая-листва-до-texture-update]
-[birch-leaves-fast-pre-texture-update] = [густая-берёзовая-листва-до-texture-update]
+[small-dripleaf] = [молодой-твердолист]
+[spore-blossom] = [спороцвет]
+[double-deepslate-brick-slab] = 
 [chest] = [сундук]
-[ender-chest-pre-texture-update] = [сундук-края-до-texture-update]
+[double-deepslate-slab] = 
 [end-gateway][end-portal] = [блок-врат-края][блок-портала-края][врата-края|у][портал-края|у]
-[lever-pre-texture-update] = [рычаг-до-texture-update]
-[oak-door-bottom-pre-texture-update] = [деревянная-дверь-низ-до-texture-update]
-[iron-door-bottom-pre-texture-update] = [железная-дверь-низ-до-texture-update]
+[double-deepslate-tile-slab] = 
+[double-polished-deepslate-slab] = 
+[deepslate-brick-slab] = [кирпичная-плита-из-мрачнокамня]
 [all-colored-terracotta][colored-terracotta] = [вся-керамика][керамика]
-[mossy-stone-bricks-pre-texture-update] = [замшелый-каменный-кирпич-до-texture-update]
-[cracked-stone-bricks-pre-texture-update] = [потрескавшийся-каменный-кирпич-до-texture-update]
-[pumpkin-top-pre-texture-update] = [тыква-верх-до-texture-update]
-[netherrack-pre-texture-update] = [адский-камень-до-texture-update]
-[soul-sand-pre-texture-update] = [песок-душ-до-texture-update]
-[glowstone-pre-texture-update] = [светокамень-до-texture-update]
-[piston-face-sticky-pre-texture-update][sticky-piston-pre-texture-update] = [липкий-поршень-до-texture-update]
-[piston-face-pre-texture-update] = [поршень-перед-до-texture-update]
-[piston-pre-texture-update][piston-side-pre-texture-update] = [поршень-бок-до-texture-update][поршень-до-texture-update]
-[piston-bottom-pre-texture-update] = [поршень-низ-до-texture-update]
-[piston-top-pre-texture-update] = [поршень-верх-до-texture-update]
+[deepslate-brick-slab-bottom] = [кирпичная-плита-из-мрачнокамня-низ]
+[deepslate-brick-slab-top] = [кирпичная-плита-из-мрачнокамня-верх]
+[deepslate-brick-stairs] = [кирпичные-ступеньки-из мрачнокамня]
+[deepslate-brick-wall] = [кирпичный-забор-из-мрачнокамня]
+[cobbled-deepslate-slab] = [мрачнокаменная-плита]
+[cobbled-deepslate-slab-bottom] = [мрачнокаменная-плита-низ]
+[cobbled-deepslate-slab-top] = [мрачнокаменная-плита-верх]
+[cobbled-deepslate-stairs] = [ступени-из-мрачнокамня]
+[deepslate-tile-slab] = [плита-из-полированного-мрачнокамня]
+[deepslate-tile-slab-bottom] = [плита-из-полированного-мрачнокамня-низ]
+[deepslate-tile-slab-top] = [плита-из-полированного-мрачнокамня-верх]
 [melon-stem][pumpkin-stem] = [стебель-арбуза][стебель-тыквы]
-[cocoa-3-pre-texture-update][cocoa-pre-texture-update] = [плод-какао-3-до-texture-update][плод-какао-до-texture-update]
+[deepslate-tile-stairs] = [ступени-из-полированного-мрачнокамня]
 [chest-top] = [сундук-верх]
 [chest-side] = [сундук-бок]
 [chest-front][locked-chest] = [запертый-сундук][сундук-перед]
@@ -166,195 +166,195 @@
 [chest-front-right][chest-right] = [сундук-перед-справа][сундук-справа]
 [chest-back-left] = [сундук-зад-слева]
 [chest-back-right] = [сундук-зад-справа]
-[rail-corner-pre-texture-update][rail-ne-pre-texture-update][rail-north-east-pre-texture-update][rail-turn-pre-texture-update] = [рельсы-поворот-до-texture-update][рельсы-св-до-texture-update][рельсы-северо-восток-до-texture-update][рельсы-угол-до-texture-update]
+[deepslate-tile-wall] = [забор-из-полированного-мрачнокамня]
 [black-wool] = [чёрная-шерсть]
 [gray-wool] = [серая-шерсть]
-[redstone-torch-off-pre-texture-update][redstone-wall-torch-off-pre-texture-update][unlit-redstone-torch-pre-texture-update][unlit-redstone-wall-torch-pre-texture-update] = [красный-факел-выкл-до-texture-update][негорящий-красный-факел-до-texture-update]
-[spruce-log-pre-texture-update][spruce-wood-pre-texture-update] = [еловая-древесина-до-texture-update][еловая-кора-до-texture-update]
-[birch-log-pre-texture-update][birch-wood-pre-texture-update] = [берёзовая-древесина-до-texture-update][берёзовая-кора-до-texture-update]
-[pumpkin-pre-texture-update][pumpkin-side-pre-texture-update] = [тыква-бок-до-texture-update][тыква-до-texture-update]
-[carved-pumpkin-pre-texture-update] = [вырезанная-тыква-до-texture-update]
-[jack-o'lantern-pre-texture-update] = [светильник-джека-до-texture-update]
-[cake-top-pre-texture-update] = [торт-верх-до-texture-update]
-[cake-side-pre-texture-update] = [торт-бок-до-texture-update]
-[cake-side-sliced-pre-texture-update] = [торт-бок-срез-до-texture-update]
-[cake-bottom-pre-texture-update] = [торт-низ-до-texture-update]
-[red-mushroom-block-pre-texture-update] = [блок-огромного-красного-гриба-до-texture-update]
-[brown-mushroom-block-pre-texture-update] = [блок-огромного-коричневого-гриба-до-texture-update]
+[cobbled-deepslate-wall] = [забор-из-мрачнокамня]
+[polished-deepslate-slab] = 
+[polished-deepslate-slab-bottom] = 
+[polished-deepslate-slab-top] = 
+[polished-deepslate-stairs] = 
+[polished-deepslate-wall] = 
+[deepslate] = [глубинный-сланец][мрачнокамень]
+[light][light-15] = [мрачнокаменные-кирпичи]
+[light-0] = [полированный-мрачнокамень]
+[polished-deepslate] = 
+[chiseled-deepslate] = [резной-сланец]
+[cobbled-deepslate] = [дроблёный-сланец]
 [attached-melon-stem][attached-pumpkin-stem] = [выросший-стебель-арбуза][выросший-стебель-тыквы]
 [dirt-slab] = [земляная-плита]
 [unused] = [не-используется]
 [ruby-ore] = [рубиновая-руда]
 [sky-portal-frame][sky-portal-frame-empty] = [рамка-небесного-портала][рамка-небесного-портала-пустая]
 [sky-portal-frame-full] = [рамка-небесного-портала-полная]
-[all-wooden-stairs-pre-texture-update][wood-stairs-pre-texture-update][wooden-stairs-pre-texture-update] = [все-деревянные-ступени-до-texture-update][деревянные-ступени-до-texture-update]
-[all-wooden-slabs-pre-texture-update][wooden-slabs-pre-texture-update] = [все-деревянные-плиты-до-texture-update][деревянные-плиты-до-texture-update]
+[deepslate-bricks] = 
+[deepslate-diamond-ore] = [глубинная-алмазная-руда]
 [redstone-dust-t-down][redstone-wire-t-down] = [красная-пыль-т-вниз][красный-провод-т-вниз]
-[rail-pre-texture-update][rail-straight-pre-texture-update][rail-straight-vertical-pre-texture-update][rail-vertical-pre-texture-update] = [плита-из-гладкого-камня-до-texture-update][рельсы][рельсы-вертикальные-до-texture-update][рельсы-прямые-вертикальные-до-texture-update][рельсы-прямые-до-texture-update]
+[deepslate-gold-ore] = 
 [red-wool] = [красная-шерсть]
 [pink-wool] = [розовая-шерсть]
-[redstone-repeater-off-pre-texture-update][unpowered-repeater-pre-texture-update] = [неподключённый-повторитель-до-texture-update][повторитель-выкл-до-texture-update]
-[spruce-leaves-pre-texture-update] = [еловая-листва-до-texture-update]
-[spruce-leaves-fast-pre-texture-update] = [густая-еловая-листва-до-texture-update]
-[red-bed-top-foot-pre-texture-update] = [красная-кровать-верх-ножка-до-texture-update]
-[red-bed-top-head-pre-texture-update] = [красная-кровать-верх-изголовье-до-texture-update]
-[melon-pre-texture-update][melon-side-pre-texture-update] = [арбуз-бок-до-texture-update][арбуз-до-texture-update]
-[melon-top-pre-texture-update] = [арбуз-верх-до-texture-update]
-[cauldron-top-pre-texture-update] = [котёл-верх-до-texture-update]
-[cauldron-bottom-pre-texture-update] = [котёл-низ-до-texture-update]
+[deepslate-iron-ore] = [глубинная-железная-руда]
+[deepslate-lapis-lazuli-ore][deepslate-lapis-ore] = 
+[deepslate-redstone-ore] = 
+[deepslate-tiles] = [плитка-из-глубинного-сланца]
+[smooth-basalt] = 
+[cracked-deepslate-bricks] = 
+[cracked-deepslate-tiles] = 
+[deepslate-coal-ore] = 
+[deepslate-copper-ore] = 
 [brain-coral-fan][brain-coral-wall-fan] = [мозговой-веерный-коралл]
-[mushroom-stem-pre-texture-update] = [ножка-огромного-гриба-до-texture-update]
-[mushroom-block-pores-pre-texture-update][mushroom-pores-pre-texture-update] = [блок-пор-огромного-гриба-до-texture-update][поры-огромного-гриба-до-texture-update]
-[vines-pre-texture-update] = [лианы-до-texture-update]
-[enchanting-table-pre-texture-update][enchantment-table-pre-texture-update] = [стол-зачаровывания-до-texture-update]
+[deepslate-emerald-ore] = 
+[light-1] = 
+[light-10] = 
+[light-11] = 
 [moving-block][moving-piston] = [блок-36|у][движущийся-поршень]
 [tripwire] = [растяжка]
 [redstone-dust-dot][redstone-dust-dot-on][redstone-wire-dot][redstone-wire-dot-on] = [красная-пыль-точка][красная-пыль-точка-вкл][красный-провод-точка][красный-провод-точка-вкл]
 [redstone-dust-dot-off][redstone-wire-dot-off] = [красная-пыль-точка-выкл][красный-провод-точка-выкл]
-[cobblestone-wall-pre-texture-update] = [булыжниковая-стена-до-texture-update]
-[mossy-cobblestone-wall-pre-texture-update] = [замшелая-булыжниковая-стена-до-texture-update]
-[potted-poppy-pre-texture-update] = [посаженный-мак-до-texture-update]
-[lapis-lazuli-block-pre-texture-update] = [лазуритовый-блок-до-texture-update]
+[light-12] = 
+[light-13] = 
+[light-14] = 
+[light-2] = 
 [green-wool] = [зелёная-шерсть]
 [lime-wool] = [лаймовая-шерсть]
-[powered-repeater-pre-texture-update][redstone-repeater-on-pre-texture-update] = [повторитель-вкл-до-texture-update][подключённый-повторитель-до-texture-update]
+[light-3] = 
 [glass-pane][hardened-glass-pane] = [закалённая-стеклянная-панель|у][стеклянная-панель][укреплённая-стеклянная-панель]
-[red-bed-foot-pre-texture-update] = [красная-кровать-ножка-до-texture-update]
-[red-bed-side-foot-pre-texture-update] = [красная-кровать-бок-ножка-до-texture-update]
-[red-bed-side-head-pre-texture-update] = [красная-кровать-бок-изголовье-до-texture-update]
-[red-bed-head-pre-texture-update] = [красная-кровать-изголовье-до-texture-update]
-[jungle-log-pre-texture-update][jungle-wood-pre-texture-update] = [джунглевая-древесина-до-texture-update][джунглевая-кора-до-texture-update]
-[cauldron-pre-texture-update][cauldron-side-pre-texture-update] = [котёл-бок-до-texture-update][котёл-до-texture-update]
-[cauldron-legs-pre-texture-update] = [котёл-ножки-до-texture-update]
-[brewing-stand-base-pre-texture-update] = [варочная-стойка-основание-до-texture-update]
-[brewing-stand-top-pre-texture-update] = [варочная-стойка-верх-до-texture-update]
-[end-portal-frame-empty-pre-texture-update][end-portal-frame-pre-texture-update][end-portal-frame-top-empty-pre-texture-update][end-portal-frame-top-pre-texture-update] = [рамка-портала-края-верх-до-texture-update][рамка-портала-края-верх-пустая-до-texture-update][рамка-портала-края-до-texture-update][рамка-портала-края-пустая-до-texture-update]
-[end-portal-frame-side-empty-pre-texture-update][end-portal-frame-side-pre-texture-update] = [рамка-портала-края-бок-до-texture-update][рамка-портала-края-бок-пустая-до-texture-update]
+[light-4] = 
+[light-5] = 
+[light-6] = 
+[light-7] = 
+[light-8] = 
+[light-9] = 
+[light-negative][light-particle] = 
+
+
+
+
 [redstone-dust-t-left][redstone-wire-t-left] = [красная-пыль-т-влево][красный-провод-т-влево]
-[skeleton-skull-pre-texture-update][skeleton-wall-skull-pre-texture-update] = [череп-скелета-до-texture-update]
-[wither-skeleton-skull-pre-texture-update][wither-skeleton-wall-skull-pre-texture-update] = [череп-скелета-иссушителя-до-texture-update]
-[zombie-head-pre-texture-update][zombie-wall-head-pre-texture-update] = [голова-зомби-до-texture-update]
+
+
+
 [player-head][player-wall-head] = [голова|у][голова-игрока]
 [creeper-head][creeper-wall-head] = [голова-крипера]
-[all-heads-pre-texture-update][heads-pre-texture-update] = [все-головы-до-texture-update][головы-до-texture-update]
+
 [beacon-revision-1] = [маяк-старый-1]
-[lapis-lazuli-ore-pre-texture-update] = [лазуритовая-руда-до-texture-update]
+
 [brown-wool] = [коричневая-шерсть]
 [yellow-wool] = [жёлтая-шерсть]
-[powered-rail-off-pre-texture-update][powered-rail-pre-texture-update] = [электрические-рельсы-выкл-до-texture-update][электрические-рельсы-до-texture-update]
+
 [redstone-dust-cross][redstone-dust-cross-on][redstone-wire-cross][redstone-wire-cross-on] = [красная-пыль-крест][красная-пыль-крест-вкл][красный-провод-крест][красный-провод-крест-вкл]
 [redstone-dust][redstone-dust-on][redstone-wire][redstone-wire-on] = [красная-пыль][красная-пыль-вкл][красный-камень|у][красный-провод][красный-провод-вкл][редстоун|у]
-[enchanting-table-top-pre-texture-update][enchantment-table-top-pre-texture-update] = [стол-зачаровывания-верх-до-texture-update]
+
 [dragon-egg] = [яйцо-дракона]
 [redstone-dust-t-right][redstone-wire-t-right] = [красная-пыль-т-вправо][красный-провод-т-вправо]
-[cocoa-2-pre-texture-update] = [плод-какао-2-до-texture-update]
-[cocoa-1-pre-texture-update] = [плод-какао-1-до-texture-update]
-[emerald-ore-pre-texture-update] = [изумрудная-руда-до-texture-update]
-[tripwire-hook-pre-texture-update] = [натяжной-датчик-до-texture-update]
+
+
+
+
 [redstone-dust-t-up][redstone-wire-t-up] = [красная-пыль-т-вверх][красный-провод-т-вверх]
-[end-portal-frame-active-pre-texture-update][end-portal-frame-eye-pre-texture-update] = [рамка-портала-края-активированная-до-texture-update][рамка-портала-края-око-до-texture-update]
-[end-stone-pre-texture-update] = [камень-края-до-texture-update]
-[end-portal-frame-sideways-empty-pre-texture-update][end-portal-frame-sideways-pre-texture-update] = [рамка-портала-края-повёрнута-до-texture-update][рамка-портала-края-повёрнута-пустая-до-texture-update]
-[end-portal-frame-sideways-active-pre-texture-update][end-portal-frame-sideways-eye-pre-texture-update] = [рамка-портала-края-повёрнута-активированная-до-texture-update][рамка-портала-края-повёрнута-око-до-texture-update]
-[anvil-pre-texture-update] = [наковальня-до-texture-update]
+
+
+
+
+
 [bubble-coral-fan][bubble-coral-wall-fan] = [пузырчатый-веерный-коралл]
-[beacon-pre-texture-update] = [маяк-до-texture-update]
-[oak-button-pre-texture-update] = [деревянная-кнопка-до-texture-update]
+
+
 [nether-reactor-core] = [ядро-реактора-нижнего-мира]
 [glowing-obsidian] = [пылающий-обсидиан]
-[chiseled-sandstone-top-pre-texture-update][cut-sandstone-top-pre-texture-update][sandstone-top-pre-texture-update][smooth-sandstone-pre-texture-update] = [гладкий-песчаник-до-texture-update][декоративный-песчаник-верх-до-texture-update][песчаник-верх-до-texture-update][резной-песчаник-верх-до-texture-update]
+
 [blue-wool] = [синяя-шерсть]
 [light-blue-wool] = [голубая-шерсть|у][светло-синяя-шерсть]
-[powered-rail-on-pre-texture-update] = [электрические-рельсы-вкл-до-texture-update]
+
 [redstone-dust-cross-off][redstone-wire-cross-off] = [красная-пыль-крест-выкл][красный-провод-крест-выкл]
 [redstone-dust-off][redstone-wire-off] = [красная-пыль-выкл][красный-провод-выкл]
-[enchanting-table-side-pre-texture-update][enchantment-table-side-pre-texture-update] = [стол-зачаровывания-бок-до-texture-update]
-[enchanting-table-bottom-pre-texture-update][enchantment-table-bottom-pre-texture-update] = [стол-зачаровывания-низ-до-texture-update]
-[command-block-pre-texture-update][impulse-command-block-pre-texture-update] = [командный-блок-до-texture-update]
+
+
+
 [fire-coral-fan][fire-coral-wall-fan] = [огненный-веерный-коралл]
-[flower-pot-pre-texture-update] = [цветочный-горшок-до-texture-update]
-[redstone-comparator-off-pre-texture-update][unpowered-comparator-pre-texture-update] = [компаратор-выкл-до-texture-update][неподключённый-компаратор-до-texture-update]
-[powered-comparator-pre-texture-update][redstone-comparator-on-pre-texture-update] = [компаратор-вкл-до-texture-update][подключённый-компаратор-до-texture-update]
-[end-stone-bricks-pre-texture-update] = [каменный-кирпич-края-до-texture-update]
-[end-portal-frame-side-active-pre-texture-update][end-portal-frame-side-eye-pre-texture-update] = [рамка-портала-края-бок-активированная-до-texture-update][рамка-портала-края-бок-око-до-texture-update]
-[nether-quartz-ore-pre-texture-update] = [кварцевая-руда-нижнего-мира-до-texture-update]
+
+
+
+
+
+
 [trapped-chest] = [сундук-ловушка]
-[hopper-right-pre-texture-update] = [загрузочная-воронка-вправо-до-texture-update]
-[hopper-down-pre-texture-update][hopper-pre-texture-update] = [воронка-вниз-до-texture-update][загрузочная-воронка-до-texture-update]
-[hopper-left-pre-texture-update] = [загрузочная-воронка-влево-до-texture-update]
+
+
+
 [reserved6][update!][update-game-block] = [блок-обновления-игры]
-[rail-north-west-pre-texture-update][rail-nw-pre-texture-update] = [рельсы-северо-запад-до-texture-update][рельсы-сз-до-texture-update]
-[rail-south-west-pre-texture-update][rail-sw-pre-texture-update] = [рельсы-юго-запад-до-texture-update][рельсы-юз-до-texture-update]
-[rail-se-pre-texture-update][rail-south-east-pre-texture-update] = [рельсы-юв-до-texture-update][рельсы-юго-восток-до-texture-update]
-[sandstone-pre-texture-update][sandstone-side-pre-texture-update] = [песчаник-бок-до-texture-update][песчаник-до-texture-update]
+
+
+
+
 [purple-wool] = [фиолетовая-шерсть]
 [magenta-wool] = [пурпурная-шерсть|у][сиреневая-шерсть]
-[detector-rail-off-pre-texture-update][detector-rail-pre-texture-update] = [нажимные-рельсы-выкл-до-texture-update][нажимные-рельсы-до-texture-update]
-[jungle-leaves-pre-texture-update] = [джунглевая-листва-до-texture-update]
-[jungle-leaves-fast-pre-texture-update] = [густая-джунглевая-листва-до-texture-update]
-[spruce-planks-pre-texture-update][spruce-wood-planks-pre-texture-update] = [еловые-доски-до-texture-update]
-[jungle-planks-pre-texture-update][jungle-wood-planks-pre-texture-update] = [джунглевые-доски-до-texture-update]
-[beetroots-1-pre-texture-update][carrots-1-pre-texture-update][potatoes-1-pre-texture-update] = [картофель-1-до-texture-update][морковь-1-до-texture-update][свёкла-1-до-texture-update]
-[beetroots-2-pre-texture-update][carrots-2-pre-texture-update][potatoes-2-pre-texture-update] = [картофель-2-до-texture-update][морковь-2-до-texture-update][свёкла-2-до-texture-update]
-[beetroots-3-pre-texture-update][carrots-3-pre-texture-update][potatoes-3-pre-texture-update] = [картофель-3-до-texture-update][морковь-3-до-texture-update][свёкла-3-до-texture-update]
-[carrots-4-pre-texture-update][carrots-pre-texture-update] = [морковь-4-до-texture-update][морковь-до-texture-update]
-[potatoes-4-pre-texture-update][potatoes-pre-texture-update] = [картофель-4-до-texture-update][картофель-до-texture-update]
-[purpur-block-pre-texture-update] = [пурпурный-блок-до-texture-update]
-[purpur-stairs-pre-texture-update] = [пурпурные-ступени-до-texture-update]
-[purpur-slab-pre-texture-update] = [пурпурная-плита-до-texture-update]
-[rail-horizontal-pre-texture-update][rail-straight-horizontal-pre-texture-update] = [рельсы-горизонтальные-до-texture-update][рельсы-прямые-горизонтальные-до-texture-update]
-[quartz-slab-pre-texture-update] = [кварцевая-плита-до-texture-update]
-[quartz-stairs-pre-texture-update] = [кварцевые-ступени-до-texture-update]
-[all-buttons-pre-texture-update][button][buttons] = [все-кнопки-до-texture-update][кнопка][кнопки]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[button][buttons] = [кнопка][кнопки]
 [bricks-revision-1] = [кирпичный-блок-старый-1]
 [legacy-stonecutter][legacy-stonecutter-side][stonecutter-3ds][stonecutter-side-3ds] = [камнерез-3ds][камнерез-legacy][камнерез-бок-3ds][камнерез-бок-legacy]
-[legacy-stonecutter-top][stonecutter-top-3ds] = [камнерез-верх-3ds][камнерез-верх-legacy]
-[detector-rail-on-pre-texture-update] = [нажимные-рельсы-вкл-до-texture-update]
-[sandstone-bottom-pre-texture-update] = [песчаник-низ-до-texture-update]
+[legacy-stonecutter-top][stonecutter-top-3ds] = 
+
+
 [cyan-wool] = [бирюзовая-шерсть]
 [orange-wool] = [оранжевая-шерсть]
-[redstone-lamp-pre-texture-update][unlit-redstone-lamp-pre-texture-update] = [выключенная-лампа-до-texture-update][лампа-до-texture-update]
-[lit-redstone-lamp-pre-texture-update] = [включённая-лампа-до-texture-update]
-[chiseled-stone-bricks-pre-texture-update] = [резной-каменный-кирпич-до-texture-update]
-[birch-planks-pre-texture-update][birch-wood-planks-pre-texture-update] = [берёзовые-доски-до-texture-update]
+
+
+
+
 [redstone-dust-upleft][redstone-wire-upleft] = [красная-пыль-вверхвлево][красный-провод-вверхвлево]
-[chipped-anvil-pre-texture-update][slightly-damaged-anvil-pre-texture-update] = [повреждённая-наковальня-до-texture-update][слегка-повреждённая-наковальня-be-до-texture-update]
-[activator-rail-on-pre-texture-update] = [активирующие-рельсы-вкл-до-texture-update]
-[quartz-pillar-pre-texture-update] = [кварцевый-пилон-до-texture-update]
-[quartz-pillar-horizontal-pre-texture-update] = [кварцевый-пилон-горизонтальный-до-texture-update]
-[quartz-pillar-top-pre-texture-update] = [кварцевый-пилон-верх-до-texture-update]
-[purpur-pillar-pre-texture-update] = [пурпурный-пилон-до-texture-update]
-[purpur-pillar-horizontal-pre-texture-update] = [пурпурный-пилон-горизонтальный-до-texture-update]
-[purpur-pillar-top-pre-texture-update] = [пурпурный-пилон-верх-до-texture-update]
-[hay-bale-pre-texture-update][hay-bale-side-pre-texture-update][hay-block-pre-texture-update][hay-block-side-pre-texture-update] = [сноп-сена-бок-до-texture-update][сноп-сена-до-texture-update|у]
-[hay-bale-top-pre-texture-update][hay-block-top-pre-texture-update] = [сноп-сена-верх-до-texture-update]
-[terracotta-pre-texture-update] = [терракота-до-texture-update]
-[block-of-coal-pre-texture-update][coal-block-pre-texture-update] = [угольный-блок-до-texture-update]
+
+
+
+
+
+
+
+
+ = [сноп-сена-до-texture-update|у]
+
+
+
 [blue-terracotta] = [синяя-керамика]
 [brown-terracotta] = [коричневая-керамика]
 [green-terracotta] = [зелёная-керамика]
 [red-terracotta] = [красная-керамика]
-[nether-brick-block-pre-texture-update][nether-bricks-pre-texture-update] = [адский-кирпич-до-texture-update][блок-адских-кирпичей-до-texture-update]
+
 [light-gray-wool] = [светло-серая-шерсть]
-[nether-wart-1-pre-texture-update] = [адский-нарост-1-до-texture-update]
-[nether-wart-2-pre-texture-update] = [адский-нарост-2-до-texture-update]
-[nether-wart-3-pre-texture-update][nether-wart-pre-texture-update] = [адский-нарост-3-до-texture-update][адский-нарост-до-texture-update]
-[chiseled-sandstone-pre-texture-update] = [декоративный-песчаник-до-texture-update]
-[cut-sandstone-pre-texture-update] = [резной-песчаник-до-texture-update]
-[anvil-top-pre-texture-update] = [наковальня-верх-до-texture-update]
-[damaged-anvil-pre-texture-update][very-damaged-anvil-pre-texture-update] = [сильно-повреждённая-наковальня-be-до-texture-update][сильно-повреждённая-наковальня-до-texture-update]
-[activator-rail-off-pre-texture-update][activator-rail-pre-texture-update] = [активирующие-рельсы-выкл-до-texture-update][активирующие-рельсы-до-texture-update]
-[block-of-quartz-pre-texture-update][block-of-quartz-side-pre-texture-update][block-of-quartz-top-pre-texture-update][quartz-block-pre-texture-update][quartz-block-side-pre-texture-update][quartz-block-top-pre-texture-update] = [кварцевый-блок-бок-до-texture-update][кварцевый-блок-верх-до-texture-update][кварцевый-блок-до-texture-update]
-[chiseled-quartz-block-pre-texture-update] = [резной-кварцевый-блок-до-texture-update]
+
+
+
+
+
+
+
+
+
+
 [horn-coral-fan][horn-coral-wall-fan] = [роговый-веерный-коралл]
-[chorus-plant-pre-texture-update] = [растение-коруса-до-texture-update]
-[chorus-flower-pre-texture-update] = [цветок-коруса-до-texture-update]
-[chorus-flower-dead-pre-texture-update][dead-chorus-flower-pre-texture-update] = [мёртвый-цветок-коруса-до-texture-update]
+
+
+
 [black-terracotta] = [чёрная-керамика]
 [white-terracotta] = [белая-керамика]
 [orange-terracotta] = [оранжевая-керамика]
-[magenta-terracotta] = [сиреневая-керамика]
-[light-blue-terracotta] = [светло-синяя-керамика]
+[magenta-terracotta] = [пурпурная-керамика][сиреневая-керамика]
+[light-blue-terracotta] = [голубая-керамика][светло-синяя-керамика]
 [yellow-terracotta] = [жёлтая-керамика]
 [lime-terracotta] = [лаймовая-керамика]
 [pink-terracotta] = [розовая-керамика]
@@ -373,73 +373,73 @@
 [load-structure-block][structure-block-load] = [структурный-блок-загрузки]
 [save-structure-block][structure-block-save] = [структурный-блок-сохранения]
 [dragon-head][dragon-wall-head] = [голова-дракона]
-[end-rod-pre-texture-update] = [стержень-края-до-texture-update]
+
 [gray-terracotta] = [серая-керамика]
 [light-gray-terracotta] = [светло-серая-керамика]
 [cyan-terracotta] = [бирюзовая-керамика]
 [purple-terracotta] = [фиолетовая-керамика]
-[acacia-sapling-pre-texture-update] = [акациевый-саженец-до-texture-update]
-[dark-oak-sapling-pre-texture-update] = [саженец-тёмного-дуба-до-texture-update]
+
+
 [missing-texture-block] = [блок-с-отсутствующей-текстурой]
 [unknown] = [неизвестно]
-[poppy-pre-texture-update] = [мак-до-texture-update]
-[blue-orchid-pre-texture-update] = [синяя-орхидея-до-texture-update]
-[allium-pre-texture-update] = [лук-до-texture-update]
-[azure-bluet-pre-texture-update] = [хаустония-серая-до-texture-update]
-[red-tulip-pre-texture-update] = [красный-тюльпан-до-texture-update]
-[orange-tulip-pre-texture-update] = [оранжевый-тюльпан-до-texture-update]
-[white-tulip-pre-texture-update] = [белый-тюльпан-до-texture-update]
-[pink-tulip-pre-texture-update] = [розовый-тюльпан-до-texture-update]
-[oxeye-daisy-pre-texture-update] = [нивяник-до-texture-update]
-[sunflower-pre-texture-update] = [подсолнечник-до-texture-update]
-[lilac-pre-texture-update] = [сирень-до-texture-update]
-[rose-bush-pre-texture-update] = [розовый-куст-до-texture-update]
-[peony-pre-texture-update] = [пион-до-texture-update]
-[tall-grass-pre-texture-update] = [высокая-трава-до-texture-update]
-[large-fern-pre-texture-update] = [раскидистый-папоротник-до-texture-update]
-[podzol-top-pre-texture-update] = [подзол-верх-до-texture-update]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [podzol][podzol-side] = [подзол][подзол-бок]
-[packed-ice-pre-texture-update] = [плотный-лёд-до-texture-update]
-[spruce-log-top-pre-texture-update] = [еловая-древесина-верх-до-texture-update]
-[birch-log-top-pre-texture-update] = [берёзовая-древесина-верх-до-texture-update]
-[jungle-log-top-pre-texture-update] = [джунглевая-древесина-верх-до-texture-update]
-[acacia-log-pre-texture-update][acacia-wood-pre-texture-update] = [акациевая-древесина-до-texture-update][акациевая-кора-до-texture-update]
-[acacia-log-top-pre-texture-update] = [акациевая-древесина-верх-до-texture-update]
-[dark-oak-log-pre-texture-update][dark-oak-wood-pre-texture-update] = [древесина-тёмного-дуба-до-texture-update][кора-тёмного-дуба-до-texture-update]
-[dark-oak-log-top-pre-texture-update] = [древесина-тёмного-дуба-верх-до-texture-update]
-[acacia-planks-pre-texture-update][acacia-wood-planks-pre-texture-update] = [акациевые-доски-до-texture-update]
-[dark-oak-planks-pre-texture-update][dark-oak-wood-planks-pre-texture-update] = [доски-из-тёмного-дуба-до-texture-update]
+
+
+
+
+
+
+
+
+
+
 [all-glazed-terracotta][glazed-terracotta] = [вся-глазурованная-керамика][глазурованная-керамика]
-[black-stained-glass-pre-texture-update] = [чёрное-окрашенное-стекло-до-texture-update]
-[gray-stained-glass-pre-texture-update] = [серое-окрашенное-стекло-до-texture-update]
-[red-stained-glass-pre-texture-update] = [красное-окрашенное-стекло-до-texture-update]
-[pink-stained-glass-pre-texture-update] = [розовое-окрашенное-стекло-до-texture-update]
-[green-stained-glass-pre-texture-update] = [зелёное-окрашенное-стекло-до-texture-update]
-[lime-stained-glass-pre-texture-update] = [лаймовое-окрашенное-стекло-до-texture-update]
-[brown-stained-glass-pre-texture-update] = [коричневое-окрашенное-стекло-до-texture-update]
-[yellow-stained-glass-pre-texture-update] = [жёлтое-окрашенное-стекло-до-texture-update]
-[blue-stained-glass-pre-texture-update] = [синее-окрашенное-стекло-до-texture-update]
-[light-blue-stained-glass-pre-texture-update] = [светло-синее-окрашенное-стекло-до-texture-update]
-[purple-stained-glass-pre-texture-update] = [фиолетовое-окрашенное-стекло-до-texture-update]
-[magenta-stained-glass-pre-texture-update] = [сиреневое-окрашенное-стекло-до-texture-update]
-[cyan-stained-glass-pre-texture-update] = [бирюзовое-окрашенное-стекло-до-texture-update]
-[orange-stained-glass-pre-texture-update] = [оранжевое-окрашенное-стекло-до-texture-update]
-[light-gray-stained-glass-pre-texture-update] = [светло-серое-окрашенное-стекло-до-texture-update]
-[all-planks-pre-texture-update][all-wood-planks-pre-texture-update][planks-pre-texture-update][wood-planks-pre-texture-update] = [все-доски-до-texture-update][доски-до-texture-update]
-[sandstone-stairs-pre-texture-update] = [песчаниковые-ступени-до-texture-update]
-[cobblestone-stairs-pre-texture-update] = [булыжниковые-ступени-до-texture-update]
-[stone-brick-stairs-pre-texture-update] = [ступени-из-каменного-кирпича-до-texture-update]
-[brick-stairs-pre-texture-update] = [кирпичные-ступени-до-texture-update]
-[nether-brick-stairs-pre-texture-update] = [ступени-из-адского-кирпича-до-texture-update]
-[oak-pressure-plate-pre-texture-update] = [деревянная-нажимная-пластина-до-texture-update]
-[oak-log-horizontal-pre-texture-update][oak-wood-horizontal-pre-texture-update] = [дубовая-древесина-горизонтальная-до-texture-update][дубовая-кора-горизонтальная-до-texture-update]
-[birch-log-horizontal-pre-texture-update][birch-wood-horizontal-pre-texture-update] = [берёзовая-древесина-горизонтальная-до-texture-update][берёзовая-кора-горизонтальная-до-texture-update]
-[spruce-log-horizontal-pre-texture-update][spruce-wood-horizontal-pre-texture-update] = [еловая-древесина-горизонтальная-до-texture-update][еловая-кора-горизонтальная-до-texture-update]
-[jungle-log-horizontal-pre-texture-update][jungle-wood-horizontal-pre-texture-update] = [джунглевая-древесина-горизонтальная-до-texture-update][джунглевая-кора-горизонтальная-до-texture-update]
-[acacia-log-horizontal-pre-texture-update][acacia-wood-horizontal-pre-texture-update] = [акациевая-древесина-горизонтальная-до-texture-update][акациевая-кора-горизонтальная-до-texture-update]
-[dark-oak-log-horizontal-pre-texture-update][dark-oak-wood-horizontal-pre-texture-update] = [древесина-тёмного-дуба-горизонтальная-до-texture-update][кора-тёмного-дуба-горизонтальная-до-texture-update]
-[granite-pre-texture-update] = [гранит-до-texture-update]
-[slime-block-pre-texture-update] = [блок-слизи-до-texture-update]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [infinite-water] = [бесконечная-вода]
 [infinite-lava][infinite-lava-source] = [бесконечная-лава]
 [redstone-dust-upright][redstone-wire-upright] = [красная-пыль-вверхвправо][красный-провод-вверхвправо]
@@ -447,113 +447,113 @@
 [acacia-sign] = [акациевая-табличка]
 [tripwire-up] = [растяжка-вверх]
 [border] = [граница]
-[ubs-charger-block-bottom][usb-charger-bottom] = [usb-блок-низ]
-[ubs-charger-block-side][usb-charger][usb-charger-block][usb-charger-side] = [usb-блок][usb-блок-бок]
-[ubs-charger-block-top][usb-charger-top] = [usb-блок-верх]
-[spruce-button-pre-texture-update] = [еловая-кнопка-до-texture-update]
-[birch-button-pre-texture-update] = [берёзовая-кнопка-до-texture-update]
-[jungle-button-pre-texture-update] = [джунглевая-кнопка-до-texture-update]
-[acacia-button-pre-texture-update] = [акациевая-кнопка-до-texture-update]
-[dark-oak-button-pre-texture-update] = [кнопка-из-тёмного-дуба-до-texture-update]
+[usb-charger-block-bottom][usb-charger-bottom] = [usb-блок-низ]
+[usb-charger][usb-charger-block][usb-charger-block-side][usb-charger-side] = [usb-блок][usb-блок-бок]
+[usb-charger-block-top][usb-charger-top] = [usb-блок-верх]
+
+
+
+
+
 [dried-kelp-block][dried-kelp-block-side] = [блок-сушёной-ламинарии][блок-сушёной-ламинарии-бок]
 [dried-kelp-block-top] = [блок-сушёной-ламинарии-верх]
 [seagrass] = [водоросли|у][морская-трава]
 [tube-coral-block] = [синий-коралл|у][трубчатый-коралловый-блок]
-[polished-granite-pre-texture-update] = [полированный-гранит-до-texture-update]
-[diorite-pre-texture-update] = [диорит-до-texture-update]
-[polished-diorite-pre-texture-update] = [полированный-диорит-до-texture-update]
-[andesite-pre-texture-update] = [андезит-до-texture-update]
-[polished-andesite-pre-texture-update] = [полированный-андезит-до-texture-update]
-[beetroots-4-pre-texture-update][beetroots-pre-texture-update] = [свёкла-4-до-texture-update][свёкла-до-texture-update]
-[iron-trapdoor-pre-texture-update] = [железный-люк-до-texture-update]
+
+
+
+
+
+
+
 [tube-coral] = [трубчатый-коралл]
-[all-trapdoors-pre-texture-update][trapdoors-pre-texture-update] = [все-люки-до-texture-update][люки-до-texture-update]
+
 [brain-coral-block] = [мозговой-коралловый-блок]
 [bubble-coral-block] = [пузырчатый-коралловый-блок]
 [fire-coral-block] = [красный-коралл|у][огненный-коралловый-блок]
-[stone-pressure-plate-pre-texture-update] = [каменная-нажимная-пластина-до-texture-update]
-[spruce-slab-pre-texture-update][spruce-wood-slab-pre-texture-update] = [еловая-плита-до-texture-update]
-[birch-slab-pre-texture-update][birch-wood-slab-pre-texture-update] = [берёзовая-плита-до-texture-update]
-[jungle-slab-pre-texture-update][jungle-wood-slab-pre-texture-update] = [джунглевая-плита-до-texture-update]
-[acacia-slab-pre-texture-update][acacia-wood-slab-pre-texture-update] = [акациевая-плита-до-texture-update]
-[dark-oak-slab-pre-texture-update][dark-oak-wood-slab-pre-texture-update] = [плита-из-тёмного-дуба-до-texture-update]
+
+
+
+
+
+
 [coarse-dirt] = [каменистая-земля]
 [sea-lantern] = [морской-фонарь]
-[prismarine-pre-texture-update] = [призмарин-до-texture-update]
-[wet-sponge-pre-texture-update] = [мокрая-губка-до-texture-update]
-[prismarine-bricks-pre-texture-update] = [призмариновый-кирпич-до-texture-update]
-[dark-prismarine-pre-texture-update] = [тёмный-призмарин-до-texture-update]
-[sponge-pre-texture-update] = [губка-до-texture-update]
+
+
+
+
+
 [white-banner] = [белый-флаг]
-[red-sandstone-pre-texture-update][red-sandstone-side-pre-texture-update] = [красный-песчаник-бок-до-texture-update][красный-песчаник-до-texture-update]
-[chiseled-red-sandstone-pre-texture-update] = [декоративный-красный-песчаник-бок-до-texture-update]
-[cut-red-sandstone-pre-texture-update] = [резной-красный-песчаник-бок-до-texture-update]
-[chiseled-red-sandstone-top-pre-texture-update][cut-red-sandstone-top-pre-texture-update][red-sandstone-top-pre-texture-update][smooth-red-sandstone-pre-texture-update] = [гладкий-красный-песчаник-до-texture-update][декоративный-красный-песчаник-верх-до-texture-update][красный-песчаник-верх-до-texture-update][резной-красный-песчаник-верх-до-texture-update]
-[red-sandstone-bottom-pre-texture-update] = [красный-песчаник-низ-до-texture-update]
-[red-sandstone-slab-pre-texture-update] = [плита-из-красного-песчаника-до-texture-update]
-[red-sandstone-stairs-pre-texture-update] = [ступени-из-красного-песчаника-до-texture-update]
-[all-slabs-pre-texture-update][slabs-pre-texture-update] = [все-плиты-до-texture-update][плиты-до-texture-update]
+
+
+
+
+
+
+
+
 [grass-block-top-revision-1] = [трава-блок-старая-1]
-[grass-path-top-pre-texture-update] = [травяная-тропинка-верх-до-texture-update]
-[grass-path][grass-path-side] = [травяная-тропинка][травяная-тропинка-бок][тропа|у][тропинка|у]
-[spruce-door-top-pre-texture-update] = [еловая-дверь-верх-до-texture-update]
-[birch-door-top-pre-texture-update] = [берёзовая-дверь-верх-до-texture-update]
-[jungle-door-top-pre-texture-update] = [джунглевая-дверь-верх-до-texture-update]
-[acacia-door-top-pre-texture-update] = [акациевая-дверь-верх-до-texture-update]
-[dark-oak-door-top-pre-texture-update] = [дверь-из-тёмного-дуба-верх-до-texture-update]
+
+[dirt-path][grass-path][grass-path-side] = [травяная-тропинка][травяная-тропинка-бок][тропа|у][тропинка|у]
+
+
+
+
+
 [structure-block-revision-1] = [структурный-блок-старый-1]
 [horn-coral-block] = [жёлтый-коралл|у][роговый-коралловый-блок]
 [nether-portal-side] = [портал-нижнего-мира-бок]
 [sugar-cane-revision-1] = [сахарный-тростник-старый-1]
-[spruce-fence-pre-texture-update] = [еловый-забор-до-texture-update]
-[birch-fence-pre-texture-update] = [берёзовый-забор-до-texture-update]
-[jungle-fence-pre-texture-update] = [джунглевый-забор-до-texture-update]
-[acacia-fence-pre-texture-update] = [акациевый-забор-до-texture-update]
-[dark-oak-fence-pre-texture-update] = [забор-из-тёмного-дуба-до-texture-update]
-[all-fences-pre-texture-update][fences-pre-texture-update] = [все-заборы-до-texture-update][заборы-до-texture-update]
-[oak-stairs-pre-texture-update][oak-wood-stairs-pre-texture-update] = [дубовые-ступени-до-texture-update]
-[spruce-stairs-pre-texture-update][spruce-wood-stairs-pre-texture-update] = [еловые-ступени-до-texture-update]
-[birch-stairs-pre-texture-update][birch-wood-stairs-pre-texture-update] = [берёзовые-ступени-до-texture-update]
-[jungle-stairs-pre-texture-update][jungle-wood-stairs-pre-texture-update] = [джунглевые-ступени-до-texture-update]
-[acacia-stairs-pre-texture-update][acacia-wood-stairs-pre-texture-update] = [акациевые-ступени-до-texture-update]
-[dark-oak-stairs-pre-texture-update][dark-oak-wood-stairs-pre-texture-update] = [ступени-из-тёмного-дуба-до-texture-update]
+
+
+
+
+
+
+
+
+
+
+
+
 [cobblestone-revision-1] = [булыжник-старый-1]
 [planks-revision-1][wood-planks-revision-1] = [деревянные-доски-старые-1][доски-старые-1]
 [dispenser-revision-1] = [раздатчик-старый-1]
-[spruce-door-bottom-pre-texture-update] = [еловая-дверь-низ-до-texture-update]
-[birch-door-bottom-pre-texture-update] = [берёзовая-дверь-низ-до-texture-update]
-[jungle-door-bottom-pre-texture-update] = [джунглевая-дверь-низ-до-texture-update]
-[acacia-door-bottom-pre-texture-update] = [акациевая-дверь-низ-до-texture-update]
-[dark-oak-door-bottom-pre-texture-update] = [дверь-из-тёмного-дуба-низ-до-texture-update]
-[nether-wart-block-pre-texture-update] = [блок-адского-нароста-до-texture-update]
+
+
+
+
+
+
 [dead-tube-coral-block] = [трубчатый-мёртвый-коралловый-блок]
 [dead-brain-coral-block] = [мозговой-мёртвый-коралловый-блок]
 [dead-bubble-coral-block] = [пузырчатый-мёртвый-коралловый-блок]
-[spruce-fence-gate-pre-texture-update] = [еловые-ворота-до-texture-update]
-[birch-fence-gate-pre-texture-update] = [берёзовые-ворота-до-texture-update]
-[jungle-fence-gate-pre-texture-update] = [джунглевые-ворота-до-texture-update]
-[acacia-fence-gate-pre-texture-update] = [акациевые-ворота-до-texture-update]
-[dark-oak-fence-gate-pre-texture-update] = [ворота-из-тёмного-дуба-до-texture-update]
-[all-fence-gates-pre-texture-update][fence-gates-pre-texture-update] = [ворота-до-texture-update][все-ворота-до-texture-update]
-[snow-layer-pre-texture-update][snow-pre-texture-update][top-snow-pre-texture-update] = [верхний-снег-до-texture-update][слой-снега-до-texture-update][снег-до-texture-update]
-[light-blue-carpet] = [светло-синий-ковёр]
-[lever-side-pre-texture-update] = [рычаг-бок-до-texture-update]
-[tripwire-hook-side-pre-texture-update] = [натяжной-датчик-бок-до-texture-update]
+
+
+
+
+
+
+
+[light-blue-carpet] = [голубой-ковёр][светло-синий-ковёр]
+
+
 [all-daylight-detectors][all-daylight-sensors][daylight-detectors][daylight-sensors] = [все-датчики-дневного-света][датчики-дневного-света]
-[potted-cactus-pre-texture-update] = [посаженный-кактус-до-texture-update]
+
 [cobblestone-revision-2] = [булыжник-старый-2]
 [gravel-revision-1] = [гравий-старый-1]
 [black-tinted-glass-pane] = [чёрная-тонированная-стеклянная-панель]
 [command-block-revision-1][impulse-command-block-revision-1] = [командный-блок-старый-1]
-[heavy-weighted-pressure-plate-pre-texture-update] = [утяжелённая-нажимная-пластина-тяжёлая-до-texture-update]
-[light-weighted-pressure-plate-pre-texture-update] = [утяжелённая-нажимная-пластина-лёгкая-до-texture-update]
-[piston-arm-collision-pre-texture-update][piston-head-pre-texture-update] = [головка-поршня-до-texture-update]
-[magma-block-pre-texture-update] = [магмовый-блок-до-texture-update]
-[red-nether-brick-pre-texture-update][red-nether-bricks-pre-texture-update] = [красный-адский-кирпич-до-texture-update]
+
+
+
+
+
 [dead-fire-coral-block] = [огненный-мёртвый-коралловый-блок]
 [dead-horn-coral-block] = [роговый-мёртвый-коралловый-блок]
 [brain-coral] = [мозговой-коралл]
-[chain-command-block-pre-texture-update] = [цепной-командный-блок-до-texture-update]
+
 [hardened-white-stained-glass-pane][white-stained-glass-pane] = [белая-окрашенная-стеклянная-панель][белая-стеклянная-панель|у][укреплённая-белая-окрашенная-стеклянная-панель]
 [hardened-orange-stained-glass-pane][orange-stained-glass-pane] = [оранжевая-окрашенная-стеклянная-панель][оранжевая-стеклянная-панель|у][укреплённая-оранжевая-окрашенная-стеклянная-панель]
 [hardened-magenta-stained-glass-pane][magenta-stained-glass-pane] = [сиреневая-окрашенная-стеклянная-панель][укреплённая-сиреневая-окрашенная-стеклянная-панель]
@@ -573,15 +573,15 @@
 [kelp][kelp-top] = [ламинария][ламинария-верх]
 [tall-seagrass][tall-seagrass-top] = [высокая-морская-трава][высокая-морская-трава-верх]
 [bubble-coral] = [пузырчатый-коралл]
-[bone-block-pre-texture-update] = [костяной-блок-до-texture-update]
+
 [fire-coral] = [огненный-коралл]
 [horn-coral] = [роговый-коралл]
 [all-coral-blocks][coral-blocks] = [все-коралловые-блоки][коралловые-блоки]
-[repeating-command-block-pre-texture-update] = [цикличный-командный-блок-до-texture-update]
+
 [observer-front-revision-1] = [наблюдатель-перед-старый-1]
-[observer-back-pre-texture-update] = [наблюдатель-зад-до-texture-update]
-[observer-top-pre-texture-update] = [наблюдатель-верх-до-texture-update]
-[observer-side-pre-texture-update] = [наблюдатель-бок-до-texture-update]
+
+
+
 [white-shulker-box][white-shulker-box-side] = [белый-шалкеровый-ящик][белый-шалкеровый-ящик-бок]
 [white-shulker-box-top] = [белый-шалкеровый-ящик-верх]
 [white-shulker-box-bottom] = [белый-шалкеровый-ящик-низ]
@@ -632,8 +632,8 @@
 [light-blue-shulker-box-bottom] = [светло-синий-шалкеровый-ящик-низ]
 [allow] = [разрешить]
 [deny] = [запретить]
-[observer-back-lit-pre-texture-update] = [наблюдатель-зад-горит-до-texture-update]
-[observer-pre-texture-update] = [наблюдатель-до-texture-update]
+
+
 [board][chalkboard] = [доска]
 [black-concrete] = [чёрный-бетон]
 [gray-concrete] = [серый-бетон]
@@ -645,10 +645,10 @@
 [lime-concrete] = [лаймовый-бетон]
 [green-concrete] = [зелёный-бетон]
 [cyan-concrete] = [бирюзовый-бетон]
-[light-blue-concrete] = [светло-синий-бетон]
+[light-blue-concrete] = [голубой-бетон][светло-синий-бетон]
 [blue-concrete] = [синий-бетон]
 [purple-concrete] = [фиолетовый-бетон]
-[magenta-concrete] = [сиреневый-бетон]
+[magenta-concrete] = [пурпурный-бетон][сиреневый-бетон]
 [pink-concrete] = [розовый-бетон]
 [brown-concrete] = [коричневый-бетон]
 [black-concrete-powder] = [чёрный-цемент]
@@ -661,10 +661,10 @@
 [lime-concrete-powder] = [лаймовый-цемент]
 [green-concrete-powder] = [зелёный-цемент]
 [cyan-concrete-powder] = [бирюзовый-цемент]
-[light-blue-concrete-powder] = [светло-синий-цемент]
+[light-blue-concrete-powder] = [голубой-цемент][светло-синий-цемент]
 [blue-concrete-powder] = [синий-цемент]
 [purple-concrete-powder] = [фиолетовый-цемент]
-[magenta-concrete-powder] = [сиреневый-цемент]
+[magenta-concrete-powder] = [пурпурный-цемент][сиреневый-цемент]
 [pink-concrete-powder] = [розовый-цемент]
 [brown-concrete-powder] = [коричневый-цемент]
 [black-glazed-terracotta] = [чёрная-глазурованная-керамика]
@@ -677,118 +677,118 @@
 [lime-glazed-terracotta] = [лаймовая-глазурованная-керамика]
 [green-glazed-terracotta] = [зелёная-глазурованная-керамика]
 [cyan-glazed-terracotta] = [бирюзовая-глазурованная-керамика]
-[light-blue-glazed-terracotta] = [светло-синяя-глазурованная-керамика]
+[light-blue-glazed-terracotta] = [голубая-глазурованная-керамика][светло-синяя-глазурованная-керамика]
 [blue-glazed-terracotta] = [синяя-глазурованная-керамика]
 [purple-glazed-terracotta] = [фиолетовая-глазурованная-керамика]
 [magenta-glazed-terracotta] = [сиреневая-глазурованная-керамика]
 [pink-glazed-terracotta] = [розовая-глазурованная-керамика]
 [brown-glazed-terracotta] = [коричневая-глазурованная-керамика]
-[white-bed-top-foot-pre-texture-update] = [белая-кровать-верх-ножка-до-texture-update]
-[white-bed-top-head-pre-texture-update] = [белая-кровать-верх-изголовье-до-texture-update]
-[white-bed-foot-pre-texture-update] = [белая-кровать-ножка-до-texture-update]
-[white-bed-side-foot-pre-texture-update] = [белая-кровать-бок-ножка-до-texture-update]
-[white-bed-side-head-pre-texture-update] = [белая-кровать-бок-изголовье-до-texture-update]
-[white-bed-head-pre-texture-update] = [белая-кровать-изголовье-до-texture-update]
-[orange-bed-top-foot-pre-texture-update] = [оранжевая-кровать-верх-ножка-до-texture-update]
-[orange-bed-top-head-pre-texture-update] = [оранжевая-кровать-верх-изголовье-до-texture-update]
-[orange-bed-foot-pre-texture-update] = [оранжевая-кровать-ножка-до-texture-update]
-[orange-bed-side-foot-pre-texture-update] = [оранжевая-кровать-бок-ножка-до-texture-update]
-[orange-bed-side-head-pre-texture-update] = [оранжевая-кровать-бок-изголовье-до-texture-update]
-[orange-bed-head-pre-texture-update] = [оранжевая-кровать-изголовье-до-texture-update]
-[magenta-bed-top-foot-pre-texture-update] = [сиреневая-кровать-верх-ножка-до-texture-update]
-[magenta-bed-top-head-pre-texture-update] = [сиреневая-кровать-верх-изголовье-до-texture-update]
-[magenta-bed-foot-pre-texture-update] = [сиреневая-кровать-ножка-до-texture-update]
-[magenta-bed-side-foot-pre-texture-update] = [сиреневая-кровать-бок-ножка-до-texture-update]
-[magenta-bed-side-head-pre-texture-update] = [сиреневая-кровать-бок-изголовье-до-texture-update]
-[magenta-bed-head-pre-texture-update] = [сиреневая-кровать-изголовье-до-texture-update]
-[light-blue-bed-top-foot-pre-texture-update] = [светло-синяя-кровать-верх-ножка-до-texture-update]
-[light-blue-bed-top-head-pre-texture-update] = [светло-синяя-кровать-верх-изголовье-до-texture-update]
-[light-blue-bed-foot-pre-texture-update] = [светло-синяя-кровать-ножка-до-texture-update]
-[light-blue-bed-side-foot-pre-texture-update] = [светло-синяя-кровать-бок-ножка-до-texture-update]
-[light-blue-bed-side-head-pre-texture-update] = [светло-синяя-кровать-бок-изголовье-до-texture-update]
-[light-blue-bed-head-pre-texture-update] = [светло-синяя-кровать-изголовье-до-texture-update]
-[yellow-bed-top-foot-pre-texture-update] = [жёлтая-кровать-верх-ножка-до-texture-update]
-[yellow-bed-top-head-pre-texture-update] = [жёлтая-кровать-верх-изголовье-до-texture-update]
-[yellow-bed-foot-pre-texture-update] = [жёлтая-кровать-ножка-до-texture-update]
-[yellow-bed-side-foot-pre-texture-update] = [жёлтая-кровать-бок-ножка-до-texture-update]
-[yellow-bed-side-head-pre-texture-update] = [жёлтая-кровать-бок-изголовье-до-texture-update]
-[yellow-bed-head-pre-texture-update] = [жёлтая-кровать-изголовье-до-texture-update]
-[lime-bed-top-foot-pre-texture-update] = [лаймовая-кровать-верх-ножка-до-texture-update]
-[lime-bed-top-head-pre-texture-update] = [лаймовая-кровать-верх-изголовье-до-texture-update]
-[lime-bed-foot-pre-texture-update] = [лаймовая-кровать-ножка-до-texture-update]
-[lime-bed-side-foot-pre-texture-update] = [лаймовая-кровать-бок-ножка-до-texture-update]
-[lime-bed-side-head-pre-texture-update] = [лаймовая-кровать-бок-изголовье-до-texture-update]
-[lime-bed-head-pre-texture-update] = [лаймовая-кровать-изголовье-до-texture-update]
-[pink-bed-top-foot-pre-texture-update] = [розовая-кровать-верх-ножка-до-texture-update]
-[pink-bed-top-head-pre-texture-update] = [розовая-кровать-верх-изголовье-до-texture-update]
-[pink-bed-foot-pre-texture-update] = [розовая-кровать-ножка-до-texture-update]
-[pink-bed-side-foot-pre-texture-update] = [розовая-кровать-бок-ножка-до-texture-update]
-[pink-bed-side-head-pre-texture-update] = [розовая-кровать-бок-изголовье-до-texture-update]
-[pink-bed-head-pre-texture-update] = [розовая-кровать-изголовье-до-texture-update]
-[gray-bed-top-foot-pre-texture-update] = [серая-кровать-верх-ножка-до-texture-update]
-[gray-bed-top-head-pre-texture-update] = [серая-кровать-верх-изголовье-до-texture-update]
-[gray-bed-foot-pre-texture-update] = [серая-кровать-ножка-до-texture-update]
-[gray-bed-side-foot-pre-texture-update] = [серая-кровать-бок-ножка-до-texture-update]
-[gray-bed-side-head-pre-texture-update] = [серая-кровать-бок-изголовье-до-texture-update]
-[gray-bed-head-pre-texture-update] = [серая-кровать-изголовье-до-texture-update]
-[light-gray-bed-top-foot-pre-texture-update][silver-bed-top-foot-pre-texture-update] = [светло-серая-кровать-верх-ножка-до-texture-update]
-[light-gray-bed-top-head-pre-texture-update][silver-bed-top-head-pre-texture-update] = [светло-серая-кровать-верх-изголовье-до-texture-update]
-[light-gray-bed-foot-pre-texture-update][silver-bed-foot-pre-texture-update] = [светло-серая-кровать-ножка-до-texture-update]
-[light-gray-bed-side-foot-pre-texture-update][silver-bed-side-foot-pre-texture-update] = [светло-серая-кровать-бок-ножка-до-texture-update]
-[light-gray-bed-side-head-pre-texture-update][silver-bed-side-head-pre-texture-update] = [светло-серая-кровать-бок-изголовье-до-texture-update]
-[light-gray-bed-head-pre-texture-update][silver-bed-head-pre-texture-update] = [светло-серая-кровать-изголовье-до-texture-update]
-[cyan-bed-top-foot-pre-texture-update] = [бирюзовая-кровать-верх-ножка-до-texture-update]
-[cyan-bed-top-head-pre-texture-update] = [бирюзовая-кровать-верх-изголовье-до-texture-update]
-[cyan-bed-foot-pre-texture-update] = [бирюзовая-кровать-ножка-до-texture-update]
-[cyan-bed-side-foot-pre-texture-update] = [бирюзовая-кровать-бок-ножка-до-texture-update]
-[cyan-bed-side-head-pre-texture-update] = [бирюзовая-кровать-бок-изголовье-до-texture-update]
-[cyan-bed-head-pre-texture-update] = [бирюзовая-кровать-изголовье-до-texture-update]
-[purple-bed-top-foot-pre-texture-update] = [фиолетовая-кровать-верх-ножка-до-texture-update]
-[purple-bed-top-head-pre-texture-update] = [фиолетовая-кровать-верх-изголовье-до-texture-update]
-[purple-bed-foot-pre-texture-update] = [фиолетовая-кровать-ножка-до-texture-update]
-[purple-bed-side-foot-pre-texture-update] = [фиолетовая-кровать-бок-ножка-до-texture-update]
-[purple-bed-side-head-pre-texture-update] = [фиолетовая-кровать-бок-изголовье-до-texture-update]
-[purple-bed-head-pre-texture-update] = [фиолетовая-кровать-изголовье-до-texture-update]
-[blue-bed-top-foot-pre-texture-update] = [синяя-кровать-верх-ножка-до-texture-update]
-[blue-bed-top-head-pre-texture-update] = [синяя-кровать-верх-изголовье-до-texture-update]
-[blue-bed-foot-pre-texture-update] = [синяя-кровать-ножка-до-texture-update]
-[blue-bed-side-foot-pre-texture-update] = [синяя-кровать-бок-ножка-до-texture-update]
-[blue-bed-side-head-pre-texture-update] = [синяя-кровать-бок-изголовье-до-texture-update]
-[blue-bed-head-pre-texture-update] = [синяя-кровать-изголовье-до-texture-update]
-[brown-bed-top-foot-pre-texture-update] = [коричневая-кровать-верх-ножка-до-texture-update]
-[brown-bed-top-head-pre-texture-update] = [коричневая-кровать-верх-изголовье-до-texture-update]
-[brown-bed-foot-pre-texture-update] = [коричневая-кровать-ножка-до-texture-update]
-[brown-bed-side-foot-pre-texture-update] = [коричневая-кровать-бок-ножка-до-texture-update]
-[brown-bed-side-head-pre-texture-update] = [коричневая-кровать-бок-изголовье-до-texture-update]
-[brown-bed-head-pre-texture-update] = [коричневая-кровать-изголовье-до-texture-update]
-[green-bed-top-foot-pre-texture-update] = [зелёная-кровать-верх-ножка-до-texture-update]
-[green-bed-top-head-pre-texture-update] = [зелёная-кровать-верх-изголовье-до-texture-update]
-[green-bed-foot-pre-texture-update] = [зелёная-кровать-ножка-до-texture-update]
-[green-bed-side-foot-pre-texture-update] = [зелёная-кровать-бок-ножка-до-texture-update]
-[green-bed-side-head-pre-texture-update] = [зелёная-кровать-бок-изголовье-до-texture-update]
-[green-bed-head-pre-texture-update] = [зелёная-кровать-изголовье-до-texture-update]
-[black-bed-top-foot-pre-texture-update] = [чёрная-кровать-верх-ножка-до-texture-update]
-[black-bed-top-head-pre-texture-update] = [чёрная-кровать-верх-изголовье-до-texture-update]
-[black-bed-foot-pre-texture-update] = [чёрная-кровать-ножка-до-texture-update]
-[black-bed-side-foot-pre-texture-update] = [чёрная-кровать-бок-ножка-до-texture-update]
-[black-bed-side-head-pre-texture-update] = [чёрная-кровать-бок-изголовье-до-texture-update]
-[black-bed-head-pre-texture-update] = [чёрная-кровать-изголовье-до-texture-update]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [crying-obsidian-revision-1] = [плачущий-обсидиан-старый]
-[white-bed-pre-texture-update] = [белая-кровать-до-texture-update]
-[orange-bed-pre-texture-update] = [оранжевая-кровать-до-texture-update]
-[magenta-bed-pre-texture-update] = [сиреневая-кровать-до-texture-update]
-[light-blue-bed-pre-texture-update] = [светло-синяя-кровать-до-texture-update]
-[yellow-bed-pre-texture-update] = [жёлтая-кровать-до-texture-update]
-[lime-bed-pre-texture-update] = [лаймовая-кровать-до-texture-update]
-[pink-bed-pre-texture-update] = [розовая-кровать-до-texture-update]
-[gray-bed-pre-texture-update] = [серая-кровать-до-texture-update]
-[light-gray-bed-pre-texture-update][silver-bed-pre-texture-update] = [светло-серая-кровать-до-texture-update]
-[cyan-bed-pre-texture-update] = [бирюзовая-кровать-до-texture-update]
-[purple-bed-pre-texture-update] = [фиолетовая-кровать-до-texture-update]
-[blue-bed-pre-texture-update] = [синяя-кровать-до-texture-update]
-[brown-bed-pre-texture-update] = [коричневая-кровать-до-texture-update]
-[green-bed-pre-texture-update] = [зелёная-кровать-до-texture-update]
-[black-bed-pre-texture-update] = [чёрная-кровать-до-texture-update]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [kelp-plant] = [ламинария-растение]
 [blue-ice] = [синий-лёд]
 [conduit] = [морской-проводник]
@@ -809,46 +809,46 @@
 [blue-torch][blue-wall-torch] = [синий-факел]
 [compound-creator] = [создатель-соединений]
 [compound-creator-side] = [создатель-соединений-бок]
-[spruce-trapdoor-pre-texture-update] = [еловый-люк-до-texture-update]
+
 [birch-trapdoor] = [берёзовый-люк]
 [jungle-trapdoor] = [джунглевый-люк][люк-из-тропического-дерева|у]
 [acacia-trapdoor] = [акациевый-люк]
 [dark-oak-trapdoor] = [люк-из-тёмного-дуба]
-[spruce-pressure-plate-pre-texture-update] = [еловая-нажимная-пластина-до-texture-update]
-[birch-pressure-plate-pre-texture-update] = [берёзовая-нажимная-пластина-до-texture-update]
-[jungle-pressure-plate-pre-texture-update] = [джунглевая-нажимная-пластина-до-texture-update]
-[acacia-pressure-plate-pre-texture-update] = [акациевая-нажимная-пластина-до-texture-update]
-[dark-oak-pressure-plate-pre-texture-update] = [нажимная-пластина-из-тёмного-дуба-до-texture-update]
+
+
+
+
+
 [turtle-egg] = [черепашье-яйцо]
 [cracked-turtle-egg][slightly-cracked-turtle-egg][very-cracked-turtle-egg] = [немного-треснутое-черепашье-яйцо][сильно-треснутое-черепашье-яйцо][треснутое-черепашье-яйцо]
 [compound-creator-side-alt] = [создатель-соединений-бок-альт]
 [turtle-eggs] = [черепашьи-яйца]
-[prismarine-stairs-pre-texture-update] = [призмариновые-ступени-до-texture-update]
-[prismarine-brick-stairs-pre-texture-update] = [ступени-из-призмариновых-кирпичей-до-texture-update]
-[dark-prismarine-stairs-pre-texture-update] = [ступени-из-тёмного-призмарина-до-texture-update]
-[all-prismarine-stairs-pre-texture-update] = [все-призмариновые-ступени-до-texture-update]
-[prismarine-slab-pre-texture-update] = [призмариновая-плита-до-texture-update]
-[prismarine-brick-slab-pre-texture-update][prismarine-bricks-slab-pre-texture-update] = [плита-из-призмаринового-кирпича-до-texture-update][плита-из-призмариновых-кирпичей-до-texture-update]
-[dark-prismarine-slab-pre-texture-update] = [плита-из-тёмного-призмарина-до-texture-update]
-[all-prismarine-slabs-pre-texture-update][prismarine-slabs-pre-texture-update] = [все-призмариновые-плиты-до-texture-update][призмариновые-плиты-до-texture-update]
+
+
+
+
+
+
+
+
 [stripped-acacia-log][stripped-acacia-wood] = [обтёсанная-акациевая-древесина][обтёсанное-акациевое-бревно]
 [stripped-acacia-log-horizontal][stripped-acacia-wood-horizontal] = [обтёсанная-акациевая-древесина-горизонтальная][обтёсанная-акациевая-кора-горизонтальная]
-[stripped-acacia-log-top-pre-texture-update] = [обтёсанная-акациевая-древесина-верх-до-texture-update]
+
 [stripped-birch-log][stripped-birch-wood] = [обтёсанная-берёзовая-древесина][обтёсанное-берёзовое-бревно]
 [stripped-birch-log-horizontal][stripped-wood-log-horizontal] = [обтёсанная-берёзовая-древесина-горизонтальная][обтёсанная-берёзовая-кора-горизонтальная]
-[stripped-birch-log-top-pre-texture-update] = [обтёсанная-берёзовая-древесина-верх-до-texture-update]
+
 [stripped-dark-oak-log][stripped-dark-oak-wood] = [обтёсанная-древесина-тёмного-дуба][обтёсанное-тёмнодубовое-бревно]
 [stripped-dark-oak-log-horizontal][stripped-dark-oak-wood-horizontal] = [обтёсанная-древесина-тёмного-дуба-горизонтальная][обтёсанная-кора-тёмного-дуба-горизонтальная]
-[stripped-dark-oak-log-top-pre-texture-update] = [обтёсанная-древесина-тёмного-дуба-верх-до-texture-update]
+
 [stripped-jungle-log][stripped-jungle-wood] = [обтёсанная-джунглевая-древесина][обтёсанная-древесина-тропического-дерева|у][обтёсанное-джунглевое-бревно]
 [stripped-jungle-log-horizontal][stripped-jungle-wood-horizontal] = [обтёсанная-джунглевая-древесина-горизонтальная][обтёсанная-джунглевая-кора-горизонтальная]
-[stripped-jungle-log-top-pre-texture-update] = [обтёсанная-джунглевая-древесина-верх-до-texture-update]
+
 [stripped-oak-log][stripped-oak-wood] = [обтёсанная-дубовая-древесина][обтёсанное-дубовое-бревно]
 [stripped-oak-log-horizontal][stripped-oak-wood-horizontal] = [обтёсанная-дубовая-древесина-горизонтальная][обтёсанная-дубовая-кора-горизонтальная]
-[stripped-oak-log-top-pre-texture-update] = [обтёсанная-дубовая-древесина-верх-до-texture-update]
+
 [stripped-spruce-log][stripped-spruce-wood] = [обтёсанная-еловая-древесина][обтёсанное-сосновое-бревно]
 [stripped-spruce-log-horizontal][stripped-spruce-wood-horizontal] = [обтёсанная-еловая-древесина-горизонтальная][обтёсанная-еловая-кора-горизонтальная]
-[stripped-spruce-log-top-pre-texture-update] = [обтёсанная-еловая-древесина-верх-до-texture-update]
+
 [dead-bubble-coral-fan][dead-bubble-coral-wall-fan] = [мёртвый-пузырчатый-веерный-коралл]
 [dead-brain-coral-fan][dead-brain-coral-wall-fan] = [мёртвый-мозговой-веерный-коралл]
 [dead-fire-coral-fan][dead-fire-coral-wall-fan] = [мёртвый-огненный-веерный-коралл]
@@ -1049,28 +1049,28 @@
 [scaffolding-bottom] = [строительные-леса-низ]
 [scaffolding-side] = [строительные-леса-бок]
 [scaffolding-top] = [строительные-леса-верх]
-[potted-acacia-sapling-pre-texture-update] = [посаженный-акациевый-саженец-до-texture-update]
-[potted-allium-pre-texture-update] = [посаженный-лук-до-texture-update]
-[potted-azure-bluet-pre-texture-update] = [посаженная-хаустония-серая-до-texture-update]
+
+
+
 [potted-bamboo] = [посаженный-бамбук]
-[potted-birch-sapling-pre-texture-update] = [посаженный-берёзовый-саженец-до-texture-update]
-[potted-blue-orchid-pre-texture-update] = [посаженная-синяя-орхидея-до-texture-update]
-[potted-brown-mushroom-pre-texture-update] = [посаженный-коричневый-гриб-до-texture-update]
+
+
+
 [potted-cornflower] = [посаженный-василёк]
-[potted-dandelion-pre-texture-update] = [посаженный-одуванчик-до-texture-update]
-[potted-dark-oak-sapling-pre-texture-update] = [посаженный-саженец-тёмного-дуба-до-texture-update]
-[potted-dead-bush-pre-texture-update] = [посаженный-сухой-куст-до-texture-update]
-[potted-fern-pre-texture-update] = [посаженный-папоротник-до-texture-update]
-[potted-jungle-sapling-pre-texture-update] = [посаженный-джунглевый-саженец-до-texture-update]
+
+
+
+
+
 [potted-lily-of-the-valley] = [посаженный-ландыш]
-[potted-oak-sapling-pre-texture-update] = [посаженный-дубовый-саженец-до-texture-update]
-[potted-orange-tulip-pre-texture-update] = [посаженный-оранжевый-тюльпан-до-texture-update]
-[potted-oxeye-daisy-pre-texture-update] = [посаженный-нивяник-до-texture-update]
-[potted-pink-tulip-pre-texture-update] = [посаженный-розовый-тюльпан-до-texture-update]
-[potted-red-tulip-pre-texture-update] = [посаженный-красный-тюльпан-до-texture-update]
+
+
+
+
+
 [potted-rose] = [посаженная-роза]
-[potted-spruce-sapling-pre-texture-update] = [посаженный-еловый-саженец-до-texture-update]
-[potted-white-tulip-pre-texture-update] = [посаженный-белый-тюльпан-до-texture-update]
+
+
 [potted-wither-rose] = [посаженная-роза-иссушения]
 [all-concrete][concrete] = [бетон][весь-бетон]
 [all-concrete-powder][concrete-powder] = [весь-цемент][цемент]
@@ -1083,7 +1083,7 @@
 [light-blue-banner] = [светло-синий-флаг]
 [light-gray-banner] = [светло-серый-флаг]
 [lime-banner] = [лаймовый-флаг]
-[magenta-banner] = [сиреневый-флаг]
+[magenta-banner] = [пурпурный-флаг][сиреневый-флаг]
 [orange-banner] = [оранжевый-флаг]
 [pink-banner] = [розовый-флаг]
 [purple-banner] = [фиолетовый-флаг]
@@ -1091,7 +1091,7 @@
 [yellow-banner] = [жёлтый-флаг]
 [all-coral][coral] = [все-кораллы][кораллы]
 [all-dead-coral][dead-coral] = [все-мёртвые-кораллы][мёртвые-кораллы|у][мёртвый-коралл]
-[white-stained-glass-pre-texture-update] = [белое-окрашенное-стекло-до-texture-update]
+
 [all-carpets][carpets] = [все-ковры][ковры][ковёр|у]
 [all-wool][wool] = [вся-шерсть][шерсть]
 [black-carpet] = [чёрный-ковёр]
@@ -1102,7 +1102,7 @@
 [green-carpet] = [зелёный-ковёр]
 [light-gray-carpet] = [светло-серый-ковёр]
 [lime-carpet] = [лаймовый-ковёр]
-[magenta-carpet] = [сиреневый-ковёр]
+[magenta-carpet] = [пурпурный-ковёр][сиреневый-ковёр]
 [orange-carpet] = [оранжевый-ковёр]
 [pink-carpet] = [розовый-ковёр]
 [red-carpet] = [красный-ковёр]
@@ -1111,8 +1111,8 @@
 [purple-shulker-box][purple-shulker-box-side] = [фиолетовый-шалкеровый-ящик][фиолетовый-шалкеровый-ящик-бок]
 [purple-shulker-box-bottom] = [фиолетовый-шалкеровый-ящик-низ]
 [purple-shulker-box-top] = [фиолетовый-шалкеровый-ящик-верх]
-[all-beds-pre-texture-update][beds-pre-texture-update] = [все-кровати-до-texture-update][кровати-до-texture-update]
-[all-wooden-trapdoors-pre-texture-update][wooden-trapdoors-pre-texture-update] = [все-деревянные-люки-до-texture-update][деревянные-люки-до-texture-update]
+
+
 [andesite-wall] = [андезитовая-стена]
 [brick-wall] = [кирпичная-стена]
 [diorite-wall] = [диоритовая-стена]
@@ -1138,19 +1138,19 @@
 [smooth-red-sandstone-slab] = [плита-из-гладкого-красного-песчаника]
 [smooth-sandstone-slab] = [плита-из-гладкого-песчаника]
 [stone-slab] = [каменная-плита]
-[andesite-stairs-pre-texture-update] = [андезитовые-ступени-до-texture-update]
-[diorite-stairs-pre-texture-update] = [диоритовые-ступени-до-texture-update]
-[granite-stairs-pre-texture-update] = [гранитные-ступени-до-texture-update]
-[mossy-cobblestone-stairs-pre-texture-update] = [ступени-из-замшелого-булыжника-до-texture-update]
-[mossy-stone-brick-stairs-pre-texture-update] = [ступени-из-замшелого-каменного-кирпича-до-texture-update]
-[polished-andesite-stairs-pre-texture-update] = [ступени-из-полированного-андезита-до-texture-update]
-[polished-diorite-stairs-pre-texture-update] = [ступени-из-полированного-диорита-до-texture-update]
-[polished-granite-stairs-pre-texture-update] = [ступени-из-полированного-гранита-до-texture-update]
-[red-nether-brick-stairs-pre-texture-update] = [ступени-из-красного-адского-кирпича-до-texture-update]
-[smooth-red-sandstone-stairs-pre-texture-update] = [ступени-из-гладкого-красного-песчаника-до-texture-update]
-[smooth-sandstone-stairs-pre-texture-update] = [ступени-из-гладкого-песчаника-до-texture-update]
-[end-stone-brick-stairs-pre-texture-update] = [ступени-из-каменного-кирпича-края-до-texture-update]
-[stone-stairs-pre-texture-update] = [каменные-ступени-до-texture-update]
+
+
+
+
+
+
+
+
+
+
+
+
+
 [purple-carpet] = [фиолетовый-ковёр]
 [lantern] = [фонарь]
 [jigsaw][jigsaw-block][jigsaw-top] = [блок-головоломки][пазл][пазл-верх]
@@ -1159,9 +1159,9 @@
 [cut-red-sandstone-slab] = [плита-из-резного-красного-песчаника]
 [cut-sandstone-slab] = [плита-из-резного-песчаника]
 [acacia-wall-sign] = [настенная-акациевая-табличка]
-[oak-sign-pre-texture-update] = [дубовая-табличка-до-texture-update]
+
 [white-wall-banner] = [настенный-белый-флаг]
-[oak-wall-sign-pre-texture-update] = [настенная-дубовая-табличка-до-texture-update]
+
 [birch-sign] = [берёзовая-табличка]
 [birch-wall-sign] = [настенная-берёзовая-табличка]
 [black-wall-banner] = [настенный-чёрный-флаг]
@@ -1188,12 +1188,12 @@
 [all-wall-banners][wall-banners] = [все-установленные-флаги][установленные-флаги]
 [all-wall-signs][wall-signs] = [все-установленные-таблички][установленные-таблички]
 [all-walls][walls] = [все-стены][стена|у][стены]
-[all-stained-glass-pre-texture-update][stained-glass-pre-texture-update] = [всё-окрашенное-стекло-до-texture-update][окрашенное-стекло-до-texture-update]
+
 [all-hardened-stained-glass-panes][all-stained-glass-panes][hardened-stained-glass-panes][stained-glass-panes] = [все-окрашенные-стеклянные-панели][окрашенная-стеклянная-панель|у][окрашенные-стеклянные-панели]
 [all-shulker-boxes][shulker-boxes] = [все-шалкеровые-ящики][шалкеровые-ящики]
-[all-saplings-pre-texture-update][saplings-pre-texture-update] = [все-саженцы-до-texture-update][саженцы-до-texture-update]
-[all-pressure-plates-pre-texture-update][pressure-plates-pre-texture-update] = [все-нажимные-пластины-до-texture-update][нажимные-пластины-до-texture-update]
-[all-wooden-pressure-plates-pre-texture-update][wooden-pressure-plates-pre-texture-update] = [все-деревянные-нажимные-пластины-до-texture-update][деревянные-нажимные-пластины-до-texture-update]
+
+
+
 [sweet-berries][sweet-berry][sweet-berry-bush][sweet-berry-bush-4] = [куст-сладких-ягод][куст-сладких-ягод-4][сладкие-ягоды]
 [sweet-berry-bush-1] = [куст-сладких-ягод-1]
 [sweet-berry-bush-2] = [куст-сладких-ягод-2]
@@ -1286,8 +1286,8 @@
 [soul-sand] = [песок-душ]
 [birch-planks][birch-wood-planks] = [берёзовые-доски]
 [chair] = [стул]
-[smooth-quartz-stairs-pre-texture-update] = [гладкие-кварцевые-ступени-до-texture-update]
-[block-of-quartz-bottom-pre-texture-update][quartz-block-bottom-pre-texture-update][smooth-quartz-pre-texture-update] = [гладкий-кварцевый-блок-до-texture-update][кварцевый-блок-низ-до-texture-update]
+
+
 [table] = [стол]
 [acacia-log][acacia-wood] = [акациевая-древесина][акациевая-кора]
 [acacia-log-top][acacia-wood-top] = [акациевая-древесина-верх][акациевая-кора-верх]
@@ -1315,7 +1315,7 @@
 [potted-acacia-sapling] = [посаженный-акациевый-саженец]
 [potted-allium] = [посаженный-лук]
 [potted-azure-bluet] = [посаженный-хаустония-серая]
-[clay] = [блок|у][глина|у][глиняный|у][глиняный-блок]
+[clay] = [глина|у][глиняный-блок]
 [potted-birch-sapling] = [посаженный-берёзовый-саженец]
 [potted-blue-orchid] = [посаженный-синяя-орхидея]
 [potted-brown-mushroom] = [посаженный-коричневый-гриб]
@@ -1332,7 +1332,7 @@
 [potted-pink-tulip] = [посаженный-розовый-тюльпан]
 [all-doors][doors] = [все-двери][двери]
 [all-wooden-doors][wooden-doors] = [все-деревянные-двери][деревянная-дверь|у][деревянные-двери]
-[all-command-blocks-pre-texture-update][command-blocks-pre-texture-update] = [все-командные-блоки-до-texture-update][командные-блоки-до-texture-update]
+
 [diorite-bell] = [диоритовый-колокол]
 [granite-bell] = [гранитовый-колокол]
 [polished-granite-bell] = [колокол-из-полированного-гранита]
@@ -1399,7 +1399,7 @@
 [block-of-emerald][emerald-block] = [блок-изумрудов|у][изумрудный-блок]
 [block-of-gold][gold-block] = [блок-золота|у][золотой-блок]
 [block-of-iron][iron-block] = [блок-железа|у][железный-блок]
-[lapis-block][lapis-lazuli-block] = [блок-лазурита|у][лазуритовый-блок]
+[block-of-lapis-lazuli][lapis-block][lapis-lazuli-block] = [блок-лазурита|у][лазуритовый-блок]
 [block-of-redstone][redstone-block] = [блок-красного-камня]
 [acacia-planks][acacia-wood-planks] = [акациевые-доски]
 [dark-oak-planks][dark-oak-wood-planks] = [доски-из-тёмного-дуба]
@@ -1517,7 +1517,7 @@
 [block-of-quartz-bottom][quartz-block-bottom][smooth-quartz][smooth-quartz-block] = [гладкий-кварц|у][гладкий-кварцевый-блок][кварцевый-блок-низ]
 [chiseled-quartz][chiseled-quartz-block] = [резной-кварцевый-блок]
 [chiseled-quartz-block-top][chiseled-quartz-top] = [резной-кварцевый-верх]
-[quartz-pillar] = [кварцевый-пилон]
+[pillar-quartz-block][quartz-pillar] = [кварцевый-пилон]
 [quartz-pillar-horizontal] = [кварцевый-пилон-горизонтальный]
 [quartz-pillar-top] = [кварцевый-пилон-верх]
 [acacia-door-bottom] = [акациевая-дверь-низ]
@@ -1729,7 +1729,7 @@
 [carved-pumpkin] = [вырезанная-тыква]
 [chorus-flower] = [цветок-коруса][цветок-хоруса|у]
 [chorus-flower-dead][dead-chorus-flower] = [мёртвый-цветок-коруса]
-[chorus-plant] = [растение-коруса][хорус|у]
+[chorus-plant] = [растение-коруса][растение-хоруса][хорус|у]
 [cocoa][cocoa-3] = [какао|у][плод-какао][плод-какао-3]
 [cocoa-1] = [плод-какао-1]
 [cocoa-2] = [плод-какао-2]
@@ -1812,7 +1812,7 @@
 [powered-rail][powered-rail-off] = [электрические-рельсы][электрические-рельсы-выкл][энергорельсы|у]
 [powered-rail-on] = [электрические-рельсы-вкл]
 [powered-repeater][redstone-repeater-on] = [повторитель-вкл][подключённый-повторитель]
-[rail][rail-straight][rail-straight-vertical][rail-vertical] = [плита-из-гладкого-камня|у][рельсы-вертикальные][рельсы-до-texture-update][рельсы-прямые][рельсы-прямые-вертикальные]
+[rail][rail-straight][rail-straight-vertical][rail-vertical] = [плита-из-гладкого-камня|у][рельсы][рельсы-вертикальные][рельсы-до-texture-update][рельсы-прямые][рельсы-прямые-вертикальные]
 [rail-corner][rail-ne][rail-north-east][rail-turn] = [рельсы-поворот][рельсы-св][рельсы-северо-восток][рельсы-угол]
 [rail-corner-north-west][rail-corner-nw] = [рельсы-угол-северо-запад][рельсы-угол-сз]
 [rail-corner-se][rail-corner-south-east] = [рельсы-угол-юв][рельсы-угол-юго-восток]
@@ -1849,7 +1849,7 @@
 [end-portal-frame-sideways][end-portal-frame-sideways-empty] = [рамка-портала-края-повёрнута][рамка-портала-края-повёрнута-пустая]
 [end-portal-frame-sideways-active][end-portal-frame-sideways-eye] = [рамка-портала-края-повёрнута-активированная][рамка-портала-края-повёрнута-око]
 [piston-arm-collision][piston-head] = [головка-поршня][поршень-выдвинут|у]
-[structure-void] = [структурная-пустота]
+[structure-void][structure-void-je] = [структурная-пустота-je]
 [barrel-top-open] = [бочка-верх-открыта]
 [beacon] = [маяк]
 [blaze-spawner] = [спаунер-ифритов]
@@ -1907,7 +1907,7 @@
 [gravel-revision-2] = [гравий-старый-2]
 [glowstone-revision-1] = [светокамень-старый-1]
 [empty-barrel][empty-barrel-top] = [пустая-бочка][пустая-бочка-верх]
-[all-tinted-glass][tinted-glass] = [всё-тонированное-стекло][тонированное-стекло]
+[all-tinted-glass][tinted-glass-april-fools] = [тонированное-стекло-первоапрельская-шутка]
 [honey-block-bottom] = 
 [beehive][beehive-front] = [улей][улей-перед]
 [beehive-front-honey] = [улей-перед-с-мёдом]
@@ -2106,7 +2106,7 @@
 [all-nylium][all-nylium-side][crimson-nylium][crimson-nylium-side][nylium][nylium-side] = [багровый-нилий][багровый-нилий-бок][нилий][нилий-бок]
 [all-nylium-top][crimson-nylium-top][nylium-top] = [багровый-нилий-верх][нилий-верх]
 [all-wart-blocks][nether-wart-block][wart-blocks] = [блок-адского-нароста]
-[basalt][basalt-side] = [базальт][базальт-бок]
+[basalt][basalt-side] = [базальт][базальт-бок][гладкий-базальт]
 [basalt-top] = [базальт-верх]
 [shroomlight] = [грибосвет]
 [soul-soil] = [почва-душ]
@@ -2114,9 +2114,9 @@
 [warped-nylium-top] = [искажённый-нилий-верх]
 [crimson-hyphae][crimson-stem] = [багровая-ножка][багровые-гифы]
 [crimson-stem-top] = [багровая-ножка-верх]
-[stripped-crimson-hyphae][stripped-crimson-stem] = [обтёсанная-багровая-ножка][обтёсанные-багровые-гифы]
+[stripped-crimson-hyphae][stripped-crimson-stem] = [обтёсанная-багровая-ножка][обтёсанные-багровые-гифы][очищенная-багровая-ножка][очищенные-багровые-гифы]
 [stripped-crimson-stem-top] = [обтёсанная-багровая-ножка-верх]
-[stripped-warped-hyphae][stripped-warped-stem] = [обтёсанная-искажённая-ножка][обтёсанные-искажённые-гифы]
+[stripped-warped-hyphae][stripped-warped-stem] = [обтёсанная-искажённая-ножка][обтёсанные-искажённые-гифы][очищенная-искажённая-ножка][очищенные-искажённые-гифы]
 [stripped-warped-stem-top] = [обтёсанная-искажённая-ножка-верх]
 [warped-hyphae][warped-stem] = [искажённая-ножка][искажённые-гифы]
 [warped-stem-top] = [искажённая-ножка-верх]
@@ -2185,12 +2185,12 @@
 [cracked-stone-bricks-monster-egg][infested-cracked-stone-bricks] = [заражённый-блок-потрескавшийся-каменный-кирпич|у][заражённый-потрескавшийся-каменный-кирпич]
 [infested-mossy-stone-bricks][mossy-stone-bricks-monster-egg] = [замшелые-каменные-кирпичи|у][замшелый-каменный-кирпич-с-монстрами|у][заражённый-блок-замшелый-каменный-кирпич|у][заражённый-замшелый-каменный-кирпич]
 [chiseled-stone-bricks-monster-egg][infested-chiseled-stone-bricks] = [заражённый-блок-резной-каменный-кирпич|у][заражённый-резной-каменный-кирпич]
-[infested-stone-pre-texture-update][stone-monster-egg-pre-texture-update] = [заражённый-блок-камень-до-texture-update][заражённый-камень-до-texture-update]
-[cobblestone-monster-egg-pre-texture-update][infested-cobblestone-pre-texture-update] = [заражённый-блок-булыжник-до-texture-update][заражённый-булыжник-до-texture-update]
-[infested-stone-bricks-pre-texture-update][stone-bricks-monster-egg-pre-texture-update] = [заражённый-блок-каменный-кирпич-до-texture-update][заражённый-каменный-кирпич-до-texture-update]
-[cracked-stone-bricks-monster-egg-pre-texture-update][infested-cracked-stone-bricks-pre-texture-update] = [заражённый-блок-потрескавшийся-каменный-кирпич-до-texture-update][заражённый-потрескавшийся-каменный-кирпич-до-texture-update]
-[infested-mossy-stone-bricks-pre-texture-update][mossy-stone-bricks-monster-egg-pre-texture-update] = [заражённый-блок-замшелый-каменный-кирпич-до-texture-update][заражённый-замшелый-каменный-кирпич-до-texture-update]
-[chiseled-stone-bricks-monster-egg-pre-texture-update][infested-chiseled-stone-bricks-pre-texture-update] = [заражённый-блок-резной-каменный-кирпич-до-texture-update][заражённый-резной-каменный-кирпич-до-texture-update]
+[infested-deepslate] = 
+
+
+
+
+
 [nether-gold-ore] = [золотая-руда-нижнего-мира]
 [lodestone][lodestone-side] = [магнетит][магнетит-бок]
 [lodestone-top] = [магнетит-верх]
@@ -2239,10 +2239,10 @@
 [wall-board] = [настенная-доска]
 [wall-poster] = [настенная-широкая-доска]
 [wall-slate] = [настенная-маленькая-доска]
-[ant][ant-block][ant-front] = [муравьиный-блок][муравьиный-блок-перед]
-[ant-side][ant-top] = [муравьиный-блок-бок][муравьиный-блок-верх]
+[an-ant][an-ant-back][an-ant-front][ant-block][ant-block-back][ant-block-front] = [муравьиный-блок][муравьиный-блок-перед]
+[an-ant-side][an-ant-top][ant-block-side][ant-block-top] = [муравьиный-блок-бок][муравьиный-блок-верх]
 [cursor] = [курсор]
-[netherite-stairs][swaggiest-stairs-ever] = [незеритовые-ступени]
+[netherite-stairs][swaggiest-stairs-ever] = [незеритовые-ступени][самые-шикарные-ступени-на-свете]
 [earth-ruby-block] = [рубиновый-блок]
 [jungle-door-down-left] = [джунглевая-дверь-низ-лево]
 [jungle-door-down-right] = [джунглевая-дверь-низ-право]
@@ -2267,3 +2267,9 @@
 [rainbow-wool-east] = [радужная-шерсть-восток]
 [rainbow-wool-west] = [радужная-шерсть-запад]
 [broken-anvil] = [сломанная-наковальня]
+[all-box-of-infinite-books] = 
+[box-of-infinite-books-yellow] = 
+[box-of-infinite-books-blue] = 
+[box-of-infinite-books-red] = 
+[box-of-infinite-books-green] = 
+[funky-portal][neither-portal] =
