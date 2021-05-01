@@ -18,7 +18,7 @@
   - `generateAllTables` сгенерирует все таблицы
 * загрузка таблиц с вики
   - синтаксис: `updateContent <директория>`
-  - пример: `updateContent InvSprite`
+  - пример: `java -jar Translator.jar updateContent InvSprite`
   - обновляет файлы `<директория>/en.txt` и `<директория>/ru.txt`
   - `updateAllContent` обновляет файлы во всех директориях
 
