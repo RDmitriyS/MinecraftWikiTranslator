@@ -389,7 +389,7 @@
 [Spawn Wandering Trader][Spawn Wandering Trader BE] = [Яйцо призывания странствующего торговца][Яйцо призывания странствующего торговца BE]
 [Goat Horn] = [Козий рог]
 [Powder Snow] = [Рыхлый снег]
-[Spawn Goat] = [Яйцо призывания козла][Яйцо призывания козы]
+[Goat Spawn Egg][Spawn Goat] = [Яйцо призывания козла][Яйцо призывания козы]
 [Amethyst Cluster] = [Аметистовый кластер]
 [Amethyst Shard] = [Аметистовый осколок][Часы 10|у]
 [Black Candle] = [Чёрная свеча]
@@ -408,10 +408,10 @@
 [Large Amethyst Bud] = [Большой аметистовый бутон]
 [Light Blue Candle] = [Голубая свеча]
 [Light Gray Candle] = [Светло-серая свеча][Часы 26|у]
-[Exposed Copper][Exposed Copper Block][Waxed Exposed Copper][Waxed Exposed Copper Block] = [Вощёный слегка окисленный медный блок][Слегка окисленный медный блок]
-[Exposed Cut Copper][Exposed Cut Copper Block][Waxed Exposed Cut Copper][Waxed Exposed Cut Copper Block] = [Вощёный слегка окисленный резной медный блок][Слегка окисленный резной медный блок]
-[Exposed Cut Copper Slab][Waxed Exposed Cut Copper Slab] = [Вощёная слегка окисленная плита из резного медного блока][Слегка окисленная плита из резного медного блока]
-[Exposed Cut Copper Stairs][Waxed Exposed Cut Copper Stairs] = [Вощёные слегка окисленные ступени из резного медного блока][Слегка окисленные ступени из резного медного блока]
+[Exposed Copper][Exposed Copper Block][Waxed Exposed Copper][Waxed Exposed Copper Block] = [Вощёный потемневший медный блок][Вощёный слегка окисленный медный блок|у][Потемневший медный блок][Слегка окисленный медный блок|у]
+[Exposed Cut Copper][Exposed Cut Copper Block][Waxed Exposed Cut Copper][Waxed Exposed Cut Copper Block] = [Вощёный потемневший резной медный блок][Вощёный слегка окисленный резной медный блок|у][Потемневший резной медный блок][Слегка окисленный резной медный блок|у]
+[Exposed Cut Copper Slab][Waxed Exposed Cut Copper Slab] = [Вощёная окисленная плита из резного медного блока][Вощёная потемневшая плита из резного медного блока][Вощёная слегка окисленная плита из резного медного блока|у][Потемневшая плита из резного медного блока][Слегка окисленная плита из резного медного блока|у]
+[Exposed Cut Copper Stairs][Waxed Exposed Cut Copper Stairs] = [Вощёные слегка окисленные ступени из резного медного блока][Потемневшие ступени из резного медного блока][Слегка окисленные ступени из резного медного блока|у]
 [Lightning Rod] = [Молниеотвод]
 [Lime Candle] = [Лаймовая свеча]
 [Magenta Candle] = [Пурпурная свеча]
@@ -420,10 +420,10 @@
 [Pink Candle] = [Розовая свеча]
 [Purple Candle] = [Фиолетовая свеча]
 [Red Candle] = [Красная свеча]
-[Waxed Weathered Cut Copper Slab][Weathered Cut Copper Slab] = [Вощёная полуокисленная плита из резного медного блока][Полуокисленная плита из резного медного блока]
-[Waxed Weathered Copper][Waxed Weathered Copper Block][Weathered Copper][Weathered Copper Block] = [Вощёный полуокисленный медный блок][Полуокисленный медный блок]
-[Waxed Weathered Cut Copper][Waxed Weathered Cut Copper Block][Weathered Cut Copper][Weathered Cut Copper Block] = [Вощёный полуокисленный резной медный блок][Полуокисленный резной медный блок]
-[Waxed Weathered Cut Copper Stairs][Weathered Cut Copper Stairs] = [Вощёные полуокисленные ступени из резного медного блока][Полуокисленные ступени из резного медного блока]
+[Waxed Weathered Cut Copper Slab][Weathered Cut Copper Slab] = [Вощёная полуокисленная плита из резного медного блока|у][Вощёная состаренная плита из резного медного блока][Полуокисленная плита из резного медного блока|у][Состаренная плита из резного медного блока]
+[Waxed Weathered Copper][Waxed Weathered Copper Block][Weathered Copper][Weathered Copper Block] = [Вощёный полуокисленный медный блок|у][Вощёный состаренный медный блок][Полуокисленный медный блок|у][Состаренный медный блок]
+[Waxed Weathered Cut Copper][Waxed Weathered Cut Copper Block][Weathered Cut Copper][Weathered Cut Copper Block] = [Вощёный полуокисленный резной медный блок|у][Вощёный состаренный резной медный блок][Полуокисленный резной медный блок|у][Состаренный резной медный блок]
+[Waxed Weathered Cut Copper Stairs][Weathered Cut Copper Stairs] = [Вощёные окисленные ступени из резного медного блока][Вощёные полуокисленные ступени из резного медного блока|у][Вощёные потемневшие ступени из резного медного блока][Полуокисленные ступени из резного медного блока|у][Состаренные ступени из резного медного блока]
 [Small Amethyst Bud] = [Малый аметистовый бутон]
 [Spyglass] = [Подзорная труба]
 [Filled Bundle] = [Полный мешок]
@@ -438,10 +438,10 @@
 [Yellow Candle] = [Жёлтая свеча]
 [Sculk Sensor] = [Акустический датчик]
 [Axolotl Spawn Egg] = [Яйцо призывания аксолотля]
-[Oxidized Copper][Oxidized Copper Block] = [Окисленный медный блок]
-[Oxidized Cut Copper][Oxidized Cut Copper Block] = [Окисленный резной медный блок]
-[Oxidized Cut Copper Slab] = [Окисленная плита из резного медного блока]
-[Oxidized Cut Copper Stairs] = [Окисленные ступени из резного медного блока]
+[Oxidized Copper][Oxidized Copper Block][Waxed Oxidized Copper][Waxed Oxidized Copper Block] = [Вощёный окисленный медный блок][Окисленный медный блок]
+[Oxidized Cut Copper][Oxidized Cut Copper Block][Waxed Oxidized Cut Copper][Waxed Oxidized Cut Copper Block] = [Вощёный окисленный резной медный блок][Окисленный резной медный блок]
+[Oxidized Cut Copper Slab][Waxed Oxidized Cut Copper Slab] = [Окисленная плита из резного медного блока]
+[Oxidized Cut Copper Stairs][Waxed Oxidized Cut Copper Stairs] = [Окисленные ступени из резного медного блока]
 [Bucket of Axolotl] = [Ведро с аксолотлем]
 [3D] = 
 [Bundle] = [Мешок]
@@ -508,8 +508,8 @@
 [Spawner BE] = 
 [Crying Obsidian BE] = 
 [Magma Block BE] = 
-[Clock] = 
-[Compass] = 
+[Clock] = [Часы]
+[Compass] = [Компас][Магнетитовый компас|у]
 [Cobbled Deepslate] = [Cobbled Deepslate][Дроблёный сланец]
 [Deepslate Diamond Ore] = [Deepslate Diamond Ore]
 [Deepslate Gold Ore] = 
@@ -539,12 +539,12 @@
 [Light 8] = 
 [Light 9] = 
 [Light Negative] = 
-
-
-
-
-
-
+[Raw Copper] = [Необработанная медь]
+[Raw Gold] = [Необработанное золото]
+[Raw Iron] = [Необработанное железо]
+[Block of Raw Copper] = [Блок необработанной меди]
+[Block of Raw Gold] = [Блок необработанного золота]
+[Block of Raw Iron] = [Блок необработанного железа]
 
 
 
@@ -1007,7 +1007,7 @@
 [Nether Wart (block)] = [Адский нарост (блок)]
 
 
-[End Portal] = 
+[End Portal] = [Блок портала Края]
 [Portal] = [Блок портала Нижнего мира]
 
 
@@ -1116,7 +1116,7 @@
 
 
 
-[Charcoal Revision 1][Coal Revision 2] = [Древесный уголь (версия 1)][Уголь (версия )][Уголь до Texture Update|у]
+[Charcoal Revision 1][Coal Revision 2] = [Древесный уголь (версия 1)][Уголь (версия 1)][Уголь до Texture Update|у]
 
 
 
@@ -1170,8 +1170,8 @@
 
 
 
- = [Часы]
- = [Компас][Магнетитовый компас|у]
+
+
 
 
 
@@ -1237,7 +1237,7 @@
 
 
 [Chest] = [Сундук]
-[Impulse Command Block Revision 1] = [Командный блок|у][Командный блок (версия 1)]
+[Impulse Command Block Revision 1] = [Командный блок (версия 1)]
 
 [Daylight Detector][Daylight Sensor] = [Датчик дневного света]
 
@@ -1288,7 +1288,7 @@
 
 
 
-[Spectral Arrow Revision 1] = [Призрачная стрела (версия 1)][Спектральная стрела|у]
+[Spectral Arrow Revision 1] = [Призрачная стрела (версия 1)]
 
 
 [Black Tinted Glass] = [Чёрное тонированное стекло]
@@ -1587,7 +1587,7 @@
 
 
 
-[Spawn NPC] = [Яйцо призывания неигрового персонажа]
+[Spawn NPC] = [Призвать неигрового персонажа][Яйцо призывания неигрового персонажа|у]
 [Zombie Horse Spawn Egg Revision 1] = [Яйцо призывания лошади-зомби (версия 1)]
 [Board] = [Доска]
 [Border] = [Граница]
@@ -2099,7 +2099,7 @@
 [Stripped Oak Wood] = [Обтёсанная дубовая кора]
 [Stripped Spruce Wood] = [Обтёсанная еловая кора]
 [Stripped Birch Wood] = [Обтёсанная берёзовая кора]
-[Stripped Jungle Wood] = [Обтёсанная кора тропического дерева]
+[Stripped Jungle Wood] = [Обтёсанная джунглевая кора][Обтёсанная кора тропического дерева|у]
 [Stripped Acacia Wood] = [Обтёсанная акациевая кора]
 [Stripped Dark Oak Wood] = [Обтёсанная кора тёмного дуба]
 
@@ -3312,7 +3312,7 @@
 [Smooth Sandstone Stairs] = [Ступени из гладкого песчаника]
 [Smooth Sandstone] = [Гладкий песчаник]
 [Smooth Stone Slab] = [Гладкая каменная плита][Плита из гладкого камня|у]
-[Snow Block] = [Блок снега|у][Снег (блок)][Снежный блок|у]
+[Snow Block] = [Блок снега][Снег (блок)][Снежный блок]
 [Spruce Fence Gate][Spruce Wood Fence Gate] = [Еловые ворота]
 [Spruce Fence][Spruce Wood Fence] = [Еловый забор]
 [Spruce Slab][Spruce Wood Slab] = [Еловая плита]
@@ -3375,7 +3375,7 @@
 [Red Sandstone] = [Красный песчаник]
 [Sand] = [Песок]
 [Sandstone] = [Песчаник]
-[Snow] = [Слой снега|у][Снег][Снег (слой)|у]
+[Snow] = [Слой снега][Снег][Снег (слой)]
 [Spawner] = [Рассадник монстров|у][Спаунер мобов]
 [Infested Stone Bricks][Smooth Stone Bricks][Stone Bricks][Stone Bricks Monster Egg] = [Гладкие каменные кирпичи][Заражённый блок (каменный кирпич)][Заражённый блок каменный кирпич|у][Заражённый каменный кирпич][Каменные кирпичи|у][Каменный кирпич][Каменный кирпич с монстрами|у]
 [Terracotta] = [Терракота]
@@ -3636,7 +3636,7 @@
 [Golden Sword] = [Золотой меч]
 [Iron Sword] = [Железный меч][Меч|у]
 [Snowball] = [Снежок]
-[Spectral Arrow] = [Призрачная стрела]
+[Spectral Arrow] = [Призрачная стрела][Спектральная стрела|у]
 [Stone Sword] = [Каменный меч]
 [Totem of Undying] = [Тотем бессмертия]
 [Wooden Sword] = [Деревянный меч]

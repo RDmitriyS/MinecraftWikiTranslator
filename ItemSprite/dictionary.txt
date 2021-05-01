@@ -875,4 +875,7 @@
 [glow-item-frame] = 
 [glow-berries] = [светящиеся-ягоды]
 [black-glow-stick][light-gray-glow-stick][missing-texture-glow-stick] = 
-[glow-squid-spawn-egg] =
+[glow-squid-spawn-egg] = 
+[raw-copper] = [необработанная-медь]
+[raw-gold] = [необработанное-золото]
+[raw-iron] = [необработанное-железо]

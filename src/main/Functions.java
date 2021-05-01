@@ -1,7 +1,6 @@
 package main;
 
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -72,20 +71,30 @@ public class Functions {
         return new String(encoded, StandardCharsets.UTF_8);
     }
 
-    static void write(final String file, final String text) {
-        write(file, text, false);
+    static String readHeader(String path) {
+        FileReader fr;
+        try {
+            fr = new FileReader(path, StandardCharsets.UTF_8);
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
+
+        var br = new BufferedReader(fr);
+        var builder = new StringBuilder();
+        var lines = br.lines().iterator();
+        var line = "";
+        do {
+            line = lines.next();
+            appendAll(builder, line, "\n");
+        } while (!(line.contains("['IDы']") || line.contains("ids")));
+
+        return builder.toString();
     }
 
-    static void write(final String file, final String text, boolean append){
-        try {
-            PrintWriter writer = new PrintWriter(file, StandardCharsets.UTF_8);
-            if (append) {
-                writer.append(text);
-            } else {
-                writer.write(text);
-            }
-
-            writer.close();
+    static void write(final String file, final String text){
+        try (var writer = new PrintWriter(file, StandardCharsets.UTF_8)) {
+            writer.write(text);
         } catch (IOException e){
             e.printStackTrace();
         }
@@ -116,12 +125,6 @@ public class Functions {
             appendAll(builder, reader1.nextLine(), reader2.nextLine(), '\n');
         }
         write("output.txt", builder.toString());
-    }
-
-    static void requireTrue(final boolean cond) {
-        if (!cond) {
-            throw new AssertionError();
-        }
     }
 
     static <T> T getFirstElse(Collection<T> col, T value) {

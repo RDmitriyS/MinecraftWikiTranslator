@@ -97,7 +97,14 @@ public class Table extends Node {
         final Scanner sc = getScanner(Path.of(type, lang + ".txt"));
 
         while (sc.hasNextLine()) {
+            final var posName = lang == Lang.ru ? "['поз'] = " : "pos = ";
+            final var secName = lang == Lang.ru ? "['раздел'] = " : "section = ";
             final var line = sc.nextLine().replace('}', ',');
+
+            if (!(line.contains(posName) && line.contains(secName))) {
+                continue;
+            }
+
             final var name = line.substring(0, line.indexOf("="))
                     .trim()
                     .replace("['", "")
@@ -105,13 +112,9 @@ public class Table extends Node {
                     .replace("']", "")
                     .replace("\"]", "");
 
-            final var posName = lang == Lang.ru ? "['поз'] = " : "pos = ";
-            requireTrue(line.contains(posName));
             final int posIndex = line.indexOf(posName) + posName.length();
             final int pos = Integer.parseInt(line.substring(posIndex, line.indexOf(',', posIndex)).trim()) - 1;
 
-            final var secName = lang == Lang.ru ? "['раздел'] = " : "section = ";
-            requireTrue(line.contains(secName));
             final int secIndex = line.indexOf(secName) + secName.length();
             final int section = Integer.parseInt(line.substring(secIndex, line.indexOf(',', secIndex)).trim());
 
@@ -234,7 +237,7 @@ public class Table extends Node {
         write(type + "/" + fileName, sb.toString().stripTrailing());
     }
 
-    void generateOutput(Comparator<Word> comp, boolean useEnSections) {
+    void generateTable(Comparator<Word> comp, boolean useEnSections) {
         final TreeSet<Word> words = new TreeSet<>(comp);
 
         if (useEnSections) {
@@ -246,7 +249,9 @@ public class Table extends Node {
             words.addAll(ru.values());
         }
 
-        final StringBuilder sb = new StringBuilder(size() * 16);
+        final StringBuilder sb = new StringBuilder(size() * 40);
+        sb.append(readHeader(type + "/ru.txt"));
+
         for (var word : words) {
             appendAll(sb, "\t\t['", word.name,
                     "'] = { ['поз'] = ", word.pos + 1,
@@ -254,11 +259,12 @@ public class Table extends Node {
                     word.outdated ? ", ['устарел'] = true },\n" : " },\n");
         }
 
-        write("table.txt", sb.toString().stripTrailing());
+        sb.append("\t},\n}");
+        write(type + "/table.txt", sb.toString());
     }
 
-    void generateOutput(Comparator<Word> comp) {
-        generateOutput(comp, false);
+    void generateTable(Comparator<Word> comp) {
+        generateTable(comp, false);
     }
 
     void mergeWithByEn(final Table table) {

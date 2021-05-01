@@ -243,7 +243,7 @@ public class TestClass {
             }
         }
 
-        table3.generateOutput(Word.nameComparator);
+        table3.generateTable(Word.nameComparator);
     }
 
     static String work(String code) {

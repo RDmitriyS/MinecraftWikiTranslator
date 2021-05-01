@@ -28,7 +28,7 @@
 [snowfall][winter-mode] = [зима][снегопад]
 [thunderstorm] = [гроза]
 [cave][cavern] = [пещера]
-[ravine] = [каньон][овраг]
+[canyon][ravine] = [каньон][овраг]
 [mineral-vein][ore-vein] = [минеральная-жила][рудная-жила]
 [tree][trees] = [дерево]
 [huge-mushroom] = [огромные-гриб][огромные-грибы]
@@ -52,10 +52,10 @@
 [end-gateway] = [врата-края][врата-энда]
 [end-city] = [город-края][город-энда]
 [beacon-pyramid] = [маяк]
-[nether-reactor] = [реактор]
+[nether-reactor] = [реактор][реактор-нижнего-мира]
 [brick-pyramid][pyramid-brick] = [кирпичная-пирамида]
 [obsidian-wall][wall-obsidian] = [обсидиановая-стена]
-[glowstone-cluster] = [светокамень][светящийся-камень][скопление-светокамня]
+[glowstone-blob][glowstone-cluster] = [светокамень][светящийся-камень][скопление-светокамня]
 [lava-sea][sea-lava] = [лавовое-море][море-лавы]
 [fortress][nether-fortress] = [адская-крепость][крепость-незера][крепость-нижнего-мира]
 [debug][debug-mode] = [отладка][режим-отладки]
@@ -133,6 +133,11 @@
 [custom-mode] = [настраиваемый]
 [hardcore-heart][hardcore-hearts] = [сердечко-хардкор]
 [heart][hearts] = [сердечки][сердечко]
-[mossy-cobblestone-boulder] = 
-[basalt-column][basalt-columns][lava-sea-column] = 
-[delta][deltas] =
+[forest-rock][mossy-cobblestone-boulder] = 
+[basalt-column][basalt-columns][lava-sea-column] = [базальтовая-колонна][базальтовые-колонны]
+[delta][deltas] = [дельта][дельты]
+[non-renewable-resource][non-renewable-resources] = 
+[amethyst-geode] = [аметистовая-жеода]
+[disk] = 
+[bryce-pillar] = 
+[dripstone-cluster] = [капельниковое-образование]

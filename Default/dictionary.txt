@@ -520,7 +520,7 @@
 [Clownfish Revision 1] = [Рыба-клоун (версия 1)]
 [Clownfish] = [Рыба-клоун]
 [Coal Ore] = [Угольная руда]
-[Coal Revision 2] = [Уголь (версия )]
+[Coal Revision 2] = [Уголь (версия 2)]
 [Coal] = [Уголь]
 [Coarse Dirt] = [Каменистая земля]
 [Cobalt] = [Кобальт]
