@@ -1,6 +1,5 @@
 .git/
 *.class
-output.txt
 logs/
 artifacts/
 production/

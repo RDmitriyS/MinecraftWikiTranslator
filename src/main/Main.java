@@ -31,8 +31,10 @@ class Main {
 
         var tables = new ArrayList<Table>();
         var defaultTable = getTranslationTable(Default);
+        var defaultTable2 = getTranslationTable(Default, "dictionary2.txt");
         var invTable = getTranslationTable(InvSprite);
         tables.add(defaultTable);
+        tables.add(defaultTable2.lowerTypeToUpperType());
         tables.add(invTable);
 
         var lowerTables = new ArrayList<Table>();
@@ -46,7 +48,6 @@ class Main {
 
         if (settings.translateLowercaseWords) {
             var defaultTableLower = defaultTable.transform(String::toLowerCase);
-            var defaultTable2 = getTranslationTable(Default, "dictionary2.txt");
             var templateTable = getTranslationTable(Template);
 
             tables.add(defaultTableLower);
@@ -54,7 +55,6 @@ class Main {
 //            tables.add(defaultTableLower.transform(e -> e.replace(' ', '_')));
 
             tables.add(defaultTable2);
-
             tables.add(templateTable);
             tables.add(templateTable.transform(String::toLowerCase));
 
