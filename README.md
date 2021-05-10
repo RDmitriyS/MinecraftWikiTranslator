@@ -4,7 +4,7 @@
 * перевод текста с английского на русский
   - синтаксис: `translate [входной файл] [выходной файл]`
   - пример: `java -jar Translator.jar translate input.txt output.txt`
-  - `входной файл` и `выходной файл` по-умолчанию `input.txt` и `output.txt`
+  - `входной файл` и `выходной файл` по умолчанию `input.txt` и `output.txt`
 * создание словаря по таблицам с англо- и русскоязычного раздела
   - синтаксис: `generateDictionary <директория>`
   - пример: `java -jar Translator.jar generateDictionary InvSprite`
